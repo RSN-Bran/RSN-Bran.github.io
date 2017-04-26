@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <script defer src="entries.js"> </script>
+		<title>Living Shiny Dex</title>
+	</head>
+    
+    <body style="background-color:lightblue;">
+        <nav>
+            <h1 align = "center" class = "head"><img src = "Shiny/shinyCharm.png" style = "width: 50px; height: 50px;"><img src = "Living%20Dex.png" style = "width: 300px; height: 50px;"><img src = "Shiny/shinyCharm.png" class = "mirror" style = "width: 50px; height: 50px;"></h1>
+        </nav>
+        
+        <!--COMMENT START
+        <input id = "Save" type = "button" value = "Save!" onclick = "saveTable();"/>
+        <input id = "Load" type = "button" value = "Load!" onclick = "loadTable();"/>
+        
+        <h3>New Entry</h3>
+        <input type="text" id="identifier">Enter Name or Number<br>
+        <input type="text" id="nickname">Enter Nickname<br>
+        <input type="text" id="method">Enter Method<br>
+        <input type="text" id="order">Enter Order<br>
+        <input type="text" id="attempts">Enter Number of Attempts<br>
+        <button id="submitNew" onclick="newEntry()">Submit</button><br>
+        
+        <h3>Delete Entry</h3>
+        <input type = "text" id = "identifierDelete"> Enter Name or Number<br>
+        <button id="submitDelete" onclick="deleteEntry()">Submit</button><br>
+        COMMENT END-->
+        
+        <div class = "wrapper">
+            <button type="button" class="collapser" data-toggle="collapse" data-target="#MethodCollapse">Methods</button>
+        </div>
+        <div id="MethodCollapse" class="collapse">
+            <table align="center" style="margin: 0px auto;" id = "method">
+                <tr>
+                    <th>Method</th>
+                    <th>Odds</th>
+                    <th>Number</th>
+                    <th>Average</th>
+                </tr>
+            </table>
+        </div>
+        
+        <br>
+        <div class = "wrapper">
+            <button type="button" class="collapser" data-toggle="collapse" data-target="#PercentCollapse">Percentage Trackers</button>
+        </div>
+        <div id="PercentCollapse" class="collapse">
+            <div class = "total"></div>
+            <progress class = "AllGen" value="10" max="100"></progress>
+            <div class = "totalPercent"></div>
+            <br>
+            <div class = "gen1"></div>
+            <progress class = "Gen1" value="10" max="100"></progress>
+            <div class = "gen1percent"></div>
+        
+            <div class = "gen2"></div>
+            <progress class = "Gen2" value="10" max="100"></progress>
+            <div class = "gen2percent"></div>
+        
+            <div class = "gen3"></div>
+            <progress class = "Gen3" value="10" max="100"></progress>
+            <div class = "gen3percent"></div>
+        
+            <div class = "gen4"></div>
+            <progress class = "Gen4" value="10" max="100"></progress>
+            <div class = "gen4percent"></div>
+        
+            <div class = "gen5"></div>
+            <progress class = "Gen5" value="10" max="100"></progress>
+            <div class = "gen5percent"></div>
+        
+            <div class = "gen6"></div>
+            <progress class = "Gen6" value="10" max="100"></progress>
+            <div class = "gen6percent"></div>
+        
+            <div class = "gen7"></div>
+            <progress class = "Gen7" value="10" max="100"></progress>
+            <div class = "gen7percent"></div>
+            <br>
+        </div>
+        
+        <br>
+        <div class = "wrapper">
+            <button type="button" class="collapser" data-toggle="collapse" data-target="#SortCollapse">Sorting Options</button>
+        </div>
+        <div id="SortCollapse" class="collapse">
+            <div class = "wrapper">
+            <input id = "National" type = "button" class = "Regions" value = "National Dex" onclick = "nationalDex();"/>
+            <input id = "Kanto" type = "button" class = "Regions" value = "Kanto Dex" onclick = "kantoDex();"/>
+            <input id = "Johto" type = "button" class = "Regions" value = "Johto Dex" onclick = "johtoDex();"/>
+            <input id = "Hoenn" type = "button" class = "Regions" value = "Hoenn Dex" onclick = "hoennDex();"/>
+            <input id = "Sinnoh" type = "button" class = "Regions" value = "Sinnoh Dex" onclick = "sinnohDex();"/>
+            <input id = "Unova" type = "button" class = "Regions" value = "Unova Dex" onclick = "unovaDex();"/>
+            <input id = "Kalos" type = "button" class = "Regions" value = "Kalos Dex" onclick = "kalosDex();"/>
+            <input id = "Alola" type = "button" class = "Regions" value = "Alola Dex" onclick = "alolaDex();"/>
+            <br>
+        
+            <br>
+            <input id = "num sort" type = "button" class = "Sorters" value = "Sort by Dex No." onclick = "sortByNumber();"/>
+            <input id = "name sort" type = "button" class = "Sorters" value = "Sort by Name" onclick = "sortByName();"/>
+            <input id = "nick sort" type = "button" class = "Sorters" value = "Sort by Nickname" onclick = "sortByNickname();"/>
+            <br>
+            <input id = "method sort" type = "button" class = "Sorters" value = "Sort by Method" onclick = "sortByMethod();"/>
+            <input id = "order sort" type = "button" class = "Sorters" value = "Sort by Order Obtained" onclick = "sortByOrder();"/>
+            <input id = "Attempts sort" type = "button" class = "Sorters" value = "Sort by Number of Attempts" onclick = "sortByAttempts();"/>
+            </div>
+            <br>
+        </div>
+        
+        <h4 align = "center">Shiny Table</h4>
+        <table align="center" style="margin: 0px auto;" id = "shiny">
+            <tr>
+                <th>#</th>
+                <th>✓</th>
+                <th>Name</th>
+                <th>Nickname</th>
+                <th>Method</th>
+                <th>Order</th>
+                <th>Attempts</th>
+                <th>.gif</th>
+            </tr>
+        </table>
+    </body>
+</html>
