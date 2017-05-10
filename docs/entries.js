@@ -153,7 +153,7 @@ function nationalDex() {
         table.deleteRow(1);
     }
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
-    mode = "national"
+    mode = "National"
     createTable();
     data();
 }
@@ -166,7 +166,7 @@ function kantoDex() {
     for(var i = 0; i < 151; i++) {
         arrayCopy[i] = jQuery.extend(true, {}, pokemonArray[i]);
     }
-    mode = "kanto";
+    mode = "Kanto";
     createTable();
     data();
 }
@@ -178,7 +178,7 @@ function johtoDex() {
     }
     sortByJohto();
     arrayCopy.splice(256, 546);
-    mode = "johto";
+    mode = "Johto";
     createTable();
     data();
 }
@@ -190,7 +190,7 @@ function hoennDex() {
     }
     sortByHoenn();
     arrayCopy.splice(211, 591);
-    mode = "hoenn";
+    mode = "Hoenn";
     createTable();
     data();
 }
@@ -202,7 +202,7 @@ function sinnohDex() {
     }
     sortBySinnoh();
     arrayCopy.splice(210, 592);
-    mode = "sinnoh";
+    mode = "Sinnoh";
     createTable();
     data();
 }
@@ -214,7 +214,7 @@ function unovaDex() {
     }
     sortByUnova();
     arrayCopy.splice(301, 501);
-    mode = "unova";
+    mode = "Unova";
     createTable(); 
     data();
 }
@@ -226,7 +226,7 @@ function kalosDex() {
     }
     sortByKalos();
     arrayCopy.splice(457, 345);
-    mode = "kalos";
+    mode = "Kalos";
     createTable();   
     data();
 }
@@ -238,7 +238,7 @@ function alolaDex() {
     }
     sortByAlola();
     arrayCopy.splice(302, 500);
-    mode = "alola";
+    mode = "Alola";
     createTable();  
     data();
 }
@@ -450,22 +450,22 @@ function createTable() {
         for(var y = 0; y < 8; y++) {
             var cell = document.createElement('td');
             if(y === 0) {
-                if(mode == "johto") {
+                if(mode == "Johto") {
                     cell.innerHTML = entry.johto;
                 }
-                else if(mode == "hoenn") {
+                else if(mode == "Hoenn") {
                     cell.innerHTML = entry.hoenn;
                 }
-                else if(mode == "sinnoh") {
+                else if(mode == "Sinnoh") {
                     cell.innerHTML = entry.sinnoh;
                 }
-                else if(mode == "unova") {
+                else if(mode == "Unova") {
                     cell.innerHTML = entry.unova;
                 }
-                else if(mode == "kalos") {
+                else if(mode == "Kalos") {
                     cell.innerHTML = entry.kalos;
                 }
-                else if(mode == "alola") {
+                else if(mode == "Alola") {
                     cell.innerHTML = entry.alola;
                 }
                 else{
@@ -672,22 +672,22 @@ function updateTable() {
         }
         for(var y = 0; y < 8; y++) {
             if(y === 0) {
-                if(mode == "johto") {
+                if(mode == "Johto") {
                     table[y].innerHTML = entry.johto;
                 }
-                else if(mode == "hoenn") {
+                else if(mode == "Hoenn") {
                     table[y].innerHTML = entry.hoenn;
                 }
-                else if(mode == "sinnoh") {
+                else if(mode == "Sinnoh") {
                     table[y].innerHTML = entry.sinnoh;
                 }
-                else if(mode == "unova") {
+                else if(mode == "Unova") {
                     table[y].innerHTML = entry.unova;
                 }
-                else if(mode == "kalos") {
+                else if(mode == "Kalos") {
                     table[y].innerHTML = entry.kalos;
                 }
-                else if(mode == "alola") {
+                else if(mode == "Alola") {
                     table[y].innerHTML = entry.alola;
                 }
                 else{
@@ -1545,7 +1545,7 @@ pokemonArray[801] = new pokemon("802", "", "Marshadow", "", "", "", "", "", "z",
 }
 
 var arrayCopy = JSON.parse(JSON.stringify(pokemonArray))
-var mode = "national";
+var mode = "National";
 
 function main() {
     data();
