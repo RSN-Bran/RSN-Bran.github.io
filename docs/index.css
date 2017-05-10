@@ -14,6 +14,9 @@ th {
     color: white
 }
 
+.mode {
+    text-align: center;
+}
 .collapser {
     background-color: white;
     border: none;
@@ -70,7 +73,10 @@ th {
     border:1px solid black;
 	background:#fff;
 }
-.AllGen::-webkit-progress-bar { background:white; }		
+.AllGen::-webkit-progress-bar { 
+    background:white;
+    position: aboslute;
+}		
 .AllGen::-webkit-progress-value {background:black;}
 
 .Gen1 {
@@ -84,7 +90,7 @@ th {
     border:1px solid black;
 	background:#fff;
 }
-.Gen1::-webkit-progress-bar { background:white; }		
+.Gen1::-webkit-progress-bar { background:white;}		
 .Gen1::-webkit-progress-value {background:crimson;}
 
 .Gen2 {

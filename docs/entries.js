@@ -1,5 +1,3 @@
-
-
 function pokemon(number, check, name, nickname, method, order, attempts, gif, johto, hoenn, sinnoh, unova, kalos, alola) {
     this.number = number;
     this.check = check;
@@ -157,6 +155,7 @@ function nationalDex() {
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
     mode = "national"
     createTable();
+    data();
 }
 function kantoDex() {
     arrayCopy = [];
@@ -169,6 +168,7 @@ function kantoDex() {
     }
     mode = "kanto";
     createTable();
+    data();
 }
 function johtoDex() {
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
@@ -180,6 +180,7 @@ function johtoDex() {
     arrayCopy.splice(256, 546);
     mode = "johto";
     createTable();
+    data();
 }
 function hoennDex() {
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
@@ -190,7 +191,8 @@ function hoennDex() {
     sortByHoenn();
     arrayCopy.splice(211, 591);
     mode = "hoenn";
-    createTable();    
+    createTable();
+    data();
 }
 function sinnohDex() {
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
@@ -202,6 +204,7 @@ function sinnohDex() {
     arrayCopy.splice(210, 592);
     mode = "sinnoh";
     createTable();
+    data();
 }
 function unovaDex() {
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
@@ -212,7 +215,8 @@ function unovaDex() {
     sortByUnova();
     arrayCopy.splice(301, 501);
     mode = "unova";
-    createTable();    
+    createTable(); 
+    data();
 }
 function kalosDex() {
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
@@ -223,7 +227,8 @@ function kalosDex() {
     sortByKalos();
     arrayCopy.splice(457, 345);
     mode = "kalos";
-    createTable();    
+    createTable();   
+    data();
 }
 function alolaDex() {
     arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
@@ -234,7 +239,8 @@ function alolaDex() {
     sortByAlola();
     arrayCopy.splice(302, 500);
     mode = "alola";
-    createTable();   
+    createTable();  
+    data();
 }
 
 function data() {
@@ -304,6 +310,8 @@ function data() {
     $('.Gen5').val(((gen5/156)*100).toFixed(2));
     $('.Gen6').val(((gen6/72)*100).toFixed(2));
     $('.Gen7').val(((gen7/81)*100).toFixed(2));
+    
+    document.querySelector('.mode').innerHTML = "Mode: " + mode;
 }
 function methodTable() {
     var breeding = 0;

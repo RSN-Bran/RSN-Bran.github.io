@@ -52,12 +52,14 @@
             <button type="button" class="collapser" data-toggle="collapse" data-target="#PercentCollapse">Percentage Trackers</button>
         </div>
         <div id="PercentCollapse" class="collapse">
+
             <div class = "total"></div>
-            <progress class = "AllGen" value="10" max="100"></progress>
+            <progress align = "center" class = "AllGen" value="10" max="100"></progress>
             <div class = "totalPercent"></div>
+            
             <br>
             <div class = "gen1"></div>
-            <progress class = "Gen1" value="10" max="100"></progress>
+            <progress class = "Gen1" value="10" max="100">hi</progress>
             <div class = "gen1percent"></div>
         
             <div class = "gen2"></div>
@@ -115,17 +117,31 @@
         </div>
         
         <h4 align = "center">Shiny Table</h4>
-        <table align="center" style="margin: 0px auto;" id = "shiny">
-            <tr>
-                <th>#</th>
-                <th>✓</th>
-                <th>Name</th>
-                <th>Nickname</th>
-                <th>Method</th>
-                <th>Order</th>
-                <th>Attempts</th>
-                <th>.gif</th>
-            </tr>
+        <div class = "mode" text-align = "center"></div>
+        
+        <table class = "fixed_head" align="center" style="margin: 0px auto;" id = "shiny">
+            <col width = "40px">
+            <col width = "20px">
+            <col width = "100px">
+            <col width = "100px">
+            <col width = "100px">
+            <col width = "70px">
+            <col width = "70px">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>✓</th>
+                    <th>Name</th>
+                    <th>Nickname</th>
+                    <th>Method</th>
+                    <th>Order</th>
+                    <th>Attempts</th>
+                    <th>.gif</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
         </table>
     </body>
+    Brandon Sultana 2017
 </html>
