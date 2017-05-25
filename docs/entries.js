@@ -278,39 +278,53 @@ function data() {
             }
         }
     }
+    
+    //Record Percentage values for progress bars
+    var nationalPercent = ((caught/802)*100).toFixed(2);
+    var gen1Percent = ((gen1/151)*100).toFixed(2);
+    var gen2Percent = ((gen2/100)*100).toFixed(2);
+    var gen3Percent = ((gen3/135)*100).toFixed(2)
+    var gen4Percent = ((gen4/107)*100).toFixed(2)
+    var gen5Percent = ((gen5/156)*100).toFixed(2)
+    var gen6Percent = ((gen6/72)*100).toFixed(2)
+    var gen7Percent = ((gen7/81)*100).toFixed(2)
+    
+    //Send Numerical values to be displayed
     document.querySelector('.total').innerHTML = "Total: " + caught + "/802";
-    document.querySelector('.totalPercent').innerHTML = ((caught/802)*100).toFixed(2) + "%";
+    document.querySelector('.totalPercent').innerHTML = nationalPercent + "%";
 
     document.querySelector('.gen1').innerHTML = "Gen 1: " + gen1 + "/151";
-    document.querySelector('.gen1percent').innerHTML =((gen1/151)*100).toFixed(2) + "%";
+    document.querySelector('.gen1percent').innerHTML = gen1Percent + "%";
     
     document.querySelector('.gen2').innerHTML = "Gen 2: " + gen2 + "/100";
-    document.querySelector('.gen2percent').innerHTML = ((gen2/100)*100).toFixed(2) + "%";
+    document.querySelector('.gen2percent').innerHTML = gen2Percent + "%";
     
     document.querySelector('.gen3').innerHTML = "Gen 3: " + gen3 + "/135";
-    document.querySelector('.gen3percent').innerHTML = ((gen3/135)*100).toFixed(2) + "%";
+    document.querySelector('.gen3percent').innerHTML =  gen3Percent + "%";
     
     document.querySelector('.gen4').innerHTML = "Gen 4: " + gen4 + "/107";
-    document.querySelector('.gen4percent').innerHTML = ((gen4/107)*100).toFixed(2) + "%";
+    document.querySelector('.gen4percent').innerHTML =  gen4Percent + "%";
     
     document.querySelector('.gen5').innerHTML = "Gen 5: " + gen5 + "/156";
-    document.querySelector('.gen5percent').innerHTML =((gen5/156)*100).toFixed(2) + "%";
+    document.querySelector('.gen5percent').innerHTML = gen5Percent+ "%";
     
     document.querySelector('.gen6').innerHTML = "Gen 6: " + gen6 + "/72";
-    document.querySelector('.gen6percent').innerHTML =((gen6/72)*100).toFixed(2) + "%";
+    document.querySelector('.gen6percent').innerHTML = gen6Percent + "%";
     
     document.querySelector('.gen7').innerHTML = "Gen 7: " + gen7 + "/81";
-    document.querySelector('.gen7percent').innerHTML =((gen7/81)*100).toFixed(2) + "%";
+    document.querySelector('.gen7percent').innerHTML = gen7Percent + "%";
     
-    $('.AllGen').val(((caught/802)*100).toFixed(2));
-    $('.Gen1').val(((gen1/151)*100).toFixed(2));
-    $('.Gen2').val(((gen2/100)*100).toFixed(2));
-    $('.Gen3').val(((gen3/135)*100).toFixed(2));
-    $('.Gen4').val(((gen4/107)*100).toFixed(2));
-    $('.Gen5').val(((gen5/156)*100).toFixed(2));
-    $('.Gen6').val(((gen6/72)*100).toFixed(2));
-    $('.Gen7').val(((gen7/81)*100).toFixed(2));
+    //Overwrite Progress bar width with percentage values
+    $('#natPercent').css('width', nationalPercent + "%")
+    $('#Percent1').css('width', gen1Percent + "%")
+    $('#Percent2').css('width', gen2Percent + "%")
+    $('#Percent3').css('width', gen3Percent + "%")
+    $('#Percent4').css('width', gen4Percent + "%")
+    $('#Percent5').css('width', gen5Percent + "%")
+    $('#Percent6').css('width', gen6Percent + "%")
+    $('#Percent7').css('width', gen7Percent + "%")
     
+    //Display the current mode
     document.querySelector('.mode').innerHTML = "Mode: " + mode;
 }
 function methodTable() {

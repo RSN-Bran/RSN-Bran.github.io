@@ -12,9 +12,7 @@
 	</head>
     
     <body style="background-color:lightblue;">
-        <nav>
-            <h1 align = "center" class = "head"><img src = "Shiny/shinyCharm.png" style = "width: 50px; height: 50px;"><img src = "Living%20Dex.png" style = "width: 300px; height: 50px;"><img src = "Shiny/shinyCharm.png" class = "mirror" style = "width: 50px; height: 50px;"></h1>
-        </nav>
+         <h1 align = "center" class = "head"><img src = "Shiny/shinyCharm.png" style = "width: 50px; height: 50px;"><img src = "Living%20Dex.png" style = "width: 300px; height: 50px;"><img src = "Shiny/shinyCharm.png" class = "mirror" style = "width: 50px; height: 50px;"></h1>
         
         <!--COMMENT START
         <input id = "Save" type = "button" value = "Save!" onclick = "saveTable();"/>
@@ -32,13 +30,20 @@
         <input type = "text" id = "identifierDelete"> Enter Name or Number<br>
         <button id="submitDelete" onclick="deleteEntry()">Submit</button><br>
         COMMENT END-->
+        
+        
         <p align = "center" class = "text">This is my site used to track progress on my Living Shiny Dex. A Living Dex is a complete collection of every Pokemon separately. Naturally a Living Shiny Dex is doing so but getting all of them Shiny. I've been collecting since April 2016, and the Pokemon are generally named by my friends. You can use the buttons below to explore different options showing data and display options for the collction.</p>
+        <br>
         <div class = "wrapper">
             <button type="button" class="collapser" data-toggle="collapse" data-target="#MethodCollapse">Methods</button>
         </div>
         <div id="MethodCollapse" class="collapse">
             <p align = "center" class = "text">This is the method table. In Shiny hunting, there are many different ways to increase your odds of finding a shiny, known as methods. This table shows the list of methods. For each method, the base odds of finding a shiny is listed, as well as the number of Pokemon I have found using this method. It also lists my average rate of success using that method. They are sorted in order of usage.</p>
             <table align="center" style="margin: 0px auto;" id = "method">
+                <col width = 150px>
+                <col width = 100px>
+                <col width = 75px>
+                <col width = 75px>
                 <tr>
                     <th>Method</th>
                     <th>Odds</th>
@@ -55,39 +60,97 @@
         <div id="PercentCollapse" class="collapse">
             <p align = "center" class = "text">These are some percentage meters tracking my completion. The top meter shows the percentage I have found out of all total Pokemon. Note that at this time achieving a score of 100% is impossible as there are some Pokemon that can't be obtained as shiny. The other seven bars show my progress completion for each generation of Pokemon.</p>
 
-            <div class = "total"></div>
-            <progress align = "center" class = "AllGen" value="10" max="100"></progress>
-            <div class = "totalPercent"></div>
+            <br>
             
-            <br>
-            <div class = "gen1"></div>
-            <progress class = "Gen1" value="10" max="100">hi</progress>
-            <div class = "gen1percent"></div>
+            <div class = "total" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "natPercent" role="progressbar" style="width: 0%;">
+                            <div class = "totalPercent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class = "gen1" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent1" role="progressbar" style="width: 0%;">
+                            <div class = "gen1percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
-            <div class = "gen2"></div>
-            <progress class = "Gen2" value="10" max="100"></progress>
-            <div class = "gen2percent"></div>
-        
-            <div class = "gen3"></div>
-            <progress class = "Gen3" value="10" max="100"></progress>
-            <div class = "gen3percent"></div>
-        
-            <div class = "gen4"></div>
-            <progress class = "Gen4" value="10" max="100"></progress>
-            <div class = "gen4percent"></div>
-        
-            <div class = "gen5"></div>
-            <progress class = "Gen5" value="10" max="100"></progress>
-            <div class = "gen5percent"></div>
-        
-            <div class = "gen6"></div>
-            <progress class = "Gen6" value="10" max="100"></progress>
-            <div class = "gen6percent"></div>
-        
-            <div class = "gen7"></div>
-            <progress class = "Gen7" value="10" max="100"></progress>
-            <div class = "gen7percent"></div>
-            <br>
+            
+            <div class = "gen2" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent2" role="progressbar" style="width: 0%;">
+                            <div class = "gen2percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class = "gen3" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent3" role="progressbar" style="width: 0%;">
+                            <div class = "gen3percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "gen4" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent4" role="progressbar" style="width: 0%;">
+                            <div class = "gen4percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "gen5" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent5" role="progressbar" style="width: 0%;">
+                            <div class = "gen5percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class = "gen6" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent6" role="progressbar" style="width: 0%;">
+                            <div class = "gen6percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "gen7" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent7" role="progressbar" style="width: 0%;">
+                            <div class = "gen7percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <br>
