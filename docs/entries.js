@@ -886,7 +886,7 @@ pokemonArray[128] = new pokemon("129", "✓", "Magikarp", "Goldeen", "Chain Fish
 pokemonArray[129] = new pokemon("130", "", "Gyarados", "", "", "", "", "", "077", "054", "024", "z", "Central: 050", "092");
 pokemonArray[130] = new pokemon("131", "✓", "Lapras", "Air Jordan", "Friend Safari", 225, 467, "Shiny/lapras.gif", "224", "z", "z", "242", "Coastal: 150", "268");
 pokemonArray[131] = new pokemon("132", "✓", "Ditto", "MeTooThanks", "Friend Safari", 136, 274, "Shiny/ditto.gif", "092", "z", "z", "261", "Mountain: 138", "209");
-pokemonArray[132] = new pokemon("133", "", "Eevee", "", "", "", "", "", "184", "z", "163", "091", "Coastal: 077", "123");
+pokemonArray[132] = new pokemon("133", "✓", "Eevee", "Delta", "Friend Safari", 255, 1730, "Shiny/eevee.gif", "184", "z", "163", "091", "Coastal: 077", "123");
 pokemonArray[133] = new pokemon("134", "✓", "Vaporeon", "Vape Nation", "DexNav", 22, 225, "Shiny/vaporeon.gif", "185", "z", "164", "092", "Coastal: 078", "124");
 pokemonArray[134] = new pokemon("135", "✓", "Jolteon", "Limewire", "DexNav", 4, 63, "Shiny/jolteon.gif", "186", "z", "165", "093", "Coastal: 079", "125");
 pokemonArray[135] = new pokemon("136", "✓", "Flareon", "FalseProphet", "DexNav", 105, 42, "Shiny/flareon.gif", "187", "z", "166", "094", "Coastal: 080", "126");
@@ -1561,7 +1561,7 @@ pokemonArray[801] = new pokemon("802", "", "Marshadow", "", "", "", "", "", "z",
 var arrayCopy = JSON.parse(JSON.stringify(pokemonArray))
 var mode = "National";
 
-function main() {
+function main() {    
     data();
     methodTable();
     createTable();
