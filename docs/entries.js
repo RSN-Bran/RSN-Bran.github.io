@@ -1,19 +1,4 @@
-function pokemon(number, check, name, nickname, method, order, attempts, gif, johto, hoenn, sinnoh, unova, kalos, alola) {
-    this.number = number;
-    this.check = check;
-    this.name = name;
-    this.nickname = nickname;
-    this.method = method;
-    this.order = order;
-    this.attempts = attempts;
-    this.gif = gif;
-    this.johto = johto;
-    this.hoenn = hoenn;
-    this.sinnoh = sinnoh;
-    this.unova = unova;
-    this.kalos = kalos;
-    this.alola = alola;
-}
+
 
 function method(name, odds, number, average) {
     this.name = name;
@@ -263,7 +248,7 @@ function data() {
     var gen6 = 0;
     var gen7 = 0;
     for(var x = 0; x < pokemonArray.length; x++) {
-        if(pokemonArray[x].check === "✓") {
+        if(pokemonArray[x].attempts !== 0) {
             caught++;
             if(pokemonArray[x].number <= 151) {
                 gen1++;
@@ -470,7 +455,7 @@ function createTable() {
         var row = document.createElement('tr');
         var properties = 8;
         var gray = false;
-        if(entry.check === "✓") {
+        if(entry.attempts !== 0) {
             gray = true;
         }
         for(var y = 0; y < 8; y++) {
@@ -499,7 +484,12 @@ function createTable() {
                 }
             }
             else if(y === 1) {
-                cell.innerHTML = entry.check;
+                if(gray) {
+                    cell.innerHTML = "✓";
+                }
+                else {
+                    cell.innerHTML = "";
+                }
             }
             else if(y === 2) {
                 cell.innerHTML = entry.name;
@@ -511,10 +501,14 @@ function createTable() {
                 cell.innerHTML = entry.method;
             }
             else if(y === 5) {
-                cell.innerHTML = entry.order;
+                if(gray) {
+                    cell.innerHTML = entry.order;
+                }
             }
             else if(y === 6) {
-                cell.innerHTML = entry.attempts;
+                if(gray) {
+                    cell.innerHTML = entry.attempts;
+                }
             }
             else {
                 if(gray) {
@@ -652,14 +646,14 @@ function sortByMethod() {
 function sortByOrder() {
     for(var i = 0; i < arrayCopy.length; i++) {
         for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].order === "" && arrayCopy[j+1].order !== "") {
+            if(arrayCopy[j].order === 0 && arrayCopy[j+1].order !== 0) {
                 swap(j, j+1)
             }
-            else if(arrayCopy[j].order !== "" && arrayCopy[j+1].order === "") {
+            else if(arrayCopy[j].order !== 0 && arrayCopy[j+1].order === 0) {
             }
-            else if(arrayCopy[j].order === "" && arrayCopy[j+1].order === "") {
+            else if(arrayCopy[j].order === 0 && arrayCopy[j+1].order === 0) {
             }
-            else if(arrayCopy[j].order !== "" && arrayCopy[j+1].order !== "") {
+            else if(arrayCopy[j].order !== 0 && arrayCopy[j+1].order !== 0) {
                 if(arrayCopy[j].order > arrayCopy[j+1].order) {
                     swap(j, j+1);
                 }
@@ -671,14 +665,14 @@ function sortByOrder() {
 function sortByAttempts() {
     for(var i = 0; i < arrayCopy.length; i++) {
         for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].attempts === "" && arrayCopy[j+1].attempts !== "") {
+            if(arrayCopy[j].attempts === 0 && arrayCopy[j+1].attempts !== 0) {
                 swap(j, j+1)
             }
-            else if(arrayCopy[j].attempts !== "" && arrayCopy[j+1].attempts === "") {
+            else if(arrayCopy[j].attempts !== 0 && arrayCopy[j+1].attempts === 0) {
             }
-            else if(arrayCopy[j].attempts === "" && arrayCopy[j+1].attempts === "") {
+            else if(arrayCopy[j].attempts === 0 && arrayCopy[j+1].attempts === 0) {
             }
-            else if(arrayCopy[j].attempts !== "" && arrayCopy[j+1].attempts !== "") {
+            else if(arrayCopy[j].attempts !== 0 && arrayCopy[j+1].attempts !== 0) {
                 if(arrayCopy[j].attempts > arrayCopy[j+1].attempts) {
                     swap(j, j+1);
                 }
@@ -692,7 +686,7 @@ function updateTable() {
     for(var x = 1; x < arrayCopy.length+1; x++) {
         var entry = arrayCopy[x-1];
         var table = document.getElementById("shiny").rows[x].cells;
-        if(entry.check === "✓") {
+        if(entry.attempts !== 0) {
             var gray = true;
         }
         else {
@@ -723,7 +717,12 @@ function updateTable() {
                 }
             }
             else if(y === 1) {
-                table[y].innerHTML = entry.check;
+                if(gray) {
+                    table[y].innerHTML = "✓";
+                }
+                else {
+                    table[y].innerHTML = "";
+                }
             }
             else if(y === 2) {
                 table[y].innerHTML = entry.name;
@@ -735,16 +734,21 @@ function updateTable() {
                 table[y].innerHTML = entry.method;
             }
             else if(y === 5) {
-                if(isNaN(entry.order)) {
-                    entry.order = "";
+                if(gray) {
+                    table[y].innerHTML = entry.order;
                 }
-                table[y].innerHTML = entry.order;
+                else {
+                    table[y].innerHTML = ""
+                }
+                
             }
             else if(y === 6) {
-                if(isNaN(entry.attempts)) {
-                    entry.attempts = "";
+                if(gray) {
+                    table[y].innerHTML = entry.attempts;
                 }
-                table[y].innerHTML = entry.attempts;
+                else {
+                    table[y].innerHTML = ""
+                }
             }
             else {
                 var img = document.createElement('img');
