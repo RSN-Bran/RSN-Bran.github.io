@@ -74,7 +74,7 @@ pokemonArray[3] = {
 	"unova": "z",
 	"kalos": "Central: 083",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/charmander.gif",
 
 	"nickname": "",
 	"method": "",
@@ -122,7 +122,7 @@ pokemonArray[6] = {
 	"unova": "z",
 	"kalos": "Central: 086",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/squirtle.gif",
 
 	"nickname": "",
 	"method": "",
@@ -154,7 +154,7 @@ pokemonArray[8] = {
 	"unova": "z",
 	"kalos": "Central: 088",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/blastoise.gif",
 
 	"nickname": "",
 	"method": "",
@@ -218,7 +218,7 @@ pokemonArray[12] = {
 	"unova": "z",
 	"kalos": "Central: 026",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/weedle.gif",
 
 	"nickname": "",
 	"method": "",
@@ -250,7 +250,7 @@ pokemonArray[14] = {
 	"unova": "z",
 	"kalos": "Central: 028",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/beedrill.gif",
 
 	"nickname": "",
 	"method": "",
@@ -282,7 +282,7 @@ pokemonArray[16] = {
 	"unova": "z",
 	"kalos": "Central: 018",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/pidgeotto.gif",
 
 	"nickname": "",
 	"method": "",
@@ -298,7 +298,7 @@ pokemonArray[17] = {
 	"unova": "z",
 	"kalos": "Central: 019",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/pidgeot.gif",
 
 	"nickname": "",
 	"method": "",
@@ -362,12 +362,12 @@ pokemonArray[21] = {
 	"unova": "z",
 	"kalos": "Mountain: 110",
 	"alola": "074",
-	"gif": "",
+	"gif": "Shiny/fearow.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Coke Addict",
+	"method": "Friend Safari",
+	"order": 261,
+	"attempts": 841
 }
 pokemonArray[22] = {
 	"name": "Ekans",
@@ -570,7 +570,7 @@ pokemonArray[34] = {
 	"unova": "089",
 	"kalos": "z",
 	"alola": "211",
-	"gif": "",
+	"gif": "Shiny/clefairy.gif",
 
 	"nickname": "",
 	"method": "",
@@ -586,7 +586,7 @@ pokemonArray[35] = {
 	"unova": "090",
 	"kalos": "z",
 	"alola": "212",
-	"gif": "",
+	"gif": "Shiny/clefable.gif",
 
 	"nickname": "",
 	"method": "",
@@ -618,7 +618,7 @@ pokemonArray[37] = {
 	"unova": "249",
 	"kalos": "z",
 	"alola": "254",
-	"gif": "",
+	"gif": "Shiny/ninetales.gif",
 
 	"nickname": "",
 	"method": "",
@@ -650,7 +650,7 @@ pokemonArray[39] = {
 	"unova": "283",
 	"kalos": "Mountain: 121",
 	"alola": "136",
-	"gif": "",
+	"gif": "Shiny/wigglytuff.gif",
 
 	"nickname": "",
 	"method": "",
@@ -730,7 +730,7 @@ pokemonArray[44] = {
 	"unova": "z",
 	"kalos": "Central: 107",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/vileplume.gif",
 
 	"nickname": "",
 	"method": "",
@@ -746,7 +746,7 @@ pokemonArray[45] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "147",
-	"gif": "",
+	"gif": "Shiny/paras.gif",
 
 	"nickname": "",
 	"method": "",
@@ -762,7 +762,7 @@ pokemonArray[46] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "148",
-	"gif": "",
+	"gif": "Shiny/parasect.gif",
 
 	"nickname": "",
 	"method": "",
@@ -778,7 +778,7 @@ pokemonArray[47] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/venonat.gif",
 
 	"nickname": "",
 	"method": "",
@@ -794,7 +794,7 @@ pokemonArray[48] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/venomoth.gif",
 
 	"nickname": "",
 	"method": "",
@@ -810,7 +810,7 @@ pokemonArray[49] = {
 	"unova": "z",
 	"kalos": "Mountain: 001",
 	"alola": "071",
-	"gif": "",
+	"gif": "Shiny/diglett.gif",
 
 	"nickname": "",
 	"method": "",
@@ -826,7 +826,7 @@ pokemonArray[50] = {
 	"unova": "z",
 	"kalos": "Mountain: 002",
 	"alola": "072",
-	"gif": "",
+	"gif": "Shiny/dugtrio.gif",
 
 	"nickname": "",
 	"method": "",
@@ -842,7 +842,7 @@ pokemonArray[51] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "045",
-	"gif": "",
+	"gif": "Shiny/meowth.gif",
 
 	"nickname": "",
 	"method": "",
@@ -874,7 +874,7 @@ pokemonArray[53] = {
 	"unova": "028",
 	"kalos": "Central: 059",
 	"alola": "089",
-	"gif": "",
+	"gif": "Shiny/psyduck.gif",
 
 	"nickname": "",
 	"method": "",
@@ -890,7 +890,7 @@ pokemonArray[54] = {
 	"unova": "029",
 	"kalos": "Central: 060",
 	"alola": "090",
-	"gif": "",
+	"gif": "Shiny/golduck.gif",
 
 	"nickname": "",
 	"method": "",
@@ -922,7 +922,7 @@ pokemonArray[56] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "080",
-	"gif": "",
+	"gif": "Shiny/primeape.gif",
 
 	"nickname": "",
 	"method": "",
@@ -954,7 +954,7 @@ pokemonArray[58] = {
 	"unova": "052",
 	"kalos": "z",
 	"alola": "053",
-	"gif": "",
+	"gif": "Shiny/arcanine.gif",
 
 	"nickname": "",
 	"method": "",
@@ -970,7 +970,7 @@ pokemonArray[59] = {
 	"unova": "z",
 	"kalos": "Mountain: 033",
 	"alola": "149",
-	"gif": "",
+	"gif": "Shiny/poliwag.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1018,7 +1018,7 @@ pokemonArray[62] = {
 	"unova": "z",
 	"kalos": "Central: 102",
 	"alola": "042",
-	"gif": "",
+	"gif": "Shiny/abra.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1034,7 +1034,7 @@ pokemonArray[63] = {
 	"unova": "z",
 	"kalos": "Central: 103",
 	"alola": "043",
-	"gif": "",
+	"gif": "Shiny/kadabra.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1050,7 +1050,7 @@ pokemonArray[64] = {
 	"unova": "z",
 	"kalos": "Central: 104",
 	"alola": "044",
-	"gif": "",
+	"gif": "Shiny/alakazam.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1098,7 +1098,7 @@ pokemonArray[67] = {
 	"unova": "z",
 	"kalos": "Coastal: 059",
 	"alola": "097",
-	"gif": "",
+	"gif": "Shiny/machamp.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1114,7 +1114,7 @@ pokemonArray[68] = {
 	"unova": "z",
 	"kalos": "Mountain: 026",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/bellsprout.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1178,7 +1178,7 @@ pokemonArray[72] = {
 	"unova": "z",
 	"kalos": "Coastal: 026",
 	"alola": "107",
-	"gif": "",
+	"gif": "Shiny/tentacruel.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1210,7 +1210,7 @@ pokemonArray[74] = {
 	"unova": "z",
 	"kalos": "Mountain: 010",
 	"alola": "230",
-	"gif": "",
+	"gif": "Shiny/graveler.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1226,7 +1226,7 @@ pokemonArray[75] = {
 	"unova": "z",
 	"kalos": "Mountain: 011",
 	"alola": "231",
-	"gif": "",
+	"gif": "Shiny/golem.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1242,7 +1242,7 @@ pokemonArray[76] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/ponyta.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1258,7 +1258,7 @@ pokemonArray[77] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/rapidash.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1290,7 +1290,7 @@ pokemonArray[79] = {
 	"unova": "z",
 	"kalos": "Coastal: 134",
 	"alola": "038",
-	"gif": "",
+	"gif": "Shiny/slowbro.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1338,7 +1338,7 @@ pokemonArray[82] = {
 	"unova": "z",
 	"kalos": "Central: 061",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/farfetchd.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1354,7 +1354,7 @@ pokemonArray[83] = {
 	"unova": "z",
 	"kalos": "Central: 094",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/doduo.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1370,7 +1370,7 @@ pokemonArray[84] = {
 	"unova": "z",
 	"kalos": "Central: 095",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/dodrio.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1386,7 +1386,7 @@ pokemonArray[85] = {
 	"unova": "265",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/seel.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1402,7 +1402,7 @@ pokemonArray[86] = {
 	"unova": "266",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/dewgong.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1418,7 +1418,7 @@ pokemonArray[87] = {
 	"unova": "064",
 	"kalos": "z",
 	"alola": "050",
-	"gif": "",
+	"gif": "Shiny/grimer.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1434,7 +1434,7 @@ pokemonArray[88] = {
 	"unova": "065",
 	"kalos": "z",
 	"alola": "051",
-	"gif": "",
+	"gif": "Shiny/muk.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1450,7 +1450,7 @@ pokemonArray[89] = {
 	"unova": "z",
 	"kalos": "Coastal: 036",
 	"alola": "115",
-	"gif": "",
+	"gif": "Shiny/shellder.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1466,7 +1466,7 @@ pokemonArray[90] = {
 	"unova": "z",
 	"kalos": "Coastal: 037",
 	"alola": "116",
-	"gif": "",
+	"gif": "Shiny/cloyster.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1498,7 +1498,7 @@ pokemonArray[92] = {
 	"unova": "z",
 	"kalos": "Mountain: 031",
 	"alola": "062",
-	"gif": "",
+	"gif": "Shiny/haunter.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1514,7 +1514,7 @@ pokemonArray[93] = {
 	"unova": "z",
 	"kalos": "Mountain: 032",
 	"alola": "063",
-	"gif": "",
+	"gif": "Shiny/gengar.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1530,7 +1530,7 @@ pokemonArray[94] = {
 	"unova": "071",
 	"kalos": "Coastal: 053",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/onix.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1546,7 +1546,7 @@ pokemonArray[95] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "054",
-	"gif": "",
+	"gif": "Shiny/drowzee.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1562,7 +1562,7 @@ pokemonArray[96] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "055",
-	"gif": "",
+	"gif": "Shiny/hypno.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1594,7 +1594,7 @@ pokemonArray[98] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/kingler.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1626,7 +1626,7 @@ pokemonArray[100] = {
 	"unova": "z",
 	"kalos": "Mountain: 073",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/electrode.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1642,7 +1642,7 @@ pokemonArray[101] = {
 	"unova": "z",
 	"kalos": "Coastal: 136",
 	"alola": "269",
-	"gif": "",
+	"gif": "Shiny/exeggcute.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1658,7 +1658,7 @@ pokemonArray[102] = {
 	"unova": "z",
 	"kalos": "Coastal: 137",
 	"alola": "270",
-	"gif": "",
+	"gif": "Shiny/exeggutor.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1706,7 +1706,7 @@ pokemonArray[105] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/hitmonlee.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1722,7 +1722,7 @@ pokemonArray[106] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/hitmonchan.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1738,7 +1738,7 @@ pokemonArray[107] = {
 	"unova": "284",
 	"kalos": "Mountain: 134",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/lickitung.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1754,7 +1754,7 @@ pokemonArray[108] = {
 	"unova": "046",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/koffing.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1770,7 +1770,7 @@ pokemonArray[109] = {
 	"unova": "047",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/weezing.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1786,7 +1786,7 @@ pokemonArray[110] = {
 	"unova": "z",
 	"kalos": "Coastal: 050",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/rhyhorn.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1802,7 +1802,7 @@ pokemonArray[111] = {
 	"unova": "z",
 	"kalos": "Coastal: 051",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/rhydon.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1818,7 +1818,7 @@ pokemonArray[112] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "033",
-	"gif": "",
+	"gif": "Shiny/chansey.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1834,7 +1834,7 @@ pokemonArray[113] = {
 	"unova": "217",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/tangela.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1850,7 +1850,7 @@ pokemonArray[114] = {
 	"unova": "z",
 	"kalos": "Coastal: 062",
 	"alola": "165",
-	"gif": "",
+	"gif": "Shiny/kangaskhan.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1882,7 +1882,7 @@ pokemonArray[116] = {
 	"unova": "z",
 	"kalos": "Coastal: 040",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/seadra.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1898,7 +1898,7 @@ pokemonArray[117] = {
 	"unova": "z",
 	"kalos": "Central: 053",
 	"alola": "153",
-	"gif": "",
+	"gif": "Shiny/goldeen.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1914,7 +1914,7 @@ pokemonArray[118] = {
 	"unova": "z",
 	"kalos": "Central: 054",
 	"alola": "154",
-	"gif": "",
+	"gif": "Shiny/seaking.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1930,7 +1930,7 @@ pokemonArray[119] = {
 	"unova": "238",
 	"kalos": "Coastal: 034",
 	"alola": "184",
-	"gif": "",
+	"gif": "Shiny/staryu.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1946,7 +1946,7 @@ pokemonArray[120] = {
 	"unova": "239",
 	"kalos": "Coastal: 035",
 	"alola": "185",
-	"gif": "",
+	"gif": "Shiny/starmie.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1962,7 +1962,7 @@ pokemonArray[121] = {
 	"unova": "z",
 	"kalos": "Coastal: 114",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/mr._mime.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1978,7 +1978,7 @@ pokemonArray[122] = {
 	"unova": "z",
 	"kalos": "Mountain: 136",
 	"alola": "275",
-	"gif": "",
+	"gif": "Shiny/scyther.gif",
 
 	"nickname": "",
 	"method": "",
@@ -1994,7 +1994,7 @@ pokemonArray[123] = {
 	"unova": "z",
 	"kalos": "Mountain: 084",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/jynx.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2058,7 +2058,7 @@ pokemonArray[127] = {
 	"unova": "z",
 	"kalos": "Coastal: 125",
 	"alola": "137",
-	"gif": "",
+	"gif": "Shiny/tauros.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2090,7 +2090,7 @@ pokemonArray[129] = {
 	"unova": "z",
 	"kalos": "Central: 050",
 	"alola": "092",
-	"gif": "",
+	"gif": "Shiny/gyarados.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2234,7 +2234,7 @@ pokemonArray[138] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/omastar.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2250,7 +2250,7 @@ pokemonArray[139] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/kabuto.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2266,7 +2266,7 @@ pokemonArray[140] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/kabutops.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2282,7 +2282,7 @@ pokemonArray[141] = {
 	"unova": "z",
 	"kalos": "Coastal: 068",
 	"alola": "284",
-	"gif": "",
+	"gif": "Shiny/aerodactyl.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2298,7 +2298,7 @@ pokemonArray[142] = {
 	"unova": "z",
 	"kalos": "Central: 139",
 	"alola": "036",
-	"gif": "",
+	"gif": "Shiny/snorlax.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2314,7 +2314,7 @@ pokemonArray[143] = {
 	"unova": "z",
 	"kalos": "Coastal: 151",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/articuno.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2330,7 +2330,7 @@ pokemonArray[144] = {
 	"unova": "z",
 	"kalos": "Coastal: 152",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/zapdos.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2346,7 +2346,7 @@ pokemonArray[145] = {
 	"unova": "z",
 	"kalos": "Coastal: 153",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/moltres.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2362,7 +2362,7 @@ pokemonArray[146] = {
 	"unova": "z",
 	"kalos": "Mountain: 145",
 	"alola": "281",
-	"gif": "",
+	"gif": "Shiny/dratini.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2378,7 +2378,7 @@ pokemonArray[147] = {
 	"unova": "z",
 	"kalos": "Mountain: 146",
 	"alola": "282",
-	"gif": "",
+	"gif": "Shiny/dragonair.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2394,7 +2394,7 @@ pokemonArray[148] = {
 	"unova": "z",
 	"kalos": "Mountain: 147",
 	"alola": "283",
-	"gif": "",
+	"gif": "Shiny/dragonite.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2410,7 +2410,7 @@ pokemonArray[149] = {
 	"unova": "z",
 	"kalos": "Mountain: 151",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/mewtwo.gif",
 
 	"nickname": "",
 	"method": "",
@@ -2426,7 +2426,7 @@ pokemonArray[150] = {
 	"unova": "z",
 	"kalos": "z",
 	"alola": "z",
-	"gif": "",
+	"gif": "Shiny/mew.gif",
 
 	"nickname": "",
 	"method": "",
