@@ -754,7 +754,9 @@ function updateTable() {
                 var img = document.createElement('img');
                 img.src = entry.gif;
                 table[y].innerHTML = "";
-                table[y].appendChild(img);
+                if(gray) {
+                    table[y].appendChild(img);  
+                }
             }
             if(gray) {
                 table[y].style.backgroundColor = "darkgray";
