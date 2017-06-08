@@ -466,7 +466,7 @@ pokemonArray[27] = {
 	"attempts": 41
 }
 pokemonArray[28] = {
-	"name": "Nidoran?",
+	"name": "Nidoran♀",
 	"number": "029",
 	"johto": "095",
 	"hoenn": "z",
@@ -514,7 +514,7 @@ pokemonArray[30] = {
 	"attempts": 43
 }
 pokemonArray[31] = {
-	"name": "Nidoran?",
+	"name": "Nidoran♂",
 	"number": "032",
 	"johto": "098",
 	"hoenn": "z",
