@@ -9020,10 +9020,10 @@ pokemonArray[562] = {
 	"alola": "z",
 	"gif": "Shiny/cofagrigus.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Cogaygrigus",
+	"method": "DexNav",
+	"order": 264,
+	"attempts": 740
 }
 pokemonArray[563] = {
 	"name": "Tirtouga",
