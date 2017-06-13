@@ -4012,10 +4012,10 @@ pokemonArray[249] = {
 	"alola": "z",
 	"gif": "Shiny/ho-oh.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Queeroh",
+	"method": "Queeroh",
+	"order": 266,
+	"attempts": 41
 }
 pokemonArray[250] = {
 	"name": "Celebi",
