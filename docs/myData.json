@@ -4013,7 +4013,7 @@ pokemonArray[249] = {
 	"gif": "Shiny/ho-oh.gif",
 
 	"nickname": "Queeroh",
-	"method": "Queeroh",
+	"method": "Soft-Reset",
 	"order": 266,
 	"attempts": 41
 }
@@ -8380,10 +8380,10 @@ pokemonArray[522] = {
 	"alola": "z",
 	"gif": "Shiny/zebstrika.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Marty",
+	"method": "DexNav",
+	"order": 268,
+	"attempts": 152
 }
 pokemonArray[523] = {
 	"name": "Roggenrola",
