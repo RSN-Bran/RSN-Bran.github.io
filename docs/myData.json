@@ -6236,10 +6236,10 @@ pokemonArray[388] = {
 	"alola": "z",
 	"gif": "Shiny/torterra.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Leonardo",
+	"method": "Breeding",
+	"order": 270,
+	"attempts": 321
 }
 pokemonArray[389] = {
 	"name": "Chimchar",
