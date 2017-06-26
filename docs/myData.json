@@ -1436,10 +1436,10 @@ pokemonArray[88] = {
 	"alola": "051",
 	"gif": "Shiny/muk.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Gooper",
+	"method": "Friend Safari",
+	"order": 271,
+	"attempts": 814
 }
 pokemonArray[89] = {
 	"name": "Shellder",
