@@ -12156,10 +12156,10 @@ pokemonArray[758] = {
 	"alola": "169",
 	"gif": "Shiny/stufful.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Roosevelt",
+	"method": "SOS Chain",
+	"order": 272,
+	"attempts": 146
 }
 pokemonArray[759] = {
 	"name": "Bewear",
