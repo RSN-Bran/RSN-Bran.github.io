@@ -7404,10 +7404,10 @@ pokemonArray[461] = {
 	"alola": "049",
 	"gif": "Shiny/magnezone.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Calzone",
+	"method": "Friend Safari",
+	"order": 273,
+	"attempts": 37
 }
 pokemonArray[462] = {
 	"name": "Lickilicky",
