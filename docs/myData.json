@@ -3996,10 +3996,10 @@ pokemonArray[248] = {
 	"alola": "z",
 	"gif": "Shiny/lugia.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Bad Dragon",
+	"method": "Soft-Reset",
+	"order": 276,
+	"attempts": 434
 }
 pokemonArray[249] = {
 	"name": "Ho-Oh",
