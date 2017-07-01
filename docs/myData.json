@@ -3708,10 +3708,10 @@ pokemonArray[230] = {
 	"alola": "z",
 	"gif": "Shiny/phanpy.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Dumb Bow",
+	"method": "Friend Safari",
+	"order": 277,
+	"attempts": 62
 }
 pokemonArray[231] = {
 	"name": "Donphan",
