@@ -4188,10 +4188,10 @@ pokemonArray[260] = {
 	"alola": "z",
 	"gif": "Shiny/poochyena.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Bakuhaku",
+	"method": "DexNav",
+	"order": 278,
+	"attempts": 68
 }
 pokemonArray[261] = {
 	"name": "Mightyena",
