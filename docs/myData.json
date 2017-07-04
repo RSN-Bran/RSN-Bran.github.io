@@ -1212,10 +1212,10 @@ pokemonArray[74] = {
 	"alola": "230",
 	"gif": "Shiny/graveler.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Groveler",
+	"method": "Hordes",
+	"order": 280,
+	"attempts": 246
 }
 pokemonArray[75] = {
 	"name": "Golem",
