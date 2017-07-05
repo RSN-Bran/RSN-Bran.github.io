@@ -1340,10 +1340,10 @@ pokemonArray[82] = {
 	"alola": "z",
 	"gif": "Shiny/farfetchd.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Prepost'rous",
+	"method": "Friend Safari",
+	"order": 281,
+	"attempts": 536
 }
 pokemonArray[83] = {
 	"name": "Doduo",
@@ -10732,10 +10732,10 @@ pokemonArray[669] = {
 	"alola": "z",
 	"gif": "Shiny/floette.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "3,000 Years",
+	"method": "Friend Safari",
+	"order": 282,
+	"attempts": 49
 }
 pokemonArray[670] = {
 	"name": "Florges",
