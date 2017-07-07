@@ -1660,10 +1660,10 @@ pokemonArray[102] = {
 	"alola": "270",
 	"gif": "Shiny/exeggutor.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Exsalad",
+	"method": "Hordes",
+	"order": 283,
+	"attempts": 390
 }
 pokemonArray[103] = {
 	"name": "Cubone",
