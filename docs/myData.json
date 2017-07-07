@@ -8620,10 +8620,10 @@ pokemonArray[537] = {
 	"alola": "z",
 	"gif": "Shiny/throh.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Bert",
+	"method": "Friend Safari",
+	"order": 284,
+	"attempts": 192
 }
 pokemonArray[538] = {
 	"name": "Sawk",
