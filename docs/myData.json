@@ -76,10 +76,10 @@ pokemonArray[3] = {
 	"alola": "z",
 	"gif": "Shiny/charmander.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Rafalos",
+	"method": "Breeding",
+	"order": 286,
+	"attempts": 174
 }
 pokemonArray[4] = {
 	"name": "Charmeleon",
@@ -1244,10 +1244,10 @@ pokemonArray[76] = {
 	"alola": "z",
 	"gif": "Shiny/ponyta.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Elmer",
+	"method": "Friend Safari",
+	"order": 285,
+	"attempts": 86
 }
 pokemonArray[77] = {
 	"name": "Rapidash",
