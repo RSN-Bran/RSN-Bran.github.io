@@ -10588,10 +10588,10 @@ pokemonArray[660] = {
 	"alola": "158",
 	"gif": "Shiny/fletchling.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Warbler",
+	"method": "SOS Chain",
+	"order": 287,
+	"attempts": 47
 }
 pokemonArray[661] = {
 	"name": "Fletchinder",
