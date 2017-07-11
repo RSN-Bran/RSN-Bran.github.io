@@ -3242,12 +3242,12 @@ pokemonArray[201] = {
 	"unova": "z",
 	"kalos": "Coastal: 119",
 	"alola": "z",
-	"gif": "Shiny/wobbuffet.gif",
+	"gif": "Shiny/wobbuffet-f.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "RuPaul",
+	"method": "Friend Safari",
+	"order": 288,
+	"attempts": 966
 }
 pokemonArray[202] = {
 	"name": "Girafarig",
