@@ -4732,10 +4732,10 @@ pokemonArray[294] = {
 	"alola": "z",
 	"gif": "Shiny/exploud.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Gamsmash",
+	"method": "Hordes",
+	"order": 289,
+	"attempts": 2
 }
 pokemonArray[295] = {
 	"name": "Makuhita",
