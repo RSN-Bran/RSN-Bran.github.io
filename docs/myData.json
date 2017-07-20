@@ -4844,10 +4844,10 @@ pokemonArray[301] = {
 	"alola": "102",
 	"gif": "Shiny/sableye.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Snotleye",
+	"method": "Friend Safari",
+	"order": 291,
+	"attempts": 1708
 }
 pokemonArray[302] = {
 	"name": "Mawile",
