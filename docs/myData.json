@@ -6364,7 +6364,7 @@ pokemonArray[396] = {
 	"alola": "z",
 	"gif": "Shiny/staravia.gif",
 
-	"nickname": "Revalli",
+	"nickname": "Revali",
 	"method": "PokeRadar",
 	"order": 217,
 	"attempts": 41
@@ -9308,10 +9308,10 @@ pokemonArray[580] = {
 	"alola": "z",
 	"gif": "Shiny/swanna.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "LooseyGoosey",
+	"method": "Friend Safari",
+	"order": 293,
+	"attempts": 184
 }
 pokemonArray[581] = {
 	"name": "Vanillite",
