@@ -5660,10 +5660,10 @@ pokemonArray[352] = {
 	"alola": "z",
 	"gif": "Shiny/shuppet.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Pinhead",
+	"method": "Friend Safari",
+	"order": 297,
+	"attempts": 533
 }
 pokemonArray[353] = {
 	"name": "Banette",
