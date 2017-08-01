@@ -8732,10 +8732,10 @@ pokemonArray[544] = {
 	"alola": "z",
 	"gif": "Shiny/scolipede.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Scoliosis",
+	"method": "Friend Safari",
+	"order": 298,
+	"attempts": 184
 }
 pokemonArray[545] = {
 	"name": "Cottonee",
