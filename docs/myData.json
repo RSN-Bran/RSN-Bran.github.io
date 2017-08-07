@@ -1596,10 +1596,10 @@ pokemonArray[98] = {
 	"alola": "z",
 	"gif": "Shiny/kingler.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Aristocrab",
+	"method": "Friend Safari",
+	"order": 299,
+	"attempts": 1682
 }
 pokemonArray[99] = {
 	"name": "Voltorb",
