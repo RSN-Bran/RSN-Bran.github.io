@@ -3500,10 +3500,10 @@ pokemonArray[217] = {
 	"alola": "z",
 	"gif": "Shiny/slugma.gif",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Cool Ranch",
+	"method": "Friend Safari",
+	"order": 300,
+	"attempts": 496
 }
 pokemonArray[218] = {
 	"name": "Magcargo",
