@@ -160,78 +160,72 @@ function kantoDex() {
 }
 //Recreate the table using Pokemon in the Johto Dex
 function johtoDex() {
-    arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
+    arrayCopy = johtoRegionalDex;
     var table = document.getElementById("shiny");
     while(table.rows.length > 1) {
         table.deleteRow(1);
     }
     sortByJohto();
-    arrayCopy.splice(256, 546);
     mode = "Johto";
     createTable();
     data();
 }
 //Recreate the table using Pokemon in the Hoenn Dex
 function hoennDex() {
-    arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
+    arrayCopy = hoennRegionalDex;
     var table = document.getElementById("shiny");
     while(table.rows.length > 1) {
         table.deleteRow(1);
     }
     sortByHoenn();
-    arrayCopy.splice(211, 591);
     mode = "Hoenn";
     createTable();
     data();
 }
 //Recreate the table using Pokemon in the Sinnoh Dex
 function sinnohDex() {
-    arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
+    arrayCopy = sinnohRegionalDex;
     var table = document.getElementById("shiny");
     while(table.rows.length > 1) {
         table.deleteRow(1);
     }
     sortBySinnoh();
-    arrayCopy.splice(210, 592);
     mode = "Sinnoh";
     createTable();
     data();
 }
 //Recreate the table using Pokemon in the Unova Dex
 function unovaDex() {
-    arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
+    arrayCopy = unovaRegionalDex;
     var table = document.getElementById("shiny");
     while(table.rows.length > 1) {
         table.deleteRow(1);
     }
     sortByUnova();
-    arrayCopy.splice(301, 501);
     mode = "Unova";
     createTable(); 
     data();
 }
 //Recreate the table using Pokemon in the Kalos Dex
 function kalosDex() {
-    arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
+    arrayCopy = kalosRegionalDex;
     var table = document.getElementById("shiny");
     while(table.rows.length > 1) {
         table.deleteRow(1);
     }
     sortByKalos();
-    arrayCopy.splice(457, 345);
     mode = "Kalos";
     createTable();   
     data();
 }
 //Recreate the table using Pokemon in the Alola Dex
 function alolaDex() {
-    arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
+    arrayCopy = alolaRegionalDex;
     var table = document.getElementById("shiny");
     while(table.rows.length > 1) {
         table.deleteRow(1);
     }
     sortByAlola();
-    arrayCopy.splice(302, 500);
     mode = "Alola";
     createTable();  
     data();
@@ -282,10 +276,10 @@ function data() {
     var gen4Percent = ((gen4/107)*100).toFixed(2)
     var gen5Percent = ((gen5/156)*100).toFixed(2)
     var gen6Percent = ((gen6/72)*100).toFixed(2)
-    var gen7Percent = ((gen7/81)*100).toFixed(2)
+    var gen7Percent = ((gen7/86)*100).toFixed(2)
     
     //Send Numerical values to be displayed
-    document.querySelector('.total').innerHTML = "Total: " + caught + "/802";
+    document.querySelector('.total').innerHTML = "Total: " + caught + "/807";
     document.querySelector('.totalPercent').innerHTML = nationalPercent + "%";
 
     document.querySelector('.gen1').innerHTML = "Gen 1: " + gen1 + "/151";
@@ -306,7 +300,7 @@ function data() {
     document.querySelector('.gen6').innerHTML = "Gen 6: " + gen6 + "/72";
     document.querySelector('.gen6percent').innerHTML = gen6Percent + "%";
     
-    document.querySelector('.gen7').innerHTML = "Gen 7: " + gen7 + "/81";
+    document.querySelector('.gen7').innerHTML = "Gen 7: " + gen7 + "/86";
     document.querySelector('.gen7percent').innerHTML = gen7Percent + "%";
     
     //Overwrite Progress bar width with percentage values
@@ -769,15 +763,66 @@ function updateTable() {
     data();
 }
 
+function fillDexes() {
+    var kanto = 0;
+    var johto = 0;
+    var hoenn = 0;
+    var sinnoh = 0;
+    var unova = 0;
+    var kalos = 0;
+    var alola = 0;
+    
+    for(var i = 0; i < arrayCopy.length; i++) {
+        if(arrayCopy[i].kanto != undefined) {
+            kantoRegionalDex[kanto] = arrayCopy[i];
+            kanto++;
+        }
+        if(arrayCopy[i].johto != undefined) {
+            johtoRegionalDex[johto] = arrayCopy[i];
+            johto++;
+        }
+        if(arrayCopy[i].hoenn != undefined) {
+            hoennRegionalDex[hoenn] = arrayCopy[i];
+            hoenn++;
+        }
+        if(arrayCopy[i].sinnoh != undefined) {
+            sinnohRegionalDex[sinnoh] = arrayCopy[i];
+            sinnoh++;
+        }
+        if(arrayCopy[i].unova != undefined) {
+            unovaRegionalDex[unova] = arrayCopy[i];
+            unova++;
+        }
+        if(arrayCopy[i].kalos != undefined) {
+            kalosRegionalDex[kalos] = arrayCopy[i];
+            kalos++;
+        }
+        if(arrayCopy[i].alola != undefined) {
+            alolaRegionalDex[alola] = arrayCopy[i];
+            alola++;
+        }
+    }
+}
 function main() {  
     data();
+    fillDexes();
     methodTable();
     createTable();
+    console.log(alolaRegionalDex)
 }
 
 var methodArray = [];
 
 var arrayCopy = JSON.parse(JSON.stringify(pokemonArray))
+
+var fullNationalDex = arrayCopy;
+var kantoRegionalDex = [];
+var johtoRegionalDex = [];
+var hoennRegionalDex = [];
+var sinnohRegionalDex = [];
+var unovaRegionalDex = [];
+var kalosRegionalDex = [];
+var alolaRegionalDex = [];
 var mode = "National";
 
 
