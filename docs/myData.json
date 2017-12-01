@@ -3627,7 +3627,7 @@ pokemonArray[200] = {
 	"unova": undefined,
 	"kalos": undefined,
 	"alola": undefined,
-	"gif": "Shiny/Unown_exclamation.gif",
+	"gif": "Shiny/Unown_Exclamation.gif",
 	"size": "10%",
 
 	"nickname": "YEEESSSS!!",
