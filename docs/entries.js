@@ -507,6 +507,7 @@ function createTable() {
             else {
                 if(gray) {
                     var img = document.createElement('img');
+                    img.style.height = entry.size
                     img.src = entry.gif;
                     cell.appendChild(img)
                 }
@@ -746,6 +747,7 @@ function updateTable() {
             }
             else {
                 var img = document.createElement('img');
+                img.style.height = entry.size
                 img.src = entry.gif;
                 table[y].innerHTML = "";
                 if(gray) {
