@@ -3627,7 +3627,7 @@ pokemonArray[200] = {
 	"unova": undefined,
 	"kalos": undefined,
 	"alola": undefined,
-	"gif": "Shiny/unown_exclamation.gif",
+	"gif": "Shiny/Unown_exclamation.gif",
 	"size": "10%",
 
 	"nickname": "YEEESSSS!!",
@@ -14463,7 +14463,7 @@ pokemonArray[802] = {
 	"unova": undefined,
 	"kalos": undefined,
 	"alola": "261",
-	"gif": "Shiny/poipole.gif",
+	"gif": "Shiny/Poipole.gif",
 	"size": "10%",
 
 	"nickname": "",
@@ -14481,7 +14481,7 @@ pokemonArray[803] = {
 	"unova": undefined,
 	"kalos": undefined,
 	"alola": "262",
-	"gif": "Shiny/naganedel.gif",
+	"gif": "Shiny/Naganedel.gif",
 	"size": "10%",
 
 	"nickname": "",
@@ -14499,7 +14499,7 @@ pokemonArray[804] = {
 	"unova": undefined,
 	"kalos": undefined,
 	"alola": "392",
-	"gif": "Shiny/stakataka.gif",
+	"gif": "Shiny/Stakataka.gif",
 	"size": "10%",
 
 	"nickname": "",
@@ -14535,7 +14535,7 @@ pokemonArray[806] = {
 	"unova": undefined,
 	"kalos": undefined,
 	"alola": "403",
-	"gif": "Shiny/zerarora.gif",
+	"gif": "Shiny/Zerarora.gif",
 	"size": "10%",
 
 	"nickname": "",
