@@ -5918,7 +5918,7 @@ pokemonArray[327] = {
 
 	"nickname": "Lockjaw",
 	"method": "Friend Safari",
-	"order": 304,
+	"order": 245,
 	"attempts": 103
 }
 pokemonArray[328] = {
