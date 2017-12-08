@@ -4296,10 +4296,10 @@ pokemonArray[237] = {
 	"gif": "Shiny/smoochum.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Dabuz",
+	"method": "Hordes",
+	"order": 302,
+	"attempts": 433
 }
 pokemonArray[238] = {
 	"name": "Elekid",
