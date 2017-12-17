@@ -14464,12 +14464,12 @@ pokemonArray[802] = {
 	"kalos": undefined,
 	"alola": "261",
 	"gif": "Shiny/Poipole.gif",
-	"size": "10%",
+	"size": "20%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Jimbo",
+	"method": "Gift Resets",
+	"order": 302,
+	"attempts": 2094
 }
 pokemonArray[803] = {
 	"name": "Naganadel",

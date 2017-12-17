@@ -346,6 +346,12 @@ function methodTable() {
     var pokeRadar = 0;
     var radarSum = 0;
     
+    var wormhole = 0;
+    var wormholeSum = 0;
+    
+    var gift = 0;
+    var giftSum = 0;
+    
     for(var i = 0; i < pokemonArray.length; i++) {
         if(pokemonArray[i].method === "SOS Chain") {
             sosChain++;
@@ -383,6 +389,14 @@ function methodTable() {
             pokeRadar++;
             radarSum = radarSum + pokemonArray[i].attempts;
         }
+        else if(pokemonArray[i].method == "Wormhole") {
+            wormhole++;
+            wormholeSum = wormholeSum + pokemonArray[i].attempts;
+        }
+        else if(pokemonArray[i].method == "Gift Resets") {
+            gift++;
+            giftSum = giftSum + pokemonArray[i].attempts;
+        }
     }
     
     
@@ -395,6 +409,8 @@ function methodTable() {
     methodArray[6] = new method("DexNav", "1/201", dexNav,  Math.round(dexSum/dexNav));
     methodArray[7] = new method("Chain Fishing", "1/100 (@20)", chainFish,  Math.round(fishSum/chainFish));
     methodArray[8] = new method("PokeRadar", "1/200 (@40)", pokeRadar,  Math.round(radarSum/pokeRadar));
+    methodArray[9] = new method("Wormhole", "1/???", wormhole,  Math.round(wormholeSum/wormhole));
+    methodArray[10] = new method("Gift Resets", "1/4096", gift,  Math.round(giftSum/gift));
     
     sortMethods();
     
