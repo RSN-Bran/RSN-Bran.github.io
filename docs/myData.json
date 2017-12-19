@@ -10650,10 +10650,10 @@ pokemonArray[590] = {
 	"gif": "Shiny/amoonguss.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "1-Up Girl",
+	"method": "Hordes",
+	"order": 304,
+	"attempts": 536
 }
 pokemonArray[591] = {
 	"name": "Frillish",
