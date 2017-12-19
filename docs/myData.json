@@ -8706,10 +8706,10 @@ pokemonArray[482] = {
 	"gif": "Shiny/dialga.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Kronos",
+	"method": "Soft-Reset",
+	"order": 303,
+	"attempts": 305
 }
 pokemonArray[483] = {
 	"name": "Palkia",
