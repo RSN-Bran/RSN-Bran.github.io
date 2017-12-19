@@ -894,10 +894,10 @@ pokemonArray[48] = {
 	"gif": "Shiny/venomoth.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "ATV",
+	"method": "Friend Safari",
+	"order": 305,
+	"attempts": 18
 }
 pokemonArray[49] = {
 	"name": "Diglett",
