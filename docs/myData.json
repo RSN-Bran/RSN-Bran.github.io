@@ -2604,10 +2604,10 @@ pokemonArray[143] = {
 	"gif": "Shiny/articuno.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Frieza",
+	"method": "Soft-Reset",
+	"order": 306,
+	"attempts": 963
 }
 pokemonArray[144] = {
 	"name": "Zapdos",
@@ -14464,7 +14464,7 @@ pokemonArray[802] = {
 	"kalos": undefined,
 	"alola": "261",
 	"gif": "Shiny/poipole.gif",
-	"size": "20%",
+	"size": "15%",
 
 	"nickname": "Jimbo",
 	"method": "Gift Resets",
