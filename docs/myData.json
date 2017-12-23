@@ -4440,10 +4440,10 @@ pokemonArray[245] = {
 	"gif": "Shiny/larvitar.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Larvitard",
+	"method": "SOS Chain",
+	"order": 308,
+	"attempts": 312
 }
 pokemonArray[246] = {
 	"name": "Pupitar",
