@@ -6924,10 +6924,10 @@ pokemonArray[383] = {
 	"gif": "Shiny/rayquaza.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Nobunaga",
+	"method": "Soft-Reset",
+	"order": 309,
+	"attempts": 32
 }
 pokemonArray[384] = {
 	"name": "Jirachi",
