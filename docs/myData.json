@@ -14338,7 +14338,7 @@ pokemonArray[795] = {
 	"kalos": undefined,
 	"alola": "396",
 	"gif": "Shiny/xurkitree.gif",
-	"size": "100%",
+	"size": "10%",
 
 	"nickname": "Xurkit Xity",
 	"method": "Soft-Reset",
