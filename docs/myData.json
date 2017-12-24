@@ -14340,10 +14340,10 @@ pokemonArray[795] = {
 	"gif": "Shiny/xurkitree.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Xurkit Xity",
+	"method": "Soft-Reset",
+	"order": 310,
+	"attempts": 233
 }
 pokemonArray[796] = {
 	"name": "Celesteela",
