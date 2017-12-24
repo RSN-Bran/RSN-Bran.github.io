@@ -6922,7 +6922,7 @@ pokemonArray[383] = {
 	"kalos": undefined,
 	"alola": undefined,
 	"gif": "Shiny/rayquaza.gif",
-	"size": "100%",
+	"size": "20%",
 
 	"nickname": "Nobunaga",
 	"method": "Soft-Reset",
@@ -14338,7 +14338,7 @@ pokemonArray[795] = {
 	"kalos": undefined,
 	"alola": "396",
 	"gif": "Shiny/xurkitree.gif",
-	"size": "10%",
+	"size": "15%",
 
 	"nickname": "Xurkit Xity",
 	"method": "Soft-Reset",
