@@ -9030,10 +9030,10 @@ pokemonArray[500] = {
 	"gif": "Shiny/oshawott.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Ottawa",
+	"method": "Breeding",
+	"order": 313,
+	"attempts": 533
 }
 pokemonArray[501] = {
 	"name": "Dewott",
