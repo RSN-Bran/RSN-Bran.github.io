@@ -3954,10 +3954,10 @@ pokemonArray[218] = {
 	"gif": "Shiny/magcargo.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Volbono",
+	"method": "Friend Safari",
+	"order": 314,
+	"attempts": 122
 }
 pokemonArray[219] = {
 	"name": "Swinub",
