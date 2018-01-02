@@ -5646,10 +5646,10 @@ pokemonArray[312] = {
 	"gif": "Shiny/volbeat.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Flyguy",
+	"method": "Friend Safari",
+	"order": 315,
+	"attempts": 284
 }
 pokemonArray[313] = {
 	"name": "Illumise",
