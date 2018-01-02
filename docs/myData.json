@@ -10344,10 +10344,10 @@ pokemonArray[573] = {
 	"gif": "Shiny/gothita.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Babymetal",
+	"method": "DexNav",
+	"order": 316,
+	"attempts": 101
 }
 pokemonArray[574] = {
 	"name": "Gothorita",
