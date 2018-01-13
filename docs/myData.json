@@ -2234,7 +2234,7 @@ pokemonArray[122] = {
 pokemonArray[123] = {
 	"name": "Jynx",
 	"number": "124",
-	"kanto":  "124",,
+	"kanto":  "124",
 	"johto": "155",
 	"hoenn": undefined,
 	"sinnoh": undefined,
