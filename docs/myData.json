@@ -1370,7 +1370,7 @@ pokemonArray[74] = {
 pokemonArray[75] = {
 	"name": "Golem",
 	"number": "076",
-	"kanto": undefined,
+	"kanto": "076",
 	"johto": "036",
 	"hoenn": "060",
 	"sinnoh": "033",
@@ -1388,7 +1388,7 @@ pokemonArray[75] = {
 pokemonArray[76] = {
 	"name": "Ponyta",
 	"number": "077",
-	"kanto": undefined,
+	"kanto": "077",
 	"johto": "206",
 	"hoenn": undefined,
 	"sinnoh": "090",
@@ -1406,7 +1406,7 @@ pokemonArray[76] = {
 pokemonArray[77] = {
 	"name": "Rapidash",
 	"number": "078",
-	"kanto": undefined,
+	"kanto": "078",
 	"johto": "207",
 	"hoenn": undefined,
 	"sinnoh": "091",
@@ -1424,7 +1424,7 @@ pokemonArray[77] = {
 pokemonArray[78] = {
 	"name": "Slowpoke",
 	"number": "079",
-	"kanto": undefined,
+	"kanto": "079",
 	"johto": "080",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1442,7 +1442,7 @@ pokemonArray[78] = {
 pokemonArray[79] = {
 	"name": "Slowbro",
 	"number": "080",
-	"kanto": undefined,
+	"kanto": "080",
 	"johto": "081",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1460,7 +1460,7 @@ pokemonArray[79] = {
 pokemonArray[80] = {
 	"name": "Magnemite",
 	"number": "081",
-	"kanto": undefined,
+	"kanto": "081",
 	"johto": "119",
 	"hoenn": "084",
 	"sinnoh": "178",
@@ -1478,7 +1478,7 @@ pokemonArray[80] = {
 pokemonArray[81] = {
 	"name": "Magneton",
 	"number": "082",
-	"kanto": undefined,
+	"kanto": "082",
 	"johto": "120",
 	"hoenn": "085",
 	"sinnoh": "179",
@@ -1496,7 +1496,7 @@ pokemonArray[81] = {
 pokemonArray[82] = {
 	"name": "Farfetch'd",
 	"number": "083",
-	"kanto": undefined,
+	"kanto": "083",
 	"johto": "160",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1514,7 +1514,7 @@ pokemonArray[82] = {
 pokemonArray[83] = {
 	"name": "Doduo",
 	"number": "084",
-	"kanto": undefined,
+	"kanto": "084",
 	"johto": "204",
 	"hoenn": "095",
 	"sinnoh": undefined,
@@ -1532,7 +1532,7 @@ pokemonArray[83] = {
 pokemonArray[84] = {
 	"name": "Dodrio",
 	"number": "085",
-	"kanto": undefined,
+	"kanto": "085",
 	"johto": "205",
 	"hoenn": "096",
 	"sinnoh": undefined,
@@ -1550,7 +1550,7 @@ pokemonArray[84] = {
 pokemonArray[85] = {
 	"name": "Seel",
 	"number": "086",
-	"kanto": undefined,
+	"kanto": "086",
 	"johto": "178",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1568,7 +1568,7 @@ pokemonArray[85] = {
 pokemonArray[86] = {
 	"name": "Dewgong",
 	"number": "087",
-	"kanto": undefined,
+	"kanto": "087",
 	"johto": "179",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1586,7 +1586,7 @@ pokemonArray[86] = {
 pokemonArray[87] = {
 	"name": "Grimer",
 	"number": "088",
-	"kanto": undefined,
+	"kanto": "088",
 	"johto": "117",
 	"hoenn": "111",
 	"sinnoh": undefined,
@@ -1604,7 +1604,7 @@ pokemonArray[87] = {
 pokemonArray[88] = {
 	"name": "Muk",
 	"number": "089",
-	"kanto": undefined,
+	"kanto": "089",
 	"johto": "118",
 	"hoenn": "112",
 	"sinnoh": undefined,
@@ -1622,7 +1622,7 @@ pokemonArray[88] = {
 pokemonArray[89] = {
 	"name": "Shellder",
 	"number": "090",
-	"kanto": undefined,
+	"kanto": "090",
 	"johto": "171",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1640,7 +1640,7 @@ pokemonArray[89] = {
 pokemonArray[90] = {
 	"name": "Cloyster",
 	"number": "091",
-	"kanto": undefined,
+	"kanto": "091",
 	"johto": "172",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1658,7 +1658,7 @@ pokemonArray[90] = {
 pokemonArray[91] = {
 	"name": "Gastly",
 	"number": "092",
-	"kanto": undefined,
+	"kanto": "092",
 	"johto": "058",
 	"hoenn": undefined,
 	"sinnoh": "069",
@@ -1676,7 +1676,7 @@ pokemonArray[91] = {
 pokemonArray[92] = {
 	"name": "Haunter",
 	"number": "093",
-	"kanto": undefined,
+	"kanto": "093",
 	"johto": "059",
 	"hoenn": undefined,
 	"sinnoh": "070",
@@ -1694,7 +1694,7 @@ pokemonArray[92] = {
 pokemonArray[93] = {
 	"name": "Gengar",
 	"number": "094",
-	"kanto": undefined,
+	"kanto": "094",
 	"johto": "060",
 	"hoenn": undefined,
 	"sinnoh": "071",
@@ -1712,7 +1712,7 @@ pokemonArray[93] = {
 pokemonArray[94] = {
 	"name": "Onix",
 	"number": "095",
-	"kanto": undefined,
+	"kanto": "095",
 	"johto": "062",
 	"hoenn": undefined,
 	"sinnoh": "034",
@@ -1730,7 +1730,7 @@ pokemonArray[94] = {
 pokemonArray[95] = {
 	"name": "Drowzee",
 	"number": "096",
-	"kanto": undefined,
+	"kanto": "096",
 	"johto": "087",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1748,7 +1748,7 @@ pokemonArray[95] = {
 pokemonArray[96] = {
 	"name": "Hypno",
 	"number": "097",
-	"kanto": undefined,
+	"kanto": "097",
 	"johto": "088",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1766,7 +1766,7 @@ pokemonArray[96] = {
 pokemonArray[97] = {
 	"name": "Krabby",
 	"number": "098",
-	"kanto": undefined,
+	"kanto": "098",
 	"johto": "166",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1784,7 +1784,7 @@ pokemonArray[97] = {
 pokemonArray[98] = {
 	"name": "Kingler",
 	"number": "099",
-	"kanto": undefined,
+	"kanto": "099",
 	"johto": "167",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1802,7 +1802,7 @@ pokemonArray[98] = {
 pokemonArray[99] = {
 	"name": "Voltorb",
 	"number": "100",
-	"kanto": undefined,
+	"kanto": "100",
 	"johto": "121",
 	"hoenn": "087",
 	"sinnoh": undefined,
@@ -1820,7 +1820,7 @@ pokemonArray[99] = {
 pokemonArray[100] = {
 	"name": "Electrode",
 	"number": "101",
-	"kanto": undefined,
+	"kanto": "101",
 	"johto": "122",
 	"hoenn": "088",
 	"sinnoh": undefined,
@@ -1838,7 +1838,7 @@ pokemonArray[100] = {
 pokemonArray[101] = {
 	"name": "Exeggcute",
 	"number": "102",
-	"kanto": undefined,
+	"kanto": "102",
 	"johto": "105",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1856,7 +1856,7 @@ pokemonArray[101] = {
 pokemonArray[102] = {
 	"name": "Exeggutor",
 	"number": "103",
-	"kanto": undefined,
+	"kanto": "103",
 	"johto": "106",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1874,7 +1874,7 @@ pokemonArray[102] = {
 pokemonArray[103] = {
 	"name": "Cubone",
 	"number": "104",
-	"kanto": undefined,
+	"kanto": "104",
 	"johto": "208",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1892,7 +1892,7 @@ pokemonArray[103] = {
 pokemonArray[104] = {
 	"name": "Marowak",
 	"number": "105",
-	"kanto": undefined,
+	"kanto": "105",
 	"johto": "209",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1910,7 +1910,7 @@ pokemonArray[104] = {
 pokemonArray[105] = {
 	"name": "Hitmonlee",
 	"number": "106",
-	"kanto": undefined,
+	"kanto": "106",
 	"johto": "146",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1928,7 +1928,7 @@ pokemonArray[105] = {
 pokemonArray[106] = {
 	"name": "Hitmonchan",
 	"number": "107",
-	"kanto": undefined,
+	"kanto":  "107",
 	"johto": "147",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -1946,7 +1946,7 @@ pokemonArray[106] = {
 pokemonArray[107] = {
 	"name": "Lickitung",
 	"number": "108",
-	"kanto": undefined,
+	"kanto": "108",
 	"johto": "180",
 	"hoenn": undefined,
 	"sinnoh": "161",
@@ -1964,7 +1964,7 @@ pokemonArray[107] = {
 pokemonArray[108] = {
 	"name": "Koffing",
 	"number": "109",
-	"kanto": undefined,
+	"kanto":  "109",
 	"johto": "115",
 	"hoenn": "113",
 	"sinnoh": undefined,
@@ -1982,7 +1982,7 @@ pokemonArray[108] = {
 pokemonArray[109] = {
 	"name": "Weezing",
 	"number": "110",
-	"kanto": undefined,
+	"kanto": "110",
 	"johto": "116",
 	"hoenn": "114",
 	"sinnoh": undefined,
@@ -2000,7 +2000,7 @@ pokemonArray[109] = {
 pokemonArray[110] = {
 	"name": "Rhyhorn",
 	"number": "111",
-	"kanto": undefined,
+	"kanto": "111",
 	"johto": "211",
 	"hoenn": "176",
 	"sinnoh": "186",
@@ -2018,7 +2018,7 @@ pokemonArray[110] = {
 pokemonArray[111] = {
 	"name": "Rhydon",
 	"number": "112",
-	"kanto": undefined,
+	"kanto": "112",
 	"johto": "212",
 	"hoenn": "177",
 	"sinnoh": "187",
@@ -2036,7 +2036,7 @@ pokemonArray[111] = {
 pokemonArray[112] = {
 	"name": "Chansey",
 	"number": "113",
-	"kanto": undefined,
+	"kanto": "113",
 	"johto": "222",
 	"hoenn": undefined,
 	"sinnoh": "097",
@@ -2054,7 +2054,7 @@ pokemonArray[112] = {
 pokemonArray[113] = {
 	"name": "Tangela",
 	"number": "114",
-	"kanto": undefined,
+	"kanto": "114",
 	"johto": "182",
 	"hoenn": undefined,
 	"sinnoh": "181",
@@ -2072,7 +2072,7 @@ pokemonArray[113] = {
 pokemonArray[114] = {
 	"name": "Kangaskhan",
 	"number": "115",
-	"kanto": undefined,
+	"kanto": "115",
 	"johto": "210",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2090,7 +2090,7 @@ pokemonArray[114] = {
 pokemonArray[115] = {
 	"name": "Horsea",
 	"number": "116",
-	"kanto": undefined,
+	"kanto": "116",
 	"johto": "190",
 	"hoenn": "193",
 	"sinnoh": undefined,
@@ -2108,7 +2108,7 @@ pokemonArray[115] = {
 pokemonArray[116] = {
 	"name": "Seadra",
 	"number": "117",
-	"kanto": undefined,
+	"kanto": "117",
 	"johto": "191",
 	"hoenn": "194",
 	"sinnoh": undefined,
@@ -2126,7 +2126,7 @@ pokemonArray[116] = {
 pokemonArray[117] = {
 	"name": "Goldeen",
 	"number": "118",
-	"kanto": undefined,
+	"kanto": "118",
 	"johto": "078",
 	"hoenn": "051",
 	"sinnoh": "078",
@@ -2144,7 +2144,7 @@ pokemonArray[117] = {
 pokemonArray[118] = {
 	"name": "Seaking",
 	"number": "119",
-	"kanto": undefined,
+	"kanto": "119",
 	"johto": "079",
 	"hoenn": "052",
 	"sinnoh": "079",
@@ -2162,7 +2162,7 @@ pokemonArray[118] = {
 pokemonArray[119] = {
 	"name": "Staryu",
 	"number": "120",
-	"kanto": undefined,
+	"kanto":  "120",
 	"johto": "169",
 	"hoenn": "148",
 	"sinnoh": undefined,
@@ -2180,7 +2180,7 @@ pokemonArray[119] = {
 pokemonArray[120] = {
 	"name": "Starmie",
 	"number": "121",
-	"kanto": undefined,
+	"kanto": "121",
 	"johto": "170",
 	"hoenn": "149",
 	"sinnoh": undefined,
@@ -2198,7 +2198,7 @@ pokemonArray[120] = {
 pokemonArray[121] = {
 	"name": "Mr. Mime",
 	"number": "122",
-	"kanto": undefined,
+	"kanto": "122",
 	"johto": "158",
 	"hoenn": undefined,
 	"sinnoh": "095",
@@ -2216,7 +2216,7 @@ pokemonArray[121] = {
 pokemonArray[122] = {
 	"name": "Scyther",
 	"number": "123",
-	"kanto": undefined,
+	"kanto":  "123",
 	"johto": "111",
 	"hoenn": undefined,
 	"sinnoh": "195",
@@ -2234,7 +2234,7 @@ pokemonArray[122] = {
 pokemonArray[123] = {
 	"name": "Jynx",
 	"number": "124",
-	"kanto": undefined,
+	"kanto":  "124",,
 	"johto": "155",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2252,7 +2252,7 @@ pokemonArray[123] = {
 pokemonArray[124] = {
 	"name": "Electabuzz",
 	"number": "125",
-	"kanto": undefined,
+	"kanto": "125",
 	"johto": "157",
 	"hoenn": undefined,
 	"sinnoh": "198",
@@ -2270,7 +2270,7 @@ pokemonArray[124] = {
 pokemonArray[125] = {
 	"name": "Magmar",
 	"number": "126",
-	"kanto": undefined,
+	"kanto": "126",
 	"johto": "153",
 	"hoenn": undefined,
 	"sinnoh": "201",
@@ -2288,7 +2288,7 @@ pokemonArray[125] = {
 pokemonArray[126] = {
 	"name": "Pinsir",
 	"number": "127",
-	"kanto": undefined,
+	"kanto": "127",
 	"johto": "113",
 	"hoenn": "174",
 	"sinnoh": undefined,
@@ -2306,7 +2306,7 @@ pokemonArray[126] = {
 pokemonArray[127] = {
 	"name": "Tauros",
 	"number": "128",
-	"kanto": undefined,
+	"kanto": "128",
 	"johto": "150",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2324,7 +2324,7 @@ pokemonArray[127] = {
 pokemonArray[128] = {
 	"name": "Magikarp",
 	"number": "129",
-	"kanto": undefined,
+	"kanto": "129",
 	"johto": "076",
 	"hoenn": "053",
 	"sinnoh": "023",
@@ -2342,7 +2342,7 @@ pokemonArray[128] = {
 pokemonArray[129] = {
 	"name": "Gyarados",
 	"number": "130",
-	"kanto": undefined,
+	"kanto": "130",
 	"johto": "077",
 	"hoenn": "054",
 	"sinnoh": "024",
@@ -2360,7 +2360,7 @@ pokemonArray[129] = {
 pokemonArray[130] = {
 	"name": "Lapras",
 	"number": "131",
-	"kanto": undefined,
+	"kanto":  "131",
 	"johto": "224",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2378,7 +2378,7 @@ pokemonArray[130] = {
 pokemonArray[131] = {
 	"name": "Ditto",
 	"number": "132",
-	"kanto": undefined,
+	"kanto": "132",
 	"johto": "092",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2396,7 +2396,7 @@ pokemonArray[131] = {
 pokemonArray[132] = {
 	"name": "Eevee",
 	"number": "133",
-	"kanto": undefined,
+	"kanto": "133",
 	"johto": "184",
 	"hoenn": undefined,
 	"sinnoh": "163",
@@ -2414,7 +2414,7 @@ pokemonArray[132] = {
 pokemonArray[133] = {
 	"name": "Vaporeon",
 	"number": "134",
-	"kanto": undefined,
+	"kanto": "134",
 	"johto": "185",
 	"hoenn": undefined,
 	"sinnoh": "164",
@@ -2432,7 +2432,7 @@ pokemonArray[133] = {
 pokemonArray[134] = {
 	"name": "Jolteon",
 	"number": "135",
-	"kanto": undefined,
+	"kanto": "135",
 	"johto": "186",
 	"hoenn": undefined,
 	"sinnoh": "165",
@@ -2450,7 +2450,7 @@ pokemonArray[134] = {
 pokemonArray[135] = {
 	"name": "Flareon",
 	"number": "136",
-	"kanto": undefined,
+	"kanto": "136",
 	"johto": "187",
 	"hoenn": undefined,
 	"sinnoh": "166",
@@ -2468,7 +2468,7 @@ pokemonArray[135] = {
 pokemonArray[136] = {
 	"name": "Porygon",
 	"number": "137",
-	"kanto": undefined,
+	"kanto": "137",
 	"johto": "220",
 	"hoenn": undefined,
 	"sinnoh": "192",
@@ -2486,7 +2486,7 @@ pokemonArray[136] = {
 pokemonArray[137] = {
 	"name": "Omanyte",
 	"number": "138",
-	"kanto": undefined,
+	"kanto": "138",
 	"johto": "225",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2504,7 +2504,7 @@ pokemonArray[137] = {
 pokemonArray[138] = {
 	"name": "Omastar",
 	"number": "139",
-	"kanto": undefined,
+	"kanto": "139",
 	"johto": "226",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2522,7 +2522,7 @@ pokemonArray[138] = {
 pokemonArray[139] = {
 	"name": "Kabuto",
 	"number": "140",
-	"kanto": undefined,
+	"kanto": "140",
 	"johto": "227",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2540,7 +2540,7 @@ pokemonArray[139] = {
 pokemonArray[140] = {
 	"name": "Kabutops",
 	"number": "141",
-	"kanto": undefined,
+	"kanto": "141",
 	"johto": "228",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2558,7 +2558,7 @@ pokemonArray[140] = {
 pokemonArray[141] = {
 	"name": "Aerodactyl",
 	"number": "142",
-	"kanto": undefined,
+	"kanto": "142",
 	"johto": "229",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2576,7 +2576,7 @@ pokemonArray[141] = {
 pokemonArray[142] = {
 	"name": "Snorlax",
 	"number": "143",
-	"kanto": undefined,
+	"kanto": "143",
 	"johto": "230",
 	"hoenn": undefined,
 	"sinnoh": "113",
@@ -2594,7 +2594,7 @@ pokemonArray[142] = {
 pokemonArray[143] = {
 	"name": "Articuno",
 	"number": "144",
-	"kanto": undefined,
+	"kanto": "144",
 	"johto": "240",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2612,7 +2612,7 @@ pokemonArray[143] = {
 pokemonArray[144] = {
 	"name": "Zapdos",
 	"number": "145",
-	"kanto": undefined,
+	"kanto":  "145",
 	"johto": "241",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2630,7 +2630,7 @@ pokemonArray[144] = {
 pokemonArray[145] = {
 	"name": "Moltres",
 	"number": "146",
-	"kanto": undefined,
+	"kanto": "146",
 	"johto": "242",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2648,7 +2648,7 @@ pokemonArray[145] = {
 pokemonArray[146] = {
 	"name": "Dratini",
 	"number": "147",
-	"kanto": undefined,
+	"kanto": "147",
 	"johto": "246",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2666,7 +2666,7 @@ pokemonArray[146] = {
 pokemonArray[147] = {
 	"name": "Dragonair",
 	"number": "148",
-	"kanto": undefined,
+	"kanto": "148",
 	"johto": "247",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2684,7 +2684,7 @@ pokemonArray[147] = {
 pokemonArray[148] = {
 	"name": "Dragonite",
 	"number": "149",
-	"kanto": undefined,
+	"kanto": "149",
 	"johto": "248",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2702,7 +2702,7 @@ pokemonArray[148] = {
 pokemonArray[149] = {
 	"name": "Mewtwo",
 	"number": "150",
-	"kanto": undefined,
+	"kanto": "150",
 	"johto": "254",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2720,7 +2720,7 @@ pokemonArray[149] = {
 pokemonArray[150] = {
 	"name": "Mew",
 	"number": "151",
-	"kanto": undefined,
+	"kanto": "151",
 	"johto": "255",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -10308,10 +10308,10 @@ pokemonArray[571] = {
 	"gif": "Shiny/minccino.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Swiffer",
+	"method": "Friend Safari",
+	"order": 321,
+	"attempts": 1250
 }
 pokemonArray[572] = {
 	"name": "Cinccino",
