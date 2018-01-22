@@ -12898,7 +12898,7 @@ pokemonArray[715] = {
 	"kalos": "Mountain: 148",
 	"alola": undefined,
 	"gif": "Shiny/xerneas.gif",
-	"size": "20%",
+	"size": "15%",
 
 	"nickname": "Colgate",
 	"method": "Soft-Reset",
