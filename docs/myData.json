@@ -6906,10 +6906,10 @@ pokemonArray[382] = {
 	"gif": "Shiny/groudon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Dirt Man",
+	"method": "Soft-Reset",
+	"order": 322,
+	"attempts": 1581
 }
 pokemonArray[383] = {
 	"name": "Rayquaza",
