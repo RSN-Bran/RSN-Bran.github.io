@@ -4116,10 +4116,10 @@ pokemonArray[227] = {
 	"gif": "Shiny/houndour.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Hotdog",
+	"method": "PokeRadar",
+	"order": 324,
+	"attempts": 41
 }
 pokemonArray[228] = {
 	"name": "Houndoom",
@@ -4134,10 +4134,10 @@ pokemonArray[228] = {
 	"gif": "Shiny/houndoom.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Cerberus",
+	"method": "PokeRadar",
+	"order": 325,
+	"attempts": 42
 }
 pokemonArray[229] = {
 	"name": "Kingdra",
