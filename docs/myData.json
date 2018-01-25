@@ -6456,10 +6456,10 @@ pokemonArray[357] = {
 	"gif": "Shiny/chimecho.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Dong",
+	"method": "PokeRadar",
+	"order": 327,
+	"attempts": 43
 }
 pokemonArray[358] = {
 	"name": "Absol",
@@ -7806,10 +7806,10 @@ pokemonArray[432] = {
 	"gif": "Shiny/chingling.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Ding",
+	"method": "PokeRadar",
+	"order": 326,
+	"attempts": 42
 }
 pokemonArray[433] = {
 	"name": "Stunky",
