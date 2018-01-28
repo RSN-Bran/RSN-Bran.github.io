@@ -11064,10 +11064,10 @@ pokemonArray[613] = {
 	"gif": "Shiny/beartic.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Klondike",
+	"method": "Hordes",
+	"order": 329,
+	"attempts": 1051
 }
 pokemonArray[614] = {
 	"name": "Cryogonal",
