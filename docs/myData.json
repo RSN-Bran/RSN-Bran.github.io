@@ -11550,10 +11550,10 @@ pokemonArray[640] = {
 	"gif": "Shiny/tornadus.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Torna",
+	"method": "Soft-Reset",
+	"order": 328,
+	"attempts": 292
 }
 pokemonArray[641] = {
 	"name": "Thundurus",
