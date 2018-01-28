@@ -146,14 +146,12 @@ function nationalDex() {
 
 //Recreate the table using Pokemon in the Kanto Dex
 function kantoDex() {
-    arrayCopy = [];
+    arrayCopy = kantoRegionalDex;
     var table = document.getElementById("shiny");
     while(table.rows.length > 1) {
         table.deleteRow(1);
     }
-    for(var i = 0; i < 151; i++) {
-        arrayCopy[i] = jQuery.extend(true, {}, pokemonArray[i]);
-    }
+    sortByKanto();
     mode = "Kanto";
     createTable();
     data();
@@ -400,7 +398,7 @@ function methodTable() {
     }
     
     
-    methodArray[0] = new method("SOS Chain", "1/683 (@70)", sosChain, Math.round(sosSum/sosChain));
+    methodArray[0] = new method("SOS Chain", "1/273 (@30)", sosChain, Math.round(sosSum/sosChain));
     methodArray[1] = new method("Breeding", "1/512", breeding, Math.round(breedSum/breeding));
     methodArray[2] = new method("Friend Safari", "1/512", friendSafari,  Math.round(safariSum/friendSafari));
     methodArray[3] = new method("Hordes", "1/273", hordes, Math.round(hordeSum/hordes));
@@ -550,6 +548,15 @@ function sortByNumber() {
         }
     }
     updateTable();
+}
+function sortByKanto() {
+    for(var i = 0; i < arrayCopy.length; i++) {
+        for(var j = 0; j < arrayCopy.length-1-i; j++) {
+            if(arrayCopy[j].kanto > arrayCopy[j+1].kanto) {
+                swap(j, j+1);
+            }
+        }
+    }
 }
 function sortByJohto() {
     for(var i = 0; i < arrayCopy.length; i++) {
