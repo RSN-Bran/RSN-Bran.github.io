@@ -1740,10 +1740,10 @@ pokemonArray[95] = {
 	"gif": "Shiny/drowzee.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Nappybara",
+	"method": "Friend Safari",
+	"order": 330,
+	"attempts": 3004
 }
 pokemonArray[96] = {
 	"name": "Hypno",
