@@ -9300,10 +9300,10 @@ pokemonArray[515] = {
 	"gif": "Shiny/simipour.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Mike",
+	"method": "Friend Safari",
+	"order": 331,
+	"attempts": 596
 }
 pokemonArray[516] = {
 	"name": "Munna",
