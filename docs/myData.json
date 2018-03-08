@@ -5502,10 +5502,10 @@ pokemonArray[304] = {
 	"gif": "Shiny/lairon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Liaron",
+	"method": "Hordes",
+	"order": 333,
+	"attempts": 438
 }
 pokemonArray[305] = {
 	"name": "Aggron",
@@ -14304,10 +14304,10 @@ pokemonArray[793] = {
 	"gif": "Shiny/buzzwole.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Lightyear",
+	"method": "Soft-Reset",
+	"order": 332,
+	"attempts": 2276
 }
 pokemonArray[794] = {
 	"name": "Pheromosa",
