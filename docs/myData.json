@@ -1560,10 +1560,10 @@ pokemonArray[85] = {
 	"gif": "Shiny/seel.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Wallrus",
+	"method": "SOS Chain",
+	"order": 334,
+	"attempts": 90
 }
 pokemonArray[86] = {
 	"name": "Dewgong",
