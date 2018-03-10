@@ -3684,10 +3684,10 @@ pokemonArray[203] = {
 	"gif": "Shiny/pineco.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Pineapple",
+	"method": "SOS Chain",
+	"order": 335,
+	"attempts": 54
 }
 pokemonArray[204] = {
 	"name": "Forretress",
