@@ -2640,10 +2640,10 @@ pokemonArray[145] = {
 	"gif": "Shiny/moltres.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Fire Chicken",
+	"method": "Soft-Reset",
+	"order": 335,
+	"attempts": 889
 }
 pokemonArray[146] = {
 	"name": "Dratini",
@@ -12414,10 +12414,10 @@ pokemonArray[688] = {
 	"gif": "Shiny/barbaracle.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Barnacle Boy",
+	"method": "Wormhole",
+	"order": 336,
+	"attempts": 12
 }
 pokemonArray[689] = {
 	"name": "Skrelp",
