@@ -14106,10 +14106,10 @@ pokemonArray[782] = {
 	"gif": "Shiny/hakamo-o.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Scallie",
+	"method": "SOS Chain",
+	"order": 337,
+	"attempts": 51
 }
 pokemonArray[783] = {
 	"name": "Kommo-o",
