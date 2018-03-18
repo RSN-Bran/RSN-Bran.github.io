@@ -1560,10 +1560,10 @@ pokemonArray[85] = {
 	"gif": "Shiny/seel.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Wallrus",
+	"method": "SOS Chain",
+	"order": 334,
+	"attempts": 90
 }
 pokemonArray[86] = {
 	"name": "Dewgong",
@@ -1740,10 +1740,10 @@ pokemonArray[95] = {
 	"gif": "Shiny/drowzee.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Nappybara",
+	"method": "Friend Safari",
+	"order": 330,
+	"attempts": 3004
 }
 pokemonArray[96] = {
 	"name": "Hypno",
@@ -2234,7 +2234,7 @@ pokemonArray[122] = {
 pokemonArray[123] = {
 	"name": "Jynx",
 	"number": "124",
-	"kanto":  "124",,
+	"kanto":  "124",
 	"johto": "155",
 	"hoenn": undefined,
 	"sinnoh": undefined,
@@ -2640,10 +2640,10 @@ pokemonArray[145] = {
 	"gif": "Shiny/moltres.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Fire Chicken",
+	"method": "Soft-Reset",
+	"order": 335,
+	"attempts": 889
 }
 pokemonArray[146] = {
 	"name": "Dratini",
@@ -3684,10 +3684,10 @@ pokemonArray[203] = {
 	"gif": "Shiny/pineco.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Pineapple",
+	"method": "SOS Chain",
+	"order": 335,
+	"attempts": 54
 }
 pokemonArray[204] = {
 	"name": "Forretress",
@@ -4116,10 +4116,10 @@ pokemonArray[227] = {
 	"gif": "Shiny/houndour.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Hotdog",
+	"method": "PokeRadar",
+	"order": 324,
+	"attempts": 41
 }
 pokemonArray[228] = {
 	"name": "Houndoom",
@@ -4134,10 +4134,10 @@ pokemonArray[228] = {
 	"gif": "Shiny/houndoom.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Cerberus",
+	"method": "PokeRadar",
+	"order": 325,
+	"attempts": 42
 }
 pokemonArray[229] = {
 	"name": "Kingdra",
@@ -5502,10 +5502,10 @@ pokemonArray[304] = {
 	"gif": "Shiny/lairon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Liaron",
+	"method": "Hordes",
+	"order": 333,
+	"attempts": 438
 }
 pokemonArray[305] = {
 	"name": "Aggron",
@@ -6456,10 +6456,10 @@ pokemonArray[357] = {
 	"gif": "Shiny/chimecho.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Dong",
+	"method": "PokeRadar",
+	"order": 327,
+	"attempts": 43
 }
 pokemonArray[358] = {
 	"name": "Absol",
@@ -6690,10 +6690,10 @@ pokemonArray[370] = {
 	"gif": "Shiny/bagon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Greenbean",
+	"method": "SOS Chain",
+	"order": 339,
+	"attempts": 148
 }
 pokemonArray[371] = {
 	"name": "Shelgon",
@@ -6906,10 +6906,10 @@ pokemonArray[382] = {
 	"gif": "Shiny/groudon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Dirt Man",
+	"method": "Soft-Reset",
+	"order": 322,
+	"attempts": 1581
 }
 pokemonArray[383] = {
 	"name": "Rayquaza",
@@ -7806,10 +7806,10 @@ pokemonArray[432] = {
 	"gif": "Shiny/chingling.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Ding",
+	"method": "PokeRadar",
+	"order": 326,
+	"attempts": 42
 }
 pokemonArray[433] = {
 	"name": "Stunky",
@@ -8778,10 +8778,10 @@ pokemonArray[486] = {
 	"gif": "Shiny/giratina.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Obsidian",
+	"method": "Soft-Reset",
+	"order": 338,
+	"attempts": 322
 }
 pokemonArray[487] = {
 	"name": "Cresselia",
@@ -9300,10 +9300,10 @@ pokemonArray[515] = {
 	"gif": "Shiny/simipour.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Mike",
+	"method": "Friend Safari",
+	"order": 331,
+	"attempts": 596
 }
 pokemonArray[516] = {
 	"name": "Munna",
@@ -11064,10 +11064,10 @@ pokemonArray[613] = {
 	"gif": "Shiny/beartic.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Klondike",
+	"method": "Hordes",
+	"order": 329,
+	"attempts": 1051
 }
 pokemonArray[614] = {
 	"name": "Cryogonal",
@@ -11550,10 +11550,10 @@ pokemonArray[640] = {
 	"gif": "Shiny/tornadus.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Torna",
+	"method": "Soft-Reset",
+	"order": 328,
+	"attempts": 292
 }
 pokemonArray[641] = {
 	"name": "Thundurus",
@@ -12414,10 +12414,10 @@ pokemonArray[688] = {
 	"gif": "Shiny/barbaracle.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Barnacle Boy",
+	"method": "Wormhole",
+	"order": 336,
+	"attempts": 12
 }
 pokemonArray[689] = {
 	"name": "Skrelp",
@@ -12898,12 +12898,12 @@ pokemonArray[715] = {
 	"kalos": "Mountain: 148",
 	"alola": undefined,
 	"gif": "Shiny/xerneas.gif",
-	"size": "100%",
+	"size": "15%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Colgate",
+	"method": "Soft-Reset",
+	"order": 323,
+	"attempts": 41
 }
 pokemonArray[716] = {
 	"name": "Yveltal",
@@ -14106,10 +14106,10 @@ pokemonArray[782] = {
 	"gif": "Shiny/hakamo-o.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Scallie",
+	"method": "SOS Chain",
+	"order": 337,
+	"attempts": 51
 }
 pokemonArray[783] = {
 	"name": "Kommo-o",
@@ -14304,10 +14304,10 @@ pokemonArray[793] = {
 	"gif": "Shiny/buzzwole.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Lightyear",
+	"method": "Soft-Reset",
+	"order": 332,
+	"attempts": 2276
 }
 pokemonArray[794] = {
 	"name": "Pheromosa",
