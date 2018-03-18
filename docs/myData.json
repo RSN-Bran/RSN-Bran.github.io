@@ -3666,10 +3666,10 @@ pokemonArray[202] = {
 	"gif": "Shiny/girafarig.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Obsidian",
+	"method": "Soft-Reset",
+	"order": 338,
+	"attempts": 322
 }
 pokemonArray[203] = {
 	"name": "Pineco",
