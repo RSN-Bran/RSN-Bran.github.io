@@ -6690,10 +6690,10 @@ pokemonArray[370] = {
 	"gif": "Shiny/bagon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Greenbean",
+	"method": "SOS Chain",
+	"order": 339,
+	"attempts": 148
 }
 pokemonArray[371] = {
 	"name": "Shelgon",
