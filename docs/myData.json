@@ -2658,10 +2658,10 @@ pokemonArray[146] = {
 	"gif": "Shiny/dratini.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Noodle",
+	"method": "SOS Chain",
+	"order": 340,
+	"attempts": 655
 }
 pokemonArray[147] = {
 	"name": "Dragonair",
