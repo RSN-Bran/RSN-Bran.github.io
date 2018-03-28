@@ -1092,10 +1092,10 @@ pokemonArray[59] = {
 	"gif": "Shiny/poliwag.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Uzumaki,
+	"method": "Chain Fishing",
+	"order": 341,
+	"attempts": 115
 }
 pokemonArray[60] = {
 	"name": "Poliwhirl",
