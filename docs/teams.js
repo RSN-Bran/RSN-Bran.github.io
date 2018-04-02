@@ -509,7 +509,7 @@ var teamArray = [
         "pokemon": [
             {
                 "species": "Decidueye",
-                "image": "teamPokemon/Decidueye.gif"
+                "image": "teamPokemon/decidueye.gif"
             },
             {
                 "species": "Vikavolt",
