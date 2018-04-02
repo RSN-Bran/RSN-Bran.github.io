@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <script defer src="entries.js"> </script>
+        <script src="pokedex.js"></script>
+		<title>Shiny Living Dex</title>
+        
+        <link rel = "icon" href = "Shiny/shinyCharm.png">
+	</head>
+    
+    <body style="background-color:lightblue;">
+         <h1 align = "center" class = "head"><img src = "Shiny/shinyCharm.png" style = "width: 50px; height: 50px;"><img src = "Living%20Dex.png" style = "width: 300px; height: 50px;"><img src = "Shiny/shinyCharm.png" class = "mirror" style = "width: 50px; height: 50px;"></h1>
+        
+        <!--COMMENT START
+        <input id = "Save" type = "button" value = "Save!" onclick = "saveTable();"/>
+        <input id = "Load" type = "button" value = "Load!" onclick = "loadTable();"/>
+        
+        <h3>New Entry</h3>
+        <input type="text" id="identifier">Enter Name or Number<br>
+        <input type="text" id="nickname">Enter Nickname<br>
+        <input type="text" id="method">Enter Method<br>
+        <input type="text" id="order">Enter Order<br>
+        <input type="text" id="attempts">Enter Number of Attempts<br>
+        <button id="submitNew" onclick="newEntry()">Submit</button><br>
+        
+        <h3>Delete Entry</h3>
+        <input type = "text" id = "identifierDelete"> Enter Name or Number<br>
+        <button id="submitDelete" onclick="deleteEntry()">Submit</button><br>
+        COMMENT END-->
+        
+        
+        <p align = "center" class = "text">This is my site used to track progress on my Living Shiny Dex. A Living Dex is a complete collection of every Pokemon separately. Naturally a Living Shiny Dex is doing so but getting all of them Shiny. I've been collecting since April 2016, and the Pokemon are generally named by my friends. You can use the buttons below to explore different options showing data and display options for the collction.</p>
+        <br>
+        <div class = "wrapper">
+            <button type="button" class="collapser" data-toggle="collapse" data-target="#MethodCollapse">Methods</button>
+        </div>
+        <div id="MethodCollapse" class="collapse">
+            <p align = "center" class = "text">This is the method table. In Shiny hunting, there are many different ways to increase your odds of finding a shiny, known as methods. This table shows the list of methods. For each method, the base odds of finding a shiny is listed, as well as the number of Pokemon I have found using this method. It also lists my average rate of success using that method. They are sorted in order of usage.</p>
+            <table align="center" style="margin: 0px auto;" id = "method">
+                <col width = 150px>
+                <col width = 100px>
+                <col width = 75px>
+                <col width = 75px>
+                <tr>
+                    <th>Method</th>
+                    <th>Odds</th>
+                    <th>Number</th>
+                    <th>Average</th>
+                </tr>
+            </table>
+        </div>
+        
+        <br>
+        <div class = "wrapper">
+            <button type="button" class="collapser" data-toggle="collapse" data-target="#PercentCollapse">Percentage Trackers</button>
+        </div>
+        <div id="PercentCollapse" class="collapse">
+            <p align = "center" class = "text">These are some percentage meters tracking my completion. The top meter shows the percentage I have found out of all total Pokemon. Note that at this time achieving a score of 100% is impossible as there are some Pokemon that can't be obtained as shiny. The other seven bars show my progress completion for each generation of Pokemon.</p>
+
+            <br>
+            
+            <div class = "total" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "natPercent" role="progressbar" style="width: 0%;">
+                            <div class = "totalPercent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class = "gen1" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent1" role="progressbar" style="width: 0%;">
+                            <div class = "gen1percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class = "gen2" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent2" role="progressbar" style="width: 0%;">
+                            <div class = "gen2percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class = "gen3" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent3" role="progressbar" style="width: 0%;">
+                            <div class = "gen3percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "gen4" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent4" role="progressbar" style="width: 0%;">
+                            <div class = "gen4percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "gen5" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent5" role="progressbar" style="width: 0%;">
+                            <div class = "gen5percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class = "gen6" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent6" role="progressbar" style="width: 0%;">
+                            <div class = "gen6percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "gen7" align = "center"></div>
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="progress">
+                        <div class="progress-bar" id = "Percent7" role="progressbar" style="width: 0%;">
+                            <div class = "gen7percent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <div class = "wrapper">
+            <button type="button" class="collapser" data-toggle="collapse" data-target="#SortCollapse">Sorting Options</button>
+        </div>
+        <div id="SortCollapse" class="collapse">
+            <p align = "center" class = "text">Here are some display options for sorting through the table below. The top black butons allow you to display either the national dex or any of the regional dexes from each region. The red buttons allow you to sort by the data. A black and a red option can be combined to further sort the table.</p>
+            <div class = "wrapper">
+            <input id = "National" type = "button" class = "Regions" value = "National Dex" onclick = "nationalDex();"/>
+            <input id = "Kanto" type = "button" class = "Regions" value = "Kanto Dex" onclick = "kantoDex();"/>
+            <input id = "Johto" type = "button" class = "Regions" value = "Johto Dex" onclick = "johtoDex();"/>
+            <input id = "Hoenn" type = "button" class = "Regions" value = "Hoenn Dex" onclick = "hoennDex();"/>
+            <input id = "Sinnoh" type = "button" class = "Regions" value = "Sinnoh Dex" onclick = "sinnohDex();"/>
+            <input id = "Unova" type = "button" class = "Regions" value = "Unova Dex" onclick = "unovaDex();"/>
+            <input id = "Kalos" type = "button" class = "Regions" value = "Kalos Dex" onclick = "kalosDex();"/>
+            <input id = "Alola" type = "button" class = "Regions" value = "Alola Dex" onclick = "alolaDex();"/>
+            <br>
+        
+            <br>
+            <input id = "num sort" type = "button" class = "Sorters" value = "Sort by Dex No." onclick = "sortByNumber();"/>
+            <input id = "name sort" type = "button" class = "Sorters" value = "Sort by Name" onclick = "sortByName();"/>
+            <input id = "nick sort" type = "button" class = "Sorters" value = "Sort by Nickname" onclick = "sortByNickname();"/>
+            <br>
+            <input id = "method sort" type = "button" class = "Sorters" value = "Sort by Method" onclick = "sortByMethod();"/>
+            <input id = "order sort" type = "button" class = "Sorters" value = "Sort by Order Obtained" onclick = "sortByOrder();"/>
+            <input id = "Attempts sort" type = "button" class = "Sorters" value = "Sort by Number of Attempts" onclick = "sortByAttempts();"/>
+            </div>
+            <br>
+        </div>
+        
+        <h4 align = "center">Shiny Table</h4>
+        <div class = "mode" text-align = "center"></div>
+        
+        <table class = "fixed_head" align="center" style="margin: 0px auto;" id = "shiny">
+            <col width = "40px">
+            <col width = "20px">
+            <col width = "100px">
+            <col width = "100px">
+            <col width = "100px">
+            <col width = "70px">
+            <col width = "70px">
+            <col width = "200px">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>✓</th>
+                    <th>Name</th>
+                    <th>Nickname</th>
+                    <th>Method</th>
+                    <th>Order</th>
+                    <th>Attempts</th>
+                    <th>.gif</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </body>
+    Brandon Sultana 2017-2018
+</html>
