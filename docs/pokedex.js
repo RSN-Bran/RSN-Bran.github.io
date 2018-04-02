@@ -1,34 +1,17 @@
-function pokemon(number, check, name, nickname, method, order, attempts, gif, johto, hoenn, sinnoh, unova, kalos, alola) {
-    this.number = number;
-    this.check = check;
-    this.name = name;
-    this.nickname = nickname;
-    this.method = method;
-    this.order = order;
-    this.attempts = attempts;
-    this.gif = gif;
-    this.johto = johto;
-    this.hoenn = hoenn;
-    this.sinnoh = sinnoh;
-    this.unova = unova;
-    this.kalos = kalos;
-    this.alola = alola;
-}
-
 var pokemonArray = [];
 
 pokemonArray[0] = {
 	"name": "Bulbasaur",
 	"number": "001",
-    	"kanto": "001",
+    "kanto": "001",
 	"johto": "231",
 	"hoenn": undefined,
 	"sinnoh": undefined,
 	"unova": undefined,
 	"kalos": "Central: 080",
-    	"alola": undefined,
+    "alola": undefined,
 	"gif": "Shiny/bulbasaur.gif",
-    	"size": "100%",
+    "size": "100%",
 
 	"nickname": "Smitty",
 	"method": "Breeding",

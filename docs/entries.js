@@ -838,7 +838,7 @@ function main() {
 
 var methodArray = [];
 
-var arrayCopy = JSON.parse(JSON.stringify(pokemonArray))
+var arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
 
 var fullNationalDex = arrayCopy;
 var kantoRegionalDex = [];

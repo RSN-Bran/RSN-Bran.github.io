@@ -1,0 +1,28 @@
+.pokemon {
+    float:left;
+    position:relative;
+    border-style:solid;
+    height: 130px;
+}
+
+.dead {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+}
+
+.image {
+    float:left;
+}
+.teams {
+    float:left;
+    clear:left;
+}
+
+.species {
+    text-align:center;
+}
+
+.wishiwashi {
+   position: absolute;
+    bottom: 0;
+}
