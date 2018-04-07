@@ -10795,10 +10795,10 @@ pokemonArray[599] = {
 	"gif": "Shiny/klang.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Metal Gear",
+	"method": "Friend Safari",
+	"order": 343,
+	"attempts": 40
 }
 pokemonArray[600] = {
 	"name": "Klinklang",
