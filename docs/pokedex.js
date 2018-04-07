@@ -7591,10 +7591,10 @@ pokemonArray[421] = {
 	"gif": "Shiny/shellos.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Fruitcake",
+	"method": "DexNav",
+	"order": 342,
+	"attempts": 408
 }
 pokemonArray[422] = {
 	"name": "Gastrodon",
