@@ -1435,10 +1435,10 @@ pokemonArray[79] = {
 	"gif": "Shiny/slowbro.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Chad",
+	"method": "Hordes",
+	"order": 345,
+	"attempts": 34
 }
 pokemonArray[80] = {
 	"name": "Magnemite",
