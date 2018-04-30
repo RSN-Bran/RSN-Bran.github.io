@@ -7591,10 +7591,10 @@ pokemonArray[421] = {
 	"gif": "Shiny/shellos.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Fruitcake",
+	"method": "DexNav",
+	"order": 342,
+	"attempts": 408
 }
 pokemonArray[422] = {
 	"name": "Gastrodon",
@@ -10795,10 +10795,10 @@ pokemonArray[599] = {
 	"gif": "Shiny/klang.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Metal Gear",
+	"method": "Friend Safari",
+	"order": 343,
+	"attempts": 40
 }
 pokemonArray[600] = {
 	"name": "Klinklang",
