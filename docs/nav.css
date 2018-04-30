@@ -1,19 +1,18 @@
 #navBar {
     text-align:center;
     border-style:solid;
-    width:25%;
     background-color:gray;
-    display: flex;
-    flex-direction: row;
+    display: block;
     margin:0 auto;
+    line-height: 3em;
 
 }
 
 .link {
-    float:left;
+    float:;
     padding:20px;
     color:black;
-    
+    display: inline;
 }
 
 a {
