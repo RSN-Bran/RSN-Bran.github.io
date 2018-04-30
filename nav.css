@@ -1,0 +1,20 @@
+#navBar {
+    text-align:center;
+    border-style:solid;
+    background-color:gray;
+    display: block;
+    margin:0 auto;
+    line-height: 3em;
+
+}
+
+.link {
+    float:;
+    padding:20px;
+    color:black;
+    display: inline;
+}
+
+a {
+    color:black;
+}
