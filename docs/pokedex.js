@@ -6295,10 +6295,10 @@ pokemonArray[349] = {
 	"gif": "Shiny/milotic.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Nimue",
+	"method": "Chain Fishing",
+	"order": 346,
+	"attempts": 68
 }
 pokemonArray[350] = {
 	"name": "Castform",
