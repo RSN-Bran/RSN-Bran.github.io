@@ -9859,10 +9859,10 @@ pokemonArray[547] = {
 	"gif": "Shiny/petilil.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Fleur",
+	"method": "Friend Safari",
+	"order": 347,
+	"attempts": 135
 }
 pokemonArray[548] = {
 	"name": "Lilligant",
