@@ -6367,10 +6367,10 @@ pokemonArray[353] = {
 	"gif": "Shiny/banette.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Aerosmith",
+	"method": "Friend Safari",
+	"order": 348,
+	"attempts": 76
 }
 pokemonArray[354] = {
 	"name": "Duskull",
