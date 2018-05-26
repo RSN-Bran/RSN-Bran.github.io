@@ -11515,10 +11515,10 @@ pokemonArray[639] = {
 	"gif": "Shiny/virizion.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Aramis",
+	"method": "Soft-Reset",
+	"order": 349,
+	"attempts": 3525
 }
 pokemonArray[640] = {
 	"name": "Tornadus",
@@ -12199,10 +12199,10 @@ pokemonArray[677] = {
 	"gif": "Shiny/meowstic.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "PTSD",
+	"method": "Friend Safari",
+	"order": 348,
+	"attempts": 503
 }
 pokemonArray[678] = {
 	"name": "Honedge",
