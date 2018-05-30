@@ -1831,10 +1831,10 @@ pokemonArray[101] = {
 	"gif": "Shiny/exeggcute.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Nuggs",
+	"method": "SOS Chain",
+	"order": 350,
+	"attempts": 291
 }
 pokemonArray[102] = {
 	"name": "Exeggutor",
