@@ -12034,13 +12034,13 @@ pokemonArray[668] = {
 	"unova": undefined,
 	"kalos": "Central: 068",
 	"alola": "100",
-	"gif": "Shiny/flabebe.gif",
+	"gif": "Shiny/flabebe-yellow.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Daisy",
+	"method": "SOS Chain",
+	"order": 351,
+	"attempts": 63
 }
 pokemonArray[669] = {
 	"name": "Floette",
