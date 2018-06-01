@@ -13225,10 +13225,10 @@ pokemonArray[734] = {
 	"gif": "Shiny/gumshoos.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Gene",
+	"method": "SOS Chain",
+	"order": 352,
+	"attempts": 253
 }
 pokemonArray[735] = {
 	"name": "Grubbin",
