@@ -5809,10 +5809,10 @@ pokemonArray[322] = {
 	"gif": "Shiny/camerupt.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Charcoal",
+	"method": "Friend Safari",
+	"order": 353,
+	"attempts": 806
 }
 pokemonArray[323] = {
 	"name": "Torkoal",
