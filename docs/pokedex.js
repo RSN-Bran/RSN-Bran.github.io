@@ -1363,10 +1363,10 @@ pokemonArray[75] = {
 	"gif": "Shiny/golem.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Talus",
+	"method": "Hordes",
+	"order": 354,
+	"attempts": 26
 }
 pokemonArray[76] = {
 	"name": "Ponyta",
