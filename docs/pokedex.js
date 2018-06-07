@@ -7519,10 +7519,10 @@ pokemonArray[417] = {
 	"gif": "Shiny/buizel.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Baja Blast",
+	"method": "PokeRadar",
+	"order": 355,
+	"attempts": 30
 }
 pokemonArray[418] = {
 	"name": "Floatzel",
