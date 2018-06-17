@@ -5323,10 +5323,10 @@ pokemonArray[295] = {
 	"gif": "Shiny/makuhita.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Duller",
+	"method": "SOS Chain",
+	"order": 357,
+	"attempts": 598
 }
 pokemonArray[296] = {
 	"name": "Hariyama",
