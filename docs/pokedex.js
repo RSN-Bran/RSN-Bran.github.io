@@ -11911,10 +11911,10 @@ pokemonArray[661] = {
 	"gif": "Shiny/fletchinder.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Firework",
+	"method": "Friend Safari",
+	"order": 359,
+	"attempts": 71
 }
 pokemonArray[662] = {
 	"name": "Talonflame",
