@@ -5503,10 +5503,10 @@ pokemonArray[305] = {
 	"gif": "Shiny/aggron.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Cobalt",
+	"method": "Hordes",
+	"order": 360,
+	"attempts": 1537
 }
 pokemonArray[306] = {
 	"name": "Meditite",
