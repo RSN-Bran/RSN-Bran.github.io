@@ -6043,10 +6043,10 @@ pokemonArray[335] = {
 	"gif": "Shiny/seviper.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Severus",
+	"method": "Friend Safari",
+	"order": 364,
+	"attempts": 231
 }
 pokemonArray[336] = {
 	"name": "Lunatone",
