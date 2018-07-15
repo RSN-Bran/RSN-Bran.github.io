@@ -879,7 +879,7 @@ pokemonArray[48] = {
 
 	"nickname": "ATV",
 	"method": "Friend Safari",
-	"order": 305,
+	"order": 306,
 	"attempts": 18
 }
 pokemonArray[49] = {
@@ -1077,7 +1077,7 @@ pokemonArray[59] = {
 
 	"nickname": "Uzumaki",
 	"method": "Chain Fishing",
-	"order": 341,
+	"order": 343,
 	"attempts": 115
 }
 pokemonArray[60] = {
@@ -1365,7 +1365,7 @@ pokemonArray[75] = {
 
 	"nickname": "Talus",
 	"method": "Hordes",
-	"order": 354,
+	"order": 357,
 	"attempts": 26
 }
 pokemonArray[76] = {
@@ -1437,7 +1437,7 @@ pokemonArray[79] = {
 
 	"nickname": "Chad",
 	"method": "Hordes",
-	"order": 345,
+	"order": 347,
 	"attempts": 34
 }
 pokemonArray[80] = {
@@ -1545,7 +1545,7 @@ pokemonArray[85] = {
 
 	"nickname": "Wallrus",
 	"method": "SOS Chain",
-	"order": 334,
+	"order": 335,
 	"attempts": 90
 }
 pokemonArray[86] = {
@@ -1725,7 +1725,7 @@ pokemonArray[95] = {
 
 	"nickname": "Nappybara",
 	"method": "Friend Safari",
-	"order": 330,
+	"order": 331,
 	"attempts": 3004
 }
 pokemonArray[96] = {
@@ -1833,7 +1833,7 @@ pokemonArray[101] = {
 
 	"nickname": "Nuggs",
 	"method": "SOS Chain",
-	"order": 350,
+	"order": 353,
 	"attempts": 291
 }
 pokemonArray[102] = {
@@ -2211,7 +2211,7 @@ pokemonArray[122] = {
 
 	"nickname": "Snip-Its",
 	"method": "Pokeradar",
-	"order": 318,
+	"order": 319,
 	"attempts": 41
 }
 pokemonArray[123] = {
@@ -2589,7 +2589,7 @@ pokemonArray[143] = {
 
 	"nickname": "Frieza",
 	"method": "Soft-Reset",
-	"order": 306,
+	"order": 307,
 	"attempts": 963
 }
 pokemonArray[144] = {
@@ -2607,7 +2607,7 @@ pokemonArray[144] = {
 
 	"nickname": "Battery Jesus",
 	"method": "Soft-Reset",
-	"order": 311,
+	"order": 312,
 	"attempts": 485
 }
 pokemonArray[145] = {
@@ -2625,7 +2625,7 @@ pokemonArray[145] = {
 
 	"nickname": "Fire Chicken",
 	"method": "Soft-Reset",
-	"order": 335,
+	"order": 337,
 	"attempts": 889
 }
 pokemonArray[146] = {
@@ -2643,7 +2643,7 @@ pokemonArray[146] = {
 
 	"nickname": "Noodle",
 	"method": "SOS Chain",
-	"order": 340,
+	"order": 342,
 	"attempts": 655
 }
 pokemonArray[147] = {
@@ -2697,7 +2697,7 @@ pokemonArray[149] = {
 
 	"nickname": "Mew, too",
 	"method": "Soft-Reset",
-	"order": 356,
+	"order": 359,
 	"attempts": 773
 }
 pokemonArray[150] = {
@@ -3669,7 +3669,7 @@ pokemonArray[203] = {
 
 	"nickname": "Pineapple",
 	"method": "SOS Chain",
-	"order": 335,
+	"order": 336,
 	"attempts": 54
 }
 pokemonArray[204] = {
@@ -3813,7 +3813,7 @@ pokemonArray[211] = {
 
 	"nickname": "Sneezor",
 	"method": "Pokeradar",
-	"order": 319,
+	"order": 320,
 	"attempts": 42
 }
 pokemonArray[212] = {
@@ -3939,7 +3939,7 @@ pokemonArray[218] = {
 
 	"nickname": "Volbono",
 	"method": "Friend Safari",
-	"order": 314,
+	"order": 315,
 	"attempts": 122
 }
 pokemonArray[219] = {
@@ -4101,7 +4101,7 @@ pokemonArray[227] = {
 
 	"nickname": "Hotdog",
 	"method": "PokeRadar",
-	"order": 324,
+	"order": 325,
 	"attempts": 41
 }
 pokemonArray[228] = {
@@ -4119,7 +4119,7 @@ pokemonArray[228] = {
 
 	"nickname": "Cerberus",
 	"method": "PokeRadar",
-	"order": 325,
+	"order": 326,
 	"attempts": 42
 }
 pokemonArray[229] = {
@@ -4425,7 +4425,7 @@ pokemonArray[245] = {
 
 	"nickname": "Larvitard",
 	"method": "SOS Chain",
-	"order": 308,
+	"order": 309,
 	"attempts": 312
 }
 pokemonArray[246] = {
@@ -5325,7 +5325,7 @@ pokemonArray[295] = {
 
 	"nickname": "Duller",
 	"method": "SOS Chain",
-	"order": 357,
+	"order": 360,
 	"attempts": 598
 }
 pokemonArray[296] = {
@@ -5451,7 +5451,7 @@ pokemonArray[302] = {
 
 	"nickname": "Klaptrap",
 	"method": "Friend Safari",
-	"order": 307,
+	"order": 308,
 	"attempts": 521
 }
 pokemonArray[303] = {
@@ -5469,7 +5469,7 @@ pokemonArray[303] = {
 
 	"nickname": "A-Aron",
 	"method": "Hordes",
-	"order": 317,
+	"order": 318,
 	"attempts": 245
 }
 pokemonArray[304] = {
@@ -5487,7 +5487,7 @@ pokemonArray[304] = {
 
 	"nickname": "Liaron",
 	"method": "Hordes",
-	"order": 333,
+	"order": 334,
 	"attempts": 438
 }
 pokemonArray[305] = {
@@ -5505,7 +5505,7 @@ pokemonArray[305] = {
 
 	"nickname": "Cobalt",
 	"method": "Hordes",
-	"order": 360,
+	"order": 363,
 	"attempts": 1537
 }
 pokemonArray[306] = {
@@ -5631,7 +5631,7 @@ pokemonArray[312] = {
 
 	"nickname": "Flyguy",
 	"method": "Friend Safari",
-	"order": 315,
+	"order": 316,
 	"attempts": 284
 }
 pokemonArray[313] = {
@@ -5811,7 +5811,7 @@ pokemonArray[322] = {
 
 	"nickname": "Charcoal",
 	"method": "Friend Safari",
-	"order": 353,
+	"order": 356,
 	"attempts": 806
 }
 pokemonArray[323] = {
@@ -6297,7 +6297,7 @@ pokemonArray[349] = {
 
 	"nickname": "Nimue",
 	"method": "Chain Fishing",
-	"order": 346,
+	"order": 348,
 	"attempts": 68
 }
 pokemonArray[350] = {
@@ -6369,7 +6369,7 @@ pokemonArray[353] = {
 
 	"nickname": "Aerosmith",
 	"method": "Friend Safari",
-	"order": 348,
+	"order": 350,
 	"attempts": 76
 }
 pokemonArray[354] = {
@@ -6441,7 +6441,7 @@ pokemonArray[357] = {
 
 	"nickname": "Dong",
 	"method": "PokeRadar",
-	"order": 327,
+	"order": 328,
 	"attempts": 43
 }
 pokemonArray[358] = {
@@ -6675,7 +6675,7 @@ pokemonArray[370] = {
 
 	"nickname": "Greenbean",
 	"method": "SOS Chain",
-	"order": 339,
+	"order": 341,
 	"attempts": 148
 }
 pokemonArray[371] = {
@@ -6891,7 +6891,7 @@ pokemonArray[382] = {
 
 	"nickname": "Dirt Man",
 	"method": "Soft-Reset",
-	"order": 322,
+	"order": 323,
 	"attempts": 1581
 }
 pokemonArray[383] = {
@@ -6909,7 +6909,7 @@ pokemonArray[383] = {
 
 	"nickname": "Nobunaga",
 	"method": "Soft-Reset",
-	"order": 309,
+	"order": 310,
 	"attempts": 32
 }
 pokemonArray[384] = {
@@ -7521,7 +7521,7 @@ pokemonArray[417] = {
 
 	"nickname": "Baja Blast",
 	"method": "PokeRadar",
-	"order": 355,
+	"order": 358,
 	"attempts": 30
 }
 pokemonArray[418] = {
@@ -7593,7 +7593,7 @@ pokemonArray[421] = {
 
 	"nickname": "Fruitcake",
 	"method": "DexNav",
-	"order": 342,
+	"order": 344,
 	"attempts": 408
 }
 pokemonArray[422] = {
@@ -7791,7 +7791,7 @@ pokemonArray[432] = {
 
 	"nickname": "Ding",
 	"method": "PokeRadar",
-	"order": 326,
+	"order": 327,
 	"attempts": 42
 }
 pokemonArray[433] = {
@@ -8637,7 +8637,7 @@ pokemonArray[479] = {
 
 	"nickname": "Knawledge",
 	"method": "Soft-Reset",
-	"order": 320,
+	"order": 321,
 	"attempts": 2934
 }
 pokemonArray[480] = {
@@ -8691,7 +8691,7 @@ pokemonArray[482] = {
 
 	"nickname": "Kronos",
 	"method": "Soft-Reset",
-	"order": 303,
+	"order": 304,
 	"attempts": 305
 }
 pokemonArray[483] = {
@@ -8763,7 +8763,7 @@ pokemonArray[486] = {
 
 	"nickname": "Obsidian",
 	"method": "Soft-Reset",
-	"order": 338,
+	"order": 340,
 	"attempts": 322
 }
 pokemonArray[487] = {
@@ -9015,7 +9015,7 @@ pokemonArray[500] = {
 
 	"nickname": "Ottawa",
 	"method": "Breeding",
-	"order": 313,
+	"order": 314,
 	"attempts": 533
 }
 pokemonArray[501] = {
@@ -9285,7 +9285,7 @@ pokemonArray[515] = {
 
 	"nickname": "Mike",
 	"method": "Friend Safari",
-	"order": 331,
+	"order": 332,
 	"attempts": 596
 }
 pokemonArray[516] = {
@@ -9861,7 +9861,7 @@ pokemonArray[547] = {
 
 	"nickname": "Fleur",
 	"method": "Friend Safari",
-	"order": 347,
+	"order": 349,
 	"attempts": 135
 }
 pokemonArray[548] = {
@@ -10293,7 +10293,7 @@ pokemonArray[571] = {
 
 	"nickname": "Swiffer",
 	"method": "Friend Safari",
-	"order": 321,
+	"order": 322,
 	"attempts": 1250
 }
 pokemonArray[572] = {
@@ -10329,7 +10329,7 @@ pokemonArray[573] = {
 
 	"nickname": "Babymetal",
 	"method": "DexNav",
-	"order": 316,
+	"order": 317,
 	"attempts": 101
 }
 pokemonArray[574] = {
@@ -10635,7 +10635,7 @@ pokemonArray[590] = {
 
 	"nickname": "1-Up Girl",
 	"method": "Hordes",
-	"order": 304,
+	"order": 305,
 	"attempts": 536
 }
 pokemonArray[591] = {
@@ -10797,7 +10797,7 @@ pokemonArray[599] = {
 
 	"nickname": "Metal Gear",
 	"method": "Friend Safari",
-	"order": 343,
+	"order": 345,
 	"attempts": 40
 }
 pokemonArray[600] = {
@@ -10887,7 +10887,7 @@ pokemonArray[604] = {
 
 	"nickname": "Martian Arts",
 	"method": "SOS Chain",
-	"order": 358,
+	"order": 361,
 	"attempts": 157
 }
 pokemonArray[605] = {
@@ -11049,7 +11049,7 @@ pokemonArray[613] = {
 
 	"nickname": "Klondike",
 	"method": "Hordes",
-	"order": 329,
+	"order": 330,
 	"attempts": 1051
 }
 pokemonArray[614] = {
@@ -11445,7 +11445,7 @@ pokemonArray[635] = {
 
 	"nickname": "Floofbug",
 	"method": "Friend Safari",
-	"order": 344,
+	"order": 346,
 	"attempts": 706
 }
 pokemonArray[636] = {
@@ -11499,7 +11499,7 @@ pokemonArray[638] = {
 
 	"nickname": "Porthos",
 	"method": "Soft-Reset",
-	"order": 312,
+	"order": 313,
 	"attempts": 251
 }
 pokemonArray[639] = {
@@ -11517,7 +11517,7 @@ pokemonArray[639] = {
 
 	"nickname": "Aramis",
 	"method": "Soft-Reset",
-	"order": 349,
+	"order": 352,
 	"attempts": 3525
 }
 pokemonArray[640] = {
@@ -11535,7 +11535,7 @@ pokemonArray[640] = {
 
 	"nickname": "Torna",
 	"method": "Soft-Reset",
-	"order": 328,
+	"order": 329,
 	"attempts": 292
 }
 pokemonArray[641] = {
@@ -11913,7 +11913,7 @@ pokemonArray[661] = {
 
 	"nickname": "Firework",
 	"method": "Friend Safari",
-	"order": 359,
+	"order": 362,
 	"attempts": 71
 }
 pokemonArray[662] = {
@@ -12039,7 +12039,7 @@ pokemonArray[668] = {
 
 	"nickname": "Daisy",
 	"method": "SOS Chain",
-	"order": 351,
+	"order": 354,
 	"attempts": 63
 }
 pokemonArray[669] = {
@@ -12201,7 +12201,7 @@ pokemonArray[677] = {
 
 	"nickname": "PTSD",
 	"method": "Friend Safari",
-	"order": 348,
+	"order": 351,
 	"attempts": 503
 }
 pokemonArray[678] = {
@@ -12399,7 +12399,7 @@ pokemonArray[688] = {
 
 	"nickname": "Barnacle Boy",
 	"method": "Wormhole",
-	"order": 336,
+	"order": 338,
 	"attempts": 12
 }
 pokemonArray[689] = {
@@ -12885,7 +12885,7 @@ pokemonArray[715] = {
 
 	"nickname": "Colgate",
 	"method": "Soft-Reset",
-	"order": 323,
+	"order": 324,
 	"attempts": 41
 }
 pokemonArray[716] = {
@@ -13227,7 +13227,7 @@ pokemonArray[734] = {
 
 	"nickname": "Gene",
 	"method": "SOS Chain",
-	"order": 352,
+	"order": 355,
 	"attempts": 253
 }
 pokemonArray[735] = {
@@ -14091,7 +14091,7 @@ pokemonArray[782] = {
 
 	"nickname": "Scallie",
 	"method": "SOS Chain",
-	"order": 337,
+	"order": 339,
 	"attempts": 51
 }
 pokemonArray[783] = {
@@ -14289,7 +14289,7 @@ pokemonArray[793] = {
 
 	"nickname": "Lightyear",
 	"method": "Soft-Reset",
-	"order": 332,
+	"order": 333,
 	"attempts": 2276
 }
 pokemonArray[794] = {
@@ -14325,7 +14325,7 @@ pokemonArray[795] = {
 
 	"nickname": "Xurkit Xity",
 	"method": "Soft-Reset",
-	"order": 310,
+	"order": 311,
 	"attempts": 233
 }
 pokemonArray[796] = {
@@ -14451,7 +14451,7 @@ pokemonArray[802] = {
 
 	"nickname": "Jimbo",
 	"method": "Gift Resets",
-	"order": 302,
+	"order": 303,
 	"attempts": 2094
 }
 pokemonArray[803] = {
