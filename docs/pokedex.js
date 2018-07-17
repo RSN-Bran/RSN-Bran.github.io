@@ -4837,10 +4837,10 @@ pokemonArray[268] = {
 	"gif": "Shiny/dustox.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Spore",
+	"method": "Friend Safari",
+	"order": 365,
+	"attempts": 290
 }
 pokemonArray[269] = {
 	"name": "Lotad",
