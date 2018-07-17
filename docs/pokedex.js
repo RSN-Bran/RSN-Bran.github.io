@@ -2119,10 +2119,10 @@ pokemonArray[117] = {
 	"gif": "Shiny/goldeen.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Pelton",
+	"method": "Chain Fishing",
+	"order": 366,
+	"attempts": 26
 }
 pokemonArray[118] = {
 	"name": "Seaking",
