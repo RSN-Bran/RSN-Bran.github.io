@@ -2335,10 +2335,10 @@ pokemonArray[129] = {
 	"gif": "Shiny/gyarados.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "GayRadDeuce",
+	"method": "Chain Fishing",
+	"order": 367,
+	"attempts": 15
 }
 pokemonArray[130] = {
 	"name": "Lapras",
