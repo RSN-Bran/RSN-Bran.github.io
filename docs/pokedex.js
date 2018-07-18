@@ -3901,10 +3901,10 @@ pokemonArray[216] = {
 	"gif": "Shiny/ursaring.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Bear Grylls",
+	"method": "Friend Safari",
+	"order": 368,
+	"attempts": 91
 }
 pokemonArray[217] = {
 	"name": "Slugma",
