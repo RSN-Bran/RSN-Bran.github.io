@@ -7627,10 +7627,10 @@ pokemonArray[423] = {
 	"gif": "Shiny/ambipom.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "MeeMee",
+	"method": "Friend Safari",
+	"order": 369,
+	"attempts": 450
 }
 pokemonArray[424] = {
 	"name": "Drifloon",
