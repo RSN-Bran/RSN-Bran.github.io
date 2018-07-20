@@ -11011,10 +11011,10 @@ pokemonArray[611] = {
 	"gif": "Shiny/haxorus.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Blaxorus",
+	"method": "Friend Safari",
+	"order": 370,
+	"attempts": 18
 }
 pokemonArray[612] = {
 	"name": "Cubchoo",
