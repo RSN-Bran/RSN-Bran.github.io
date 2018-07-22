@@ -73,34 +73,34 @@ th {
     position: relative;
 }
 
-#natPercent {
+#nationalBar {
     background-color: black;
 }
 
-#Percent1 {
+#gen1Bar {
     background-color: red;
 }
 
-#Percent2 {
+#gen2Bar {
     background-color: gold;
 }
 
-#Percent3 {
+#gen3Bar {
     background-color: green;
 }
 
-#Percent4 {
+#gen4Bar {
     background-color: blue;
 }
 
-#Percent5 {
+#gen5Bar {
     background-color: pink;
 }
 
-#Percent6 {
+#gen6Bar {
     background-color: silver;
 }
 
-#Percent7 {
+#gen7Bar {
     background-color: skyblue;
 }

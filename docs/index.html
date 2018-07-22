@@ -81,91 +81,91 @@
 
             <br>
             
-            <div class = "total" align = "center"></div>
+            <div class = "nationalText" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "natPercent" role="progressbar" style="width: 0%;">
-                            <div class = "totalPercent"></div>
+                        <div class="progress-bar" id = "nationalBar" role="progressbar" style="width: 0%;">
+                            <div class = "nationalBarText"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
             
-            <div class = "gen1" align = "center"></div>
+            <div class = "gen1Text" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "Percent1" role="progressbar" style="width: 0%;">
-                            <div class = "gen1percent"></div>
+                        <div class="progress-bar" id = "gen1Bar" role="progressbar" style="width: 0%;">
+                            <div class = "gen1BarText"></div>
                         </div>
                     </div>
                 </div>
             </div>
         
             
-            <div class = "gen2" align = "center"></div>
+            <div class = "gen2Text" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "Percent2" role="progressbar" style="width: 0%;">
-                            <div class = "gen2percent"></div>
+                        <div class="progress-bar" id = "gen2Bar" role="progressbar" style="width: 0%;">
+                            <div class = "gen2BarText"></div>
                         </div>
                     </div>
                 </div>
             </div>
     
-            <div class = "gen3" align = "center"></div>
+            <div class = "gen3Text" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "Percent3" role="progressbar" style="width: 0%;">
-                            <div class = "gen3percent"></div>
+                        <div class="progress-bar" id = "gen3Bar" role="progressbar" style="width: 0%;">
+                            <div class = "gen3BarText"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class = "gen4" align = "center"></div>
+            <div class = "gen4Text" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "Percent4" role="progressbar" style="width: 0%;">
-                            <div class = "gen4percent"></div>
+                        <div class="progress-bar" id = "gen4Bar" role="progressbar" style="width: 0%;">
+                            <div class = "gen4BarText"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class = "gen5" align = "center"></div>
+            <div class = "gen5Text" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "Percent5" role="progressbar" style="width: 0%;">
-                            <div class = "gen5percent"></div>
+                        <div class="progress-bar" id = "gen5Bar" role="progressbar" style="width: 0%;">
+                            <div class = "gen5BarText"></div>
                         </div>
                     </div>
                 </div>
             </div>
     
-            <div class = "gen6" align = "center"></div>
+            <div class = "gen6Text" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "Percent6" role="progressbar" style="width: 0%;">
-                            <div class = "gen6percent"></div>
+                        <div class="progress-bar" id = "gen6Bar" role="progressbar" style="width: 0%;">
+                            <div class = "gen6BarText"></div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class = "gen7" align = "center"></div>
+            <div class = "gen7Text" align = "center"></div>
             <div class="col-md-12">
                 <div class="container">
                     <div class="progress">
-                        <div class="progress-bar" id = "Percent7" role="progressbar" style="width: 0%;">
-                            <div class = "gen7percent"></div>
+                        <div class="progress-bar" id = "gen7Bar" role="progressbar" style="width: 0%;">
+                            <div class = "gen7BarText"></div>
                         </div>
                     </div>
                 </div>
@@ -179,24 +179,24 @@
         <div id="SortCollapse" class="collapse">
             <p align = "center" class = "text">Here are some display options for sorting through the table below. The top black butons allow you to display either the national dex or any of the regional dexes from each region. The red buttons allow you to sort by the data. A black and a red option can be combined to further sort the table.</p>
             <div class = "wrapper">
-            <input id = "National" type = "button" class = "Regions" value = "National Dex" onclick = "nationalDex();"/>
-            <input id = "Kanto" type = "button" class = "Regions" value = "Kanto Dex" onclick = "kantoDex();"/>
-            <input id = "Johto" type = "button" class = "Regions" value = "Johto Dex" onclick = "johtoDex();"/>
-            <input id = "Hoenn" type = "button" class = "Regions" value = "Hoenn Dex" onclick = "hoennDex();"/>
-            <input id = "Sinnoh" type = "button" class = "Regions" value = "Sinnoh Dex" onclick = "sinnohDex();"/>
-            <input id = "Unova" type = "button" class = "Regions" value = "Unova Dex" onclick = "unovaDex();"/>
-            <input id = "Kalos" type = "button" class = "Regions" value = "Kalos Dex" onclick = "kalosDex();"/>
-            <input id = "Alola" type = "button" class = "Regions" value = "Alola Dex" onclick = "alolaDex();"/>
+            <input id = "National" type = "button" class = "Regions" value = "National Dex" onclick = "displayNewDex(0);"/>
+            <input id = "Kanto" type = "button" class = "Regions" value = "Kanto Dex" onclick = "displayNewDex(1);"/>
+            <input id = "Johto" type = "button" class = "Regions" value = "Johto Dex" onclick = "displayNewDex(2);"/>
+            <input id = "Hoenn" type = "button" class = "Regions" value = "Hoenn Dex" onclick = "displayNewDex(3);"/>
+            <input id = "Sinnoh" type = "button" class = "Regions" value = "Sinnoh Dex" onclick = "displayNewDex(4);"/>
+            <input id = "Unova" type = "button" class = "Regions" value = "Unova Dex" onclick = "displayNewDex(5);"/>
+            <input id = "Kalos" type = "button" class = "Regions" value = "Kalos Dex" onclick = "displayNewDex(6);"/>
+            <input id = "Alola" type = "button" class = "Regions" value = "Alola Dex" onclick = "displayNewDex(7);"/>
             <br>
         
             <br>
-            <input id = "num sort" type = "button" class = "Sorters" value = "Sort by Dex No." onclick = "sortByNumber();"/>
-            <input id = "name sort" type = "button" class = "Sorters" value = "Sort by Name" onclick = "sortByName();"/>
-            <input id = "nick sort" type = "button" class = "Sorters" value = "Sort by Nickname" onclick = "sortByNickname();"/>
+            <input id = "num sort" type = "button" class = "Sorters" value = "Sort by Dex No." onclick = "sortDexByParameter();"/>
+            <input id = "name sort" type = "button" class = "Sorters" value = "Sort by Name" onclick = "sortDexByParameter('name');"/>
+            <input id = "nick sort" type = "button" class = "Sorters" value = "Sort by Nickname" onclick = "sortDexByParameter('nickname');"/>
             <br>
-            <input id = "method sort" type = "button" class = "Sorters" value = "Sort by Method" onclick = "sortByMethod();"/>
-            <input id = "order sort" type = "button" class = "Sorters" value = "Sort by Order Obtained" onclick = "sortByOrder();"/>
-            <input id = "Attempts sort" type = "button" class = "Sorters" value = "Sort by Number of Attempts" onclick = "sortByAttempts();"/>
+            <input id = "method sort" type = "button" class = "Sorters" value = "Sort by Method" onclick = "sortDexByParameter('method');"/>
+            <input id = "order sort" type = "button" class = "Sorters" value = "Sort by Order Obtained" onclick = "sortDexByParameter('order');"/>
+            <input id = "Attempts sort" type = "button" class = "Sorters" value = "Sort by Number of Attempts" onclick = "sortDexByParameter('attempts');"/>
             </div>
             <br>
         </div>

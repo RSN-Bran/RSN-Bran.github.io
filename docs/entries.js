@@ -1,856 +1,497 @@
+//Array that contains information for all dexes
+//Index 0 is the national dex, indexes 1-x are dexes for each generation's region
+var dexes = [
+    {
+        name:"National",
+        count:807,
+        nationalStart:1,
+        nationalEnd:807,
+        regionalDex:JSON.parse(JSON.stringify(pokemonArray)),
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"national",
+        generation: "Total"
+    },
+    {
+        name:"Kanto",
+        count: 151,
+        nationalStart:1,
+        nationalEnd:151,
+        regionalDex:[],
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"gen1",
+        generation: "Gen 1"
+    },
+    {
+        name:"Johto",
+        count: 100,
+        nationalStart:152,
+        nationalEnd:251,
+        regionalDex:[],
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"gen2",
+        generation: "Gen 2"
+    },
+    {
+        name:"Hoenn",
+        count: 135,
+        nationalStart:252,
+        nationalEnd:386,
+        regionalDex:[],
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"gen3",
+        generation: "Gen 3"
+    },
+    {
+        name:"Sinnoh",
+        count: 107,
+        nationalStart:387,
+        nationalEnd:493,
+        regionalDex:[],
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"gen4",
+        generation: "Gen 4"
+    },
+    {
+        name:"Unova",
+        count: 156,
+        nationalStart:494,
+        nationalEnd:649,
+        regionalDex:[],
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"gen5",
+        generation: "Gen 5"
+    },
+    {
+        name:"Kalos",
+        count: 72,
+        nationalStart:650,
+        nationalEnd:721,
+        regionalDex:[],
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"gen6",
+        generation: "Gen 6"
+        
+    },
+    {
+        name:"Alola",
+        count: 86,
+        nationalStart:722,
+        nationalEnd:807,
+        regionalDex:[],
+        
+        caught:0,
+        caughtPercent:0.00,
+        selector:"gen7",
+        generation: "Gen 7"
+    }
+    //ADD A NEW ENTRY HERE FOR EACH NEW GENERATION
+];
 
+//Array holding the modes the dex can be in. National or one of x regions
+var modes = ["National", "Kanto", "Johto", "Hoenn", "Sinnoh", "Unova", "Kalos", "Alola" /* ADD MORE REGIONS HERE IF NECESSARY*/];
 
-function method(name, odds, number, average) {
-    this.name = name;
-    this.odds = odds;
-    this.number = number;
-    this.average = average;
-}
+//Array that holds information for the various hunting methods available
+var methods = [
+    {
+        name:"Friend Safari",
+        odds:"1/512",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Hordes",
+        odds:"1/273",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Breeding",
+        odds:"1/512",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"SOS Chain",
+        odds:"1/273 (@30)",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Full Odds",
+        odds:"1/8192",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Soft-Reset",
+        odds:"1/1365",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"DexNav",
+        odds:"1/201",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Chain Fishing",
+        odds:"1/100 (@20)",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"PokeRadar",
+        odds:"1/200 (@40)",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Wormhole",
+        odds:"1/???",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Gift Resets",
+        odds:"1/4096",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+];
 
-function saveTable() {
-    var everything = "";
-    var y = 0;
-    var x = 0;
-    while(x < pokemonArray.length) {
-        if(y === 0) {
-            everything = everything + pokemonArray[x].number + "\t";
-            y++;
-        }
-        else if(y === 1) {
-            everything = everything + pokemonArray[x].check + "\t";
-            y++;
-        }
-        else if(y === 2) {
-            everything = everything + pokemonArray[x].name + "\t";
-            y++;
-        }
-        else if(y === 3) {
-            everything = everything + pokemonArray[x].nickname + "\t";
-            y++;
-        }
-        else if(y === 4) {
-            everything = everything + pokemonArray[x].method + "\t";
-            y++;
-        }
-        else if(y === 5) {
-            everything = everything + pokemonArray[x].order + "\t";
-            y++;
-        }
-        else if(y === 6) {
-            everything = everything + pokemonArray[x].attempts + "\t";
-            y++;
-        }
-        else if(y === 7) {
-            everything = everything + pokemonArray[x].gif + "\t";
-            y=0;
-            x++;
-        }
-    }
-    localStorage.setItem("Bran", everything);
-}
-function loadTable(){
-    fullTable = localStorage.getItem("Bran");
-    var array = fullTable.split('\t');
-    var y = 0;
-    var z = 0;
-    for(var x = 0; x < array.length && z < pokemonArray.length; x++) {
-        if(y === 0) {
-            pokemonArray[z].number = array[x];
-            y++;
-        }
-        else if(y === 1) {
-            pokemonArray[z].check = array[x];
-            y++;
-        }
-        else if(y === 2) {
-            pokemonArray[z].name = array[x];
-            y++;
-        }
-        else if(y === 3) {
-            pokemonArray[z].nickname = array[x];
-            y++;
-        }
-        else if(y === 4) {
-            pokemonArray[z].method = array[x];
-            y++;
-        }
-        else if(y === 5) {
-            pokemonArray[z].order = parseInt(array[x]);
-            y++;
-        }
-        else if(y === 6) {
-            pokemonArray[z].attempts = parseInt(array[x]);
-            y++;
-        }
-        else if(y === 7) {
-            pokemonArray[z].gif = array[x];
-            y=0;
-            z++;
-        }
-    }
-    updateTable();
-}
-function newEntry() {
-    for(var x = 0; x < pokemonArray.length; x++) {
-        if(document.getElementById('identifier').value === pokemonArray[x].name || document.getElementById('identifier').value === pokemonArray[x].number) {
-            pokemonArray[x].check = "✓";
-            pokemonArray[x].nickname = document.getElementById('nickname').value;
-            pokemonArray[x].method = document.getElementById('method').value;
-            pokemonArray[x].order = document.getElementById('order').value;
-            pokemonArray[x].attempts = parseInt(document.getElementById('attempts').value);
-            pokemonArray[x].gif = "Shiny/" + pokemonArray[x].name + ".gif";
-        }
-    }
-    document.getElementById('identifier').value = "";
-    document.getElementById('nickname').value = "";
-    document.getElementById('method').value = "";
-    document.getElementById('order').value = "";
-    document.getElementById('attempts').value = "";
-    updateTable();
-}
-function deleteEntry() {
-    for(var x = 0; x < pokemonArray.length; x++) {
-        if(document.getElementById('identifierDelete').value === pokemonArray[x].name || document.getElementById('identifierDelete').value === pokemonArray[x].number) {
-            pokemonArray[x].check = "";
-            pokemonArray[x].nickname = "";
-            pokemonArray[x].method = "";
-            pokemonArray[x].order = "";
-            pokemonArray[x].attempts = "";
-            pokemonArray[x].gif = "";
-            console.log(pokemonArray[x].nickname)
-        }
-    }
-    document.getElementById('identifierDelete').value = "";
-    updateTable();
-}
+//Set the current dex to national
+var currentDex = dexes[0].regionalDex;
+var currentMode = "National"
 
-//Generic function used by sorters to swap two elements in the array
-function swap(x, y) {
-    var temp = arrayCopy[x];
-    arrayCopy[x] = arrayCopy[y];
-    arrayCopy[y] = temp;
-}
+//Don't understand how this works
+//But it allows sorting based on a given parameter
+//https://stackoverflow.com/questions/8537602/any-way-to-extend-javascripts-array-sort-method-to-accept-another-parameter
+//LtoG - least to greatest
+//GtoL - greatest to least
+const propComparatorLtoG = (propName) =>
+    (a, b) => a[propName] == b[propName] ? 0 : a[propName] < b[propName] ? -1 : 1
 
-//Recreate table using all Pokemon in National Dex
-function nationalDex() {
-    arrayCopy = [];
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
-    }
-    arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
-    mode = "National"
-    createTable();
-    data();
-}
+const propComparatorGtoL = (propName) =>
+    (a, b) => a[propName] == b[propName] ? 0 : a[propName] > b[propName] ? -1 : 1
 
-//Recreate the table using Pokemon in the Kanto Dex
-function kantoDex() {
-    arrayCopy = kantoRegionalDex;
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
+function fillPercentBars() {
+    for(var i = 0; i < dexes.length; i++) {
+        
+        //Calculate the percent completion of the given dex
+        dexes[i].caughtPercent = ((dexes[i].caught/dexes[i].count)*100).toFixed(2);
+        
+        //Create a statement that shows how many pokemon of the dex have been caught. Display it above the percent bar
+        document.querySelector('.'+dexes[i].selector+'Text').innerHTML = dexes[i].generation + ": " + dexes[i].caught + "/" + dexes[i].count;
+        
+        //Create a statement that shows the percent completion of the dex. Display it in the bar
+        document.querySelector('.'+dexes[i].selector+'BarText').innerHTML = dexes[i].caughtPercent + "%";
+        
+        //Create the bar with a width equal to the percent completion of the dex
+        $('#'+dexes[i].selector+'Bar').css('width', dexes[i].caughtPercent + "%")
     }
-    sortByKanto();
-    mode = "Kanto";
-    createTable();
-    data();
-}
-//Recreate the table using Pokemon in the Johto Dex
-function johtoDex() {
-    arrayCopy = johtoRegionalDex;
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
-    }
-    sortByJohto();
-    mode = "Johto";
-    createTable();
-    data();
-}
-//Recreate the table using Pokemon in the Hoenn Dex
-function hoennDex() {
-    arrayCopy = hoennRegionalDex;
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
-    }
-    sortByHoenn();
-    mode = "Hoenn";
-    createTable();
-    data();
-}
-//Recreate the table using Pokemon in the Sinnoh Dex
-function sinnohDex() {
-    arrayCopy = sinnohRegionalDex;
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
-    }
-    sortBySinnoh();
-    mode = "Sinnoh";
-    createTable();
-    data();
-}
-//Recreate the table using Pokemon in the Unova Dex
-function unovaDex() {
-    arrayCopy = unovaRegionalDex;
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
-    }
-    sortByUnova();
-    mode = "Unova";
-    createTable(); 
-    data();
-}
-//Recreate the table using Pokemon in the Kalos Dex
-function kalosDex() {
-    arrayCopy = kalosRegionalDex;
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
-    }
-    sortByKalos();
-    mode = "Kalos";
-    createTable();   
-    data();
-}
-//Recreate the table using Pokemon in the Alola Dex
-function alolaDex() {
-    arrayCopy = alolaRegionalDex;
-    var table = document.getElementById("shiny");
-    while(table.rows.length > 1) {
-        table.deleteRow(1);
-    }
-    sortByAlola();
-    mode = "Alola";
-    createTable();  
-    data();
-}
 
-//Calculate values needed for the percentage bars
-function data() {
-    var caught = 0;
-    var gen1 = 0;
-    var gen2 = 0;
-    var gen3 = 0;
-    var gen4 = 0;
-    var gen5 = 0;
-    var gen6 = 0;
-    var gen7 = 0;
-    for(var x = 0; x < pokemonArray.length; x++) {
-        if(pokemonArray[x].attempts !== 0) {
-            caught++;
-            if(pokemonArray[x].number <= 151) {
-                gen1++;
-            }
-            else if(pokemonArray[x].number <= 251 && pokemonArray[x].number > 151) {
-                gen2++;
-            }
-            else if(pokemonArray[x].number <= 386 && pokemonArray[x].number > 251) {
-                gen3++;
-            }
-            else if(pokemonArray[x].number <= 493 && pokemonArray[x].number > 386) {
-                gen4++;
-            }
-            else if(pokemonArray[x].number <= 649 && pokemonArray[x].number > 493) {
-                gen5++;
-            }
-            else if(pokemonArray[x].number <= 721 && pokemonArray[x].number > 649) {
-                gen6++;
-            }
-            else{
-                gen7++;
-            }
-        }
-    }
-    
-    //Record Percentage values for progress bars
-    var nationalPercent = ((caught/802)*100).toFixed(2);
-    var gen1Percent = ((gen1/151)*100).toFixed(2);
-    var gen2Percent = ((gen2/100)*100).toFixed(2);
-    var gen3Percent = ((gen3/135)*100).toFixed(2)
-    var gen4Percent = ((gen4/107)*100).toFixed(2)
-    var gen5Percent = ((gen5/156)*100).toFixed(2)
-    var gen6Percent = ((gen6/72)*100).toFixed(2)
-    var gen7Percent = ((gen7/86)*100).toFixed(2)
-    
-    //Send Numerical values to be displayed
-    document.querySelector('.total').innerHTML = "Total: " + caught + "/807";
-    document.querySelector('.totalPercent').innerHTML = nationalPercent + "%";
-
-    document.querySelector('.gen1').innerHTML = "Gen 1: " + gen1 + "/151";
-    document.querySelector('.gen1percent').innerHTML = gen1Percent + "%";
-    
-    document.querySelector('.gen2').innerHTML = "Gen 2: " + gen2 + "/100";
-    document.querySelector('.gen2percent').innerHTML = gen2Percent + "%";
-    
-    document.querySelector('.gen3').innerHTML = "Gen 3: " + gen3 + "/135";
-    document.querySelector('.gen3percent').innerHTML =  gen3Percent + "%";
-    
-    document.querySelector('.gen4').innerHTML = "Gen 4: " + gen4 + "/107";
-    document.querySelector('.gen4percent').innerHTML =  gen4Percent + "%";
-    
-    document.querySelector('.gen5').innerHTML = "Gen 5: " + gen5 + "/156";
-    document.querySelector('.gen5percent').innerHTML = gen5Percent+ "%";
-    
-    document.querySelector('.gen6').innerHTML = "Gen 6: " + gen6 + "/72";
-    document.querySelector('.gen6percent').innerHTML = gen6Percent + "%";
-    
-    document.querySelector('.gen7').innerHTML = "Gen 7: " + gen7 + "/86";
-    document.querySelector('.gen7percent').innerHTML = gen7Percent + "%";
-    
-    //Overwrite Progress bar width with percentage values
-    $('#natPercent').css('width', nationalPercent + "%")
-    $('#Percent1').css('width', gen1Percent + "%")
-    $('#Percent2').css('width', gen2Percent + "%")
-    $('#Percent3').css('width', gen3Percent + "%")
-    $('#Percent4').css('width', gen4Percent + "%")
-    $('#Percent5').css('width', gen5Percent + "%")
-    $('#Percent6').css('width', gen6Percent + "%")
-    $('#Percent7').css('width', gen7Percent + "%")
     
     //Display the current mode
-    document.querySelector('.mode').innerHTML = "Mode: " + mode;
+    document.querySelector('.mode').innerHTML = "Mode: " + currentMode;
 }
 
-//Calculate data and create table for the method table
-function methodTable() {
-    var breeding = 0;
-    var breedSum = 0;
-    
-    var friendSafari = 0;
-    var safariSum = 0;
-    
-    var sosChain = 0;
-    var sosSum = 0;
-    
-    var hordes = 0;
-    var hordeSum = 0;
-    
-    var fullOdds = 0;
-    var fullSum = 0;
-    
-    var softReset = 0;
-    var resetSum = 0;
-    
-    var dexNav = 0;
-    var dexSum = 0;
-    
-    var chainFish = 0;
-    var fishSum = 0;
-    
-    var pokeRadar = 0;
-    var radarSum = 0;
-    
-    var wormhole = 0;
-    var wormholeSum = 0;
-    
-    var gift = 0;
-    var giftSum = 0;
-    
-    for(var i = 0; i < pokemonArray.length; i++) {
-        if(pokemonArray[i].method === "SOS Chain") {
-            sosChain++;
-            sosSum = sosSum + pokemonArray[i].attempts;
+function gatherData() {
+    //Check every pokemon from the pokedex.js file
+    for(var i = 0; i < currentDex.length; i++) {
+        
+        //rename the current pokemon being checked for ease
+        var currentPokemon = currentDex[i];
+        
+        //This Pokemon has a nickname, therefore it has been obtained
+        if(currentPokemon.nickname !== "") {
+            
+            //Always increment the total number caught
+            dexes[0].caught++
+            
+            //Check which gen it's from using its national dex and increment the according regional count
+            for(var j = 1; j < dexes.length; j++) {
+                if(currentPokemon.national >= dexes[j].nationalStart && currentPokemon.national <= dexes[j].nationalEnd) {
+                    dexes[j].caught++;
+                    break;
+                }
+            }
         }
-        else if(pokemonArray[i].method == "Breeding") {
-            breeding++;
-            breedSum = breedSum + pokemonArray[i].attempts;
+        //If the Pokemon is a part of this regional dex, add it to that array
+        if(currentPokemon.kanto !== undefined) {
+            dexes[1].regionalDex.push(currentPokemon);
         }
-        else if(pokemonArray[i].method == "Friend Safari") {
-            friendSafari++;
-            safariSum = safariSum + pokemonArray[i].attempts;
+        if(currentPokemon.johto !== undefined) {
+            dexes[2].regionalDex.push(currentPokemon);
         }
-        else if(pokemonArray[i].method == "Hordes") {
-            hordes++;
-            hordeSum = hordeSum + pokemonArray[i].attempts;
+        if(currentPokemon.hoenn !== undefined) {
+            dexes[3].regionalDex.push(currentPokemon);
         }
-        else if(pokemonArray[i].method == "Full Odds") {
-            fullOdds++;
-            fullSum = fullSum + pokemonArray[i].attempts;
+        if(currentPokemon.sinnoh !== undefined) {
+            dexes[4].regionalDex.push(currentPokemon);
         }
-        else if(pokemonArray[i].method == "Soft-Reset") {
-            softReset++;
-            resetSum = resetSum + pokemonArray[i].attempts;
+        if(currentPokemon.unova !== undefined) {
+            dexes[5].regionalDex.push(currentPokemon);
         }
-        else if(pokemonArray[i].method == "DexNav") {
-            dexNav++;
-            dexSum = dexSum + pokemonArray[i].attempts;
+        if(currentPokemon.kalos !== undefined) {
+            dexes[6].regionalDex.push(currentPokemon);
         }
-        else if(pokemonArray[i].method == "Chain Fishing") {
-            chainFish++;
-            fishSum = fishSum + pokemonArray[i].attempts;
+        if(currentPokemon.alola !== undefined) {
+            dexes[7].regionalDex.push(currentPokemon);
         }
-        else if(pokemonArray[i].method == "PokeRadar") {
-            pokeRadar++;
-            radarSum = radarSum + pokemonArray[i].attempts;
-        }
-        else if(pokemonArray[i].method == "Wormhole") {
-            wormhole++;
-            wormholeSum = wormholeSum + pokemonArray[i].attempts;
-        }
-        else if(pokemonArray[i].method == "Gift Resets") {
-            gift++;
-            giftSum = giftSum + pokemonArray[i].attempts;
+        
+        //Search through the methods to see which one the caught Pokemon matches with. Increment data accordingly
+        for(var j = 0; j < methods.length; j++) {
+            if(currentPokemon.method === methods[j].name) {
+                methods[j].count++;
+                methods[j].totalAttempts += currentPokemon.attempts;
+                break;
+            }
         }
     }
+}
+
+function fillMethodTable() {
     
+    //Sort the method array based on which method has the most use
+    methods.sort(propComparatorGtoL('count'));
     
-    methodArray[0] = new method("SOS Chain", "1/273 (@30)", sosChain, Math.round(sosSum/sosChain));
-    methodArray[1] = new method("Breeding", "1/512", breeding, Math.round(breedSum/breeding));
-    methodArray[2] = new method("Friend Safari", "1/512", friendSafari,  Math.round(safariSum/friendSafari));
-    methodArray[3] = new method("Hordes", "1/273", hordes, Math.round(hordeSum/hordes));
-    methodArray[4] = new method("Full Odds", "1/8192", fullOdds,  Math.round(fullSum/fullOdds));
-    methodArray[5] = new method("Soft-Reset", "1/1365", softReset,  Math.round(resetSum/softReset));
-    methodArray[6] = new method("DexNav", "1/201", dexNav,  Math.round(dexSum/dexNav));
-    methodArray[7] = new method("Chain Fishing", "1/100 (@20)", chainFish,  Math.round(fishSum/chainFish));
-    methodArray[8] = new method("PokeRadar", "1/200 (@40)", pokeRadar,  Math.round(radarSum/pokeRadar));
-    methodArray[9] = new method("Wormhole", "1/???", wormhole,  Math.round(wormholeSum/wormhole));
-    methodArray[10] = new method("Gift Resets", "1/4096", gift,  Math.round(giftSum/gift));
-    
-    sortMethods();
-    
+    //Get the table
     var table = document.getElementById("method");
-    for(var x = 0; x < methodArray.length; x++) {
-        var entry = methodArray[x];
+    
+    //For each method...
+    for(var i = 0; i < methods.length; i++) {
+        var entry = methods[i];
         var row = document.createElement('tr');
-        var properties = 4;
-        for(var y = 0; y < 4; y++) {
+        for(var j = 0; j < 4; j++) {
             var cell = document.createElement('td');
-            if(y === 0) {
+            
+            //Add corresponding info the various tiles
+            if(j === 0) {
                 cell.innerHTML = entry.name;
             }
-            else if(y === 1) {
+            else if(j === 1) {
                 cell.innerHTML = entry.odds;
             }
-            else if(y===2) {
-                cell.innerHTML = entry.number;
+            else if(j===2) {
+                cell.innerHTML = entry.count;
             }
-            else if(y === 3) {
+            
+            //Calculate the average
+            else if(j === 3) {
+                entry.average = Math.round(entry.totalAttempts/entry.count)
                 if(isNaN(entry.average)) {
                     entry.average = 0;
                 }
                 cell.innerHTML = entry.average;
             }
             cell.style.backgroundColor = "white";
+            
+            //Add the cell to the row
             row.appendChild(cell);
         }
+        //Add the row to the table
         table.appendChild(row);
     }
-    
-}
-function sortMethods() {
-    for(var i = 0; i < methodArray.length; i++) {
-        for(var j = 0; j < methodArray.length-1-i; j++) {
-            if(methodArray[j].number < methodArray[j+1].number) {
-                swapMethod(j, j+1);
-            }
-        }
-    }
-}
-function swapMethod(x, y) {
-    var temp = methodArray[x];
-    methodArray[x] = methodArray[y];
-    methodArray[y] = temp;
 }
 
-function createTable() {
+function createTable(addEmpty) {
+    
+    //Save the table
     var table = document.getElementById("shiny");
-    for(var x = 0; x < arrayCopy.length; x++) {
-        var entry = arrayCopy[x];
+    
+    //Empty the table to refill it
+    while(table.rows.length > 1) {
+        table.deleteRow(1);
+    }
+    
+    //Iterate through each Pokemon in the current Pokedex
+    for(var i = 0; i < currentDex.length; i++) {
+        
+        //Pokemon to be added to the table
+        var pokemonEntry = currentDex[i];
+        
+        //Row to hold the information about the current Pokemon
         var row = document.createElement('tr');
-        var properties = 8;
-        var gray = false;
-        if(entry.attempts !== 0) {
-            gray = true;
+
+        //Boolean representing if the Pokemon has been caught or not
+        var caught = false;
+        if(pokemonEntry.nickname !== "") {
+            caught = true;
         }
-        for(var y = 0; y < 8; y++) {
+        
+        //Filling in the six columns for the current Pokemon
+        for(var j = 0; j < 8; j++) {
+            
+            //Current cell being worked on
             var cell = document.createElement('td');
-            if(y === 0) {
-                if(mode == "Johto") {
-                    cell.innerHTML = entry.johto;
+            
+            //Cell 1: Shows the national/regional Pokedex number of the Pokemon
+            if(j === 0) {
+                if(currentMode === "National") {
+                    cell.innerHTML = pokemonEntry.national;
                 }
-                else if(mode == "Hoenn") {
-                    cell.innerHTML = entry.hoenn;
+                else if(currentMode === "Kanto") {
+                    cell.innerHTML = pokemonEntry.kanto;
                 }
-                else if(mode == "Sinnoh") {
-                    cell.innerHTML = entry.sinnoh;
+                else if(currentMode === "Johto") {
+                    cell.innerHTML = pokemonEntry.johto;
                 }
-                else if(mode == "Unova") {
-                    cell.innerHTML = entry.unova;
+                else if(currentMode === "Hoenn") {
+                    cell.innerHTML = pokemonEntry.hoenn;
                 }
-                else if(mode == "Kalos") {
-                    cell.innerHTML = entry.kalos;
+                else if(currentMode === "Sinnoh") {
+                    cell.innerHTML = pokemonEntry.sinnoh;
                 }
-                else if(mode == "Alola") {
-                    cell.innerHTML = entry.alola;
+                else if(currentMode === "Unova") {
+                    cell.innerHTML = pokemonEntry.unova;
+                }
+                else if(currentMode === "Kalos") {
+                    cell.innerHTML = pokemonEntry.kalos;
+                }
+                else if(currentMode === "Alola") {
+                    cell.innerHTML = pokemonEntry.alola;
                 }
                 else{
-                    cell.innerHTML = entry.number;
+                    cell.innerHTML = "Error";
                 }
             }
-            else if(y === 1) {
-                if(gray) {
+            
+            //Cell 2: Displays a Check mark based on if the Pokemon has been caught or not
+            else if(j === 1) {
+                if(caught) {
                     cell.innerHTML = "✓";
                 }
                 else {
                     cell.innerHTML = "";
                 }
             }
-            else if(y === 2) {
-                cell.innerHTML = entry.name;
+            
+            //Cell 3: Displays the Pokemon's name if it has one
+            else if(j === 2) {
+                cell.innerHTML = pokemonEntry.name;
             }
-            else if(y === 3) {
-                cell.innerHTML = entry.nickname;
+            
+            //Cell 4: Displays the Pokemon's Species
+            else if(j === 3) {
+                cell.innerHTML = pokemonEntry.nickname;
             }
-            else if(y === 4) {
-                cell.innerHTML = entry.method;
+            
+            //Cell 5: Displays the Pokemon's Nickname if it has one
+            else if(j === 4) {
+                cell.innerHTML = pokemonEntry.method;
             }
-            else if(y === 5) {
-                if(gray) {
-                    cell.innerHTML = entry.order;
+            
+            //Cell 6: Displays the Order the Pokemon was caught if it has one
+            else if(j === 5) {
+                if(caught) {
+                    cell.innerHTML = pokemonEntry.order;
                 }
             }
-            else if(y === 6) {
-                if(gray) {
-                    cell.innerHTML = entry.attempts;
+            
+            //Cell 7: Displays the Number of Attemps if the Pokemon has one
+            else if(j === 6) {
+                if(caught) {
+                    cell.innerHTML = pokemonEntry.attempts;
                 }
             }
+            
+            //Cell 8: Displays a gif of the Pokemon if it has been caught. Scales the image based on a size parameter of the Pokemon
             else {
-                if(gray) {
+                if(caught) {
                     var img = document.createElement('img');
-                    img.style.height = entry.size
-                    img.src = entry.gif;
+                    img.style.height = pokemonEntry.size
+                    img.src = pokemonEntry.gif;
                     cell.appendChild(img)
                 }
             }
-            if(gray) {
+            
+            //If the Pokemon has been caught, color the cell dark gray
+            if(caught) {
                 cell.style.backgroundColor = "darkgray";
             }
             else{
                 cell.style.backgroundColor = "white";
             }
             
+            //Add the cell to the row
             row.appendChild(cell);
         }
-        table.appendChild(row);
+        
+        //Add the row to the table
+        if(addEmpty === undefined || caught === true) {
+            table.appendChild(row);
+        }
+        
     }
 }
 
-function sortByNumber() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].number > arrayCopy[j+1].number) {
-                swap(j, j+1);
-            }
-        }
+function sortDexByParameter(parameter) {
+    //Sort by the dex number, keep blank entries
+    if(parameter === undefined) {
+        currentDex.sort(propComparatorLtoG(currentMode.toLowerCase()));
+        createTable();
     }
-    updateTable();
-}
-function sortByKanto() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].kanto > arrayCopy[j+1].kanto) {
-                swap(j, j+1);
-            }
-        }
+    //Sort by species name, keep blank entries
+    else if(parameter === "name") {
+        currentDex.sort(propComparatorLtoG(parameter.toLowerCase()));
+        createTable();
     }
-}
-function sortByJohto() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].johto > arrayCopy[j+1].johto) {
-                swap(j, j+1);
-            }
-        }
-    }
-}
-function sortByHoenn() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].hoenn > arrayCopy[j+1].hoenn) {
-                swap(j, j+1);
-            }
-        }
-    }
-}
-function sortBySinnoh() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].sinnoh > arrayCopy[j+1].sinnoh) {
-                swap(j, j+1);
-            }
-        }
-    }
-}
-function sortByUnova() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].unova > arrayCopy[j+1].unova) {
-                swap(j, j+1);
-            }
-        }
-    }
-}
-function sortByKalos() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].kalos > arrayCopy[j+1].kalos) {
-                swap(j, j+1);
-            }
-        }
-    }
-}
-function sortByAlola() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].alola > arrayCopy[j+1].alola) {
-                swap(j, j+1);
-            }
-        }
-    }
-}
-function sortByName() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-i-1; j++) {
-            if(arrayCopy[j].name > arrayCopy[j+1].name) {
-                swap(j, j+1);
-            }
-        }
+    //Sort by some other parameter. Pass in a 0 to filter out blank entries
+    else {
+        currentDex.sort(propComparatorLtoG(parameter.toLowerCase()));
+        createTable(0);
     }
     
-    updateTable();
-}
-function sortByNickname() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-i-1; j++) {
-            if(arrayCopy[j].nickname === "" && arrayCopy[j+1].nickname !== "") {
-                swap(j, j+1)
-            }
-            else if(arrayCopy[j].nickname !== "" && arrayCopy[j+1].nickname === "") {
-            }
-            else if(arrayCopy[j].nickname === "" && arrayCopy[j+1].nickname === "") {
-            }
-            else if(arrayCopy[j].nickname !== "" && arrayCopy[j+1].nickname !== "") {
-                if(arrayCopy[j].nickname > arrayCopy[j+1].nickname) {
-                    swap(j, j+1);
-                }
-            }
-        }
-    }
-    updateTable();
-}
-function sortByMethod() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].method === "" && arrayCopy[j+1].method !== "") {
-                swap(j, j+1)
-            }
-            else if(arrayCopy[j].method !== "" && arrayCopy[j+1].method === "") {
-            }
-            else if(arrayCopy[j].method === "" && arrayCopy[j+1].method === "") {
-            }
-            else if(arrayCopy[j].method !== "" && arrayCopy[j+1].method !== "") {
-                if(arrayCopy[j].method > arrayCopy[j+1].method) {
-                    swap(j, j+1);
-                }
-            }
-        }
-    }
-    updateTable();
-}
-function sortByOrder() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].order === 0 && arrayCopy[j+1].order !== 0) {
-                swap(j, j+1)
-            }
-            else if(arrayCopy[j].order !== 0 && arrayCopy[j+1].order === 0) {
-            }
-            else if(arrayCopy[j].order === 0 && arrayCopy[j+1].order === 0) {
-            }
-            else if(arrayCopy[j].order !== 0 && arrayCopy[j+1].order !== 0) {
-                if(arrayCopy[j].order > arrayCopy[j+1].order) {
-                    swap(j, j+1);
-                }
-            }
-        }
-    }
-    updateTable();
-}
-function sortByAttempts() {
-    for(var i = 0; i < arrayCopy.length; i++) {
-        for(var j = 0; j < arrayCopy.length-1-i; j++) {
-            if(arrayCopy[j].attempts === 0 && arrayCopy[j+1].attempts !== 0) {
-                swap(j, j+1)
-            }
-            else if(arrayCopy[j].attempts !== 0 && arrayCopy[j+1].attempts === 0) {
-            }
-            else if(arrayCopy[j].attempts === 0 && arrayCopy[j+1].attempts === 0) {
-            }
-            else if(arrayCopy[j].attempts !== 0 && arrayCopy[j+1].attempts !== 0) {
-                if(arrayCopy[j].attempts > arrayCopy[j+1].attempts) {
-                    swap(j, j+1);
-                }
-            }
-        }
-    }
-    updateTable();
-}
-
-function updateTable() {
-    for(var x = 1; x < arrayCopy.length+1; x++) {
-        var entry = arrayCopy[x-1];
-        var table = document.getElementById("shiny").rows[x].cells;
-        if(entry.attempts !== 0) {
-            var gray = true;
-        }
-        else {
-            gray = false;
-        }
-        for(var y = 0; y < 8; y++) {
-            if(y === 0) {
-                if(mode == "Johto") {
-                    table[y].innerHTML = entry.johto;
-                }
-                else if(mode == "Hoenn") {
-                    table[y].innerHTML = entry.hoenn;
-                }
-                else if(mode == "Sinnoh") {
-                    table[y].innerHTML = entry.sinnoh;
-                }
-                else if(mode == "Unova") {
-                    table[y].innerHTML = entry.unova;
-                }
-                else if(mode == "Kalos") {
-                    table[y].innerHTML = entry.kalos;
-                }
-                else if(mode == "Alola") {
-                    table[y].innerHTML = entry.alola;
-                }
-                else{
-                    table[y].innerHTML = entry.number;
-                }
-            }
-            else if(y === 1) {
-                if(gray) {
-                    table[y].innerHTML = "✓";
-                }
-                else {
-                    table[y].innerHTML = "";
-                }
-            }
-            else if(y === 2) {
-                table[y].innerHTML = entry.name;
-            }
-            else if(y === 3) {
-                table[y].innerHTML = entry.nickname;
-            }
-            else if(y === 4) {
-                table[y].innerHTML = entry.method;
-            }
-            else if(y === 5) {
-                if(gray) {
-                    table[y].innerHTML = entry.order;
-                }
-                else {
-                    table[y].innerHTML = ""
-                }
-                
-            }
-            else if(y === 6) {
-                if(gray) {
-                    table[y].innerHTML = entry.attempts;
-                }
-                else {
-                    table[y].innerHTML = ""
-                }
-            }
-            else {
-                var img = document.createElement('img');
-                img.style.height = entry.size
-                img.src = entry.gif;
-                table[y].innerHTML = "";
-                if(gray) {
-                    table[y].appendChild(img);  
-                }
-            }
-            if(gray) {
-                table[y].style.backgroundColor = "darkgray";
-            }
-            else{
-                table[y].style.backgroundColor = "white";
-            }
-        }
-    }
-    data();
-}
-
-function fillDexes() {
-    var kanto = 0;
-    var johto = 0;
-    var hoenn = 0;
-    var sinnoh = 0;
-    var unova = 0;
-    var kalos = 0;
-    var alola = 0;
     
-    for(var i = 0; i < arrayCopy.length; i++) {
-        if(arrayCopy[i].kanto != undefined) {
-            kantoRegionalDex[kanto] = arrayCopy[i];
-            kanto++;
-        }
-        if(arrayCopy[i].johto != undefined) {
-            johtoRegionalDex[johto] = arrayCopy[i];
-            johto++;
-        }
-        if(arrayCopy[i].hoenn != undefined) {
-            hoennRegionalDex[hoenn] = arrayCopy[i];
-            hoenn++;
-        }
-        if(arrayCopy[i].sinnoh != undefined) {
-            sinnohRegionalDex[sinnoh] = arrayCopy[i];
-            sinnoh++;
-        }
-        if(arrayCopy[i].unova != undefined) {
-            unovaRegionalDex[unova] = arrayCopy[i];
-            unova++;
-        }
-        if(arrayCopy[i].kalos != undefined) {
-            kalosRegionalDex[kalos] = arrayCopy[i];
-            kalos++;
-        }
-        if(arrayCopy[i].alola != undefined) {
-            alolaRegionalDex[alola] = arrayCopy[i];
-            alola++;
-        }
-    }
 }
-function main() {  
-    data();
-    fillDexes();
-    methodTable();
+
+function displayNewDex(dexToShow) {
+    
+    //Set the current dex array to a dex passed in to the function
+    currentDex = dexes[dexToShow].regionalDex;
+    
+    //Set the current mode to the new dex
+    currentMode = modes[dexToShow];
+    
+    //Sort the dex based on the the mode
+    currentDex.sort(propComparatorLtoG(currentMode.toLowerCase()));
+    
+    //Recreate the table
     createTable();
-    console.log(alolaRegionalDex)
 }
 
-var methodArray = [];
+function main() {
+    gatherData();
+    fillPercentBars();
+    fillMethodTable();
+    createTable();
+}
 
-var arrayCopy = JSON.parse(JSON.stringify(pokemonArray));
-
-var fullNationalDex = arrayCopy;
-var kantoRegionalDex = [];
-var johtoRegionalDex = [];
-var hoennRegionalDex = [];
-var sinnohRegionalDex = [];
-var unovaRegionalDex = [];
-var kalosRegionalDex = [];
-var alolaRegionalDex = [];
-var mode = "National";
-
-
-
-
+//Start here
 main();
