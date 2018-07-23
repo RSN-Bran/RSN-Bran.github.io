@@ -2,7 +2,7 @@ var pokemonArray = [];
 
 pokemonArray[0] = {
 	"name": "Bulbasaur",
-	"number": "001",
+	"national": "001",
     "kanto": "001",
 	"johto": "231",
 	"hoenn": undefined,
@@ -20,7 +20,7 @@ pokemonArray[0] = {
 }
 pokemonArray[1] = {
 	"name": "Ivysaur",
-	"number": "002",
+	"national": "002",
 	"kanto": "002",
 	"johto": "232",
 	"hoenn": undefined,
@@ -38,7 +38,7 @@ pokemonArray[1] = {
 }
 pokemonArray[2] = {
 	"name": "Venusaur",
-	"number": "003",
+	"national": "003",
 	"kanto": "003",
 	"johto": "233",
 	"hoenn": undefined,
@@ -56,7 +56,7 @@ pokemonArray[2] = {
 }
 pokemonArray[3] = {
 	"name": "Charmander",
-	"number": "004",
+	"national": "004",
 	"kanto": "004",
 	"johto": "234",
 	"hoenn": undefined,
@@ -74,7 +74,7 @@ pokemonArray[3] = {
 }
 pokemonArray[4] = {
 	"name": "Charmeleon",
-	"number": "005",
+	"national": "005",
 	"kanto": "005",
 	"johto": "235",
 	"hoenn": undefined,
@@ -92,7 +92,7 @@ pokemonArray[4] = {
 }
 pokemonArray[5] = {
 	"name": "Charizard",
-	"number": "006",
+	"national": "006",
 	"kanto": "006",
 	"johto": "236",
 	"hoenn": undefined,
@@ -110,7 +110,7 @@ pokemonArray[5] = {
 }
 pokemonArray[6] = {
 	"name": "Squirtle",
-	"number": "007",
+	"national": "007",
 	"kanto": "007",
 	"johto": "237",
 	"hoenn": undefined,
@@ -128,7 +128,7 @@ pokemonArray[6] = {
 }
 pokemonArray[7] = {
 	"name": "Wartortle",
-	"number": "008",
+	"national": "008",
 	"kanto": "008",
 	"johto": "238",
 	"hoenn": undefined,
@@ -146,7 +146,7 @@ pokemonArray[7] = {
 }
 pokemonArray[8] = {
 	"name": "Blastoise",
-	"number": "009",
+	"national": "009",
 	"kanto": "009",
 	"johto": "239",
 	"hoenn": undefined,
@@ -164,7 +164,7 @@ pokemonArray[8] = {
 }
 pokemonArray[9] = {
 	"name": "Caterpie",
-	"number": "010",
+	"national": "010",
 	"kanto": "010",
 	"johto": "024",
 	"hoenn": undefined,
@@ -182,7 +182,7 @@ pokemonArray[9] = {
 }
 pokemonArray[10] = {
 	"name": "Metapod",
-	"number": "011",
+	"national": "011",
 	"kanto": "011",
 	"johto": "025",
 	"hoenn": undefined,
@@ -200,7 +200,7 @@ pokemonArray[10] = {
 }
 pokemonArray[11] = {
 	"name": "Butterfree",
-	"number": "012",
+	"national": "012",
 	"kanto": "012",
 	"johto": "026",
 	"hoenn": undefined,
@@ -218,7 +218,7 @@ pokemonArray[11] = {
 }
 pokemonArray[12] = {
 	"name": "Weedle",
-	"number": "013",
+	"national": "013",
 	"kanto": "013",
 	"johto": "027",
 	"hoenn": undefined,
@@ -236,7 +236,7 @@ pokemonArray[12] = {
 }
 pokemonArray[13] = {
 	"name": "Kakuna",
-	"number": "014",
+	"national": "014",
 	"kanto": "014",
 	"johto": "028",
 	"hoenn": undefined,
@@ -254,7 +254,7 @@ pokemonArray[13] = {
 }
 pokemonArray[14] = {
 	"name": "Beedrill",
-	"number": "015",
+	"national": "015",
 	"kanto": "015",
 	"johto": "029",
 	"hoenn": undefined,
@@ -272,7 +272,7 @@ pokemonArray[14] = {
 }
 pokemonArray[15] = {
 	"name": "Pidgey",
-	"number": "016",
+	"national": "016",
 	"kanto": "016",
 	"johto": "010",
 	"hoenn": undefined,
@@ -290,7 +290,7 @@ pokemonArray[15] = {
 }
 pokemonArray[16] = {
 	"name": "Pidgeotto",
-	"number": "017",
+	"national": "017",
 	"kanto": "017",
 	"johto": "011",
 	"hoenn": undefined,
@@ -308,7 +308,7 @@ pokemonArray[16] = {
 }
 pokemonArray[17] = {
 	"name": "Pidgeot",
-	"number": "018",
+	"national": "018",
 	"kanto": "018",
 	"johto": "012",
 	"hoenn": undefined,
@@ -326,7 +326,7 @@ pokemonArray[17] = {
 }
 pokemonArray[18] = {
 	"name": "Rattata",
-	"number": "019",
+	"national": "019",
 	"kanto": "019",
 	"johto": "017",
 	"hoenn": undefined,
@@ -344,7 +344,7 @@ pokemonArray[18] = {
 }
 pokemonArray[19] = {
 	"name": "Raticate",
-	"number": "020",
+	"national": "020",
 	"kanto": "020",
 	"johto": "018",
 	"hoenn": undefined,
@@ -362,7 +362,7 @@ pokemonArray[19] = {
 }
 pokemonArray[20] = {
 	"name": "Spearow",
-	"number": "021",
+	"national": "021",
 	"kanto": "021",
 	"johto": "013",
 	"hoenn": undefined,
@@ -380,7 +380,7 @@ pokemonArray[20] = {
 }
 pokemonArray[21] = {
 	"name": "Fearow",
-	"number": "022",
+	"national": "022",
 	"kanto": "022",
 	"johto": "014",
 	"hoenn": undefined,
@@ -398,7 +398,7 @@ pokemonArray[21] = {
 }
 pokemonArray[22] = {
 	"name": "Ekans",
-	"number": "023",
+	"national": "023",
 	"kanto": "023",
 	"johto": "050",
 	"hoenn": undefined,
@@ -416,7 +416,7 @@ pokemonArray[22] = {
 }
 pokemonArray[23] = {
 	"name": "Arbok",
-	"number": "024",
+	"national": "024",
 	"kanto": "024",
 	"johto": "051",
 	"hoenn": undefined,
@@ -434,7 +434,7 @@ pokemonArray[23] = {
 }
 pokemonArray[24] = {
 	"name": "Pikachu",
-	"number": "025",
+	"national": "025",
 	"kanto": "025",
 	"johto": "022",
 	"hoenn": "163",
@@ -452,7 +452,7 @@ pokemonArray[24] = {
 }
 pokemonArray[25] = {
 	"name": "Raichu",
-	"number": "026",
+	"national": "026",
 	"kanto": "026",
 	"johto": "023",
 	"hoenn": "164",
@@ -470,7 +470,7 @@ pokemonArray[25] = {
 }
 pokemonArray[26] = {
 	"name": "Sandshrew",
-	"number": "027",
+	"national": "027",
 	"kanto": "027",
 	"johto": "048",
 	"hoenn": "117",
@@ -488,7 +488,7 @@ pokemonArray[26] = {
 }
 pokemonArray[27] = {
 	"name": "Sandslash",
-	"number": "028",
+	"national": "028",
 	"kanto": "028",
 	"johto": "049",
 	"hoenn": "118",
@@ -506,7 +506,7 @@ pokemonArray[27] = {
 }
 pokemonArray[28] = {
 	"name": "Nidoran♀",
-	"number": "029",
+	"national": "029",
 	"kanto": "029",
 	"johto": "095",
 	"hoenn": undefined,
@@ -524,7 +524,7 @@ pokemonArray[28] = {
 }
 pokemonArray[29] = {
 	"name": "Nidorina",
-	"number": "030",
+	"national": "030",
 	"kanto": "030",
 	"johto": "096",
 	"hoenn": undefined,
@@ -542,7 +542,7 @@ pokemonArray[29] = {
 }
 pokemonArray[30] = {
 	"name": "Nidoqueen",
-	"number": "031",
+	"national": "031",
 	"kanto": "031",
 	"johto": "097",
 	"hoenn": undefined,
@@ -560,7 +560,7 @@ pokemonArray[30] = {
 }
 pokemonArray[31] = {
 	"name": "Nidoran♂",
-	"number": "032",
+	"national": "032",
 	"kanto": "032",
 	"johto": "098",
 	"hoenn": undefined,
@@ -578,7 +578,7 @@ pokemonArray[31] = {
 }
 pokemonArray[32] = {
 	"name": "Nidorino",
-	"number": "033",
+	"national": "033",
 	"kanto": "033",
 	"johto": "099",
 	"hoenn": undefined,
@@ -596,7 +596,7 @@ pokemonArray[32] = {
 }
 pokemonArray[33] = {
 	"name": "Nidoking",
-	"number": "034",
+	"national": "034",
 	"kanto": "034",
 	"johto": "100",
 	"hoenn": undefined,
@@ -614,7 +614,7 @@ pokemonArray[33] = {
 }
 pokemonArray[34] = {
 	"name": "Clefairy",
-	"number": "035",
+	"national": "035",
 	"kanto": "035",
 	"johto": "041",
 	"hoenn": undefined,
@@ -632,7 +632,7 @@ pokemonArray[34] = {
 }
 pokemonArray[35] = {
 	"name": "Clefable",
-	"number": "036",
+	"national": "036",
 	"kanto": "036",
 	"johto": "042",
 	"hoenn": undefined,
@@ -650,7 +650,7 @@ pokemonArray[35] = {
 }
 pokemonArray[36] = {
 	"name": "Vulpix",
-	"number": "037",
+	"national": "037",
 	"kanto": "037",
 	"johto": "127",
 	"hoenn": "160",
@@ -668,7 +668,7 @@ pokemonArray[36] = {
 }
 pokemonArray[37] = {
 	"name": "Ninetales",
-	"number": "038",
+	"national": "038",
 	"kanto": "038",
 	"johto": "128",
 	"hoenn": "161",
@@ -686,7 +686,7 @@ pokemonArray[37] = {
 }
 pokemonArray[38] = {
 	"name": "Jigglypuff",
-	"number": "039",
+	"national": "039",
 	"kanto": "039",
 	"johto": "044",
 	"hoenn": "143",
@@ -704,7 +704,7 @@ pokemonArray[38] = {
 }
 pokemonArray[39] = {
 	"name": "Wigglytuff",
-	"number": "040",
+	"national": "040",
 	"kanto": "040",
 	"johto": "045",
 	"hoenn": "144",
@@ -722,7 +722,7 @@ pokemonArray[39] = {
 }
 pokemonArray[40] = {
 	"name": "Zubat",
-	"number": "041",
+	"national": "041",
 	"kanto": "041",
 	"johto": "037",
 	"hoenn": "065",
@@ -740,7 +740,7 @@ pokemonArray[40] = {
 }
 pokemonArray[41] = {
 	"name": "Golbat",
-	"number": "042",
+	"national": "042",
 	"kanto": "042",
 	"johto": "038",
 	"hoenn": "066",
@@ -758,7 +758,7 @@ pokemonArray[41] = {
 }
 pokemonArray[42] = {
 	"name": "Oddish",
-	"number": "043",
+	"national": "043",
 	"kanto": "043",
 	"johto": "083",
 	"hoenn": "091",
@@ -776,7 +776,7 @@ pokemonArray[42] = {
 }
 pokemonArray[43] = {
 	"name": "Gloom",
-	"number": "044",
+	"national": "044",
 	"kanto": "044",
 	"johto": "084",
 	"hoenn": "092",
@@ -794,7 +794,7 @@ pokemonArray[43] = {
 }
 pokemonArray[44] = {
 	"name": "Vileplume",
-	"number": "045",
+	"national": "045",
 	"kanto": "045",
 	"johto": "085",
 	"hoenn": "093",
@@ -812,7 +812,7 @@ pokemonArray[44] = {
 }
 pokemonArray[45] = {
 	"name": "Paras",
-	"number": "046",
+	"national": "046",
 	"kanto": "046",
 	"johto": "070",
 	"hoenn": undefined,
@@ -830,7 +830,7 @@ pokemonArray[45] = {
 }
 pokemonArray[46] = {
 	"name": "Parasect",
-	"number": "047",
+	"national": "047",
 	"kanto": "047",
 	"johto": "071",
 	"hoenn": undefined,
@@ -848,7 +848,7 @@ pokemonArray[46] = {
 }
 pokemonArray[47] = {
 	"name": "Venonat",
-	"number": "048",
+	"national": "048",
 	"kanto": "048",
 	"johto": "109",
 	"hoenn": undefined,
@@ -866,7 +866,7 @@ pokemonArray[47] = {
 }
 pokemonArray[48] = {
 	"name": "Venomoth",
-	"number": "049",
+	"national": "049",
 	"kanto": "049",
 	"johto": "110",
 	"hoenn": undefined,
@@ -884,7 +884,7 @@ pokemonArray[48] = {
 }
 pokemonArray[49] = {
 	"name": "Diglett",
-	"number": "050",
+	"national": "050",
 	"kanto": "050",
 	"johto": "134",
 	"hoenn": undefined,
@@ -902,7 +902,7 @@ pokemonArray[49] = {
 }
 pokemonArray[50] = {
 	"name": "Dugtrio",
-	"number": "051",
+	"national": "051",
 	"kanto": "051",
 	"johto": "135",
 	"hoenn": undefined,
@@ -920,7 +920,7 @@ pokemonArray[50] = {
 }
 pokemonArray[51] = {
 	"name": "Meowth",
-	"number": "052",
+	"national": "052",
 	"kanto": "052",
 	"johto": "138",
 	"hoenn": undefined,
@@ -938,7 +938,7 @@ pokemonArray[51] = {
 }
 pokemonArray[52] = {
 	"name": "Persian",
-	"number": "053",
+	"national": "053",
 	"kanto": "053",
 	"johto": "139",
 	"hoenn": undefined,
@@ -956,7 +956,7 @@ pokemonArray[52] = {
 }
 pokemonArray[53] = {
 	"name": "Psyduck",
-	"number": "054",
+	"national": "054",
 	"kanto": "054",
 	"johto": "140",
 	"hoenn": "165",
@@ -974,7 +974,7 @@ pokemonArray[53] = {
 }
 pokemonArray[54] = {
 	"name": "Golduck",
-	"number": "055",
+	"national": "055",
 	"kanto": "055",
 	"johto": "141",
 	"hoenn": "166",
@@ -992,7 +992,7 @@ pokemonArray[54] = {
 }
 pokemonArray[55] = {
 	"name": "Mankey",
-	"number": "056",
+	"national": "056",
 	"kanto": "056",
 	"johto": "136",
 	"hoenn": undefined,
@@ -1010,7 +1010,7 @@ pokemonArray[55] = {
 }
 pokemonArray[56] = {
 	"name": "Primeape",
-	"number": "057",
+	"national": "057",
 	"kanto": "057",
 	"johto": "137",
 	"hoenn": undefined,
@@ -1028,7 +1028,7 @@ pokemonArray[56] = {
 }
 pokemonArray[57] = {
 	"name": "Growlithe",
-	"number": "058",
+	"national": "058",
 	"kanto": "058",
 	"johto": "129",
 	"hoenn": undefined,
@@ -1046,7 +1046,7 @@ pokemonArray[57] = {
 }
 pokemonArray[58] = {
 	"name": "Arcanine",
-	"number": "059",
+	"national": "059",
 	"kanto": "059",
 	"johto": "130",
 	"hoenn": undefined,
@@ -1064,7 +1064,7 @@ pokemonArray[58] = {
 }
 pokemonArray[59] = {
 	"name": "Poliwag",
-	"number": "060",
+	"national": "060",
 	"kanto": "060",
 	"johto": "072",
 	"hoenn": undefined,
@@ -1082,7 +1082,7 @@ pokemonArray[59] = {
 }
 pokemonArray[60] = {
 	"name": "Poliwhirl",
-	"number": "061",
+	"national": "061",
 	"kanto": "061",
 	"johto": "073",
 	"hoenn": undefined,
@@ -1100,7 +1100,7 @@ pokemonArray[60] = {
 }
 pokemonArray[61] = {
 	"name": "Poliwrath",
-	"number": "062",
+	"national": "062",
 	"kanto": "062",
 	"johto": "074",
 	"hoenn": undefined,
@@ -1118,7 +1118,7 @@ pokemonArray[61] = {
 }
 pokemonArray[62] = {
 	"name": "Abra",
-	"number": "063",
+	"national": "063",
 	"kanto": "063",
 	"johto": "089",
 	"hoenn": "040",
@@ -1136,7 +1136,7 @@ pokemonArray[62] = {
 }
 pokemonArray[63] = {
 	"name": "Kadabra",
-	"number": "064",
+	"national": "064",
 	"kanto": "064",
 	"johto": "090",
 	"hoenn": "041",
@@ -1154,7 +1154,7 @@ pokemonArray[63] = {
 }
 pokemonArray[64] = {
 	"name": "Alakazam",
-	"number": "065",
+	"national": "065",
 	"kanto": "065",
 	"johto": "091",
 	"hoenn": "042",
@@ -1172,7 +1172,7 @@ pokemonArray[64] = {
 }
 pokemonArray[65] = {
 	"name": "Machop",
-	"number": "066",
+	"national": "066",
 	"kanto": "066",
 	"johto": "142",
 	"hoenn": "075",
@@ -1190,7 +1190,7 @@ pokemonArray[65] = {
 }
 pokemonArray[66] = {
 	"name": "Machoke",
-	"number": "067",
+	"national": "067",
 	"kanto": "067",
 	"johto": "143",
 	"hoenn": "076",
@@ -1208,7 +1208,7 @@ pokemonArray[66] = {
 }
 pokemonArray[67] = {
 	"name": "Machamp",
-	"number": "068",
+	"national": "068",
 	"kanto": "068",
 	"johto": "144",
 	"hoenn": "077",
@@ -1226,7 +1226,7 @@ pokemonArray[67] = {
 }
 pokemonArray[68] = {
 	"name": "Bellsprout",
-	"number": "069",
+	"national": "069",
 	"kanto": "069",
 	"johto": "064",
 	"hoenn": undefined,
@@ -1244,7 +1244,7 @@ pokemonArray[68] = {
 }
 pokemonArray[69] = {
 	"name": "Weepinbell",
-	"number": "070",
+	"national": "070",
 	"kanto": "070",
 	"johto": "065",
 	"hoenn": undefined,
@@ -1262,7 +1262,7 @@ pokemonArray[69] = {
 }
 pokemonArray[70] = {
 	"name": "Victreebel",
-	"number": "071",
+	"national": "071",
 	"kanto": "071",
 	"johto": "066",
 	"hoenn": undefined,
@@ -1280,7 +1280,7 @@ pokemonArray[70] = {
 }
 pokemonArray[71] = {
 	"name": "Tentacool",
-	"number": "072",
+	"national": "072",
 	"kanto": "072",
 	"johto": "164",
 	"hoenn": "068",
@@ -1298,7 +1298,7 @@ pokemonArray[71] = {
 }
 pokemonArray[72] = {
 	"name": "Tentacruel",
-	"number": "073",
+	"national": "073",
 	"kanto": "073",
 	"johto": "165",
 	"hoenn": "069",
@@ -1316,7 +1316,7 @@ pokemonArray[72] = {
 }
 pokemonArray[73] = {
 	"name": "Geodude",
-	"number": "074",
+	"national": "074",
 	"kanto": "074",
 	"johto": "034",
 	"hoenn": "058",
@@ -1334,7 +1334,7 @@ pokemonArray[73] = {
 }
 pokemonArray[74] = {
 	"name": "Graveler",
-	"number": "075",
+	"national": "075",
 	"kanto": "075",
 	"johto": "035",
 	"hoenn": "059",
@@ -1352,7 +1352,7 @@ pokemonArray[74] = {
 }
 pokemonArray[75] = {
 	"name": "Golem",
-	"number": "076",
+	"national": "076",
 	"kanto": "076",
 	"johto": "036",
 	"hoenn": "060",
@@ -1370,7 +1370,7 @@ pokemonArray[75] = {
 }
 pokemonArray[76] = {
 	"name": "Ponyta",
-	"number": "077",
+	"national": "077",
 	"kanto": "077",
 	"johto": "206",
 	"hoenn": undefined,
@@ -1388,7 +1388,7 @@ pokemonArray[76] = {
 }
 pokemonArray[77] = {
 	"name": "Rapidash",
-	"number": "078",
+	"national": "078",
 	"kanto": "078",
 	"johto": "207",
 	"hoenn": undefined,
@@ -1406,7 +1406,7 @@ pokemonArray[77] = {
 }
 pokemonArray[78] = {
 	"name": "Slowpoke",
-	"number": "079",
+	"national": "079",
 	"kanto": "079",
 	"johto": "080",
 	"hoenn": undefined,
@@ -1424,7 +1424,7 @@ pokemonArray[78] = {
 }
 pokemonArray[79] = {
 	"name": "Slowbro",
-	"number": "080",
+	"national": "080",
 	"kanto": "080",
 	"johto": "081",
 	"hoenn": undefined,
@@ -1442,7 +1442,7 @@ pokemonArray[79] = {
 }
 pokemonArray[80] = {
 	"name": "Magnemite",
-	"number": "081",
+	"national": "081",
 	"kanto": "081",
 	"johto": "119",
 	"hoenn": "084",
@@ -1460,7 +1460,7 @@ pokemonArray[80] = {
 }
 pokemonArray[81] = {
 	"name": "Magneton",
-	"number": "082",
+	"national": "082",
 	"kanto": "082",
 	"johto": "120",
 	"hoenn": "085",
@@ -1478,7 +1478,7 @@ pokemonArray[81] = {
 }
 pokemonArray[82] = {
 	"name": "Farfetch'd",
-	"number": "083",
+	"national": "083",
 	"kanto": "083",
 	"johto": "160",
 	"hoenn": undefined,
@@ -1496,7 +1496,7 @@ pokemonArray[82] = {
 }
 pokemonArray[83] = {
 	"name": "Doduo",
-	"number": "084",
+	"national": "084",
 	"kanto": "084",
 	"johto": "204",
 	"hoenn": "095",
@@ -1514,7 +1514,7 @@ pokemonArray[83] = {
 }
 pokemonArray[84] = {
 	"name": "Dodrio",
-	"number": "085",
+	"national": "085",
 	"kanto": "085",
 	"johto": "205",
 	"hoenn": "096",
@@ -1532,7 +1532,7 @@ pokemonArray[84] = {
 }
 pokemonArray[85] = {
 	"name": "Seel",
-	"number": "086",
+	"national": "086",
 	"kanto": "086",
 	"johto": "178",
 	"hoenn": undefined,
@@ -1550,7 +1550,7 @@ pokemonArray[85] = {
 }
 pokemonArray[86] = {
 	"name": "Dewgong",
-	"number": "087",
+	"national": "087",
 	"kanto": "087",
 	"johto": "179",
 	"hoenn": undefined,
@@ -1568,7 +1568,7 @@ pokemonArray[86] = {
 }
 pokemonArray[87] = {
 	"name": "Grimer",
-	"number": "088",
+	"national": "088",
 	"kanto": "088",
 	"johto": "117",
 	"hoenn": "111",
@@ -1586,7 +1586,7 @@ pokemonArray[87] = {
 }
 pokemonArray[88] = {
 	"name": "Muk",
-	"number": "089",
+	"national": "089",
 	"kanto": "089",
 	"johto": "118",
 	"hoenn": "112",
@@ -1604,7 +1604,7 @@ pokemonArray[88] = {
 }
 pokemonArray[89] = {
 	"name": "Shellder",
-	"number": "090",
+	"national": "090",
 	"kanto": "090",
 	"johto": "171",
 	"hoenn": undefined,
@@ -1622,7 +1622,7 @@ pokemonArray[89] = {
 }
 pokemonArray[90] = {
 	"name": "Cloyster",
-	"number": "091",
+	"national": "091",
 	"kanto": "091",
 	"johto": "172",
 	"hoenn": undefined,
@@ -1640,7 +1640,7 @@ pokemonArray[90] = {
 }
 pokemonArray[91] = {
 	"name": "Gastly",
-	"number": "092",
+	"national": "092",
 	"kanto": "092",
 	"johto": "058",
 	"hoenn": undefined,
@@ -1658,7 +1658,7 @@ pokemonArray[91] = {
 }
 pokemonArray[92] = {
 	"name": "Haunter",
-	"number": "093",
+	"national": "093",
 	"kanto": "093",
 	"johto": "059",
 	"hoenn": undefined,
@@ -1676,7 +1676,7 @@ pokemonArray[92] = {
 }
 pokemonArray[93] = {
 	"name": "Gengar",
-	"number": "094",
+	"national": "094",
 	"kanto": "094",
 	"johto": "060",
 	"hoenn": undefined,
@@ -1694,7 +1694,7 @@ pokemonArray[93] = {
 }
 pokemonArray[94] = {
 	"name": "Onix",
-	"number": "095",
+	"national": "095",
 	"kanto": "095",
 	"johto": "062",
 	"hoenn": undefined,
@@ -1712,7 +1712,7 @@ pokemonArray[94] = {
 }
 pokemonArray[95] = {
 	"name": "Drowzee",
-	"number": "096",
+	"national": "096",
 	"kanto": "096",
 	"johto": "087",
 	"hoenn": undefined,
@@ -1730,7 +1730,7 @@ pokemonArray[95] = {
 }
 pokemonArray[96] = {
 	"name": "Hypno",
-	"number": "097",
+	"national": "097",
 	"kanto": "097",
 	"johto": "088",
 	"hoenn": undefined,
@@ -1748,7 +1748,7 @@ pokemonArray[96] = {
 }
 pokemonArray[97] = {
 	"name": "Krabby",
-	"number": "098",
+	"national": "098",
 	"kanto": "098",
 	"johto": "166",
 	"hoenn": undefined,
@@ -1766,7 +1766,7 @@ pokemonArray[97] = {
 }
 pokemonArray[98] = {
 	"name": "Kingler",
-	"number": "099",
+	"national": "099",
 	"kanto": "099",
 	"johto": "167",
 	"hoenn": undefined,
@@ -1784,7 +1784,7 @@ pokemonArray[98] = {
 }
 pokemonArray[99] = {
 	"name": "Voltorb",
-	"number": "100",
+	"national": "100",
 	"kanto": "100",
 	"johto": "121",
 	"hoenn": "087",
@@ -1802,7 +1802,7 @@ pokemonArray[99] = {
 }
 pokemonArray[100] = {
 	"name": "Electrode",
-	"number": "101",
+	"national": "101",
 	"kanto": "101",
 	"johto": "122",
 	"hoenn": "088",
@@ -1820,7 +1820,7 @@ pokemonArray[100] = {
 }
 pokemonArray[101] = {
 	"name": "Exeggcute",
-	"number": "102",
+	"national": "102",
 	"kanto": "102",
 	"johto": "105",
 	"hoenn": undefined,
@@ -1838,7 +1838,7 @@ pokemonArray[101] = {
 }
 pokemonArray[102] = {
 	"name": "Exeggutor",
-	"number": "103",
+	"national": "103",
 	"kanto": "103",
 	"johto": "106",
 	"hoenn": undefined,
@@ -1856,7 +1856,7 @@ pokemonArray[102] = {
 }
 pokemonArray[103] = {
 	"name": "Cubone",
-	"number": "104",
+	"national": "104",
 	"kanto": "104",
 	"johto": "208",
 	"hoenn": undefined,
@@ -1874,7 +1874,7 @@ pokemonArray[103] = {
 }
 pokemonArray[104] = {
 	"name": "Marowak",
-	"number": "105",
+	"national": "105",
 	"kanto": "105",
 	"johto": "209",
 	"hoenn": undefined,
@@ -1892,7 +1892,7 @@ pokemonArray[104] = {
 }
 pokemonArray[105] = {
 	"name": "Hitmonlee",
-	"number": "106",
+	"national": "106",
 	"kanto": "106",
 	"johto": "146",
 	"hoenn": undefined,
@@ -1910,7 +1910,7 @@ pokemonArray[105] = {
 }
 pokemonArray[106] = {
 	"name": "Hitmonchan",
-	"number": "107",
+	"national": "107",
 	"kanto":  "107",
 	"johto": "147",
 	"hoenn": undefined,
@@ -1928,7 +1928,7 @@ pokemonArray[106] = {
 }
 pokemonArray[107] = {
 	"name": "Lickitung",
-	"number": "108",
+	"national": "108",
 	"kanto": "108",
 	"johto": "180",
 	"hoenn": undefined,
@@ -1946,7 +1946,7 @@ pokemonArray[107] = {
 }
 pokemonArray[108] = {
 	"name": "Koffing",
-	"number": "109",
+	"national": "109",
 	"kanto":  "109",
 	"johto": "115",
 	"hoenn": "113",
@@ -1964,7 +1964,7 @@ pokemonArray[108] = {
 }
 pokemonArray[109] = {
 	"name": "Weezing",
-	"number": "110",
+	"national": "110",
 	"kanto": "110",
 	"johto": "116",
 	"hoenn": "114",
@@ -1982,7 +1982,7 @@ pokemonArray[109] = {
 }
 pokemonArray[110] = {
 	"name": "Rhyhorn",
-	"number": "111",
+	"national": "111",
 	"kanto": "111",
 	"johto": "211",
 	"hoenn": "176",
@@ -2000,7 +2000,7 @@ pokemonArray[110] = {
 }
 pokemonArray[111] = {
 	"name": "Rhydon",
-	"number": "112",
+	"national": "112",
 	"kanto": "112",
 	"johto": "212",
 	"hoenn": "177",
@@ -2018,7 +2018,7 @@ pokemonArray[111] = {
 }
 pokemonArray[112] = {
 	"name": "Chansey",
-	"number": "113",
+	"national": "113",
 	"kanto": "113",
 	"johto": "222",
 	"hoenn": undefined,
@@ -2036,7 +2036,7 @@ pokemonArray[112] = {
 }
 pokemonArray[113] = {
 	"name": "Tangela",
-	"number": "114",
+	"national": "114",
 	"kanto": "114",
 	"johto": "182",
 	"hoenn": undefined,
@@ -2054,7 +2054,7 @@ pokemonArray[113] = {
 }
 pokemonArray[114] = {
 	"name": "Kangaskhan",
-	"number": "115",
+	"national": "115",
 	"kanto": "115",
 	"johto": "210",
 	"hoenn": undefined,
@@ -2072,7 +2072,7 @@ pokemonArray[114] = {
 }
 pokemonArray[115] = {
 	"name": "Horsea",
-	"number": "116",
+	"national": "116",
 	"kanto": "116",
 	"johto": "190",
 	"hoenn": "193",
@@ -2090,7 +2090,7 @@ pokemonArray[115] = {
 }
 pokemonArray[116] = {
 	"name": "Seadra",
-	"number": "117",
+	"national": "117",
 	"kanto": "117",
 	"johto": "191",
 	"hoenn": "194",
@@ -2108,7 +2108,7 @@ pokemonArray[116] = {
 }
 pokemonArray[117] = {
 	"name": "Goldeen",
-	"number": "118",
+	"national": "118",
 	"kanto": "118",
 	"johto": "078",
 	"hoenn": "051",
@@ -2126,7 +2126,7 @@ pokemonArray[117] = {
 }
 pokemonArray[118] = {
 	"name": "Seaking",
-	"number": "119",
+	"national": "119",
 	"kanto": "119",
 	"johto": "079",
 	"hoenn": "052",
@@ -2144,7 +2144,7 @@ pokemonArray[118] = {
 }
 pokemonArray[119] = {
 	"name": "Staryu",
-	"number": "120",
+	"national": "120",
 	"kanto":  "120",
 	"johto": "169",
 	"hoenn": "148",
@@ -2162,7 +2162,7 @@ pokemonArray[119] = {
 }
 pokemonArray[120] = {
 	"name": "Starmie",
-	"number": "121",
+	"national": "121",
 	"kanto": "121",
 	"johto": "170",
 	"hoenn": "149",
@@ -2180,7 +2180,7 @@ pokemonArray[120] = {
 }
 pokemonArray[121] = {
 	"name": "Mr. Mime",
-	"number": "122",
+	"national": "122",
 	"kanto": "122",
 	"johto": "158",
 	"hoenn": undefined,
@@ -2198,7 +2198,7 @@ pokemonArray[121] = {
 }
 pokemonArray[122] = {
 	"name": "Scyther",
-	"number": "123",
+	"national": "123",
 	"kanto":  "123",
 	"johto": "111",
 	"hoenn": undefined,
@@ -2210,13 +2210,13 @@ pokemonArray[122] = {
 	"size": "100%",
 
 	"nickname": "Snip-Its",
-	"method": "Pokeradar",
+	"method": "PokeRadar",
 	"order": 319,
 	"attempts": 41
 }
 pokemonArray[123] = {
 	"name": "Jynx",
-	"number": "124",
+	"national": "124",
 	"kanto":  "124",
 	"johto": "155",
 	"hoenn": undefined,
@@ -2234,7 +2234,7 @@ pokemonArray[123] = {
 }
 pokemonArray[124] = {
 	"name": "Electabuzz",
-	"number": "125",
+	"national": "125",
 	"kanto": "125",
 	"johto": "157",
 	"hoenn": undefined,
@@ -2252,7 +2252,7 @@ pokemonArray[124] = {
 }
 pokemonArray[125] = {
 	"name": "Magmar",
-	"number": "126",
+	"national": "126",
 	"kanto": "126",
 	"johto": "153",
 	"hoenn": undefined,
@@ -2270,7 +2270,7 @@ pokemonArray[125] = {
 }
 pokemonArray[126] = {
 	"name": "Pinsir",
-	"number": "127",
+	"national": "127",
 	"kanto": "127",
 	"johto": "113",
 	"hoenn": "174",
@@ -2288,7 +2288,7 @@ pokemonArray[126] = {
 }
 pokemonArray[127] = {
 	"name": "Tauros",
-	"number": "128",
+	"national": "128",
 	"kanto": "128",
 	"johto": "150",
 	"hoenn": undefined,
@@ -2306,7 +2306,7 @@ pokemonArray[127] = {
 }
 pokemonArray[128] = {
 	"name": "Magikarp",
-	"number": "129",
+	"national": "129",
 	"kanto": "129",
 	"johto": "076",
 	"hoenn": "053",
@@ -2324,7 +2324,7 @@ pokemonArray[128] = {
 }
 pokemonArray[129] = {
 	"name": "Gyarados",
-	"number": "130",
+	"national": "130",
 	"kanto": "130",
 	"johto": "077",
 	"hoenn": "054",
@@ -2342,7 +2342,7 @@ pokemonArray[129] = {
 }
 pokemonArray[130] = {
 	"name": "Lapras",
-	"number": "131",
+	"national": "131",
 	"kanto":  "131",
 	"johto": "224",
 	"hoenn": undefined,
@@ -2360,7 +2360,7 @@ pokemonArray[130] = {
 }
 pokemonArray[131] = {
 	"name": "Ditto",
-	"number": "132",
+	"national": "132",
 	"kanto": "132",
 	"johto": "092",
 	"hoenn": undefined,
@@ -2378,7 +2378,7 @@ pokemonArray[131] = {
 }
 pokemonArray[132] = {
 	"name": "Eevee",
-	"number": "133",
+	"national": "133",
 	"kanto": "133",
 	"johto": "184",
 	"hoenn": undefined,
@@ -2396,7 +2396,7 @@ pokemonArray[132] = {
 }
 pokemonArray[133] = {
 	"name": "Vaporeon",
-	"number": "134",
+	"national": "134",
 	"kanto": "134",
 	"johto": "185",
 	"hoenn": undefined,
@@ -2414,7 +2414,7 @@ pokemonArray[133] = {
 }
 pokemonArray[134] = {
 	"name": "Jolteon",
-	"number": "135",
+	"national": "135",
 	"kanto": "135",
 	"johto": "186",
 	"hoenn": undefined,
@@ -2432,7 +2432,7 @@ pokemonArray[134] = {
 }
 pokemonArray[135] = {
 	"name": "Flareon",
-	"number": "136",
+	"national": "136",
 	"kanto": "136",
 	"johto": "187",
 	"hoenn": undefined,
@@ -2450,7 +2450,7 @@ pokemonArray[135] = {
 }
 pokemonArray[136] = {
 	"name": "Porygon",
-	"number": "137",
+	"national": "137",
 	"kanto": "137",
 	"johto": "220",
 	"hoenn": undefined,
@@ -2468,7 +2468,7 @@ pokemonArray[136] = {
 }
 pokemonArray[137] = {
 	"name": "Omanyte",
-	"number": "138",
+	"national": "138",
 	"kanto": "138",
 	"johto": "225",
 	"hoenn": undefined,
@@ -2486,7 +2486,7 @@ pokemonArray[137] = {
 }
 pokemonArray[138] = {
 	"name": "Omastar",
-	"number": "139",
+	"national": "139",
 	"kanto": "139",
 	"johto": "226",
 	"hoenn": undefined,
@@ -2504,7 +2504,7 @@ pokemonArray[138] = {
 }
 pokemonArray[139] = {
 	"name": "Kabuto",
-	"number": "140",
+	"national": "140",
 	"kanto": "140",
 	"johto": "227",
 	"hoenn": undefined,
@@ -2522,7 +2522,7 @@ pokemonArray[139] = {
 }
 pokemonArray[140] = {
 	"name": "Kabutops",
-	"number": "141",
+	"national": "141",
 	"kanto": "141",
 	"johto": "228",
 	"hoenn": undefined,
@@ -2540,7 +2540,7 @@ pokemonArray[140] = {
 }
 pokemonArray[141] = {
 	"name": "Aerodactyl",
-	"number": "142",
+	"national": "142",
 	"kanto": "142",
 	"johto": "229",
 	"hoenn": undefined,
@@ -2558,7 +2558,7 @@ pokemonArray[141] = {
 }
 pokemonArray[142] = {
 	"name": "Snorlax",
-	"number": "143",
+	"national": "143",
 	"kanto": "143",
 	"johto": "230",
 	"hoenn": undefined,
@@ -2576,7 +2576,7 @@ pokemonArray[142] = {
 }
 pokemonArray[143] = {
 	"name": "Articuno",
-	"number": "144",
+	"national": "144",
 	"kanto": "144",
 	"johto": "240",
 	"hoenn": undefined,
@@ -2594,7 +2594,7 @@ pokemonArray[143] = {
 }
 pokemonArray[144] = {
 	"name": "Zapdos",
-	"number": "145",
+	"national": "145",
 	"kanto":  "145",
 	"johto": "241",
 	"hoenn": undefined,
@@ -2612,7 +2612,7 @@ pokemonArray[144] = {
 }
 pokemonArray[145] = {
 	"name": "Moltres",
-	"number": "146",
+	"national": "146",
 	"kanto": "146",
 	"johto": "242",
 	"hoenn": undefined,
@@ -2630,7 +2630,7 @@ pokemonArray[145] = {
 }
 pokemonArray[146] = {
 	"name": "Dratini",
-	"number": "147",
+	"national": "147",
 	"kanto": "147",
 	"johto": "246",
 	"hoenn": undefined,
@@ -2648,7 +2648,7 @@ pokemonArray[146] = {
 }
 pokemonArray[147] = {
 	"name": "Dragonair",
-	"number": "148",
+	"national": "148",
 	"kanto": "148",
 	"johto": "247",
 	"hoenn": undefined,
@@ -2666,7 +2666,7 @@ pokemonArray[147] = {
 }
 pokemonArray[148] = {
 	"name": "Dragonite",
-	"number": "149",
+	"national": "149",
 	"kanto": "149",
 	"johto": "248",
 	"hoenn": undefined,
@@ -2684,7 +2684,7 @@ pokemonArray[148] = {
 }
 pokemonArray[149] = {
 	"name": "Mewtwo",
-	"number": "150",
+	"national": "150",
 	"kanto": "150",
 	"johto": "254",
 	"hoenn": undefined,
@@ -2702,7 +2702,7 @@ pokemonArray[149] = {
 }
 pokemonArray[150] = {
 	"name": "Mew",
-	"number": "151",
+	"national": "151",
 	"kanto": "151",
 	"johto": "255",
 	"hoenn": undefined,
@@ -2720,7 +2720,7 @@ pokemonArray[150] = {
 }
 pokemonArray[151] = {
 	"name": "Chikorita",
-	"number": "152",
+	"national": "152",
 	"kanto": undefined,
 	"johto": "001",
 	"hoenn": undefined,
@@ -2738,7 +2738,7 @@ pokemonArray[151] = {
 }
 pokemonArray[152] = {
 	"name": "Bayleef",
-	"number": "153",
+	"national": "153",
 	"kanto": undefined,
 	"johto": "002",
 	"hoenn": undefined,
@@ -2756,7 +2756,7 @@ pokemonArray[152] = {
 }
 pokemonArray[153] = {
 	"name": "Meganium",
-	"number": "154",
+	"national": "154",
 	"kanto": undefined,
 	"johto": "003",
 	"hoenn": undefined,
@@ -2774,7 +2774,7 @@ pokemonArray[153] = {
 }
 pokemonArray[154] = {
 	"name": "Cyndaquil",
-	"number": "155",
+	"national": "155",
 	"kanto": undefined,
 	"johto": "004",
 	"hoenn": undefined,
@@ -2792,7 +2792,7 @@ pokemonArray[154] = {
 }
 pokemonArray[155] = {
 	"name": "Quilava",
-	"number": "156",
+	"national": "156",
 	"kanto": undefined,
 	"johto": "005",
 	"hoenn": undefined,
@@ -2810,7 +2810,7 @@ pokemonArray[155] = {
 }
 pokemonArray[156] = {
 	"name": "Typhlosion",
-	"number": "157",
+	"national": "157",
 	"kanto": undefined,
 	"johto": "006",
 	"hoenn": undefined,
@@ -2828,7 +2828,7 @@ pokemonArray[156] = {
 }
 pokemonArray[157] = {
 	"name": "Totodile",
-	"number": "158",
+	"national": "158",
 	"kanto": undefined,
 	"johto": "007",
 	"hoenn": undefined,
@@ -2846,7 +2846,7 @@ pokemonArray[157] = {
 }
 pokemonArray[158] = {
 	"name": "Croconaw",
-	"number": "159",
+	"national": "159",
 	"kanto": undefined,
 	"johto": "008",
 	"hoenn": undefined,
@@ -2864,7 +2864,7 @@ pokemonArray[158] = {
 }
 pokemonArray[159] = {
 	"name": "Feraligatr",
-	"number": "160",
+	"national": "160",
 	"kanto": undefined,
 	"johto": "009",
 	"hoenn": undefined,
@@ -2882,7 +2882,7 @@ pokemonArray[159] = {
 }
 pokemonArray[160] = {
 	"name": "Sentret",
-	"number": "161",
+	"national": "161",
 	"kanto": undefined,
 	"johto": "019",
 	"hoenn": undefined,
@@ -2900,7 +2900,7 @@ pokemonArray[160] = {
 }
 pokemonArray[161] = {
 	"name": "Furret",
-	"number": "162",
+	"national": "162",
 	"kanto": undefined,
 	"johto": "020",
 	"hoenn": undefined,
@@ -2918,7 +2918,7 @@ pokemonArray[161] = {
 }
 pokemonArray[162] = {
 	"name": "Hoothoot",
-	"number": "163",
+	"national": "163",
 	"kanto": undefined,
 	"johto": "015",
 	"hoenn": undefined,
@@ -2936,7 +2936,7 @@ pokemonArray[162] = {
 }
 pokemonArray[163] = {
 	"name": "Noctowl",
-	"number": "164",
+	"national": "164",
 	"kanto": undefined,
 	"johto": "016",
 	"hoenn": undefined,
@@ -2954,7 +2954,7 @@ pokemonArray[163] = {
 }
 pokemonArray[164] = {
 	"name": "Ledyba",
-	"number": "165",
+	"national": "165",
 	"kanto": undefined,
 	"johto": "030",
 	"hoenn": undefined,
@@ -2972,7 +2972,7 @@ pokemonArray[164] = {
 }
 pokemonArray[165] = {
 	"name": "Ledian",
-	"number": "166",
+	"national": "166",
 	"kanto": undefined,
 	"johto": "031",
 	"hoenn": undefined,
@@ -2990,7 +2990,7 @@ pokemonArray[165] = {
 }
 pokemonArray[166] = {
 	"name": "Spinarak",
-	"number": "167",
+	"national": "167",
 	"kanto": undefined,
 	"johto": "032",
 	"hoenn": undefined,
@@ -3008,7 +3008,7 @@ pokemonArray[166] = {
 }
 pokemonArray[167] = {
 	"name": "Ariados",
-	"number": "168",
+	"national": "168",
 	"kanto": undefined,
 	"johto": "033",
 	"hoenn": undefined,
@@ -3026,7 +3026,7 @@ pokemonArray[167] = {
 }
 pokemonArray[168] = {
 	"name": "Crobat",
-	"number": "169",
+	"national": "169",
 	"kanto": undefined,
 	"johto": "039",
 	"hoenn": "067",
@@ -3044,7 +3044,7 @@ pokemonArray[168] = {
 }
 pokemonArray[169] = {
 	"name": "Chinchou",
-	"number": "170",
+	"national": "170",
 	"kanto": undefined,
 	"johto": "176",
 	"hoenn": "190",
@@ -3062,7 +3062,7 @@ pokemonArray[169] = {
 }
 pokemonArray[170] = {
 	"name": "Lanturn",
-	"number": "171",
+	"national": "171",
 	"kanto": undefined,
 	"johto": "177",
 	"hoenn": "191",
@@ -3080,7 +3080,7 @@ pokemonArray[170] = {
 }
 pokemonArray[171] = {
 	"name": "Pichu",
-	"number": "172",
+	"national": "172",
 	"kanto": undefined,
 	"johto": "021",
 	"hoenn": "162",
@@ -3098,7 +3098,7 @@ pokemonArray[171] = {
 }
 pokemonArray[172] = {
 	"name": "Cleffa",
-	"number": "173",
+	"national": "173",
 	"kanto": undefined,
 	"johto": "040",
 	"hoenn": undefined,
@@ -3116,7 +3116,7 @@ pokemonArray[172] = {
 }
 pokemonArray[173] = {
 	"name": "Igglybuff",
-	"number": "174",
+	"national": "174",
 	"kanto": undefined,
 	"johto": "043",
 	"hoenn": "142",
@@ -3134,7 +3134,7 @@ pokemonArray[173] = {
 }
 pokemonArray[174] = {
 	"name": "Togepi",
-	"number": "175",
+	"national": "175",
 	"kanto": undefined,
 	"johto": "046",
 	"hoenn": undefined,
@@ -3152,7 +3152,7 @@ pokemonArray[174] = {
 }
 pokemonArray[175] = {
 	"name": "Togetic",
-	"number": "176",
+	"national": "176",
 	"kanto": undefined,
 	"johto": "047",
 	"hoenn": undefined,
@@ -3170,7 +3170,7 @@ pokemonArray[175] = {
 }
 pokemonArray[176] = {
 	"name": "Natu",
-	"number": "177",
+	"national": "177",
 	"kanto": undefined,
 	"johto": "161",
 	"hoenn": "169",
@@ -3188,7 +3188,7 @@ pokemonArray[176] = {
 }
 pokemonArray[177] = {
 	"name": "Xatu",
-	"number": "178",
+	"national": "178",
 	"kanto": undefined,
 	"johto": "162",
 	"hoenn": "170",
@@ -3206,7 +3206,7 @@ pokemonArray[177] = {
 }
 pokemonArray[178] = {
 	"name": "Mareep",
-	"number": "179",
+	"national": "179",
 	"kanto": undefined,
 	"johto": "053",
 	"hoenn": undefined,
@@ -3224,7 +3224,7 @@ pokemonArray[178] = {
 }
 pokemonArray[179] = {
 	"name": "Flaaffy",
-	"number": "180",
+	"national": "180",
 	"kanto": undefined,
 	"johto": "054",
 	"hoenn": undefined,
@@ -3242,7 +3242,7 @@ pokemonArray[179] = {
 }
 pokemonArray[180] = {
 	"name": "Ampharos",
-	"number": "181",
+	"national": "181",
 	"kanto": undefined,
 	"johto": "055",
 	"hoenn": undefined,
@@ -3260,7 +3260,7 @@ pokemonArray[180] = {
 }
 pokemonArray[181] = {
 	"name": "Bellossom",
-	"number": "182",
+	"national": "182",
 	"kanto": undefined,
 	"johto": "086",
 	"hoenn": "094",
@@ -3278,7 +3278,7 @@ pokemonArray[181] = {
 }
 pokemonArray[182] = {
 	"name": "Marill",
-	"number": "183",
+	"national": "183",
 	"kanto": undefined,
 	"johto": "132",
 	"hoenn": "056",
@@ -3296,7 +3296,7 @@ pokemonArray[182] = {
 }
 pokemonArray[183] = {
 	"name": "Azumarill",
-	"number": "184",
+	"national": "184",
 	"kanto": undefined,
 	"johto": "133",
 	"hoenn": "057",
@@ -3314,7 +3314,7 @@ pokemonArray[183] = {
 }
 pokemonArray[184] = {
 	"name": "Sudowoodo",
-	"number": "185",
+	"national": "185",
 	"kanto": undefined,
 	"johto": "107",
 	"hoenn": undefined,
@@ -3332,7 +3332,7 @@ pokemonArray[184] = {
 }
 pokemonArray[185] = {
 	"name": "Politoed",
-	"number": "186",
+	"national": "186",
 	"kanto": undefined,
 	"johto": "075",
 	"hoenn": undefined,
@@ -3350,7 +3350,7 @@ pokemonArray[185] = {
 }
 pokemonArray[186] = {
 	"name": "Hoppip",
-	"number": "187",
+	"national": "187",
 	"kanto": undefined,
 	"johto": "067",
 	"hoenn": undefined,
@@ -3368,7 +3368,7 @@ pokemonArray[186] = {
 }
 pokemonArray[187] = {
 	"name": "Skiploom",
-	"number": "188",
+	"national": "188",
 	"kanto": undefined,
 	"johto": "068",
 	"hoenn": undefined,
@@ -3386,7 +3386,7 @@ pokemonArray[187] = {
 }
 pokemonArray[188] = {
 	"name": "Jumpluff",
-	"number": "189",
+	"national": "189",
 	"kanto": undefined,
 	"johto": "069",
 	"hoenn": undefined,
@@ -3404,7 +3404,7 @@ pokemonArray[188] = {
 }
 pokemonArray[189] = {
 	"name": "Aipom",
-	"number": "190",
+	"national": "190",
 	"kanto": undefined,
 	"johto": "123",
 	"hoenn": undefined,
@@ -3422,7 +3422,7 @@ pokemonArray[189] = {
 }
 pokemonArray[190] = {
 	"name": "Sunkern",
-	"number": "191",
+	"national": "191",
 	"kanto": undefined,
 	"johto": "103",
 	"hoenn": undefined,
@@ -3440,7 +3440,7 @@ pokemonArray[190] = {
 }
 pokemonArray[191] = {
 	"name": "Sunflora",
-	"number": "192",
+	"national": "192",
 	"kanto": undefined,
 	"johto": "104",
 	"hoenn": undefined,
@@ -3458,7 +3458,7 @@ pokemonArray[191] = {
 }
 pokemonArray[192] = {
 	"name": "Yanma",
-	"number": "193",
+	"national": "193",
 	"kanto": undefined,
 	"johto": "101",
 	"hoenn": undefined,
@@ -3476,7 +3476,7 @@ pokemonArray[192] = {
 }
 pokemonArray[193] = {
 	"name": "Wooper",
-	"number": "194",
+	"national": "194",
 	"kanto": undefined,
 	"johto": "056",
 	"hoenn": undefined,
@@ -3494,7 +3494,7 @@ pokemonArray[193] = {
 }
 pokemonArray[194] = {
 	"name": "Quagsire",
-	"number": "195",
+	"national": "195",
 	"kanto": undefined,
 	"johto": "057",
 	"hoenn": undefined,
@@ -3512,7 +3512,7 @@ pokemonArray[194] = {
 }
 pokemonArray[195] = {
 	"name": "Espeon",
-	"number": "196",
+	"national": "196",
 	"kanto": undefined,
 	"johto": "188",
 	"hoenn": undefined,
@@ -3530,7 +3530,7 @@ pokemonArray[195] = {
 }
 pokemonArray[196] = {
 	"name": "Umbreon",
-	"number": "197",
+	"national": "197",
 	"kanto": undefined,
 	"johto": "189",
 	"hoenn": undefined,
@@ -3548,7 +3548,7 @@ pokemonArray[196] = {
 }
 pokemonArray[197] = {
 	"name": "Murkrow",
-	"number": "198",
+	"national": "198",
 	"kanto": undefined,
 	"johto": "213",
 	"hoenn": undefined,
@@ -3566,7 +3566,7 @@ pokemonArray[197] = {
 }
 pokemonArray[198] = {
 	"name": "Slowking",
-	"number": "199",
+	"national": "199",
 	"kanto": undefined,
 	"johto": "082",
 	"hoenn": undefined,
@@ -3584,7 +3584,7 @@ pokemonArray[198] = {
 }
 pokemonArray[199] = {
 	"name": "Misdreavus",
-	"number": "200",
+	"national": "200",
 	"kanto": undefined,
 	"johto": "219",
 	"hoenn": undefined,
@@ -3602,7 +3602,7 @@ pokemonArray[199] = {
 }
 pokemonArray[200] = {
 	"name": "Unown",
-	"number": "201",
+	"national": "201",
 	"kanto": undefined,
 	"johto": "061",
 	"hoenn": undefined,
@@ -3620,7 +3620,7 @@ pokemonArray[200] = {
 }
 pokemonArray[201] = {
 	"name": "Wobbuffet",
-	"number": "202",
+	"national": "202",
 	"kanto": undefined,
 	"johto": "108",
 	"hoenn": "168",
@@ -3638,7 +3638,7 @@ pokemonArray[201] = {
 }
 pokemonArray[202] = {
 	"name": "Girafarig",
-	"number": "203",
+	"national": "203",
 	"kanto": undefined,
 	"johto": "149",
 	"hoenn": "171",
@@ -3656,7 +3656,7 @@ pokemonArray[202] = {
 }
 pokemonArray[203] = {
 	"name": "Pineco",
-	"number": "204",
+	"national": "204",
 	"kanto": undefined,
 	"johto": "093",
 	"hoenn": undefined,
@@ -3674,7 +3674,7 @@ pokemonArray[203] = {
 }
 pokemonArray[204] = {
 	"name": "Forretress",
-	"number": "205",
+	"national": "205",
 	"kanto": undefined,
 	"johto": "094",
 	"hoenn": undefined,
@@ -3692,7 +3692,7 @@ pokemonArray[204] = {
 }
 pokemonArray[205] = {
 	"name": "Dunsparce",
-	"number": "206",
+	"national": "206",
 	"kanto": undefined,
 	"johto": "052",
 	"hoenn": undefined,
@@ -3710,7 +3710,7 @@ pokemonArray[205] = {
 }
 pokemonArray[206] = {
 	"name": "Gligar",
-	"number": "207",
+	"national": "207",
 	"kanto": undefined,
 	"johto": "193",
 	"hoenn": undefined,
@@ -3728,7 +3728,7 @@ pokemonArray[206] = {
 }
 pokemonArray[207] = {
 	"name": "Steelix",
-	"number": "208",
+	"national": "208",
 	"kanto": undefined,
 	"johto": "063",
 	"hoenn": undefined,
@@ -3746,7 +3746,7 @@ pokemonArray[207] = {
 }
 pokemonArray[208] = {
 	"name": "Snubbull",
-	"number": "209",
+	"national": "209",
 	"kanto": undefined,
 	"johto": "125",
 	"hoenn": undefined,
@@ -3764,7 +3764,7 @@ pokemonArray[208] = {
 }
 pokemonArray[209] = {
 	"name": "Granbull",
-	"number": "210",
+	"national": "210",
 	"kanto": undefined,
 	"johto": "126",
 	"hoenn": undefined,
@@ -3782,7 +3782,7 @@ pokemonArray[209] = {
 }
 pokemonArray[210] = {
 	"name": "Qwilfish",
-	"number": "211",
+	"national": "211",
 	"kanto": undefined,
 	"johto": "163",
 	"hoenn": undefined,
@@ -3800,7 +3800,7 @@ pokemonArray[210] = {
 }
 pokemonArray[211] = {
 	"name": "Scizor",
-	"number": "212",
+	"national": "212",
 	"kanto": undefined,
 	"johto": "112",
 	"hoenn": undefined,
@@ -3812,13 +3812,13 @@ pokemonArray[211] = {
 	"size": "100%",
 
 	"nickname": "Sneezor",
-	"method": "Pokeradar",
+	"method": "PokeRadar",
 	"order": 320,
 	"attempts": 42
 }
 pokemonArray[212] = {
 	"name": "Shuckle",
-	"number": "213",
+	"national": "213",
 	"kanto": undefined,
 	"johto": "168",
 	"hoenn": undefined,
@@ -3836,7 +3836,7 @@ pokemonArray[212] = {
 }
 pokemonArray[213] = {
 	"name": "Heracross",
-	"number": "214",
+	"national": "214",
 	"kanto": undefined,
 	"johto": "114",
 	"hoenn": "175",
@@ -3854,7 +3854,7 @@ pokemonArray[213] = {
 }
 pokemonArray[214] = {
 	"name": "Sneasel",
-	"number": "215",
+	"national": "215",
 	"kanto": undefined,
 	"johto": "218",
 	"hoenn": undefined,
@@ -3872,7 +3872,7 @@ pokemonArray[214] = {
 }
 pokemonArray[215] = {
 	"name": "Teddiursa",
-	"number": "216",
+	"national": "216",
 	"kanto": undefined,
 	"johto": "198",
 	"hoenn": undefined,
@@ -3890,7 +3890,7 @@ pokemonArray[215] = {
 }
 pokemonArray[216] = {
 	"name": "Ursaring",
-	"number": "217",
+	"national": "217",
 	"kanto": undefined,
 	"johto": "199",
 	"hoenn": undefined,
@@ -3908,7 +3908,7 @@ pokemonArray[216] = {
 }
 pokemonArray[217] = {
 	"name": "Slugma",
-	"number": "218",
+	"national": "218",
 	"kanto": undefined,
 	"johto": "216",
 	"hoenn": "108",
@@ -3926,7 +3926,7 @@ pokemonArray[217] = {
 }
 pokemonArray[218] = {
 	"name": "Magcargo",
-	"number": "219",
+	"national": "219",
 	"kanto": undefined,
 	"johto": "217",
 	"hoenn": "109",
@@ -3944,7 +3944,7 @@ pokemonArray[218] = {
 }
 pokemonArray[219] = {
 	"name": "Swinub",
-	"number": "220",
+	"national": "220",
 	"kanto": undefined,
 	"johto": "195",
 	"hoenn": undefined,
@@ -3962,7 +3962,7 @@ pokemonArray[219] = {
 }
 pokemonArray[220] = {
 	"name": "Piloswine",
-	"number": "221",
+	"national": "221",
 	"kanto": undefined,
 	"johto": "196",
 	"hoenn": undefined,
@@ -3980,7 +3980,7 @@ pokemonArray[220] = {
 }
 pokemonArray[221] = {
 	"name": "Corsola",
-	"number": "222",
+	"national": "222",
 	"kanto": undefined,
 	"johto": "173",
 	"hoenn": "189",
@@ -3998,7 +3998,7 @@ pokemonArray[221] = {
 }
 pokemonArray[222] = {
 	"name": "Remoraid",
-	"number": "223",
+	"national": "223",
 	"kanto": undefined,
 	"johto": "174",
 	"hoenn": undefined,
@@ -4016,7 +4016,7 @@ pokemonArray[222] = {
 }
 pokemonArray[223] = {
 	"name": "Octillery",
-	"number": "224",
+	"national": "224",
 	"kanto": undefined,
 	"johto": "175",
 	"hoenn": undefined,
@@ -4034,7 +4034,7 @@ pokemonArray[223] = {
 }
 pokemonArray[224] = {
 	"name": "Delibird",
-	"number": "225",
+	"national": "225",
 	"kanto": undefined,
 	"johto": "194",
 	"hoenn": undefined,
@@ -4052,7 +4052,7 @@ pokemonArray[224] = {
 }
 pokemonArray[225] = {
 	"name": "Mantine",
-	"number": "226",
+	"national": "226",
 	"kanto": undefined,
 	"johto": "202",
 	"hoenn": undefined,
@@ -4070,7 +4070,7 @@ pokemonArray[225] = {
 }
 pokemonArray[226] = {
 	"name": "Skarmory",
-	"number": "227",
+	"national": "227",
 	"kanto": undefined,
 	"johto": "203",
 	"hoenn": "120",
@@ -4088,7 +4088,7 @@ pokemonArray[226] = {
 }
 pokemonArray[227] = {
 	"name": "Houndour",
-	"number": "228",
+	"national": "228",
 	"kanto": undefined,
 	"johto": "214",
 	"hoenn": undefined,
@@ -4106,7 +4106,7 @@ pokemonArray[227] = {
 }
 pokemonArray[228] = {
 	"name": "Houndoom",
-	"number": "229",
+	"national": "229",
 	"kanto": undefined,
 	"johto": "215",
 	"hoenn": undefined,
@@ -4124,7 +4124,7 @@ pokemonArray[228] = {
 }
 pokemonArray[229] = {
 	"name": "Kingdra",
-	"number": "230",
+	"national": "230",
 	"kanto": undefined,
 	"johto": "192",
 	"hoenn": "195",
@@ -4142,7 +4142,7 @@ pokemonArray[229] = {
 }
 pokemonArray[230] = {
 	"name": "Phanpy",
-	"number": "231",
+	"national": "231",
 	"kanto": undefined,
 	"johto": "200",
 	"hoenn": "172",
@@ -4160,7 +4160,7 @@ pokemonArray[230] = {
 }
 pokemonArray[231] = {
 	"name": "Donphan",
-	"number": "232",
+	"national": "232",
 	"kanto": undefined,
 	"johto": "201",
 	"hoenn": "173",
@@ -4178,7 +4178,7 @@ pokemonArray[231] = {
 }
 pokemonArray[232] = {
 	"name": "Porygon2",
-	"number": "233",
+	"national": "233",
 	"kanto": undefined,
 	"johto": "221",
 	"hoenn": undefined,
@@ -4196,7 +4196,7 @@ pokemonArray[232] = {
 }
 pokemonArray[233] = {
 	"name": "Stantler",
-	"number": "234",
+	"national": "234",
 	"kanto": undefined,
 	"johto": "131",
 	"hoenn": undefined,
@@ -4214,7 +4214,7 @@ pokemonArray[233] = {
 }
 pokemonArray[234] = {
 	"name": "Smeargle",
-	"number": "235",
+	"national": "235",
 	"kanto": undefined,
 	"johto": "159",
 	"hoenn": undefined,
@@ -4232,7 +4232,7 @@ pokemonArray[234] = {
 }
 pokemonArray[235] = {
 	"name": "Tyrogue",
-	"number": "236",
+	"national": "236",
 	"kanto": undefined,
 	"johto": "145",
 	"hoenn": undefined,
@@ -4250,7 +4250,7 @@ pokemonArray[235] = {
 }
 pokemonArray[236] = {
 	"name": "Hitmontop",
-	"number": "237",
+	"national": "237",
 	"kanto": undefined,
 	"johto": "148",
 	"hoenn": undefined,
@@ -4268,7 +4268,7 @@ pokemonArray[236] = {
 }
 pokemonArray[237] = {
 	"name": "Smoochum",
-	"number": "238",
+	"national": "238",
 	"kanto": undefined,
 	"johto": "154",
 	"hoenn": undefined,
@@ -4286,7 +4286,7 @@ pokemonArray[237] = {
 }
 pokemonArray[238] = {
 	"name": "Elekid",
-	"number": "239",
+	"national": "239",
 	"kanto": undefined,
 	"johto": "156",
 	"hoenn": undefined,
@@ -4304,7 +4304,7 @@ pokemonArray[238] = {
 }
 pokemonArray[239] = {
 	"name": "Magby",
-	"number": "240",
+	"national": "240",
 	"kanto": undefined,
 	"johto": "152",
 	"hoenn": undefined,
@@ -4322,7 +4322,7 @@ pokemonArray[239] = {
 }
 pokemonArray[240] = {
 	"name": "Miltank",
-	"number": "241",
+	"national": "241",
 	"kanto": undefined,
 	"johto": "151",
 	"hoenn": undefined,
@@ -4340,7 +4340,7 @@ pokemonArray[240] = {
 }
 pokemonArray[241] = {
 	"name": "Blissey",
-	"number": "242",
+	"national": "242",
 	"kanto": undefined,
 	"johto": "223",
 	"hoenn": undefined,
@@ -4358,7 +4358,7 @@ pokemonArray[241] = {
 }
 pokemonArray[242] = {
 	"name": "Raikou",
-	"number": "243",
+	"national": "243",
 	"kanto": undefined,
 	"johto": "243",
 	"hoenn": undefined,
@@ -4376,7 +4376,7 @@ pokemonArray[242] = {
 }
 pokemonArray[243] = {
 	"name": "Entei",
-	"number": "244",
+	"national": "244",
 	"kanto": undefined,
 	"johto": "244",
 	"hoenn": undefined,
@@ -4394,7 +4394,7 @@ pokemonArray[243] = {
 }
 pokemonArray[244] = {
 	"name": "Suicune",
-	"number": "245",
+	"national": "245",
 	"kanto": undefined,
 	"johto": "245",
 	"hoenn": undefined,
@@ -4412,7 +4412,7 @@ pokemonArray[244] = {
 }
 pokemonArray[245] = {
 	"name": "Larvitar",
-	"number": "246",
+	"national": "246",
 	"kanto": undefined,
 	"johto": "249",
 	"hoenn": undefined,
@@ -4430,7 +4430,7 @@ pokemonArray[245] = {
 }
 pokemonArray[246] = {
 	"name": "Pupitar",
-	"number": "247",
+	"national": "247",
 	"kanto": undefined,
 	"johto": "250",
 	"hoenn": undefined,
@@ -4448,7 +4448,7 @@ pokemonArray[246] = {
 }
 pokemonArray[247] = {
 	"name": "Tyranitar",
-	"number": "248",
+	"national": "248",
 	"kanto": undefined,
 	"johto": "251",
 	"hoenn": undefined,
@@ -4466,7 +4466,7 @@ pokemonArray[247] = {
 }
 pokemonArray[248] = {
 	"name": "Lugia",
-	"number": "249",
+	"national": "249",
 	"kanto": undefined,
 	"johto": "252",
 	"hoenn": undefined,
@@ -4484,7 +4484,7 @@ pokemonArray[248] = {
 }
 pokemonArray[249] = {
 	"name": "Ho-Oh",
-	"number": "250",
+	"national": "250",
 	"kanto": undefined,
 	"johto": "253",
 	"hoenn": undefined,
@@ -4502,7 +4502,7 @@ pokemonArray[249] = {
 }
 pokemonArray[250] = {
 	"name": "Celebi",
-	"number": "251",
+	"national": "251",
 	"kanto": undefined,
 	"johto": "256",
 	"hoenn": undefined,
@@ -4520,7 +4520,7 @@ pokemonArray[250] = {
 }
 pokemonArray[251] = {
 	"name": "Treecko",
-	"number": "252",
+	"national": "252",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "001",
@@ -4538,7 +4538,7 @@ pokemonArray[251] = {
 }
 pokemonArray[252] = {
 	"name": "Grovyle",
-	"number": "253",
+	"national": "253",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "002",
@@ -4556,7 +4556,7 @@ pokemonArray[252] = {
 }
 pokemonArray[253] = {
 	"name": "Sceptile",
-	"number": "254",
+	"national": "254",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "003",
@@ -4574,7 +4574,7 @@ pokemonArray[253] = {
 }
 pokemonArray[254] = {
 	"name": "Torchic",
-	"number": "255",
+	"national": "255",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "004",
@@ -4592,7 +4592,7 @@ pokemonArray[254] = {
 }
 pokemonArray[255] = {
 	"name": "Combusken",
-	"number": "256",
+	"national": "256",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "005",
@@ -4610,7 +4610,7 @@ pokemonArray[255] = {
 }
 pokemonArray[256] = {
 	"name": "Blaziken",
-	"number": "257",
+	"national": "257",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "006",
@@ -4628,7 +4628,7 @@ pokemonArray[256] = {
 }
 pokemonArray[257] = {
 	"name": "Mudkip",
-	"number": "258",
+	"national": "258",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "007",
@@ -4646,7 +4646,7 @@ pokemonArray[257] = {
 }
 pokemonArray[258] = {
 	"name": "Marshtomp",
-	"number": "259",
+	"national": "259",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "008",
@@ -4664,7 +4664,7 @@ pokemonArray[258] = {
 }
 pokemonArray[259] = {
 	"name": "Swampert",
-	"number": "260",
+	"national": "260",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "009",
@@ -4682,7 +4682,7 @@ pokemonArray[259] = {
 }
 pokemonArray[260] = {
 	"name": "Poochyena",
-	"number": "261",
+	"national": "261",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "010",
@@ -4700,7 +4700,7 @@ pokemonArray[260] = {
 }
 pokemonArray[261] = {
 	"name": "Mightyena",
-	"number": "262",
+	"national": "262",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "011",
@@ -4718,7 +4718,7 @@ pokemonArray[261] = {
 }
 pokemonArray[262] = {
 	"name": "Zigzagoon",
-	"number": "263",
+	"national": "263",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "012",
@@ -4736,7 +4736,7 @@ pokemonArray[262] = {
 }
 pokemonArray[263] = {
 	"name": "Linoone",
-	"number": "264",
+	"national": "264",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "013",
@@ -4754,7 +4754,7 @@ pokemonArray[263] = {
 }
 pokemonArray[264] = {
 	"name": "Wurmple",
-	"number": "265",
+	"national": "265",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "014",
@@ -4772,7 +4772,7 @@ pokemonArray[264] = {
 }
 pokemonArray[265] = {
 	"name": "Silcoon",
-	"number": "266",
+	"national": "266",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "015",
@@ -4790,7 +4790,7 @@ pokemonArray[265] = {
 }
 pokemonArray[266] = {
 	"name": "Beautifly",
-	"number": "267",
+	"national": "267",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "016",
@@ -4808,7 +4808,7 @@ pokemonArray[266] = {
 }
 pokemonArray[267] = {
 	"name": "Cascoon",
-	"number": "268",
+	"national": "268",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "017",
@@ -4826,7 +4826,7 @@ pokemonArray[267] = {
 }
 pokemonArray[268] = {
 	"name": "Dustox",
-	"number": "269",
+	"national": "269",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "018",
@@ -4844,7 +4844,7 @@ pokemonArray[268] = {
 }
 pokemonArray[269] = {
 	"name": "Lotad",
-	"number": "270",
+	"national": "270",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "019",
@@ -4862,7 +4862,7 @@ pokemonArray[269] = {
 }
 pokemonArray[270] = {
 	"name": "Lombre",
-	"number": "271",
+	"national": "271",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "020",
@@ -4880,7 +4880,7 @@ pokemonArray[270] = {
 }
 pokemonArray[271] = {
 	"name": "Ludicolo",
-	"number": "272",
+	"national": "272",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "021",
@@ -4898,7 +4898,7 @@ pokemonArray[271] = {
 }
 pokemonArray[272] = {
 	"name": "Seedot",
-	"number": "273",
+	"national": "273",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "022",
@@ -4916,7 +4916,7 @@ pokemonArray[272] = {
 }
 pokemonArray[273] = {
 	"name": "Nuzleaf",
-	"number": "274",
+	"national": "274",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "023",
@@ -4934,7 +4934,7 @@ pokemonArray[273] = {
 }
 pokemonArray[274] = {
 	"name": "Shiftry",
-	"number": "275",
+	"national": "275",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "024",
@@ -4952,7 +4952,7 @@ pokemonArray[274] = {
 }
 pokemonArray[275] = {
 	"name": "Taillow",
-	"number": "276",
+	"national": "276",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "025",
@@ -4970,7 +4970,7 @@ pokemonArray[275] = {
 }
 pokemonArray[276] = {
 	"name": "Swellow",
-	"number": "277",
+	"national": "277",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "026",
@@ -4988,7 +4988,7 @@ pokemonArray[276] = {
 }
 pokemonArray[277] = {
 	"name": "Wingull",
-	"number": "278",
+	"national": "278",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "027",
@@ -5006,7 +5006,7 @@ pokemonArray[277] = {
 }
 pokemonArray[278] = {
 	"name": "Pelipper",
-	"number": "279",
+	"national": "279",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "028",
@@ -5024,7 +5024,7 @@ pokemonArray[278] = {
 }
 pokemonArray[279] = {
 	"name": "Ralts",
-	"number": "280",
+	"national": "280",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "029",
@@ -5042,7 +5042,7 @@ pokemonArray[279] = {
 }
 pokemonArray[280] = {
 	"name": "Kirlia",
-	"number": "281",
+	"national": "281",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "030",
@@ -5060,7 +5060,7 @@ pokemonArray[280] = {
 }
 pokemonArray[281] = {
 	"name": "Gardevoir",
-	"number": "282",
+	"national": "282",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "031",
@@ -5078,7 +5078,7 @@ pokemonArray[281] = {
 }
 pokemonArray[282] = {
 	"name": "Surskit",
-	"number": "283",
+	"national": "283",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "033",
@@ -5096,7 +5096,7 @@ pokemonArray[282] = {
 }
 pokemonArray[283] = {
 	"name": "Masquerain",
-	"number": "284",
+	"national": "284",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "034",
@@ -5114,7 +5114,7 @@ pokemonArray[283] = {
 }
 pokemonArray[284] = {
 	"name": "Shroomish",
-	"number": "285",
+	"national": "285",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "035",
@@ -5132,7 +5132,7 @@ pokemonArray[284] = {
 }
 pokemonArray[285] = {
 	"name": "Breloom",
-	"number": "286",
+	"national": "286",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "036",
@@ -5150,7 +5150,7 @@ pokemonArray[285] = {
 }
 pokemonArray[286] = {
 	"name": "Slakoth",
-	"number": "287",
+	"national": "287",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "037",
@@ -5168,7 +5168,7 @@ pokemonArray[286] = {
 }
 pokemonArray[287] = {
 	"name": "Vigoroth",
-	"number": "288",
+	"national": "288",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "038",
@@ -5186,7 +5186,7 @@ pokemonArray[287] = {
 }
 pokemonArray[288] = {
 	"name": "Slaking",
-	"number": "289",
+	"national": "289",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "039",
@@ -5204,7 +5204,7 @@ pokemonArray[288] = {
 }
 pokemonArray[289] = {
 	"name": "Nincada",
-	"number": "290",
+	"national": "290",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "043",
@@ -5222,7 +5222,7 @@ pokemonArray[289] = {
 }
 pokemonArray[290] = {
 	"name": "Ninjask",
-	"number": "291",
+	"national": "291",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "044",
@@ -5240,7 +5240,7 @@ pokemonArray[290] = {
 }
 pokemonArray[291] = {
 	"name": "Shedinja",
-	"number": "292",
+	"national": "292",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "045",
@@ -5258,7 +5258,7 @@ pokemonArray[291] = {
 }
 pokemonArray[292] = {
 	"name": "Whismur",
-	"number": "293",
+	"national": "293",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "046",
@@ -5276,7 +5276,7 @@ pokemonArray[292] = {
 }
 pokemonArray[293] = {
 	"name": "Loudred",
-	"number": "294",
+	"national": "294",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "047",
@@ -5294,7 +5294,7 @@ pokemonArray[293] = {
 }
 pokemonArray[294] = {
 	"name": "Exploud",
-	"number": "295",
+	"national": "295",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "048",
@@ -5312,7 +5312,7 @@ pokemonArray[294] = {
 }
 pokemonArray[295] = {
 	"name": "Makuhita",
-	"number": "296",
+	"national": "296",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "049",
@@ -5330,7 +5330,7 @@ pokemonArray[295] = {
 }
 pokemonArray[296] = {
 	"name": "Hariyama",
-	"number": "297",
+	"national": "297",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "050",
@@ -5348,7 +5348,7 @@ pokemonArray[296] = {
 }
 pokemonArray[297] = {
 	"name": "Azurill",
-	"number": "298",
+	"national": "298",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "055",
@@ -5366,7 +5366,7 @@ pokemonArray[297] = {
 }
 pokemonArray[298] = {
 	"name": "Nosepass",
-	"number": "299",
+	"national": "299",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "061",
@@ -5384,7 +5384,7 @@ pokemonArray[298] = {
 }
 pokemonArray[299] = {
 	"name": "Skitty",
-	"number": "300",
+	"national": "300",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "063",
@@ -5402,7 +5402,7 @@ pokemonArray[299] = {
 }
 pokemonArray[300] = {
 	"name": "Delcatty",
-	"number": "301",
+	"national": "301",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "064",
@@ -5420,7 +5420,7 @@ pokemonArray[300] = {
 }
 pokemonArray[301] = {
 	"name": "Sableye",
-	"number": "302",
+	"national": "302",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "070",
@@ -5438,7 +5438,7 @@ pokemonArray[301] = {
 }
 pokemonArray[302] = {
 	"name": "Mawile",
-	"number": "303",
+	"national": "303",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "071",
@@ -5456,7 +5456,7 @@ pokemonArray[302] = {
 }
 pokemonArray[303] = {
 	"name": "Aron",
-	"number": "304",
+	"national": "304",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "072",
@@ -5474,7 +5474,7 @@ pokemonArray[303] = {
 }
 pokemonArray[304] = {
 	"name": "Lairon",
-	"number": "305",
+	"national": "305",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "073",
@@ -5492,7 +5492,7 @@ pokemonArray[304] = {
 }
 pokemonArray[305] = {
 	"name": "Aggron",
-	"number": "306",
+	"national": "306",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "074",
@@ -5510,7 +5510,7 @@ pokemonArray[305] = {
 }
 pokemonArray[306] = {
 	"name": "Meditite",
-	"number": "307",
+	"national": "307",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "078",
@@ -5528,7 +5528,7 @@ pokemonArray[306] = {
 }
 pokemonArray[307] = {
 	"name": "Medicham",
-	"number": "308",
+	"national": "308",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "079",
@@ -5546,7 +5546,7 @@ pokemonArray[307] = {
 }
 pokemonArray[308] = {
 	"name": "Electrike",
-	"number": "309",
+	"national": "309",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "080",
@@ -5564,7 +5564,7 @@ pokemonArray[308] = {
 }
 pokemonArray[309] = {
 	"name": "Manectric",
-	"number": "310",
+	"national": "310",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "081",
@@ -5582,7 +5582,7 @@ pokemonArray[309] = {
 }
 pokemonArray[310] = {
 	"name": "Plusle",
-	"number": "311",
+	"national": "311",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "082",
@@ -5600,7 +5600,7 @@ pokemonArray[310] = {
 }
 pokemonArray[311] = {
 	"name": "Minun",
-	"number": "312",
+	"national": "312",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "083",
@@ -5618,7 +5618,7 @@ pokemonArray[311] = {
 }
 pokemonArray[312] = {
 	"name": "Volbeat",
-	"number": "313",
+	"national": "313",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "089",
@@ -5636,7 +5636,7 @@ pokemonArray[312] = {
 }
 pokemonArray[313] = {
 	"name": "Illumise",
-	"number": "314",
+	"national": "314",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "090",
@@ -5654,7 +5654,7 @@ pokemonArray[313] = {
 }
 pokemonArray[314] = {
 	"name": "Roselia",
-	"number": "315",
+	"national": "315",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "098",
@@ -5672,7 +5672,7 @@ pokemonArray[314] = {
 }
 pokemonArray[315] = {
 	"name": "Gulpin",
-	"number": "316",
+	"national": "316",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "100",
@@ -5690,7 +5690,7 @@ pokemonArray[315] = {
 }
 pokemonArray[316] = {
 	"name": "Swalot",
-	"number": "317",
+	"national": "317",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "101",
@@ -5708,7 +5708,7 @@ pokemonArray[316] = {
 }
 pokemonArray[317] = {
 	"name": "Carvanha",
-	"number": "318",
+	"national": "318",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "102",
@@ -5726,7 +5726,7 @@ pokemonArray[317] = {
 }
 pokemonArray[318] = {
 	"name": "Sharpedo",
-	"number": "319",
+	"national": "319",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "103",
@@ -5744,7 +5744,7 @@ pokemonArray[318] = {
 }
 pokemonArray[319] = {
 	"name": "Wailmer",
-	"number": "320",
+	"national": "320",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "104",
@@ -5762,7 +5762,7 @@ pokemonArray[319] = {
 }
 pokemonArray[320] = {
 	"name": "Wailord",
-	"number": "321",
+	"national": "321",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "105",
@@ -5780,7 +5780,7 @@ pokemonArray[320] = {
 }
 pokemonArray[321] = {
 	"name": "Numel",
-	"number": "322",
+	"national": "322",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "106",
@@ -5798,7 +5798,7 @@ pokemonArray[321] = {
 }
 pokemonArray[322] = {
 	"name": "Camperupt",
-	"number": "323",
+	"national": "323",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "107",
@@ -5816,7 +5816,7 @@ pokemonArray[322] = {
 }
 pokemonArray[323] = {
 	"name": "Torkoal",
-	"number": "324",
+	"national": "324",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "110",
@@ -5834,7 +5834,7 @@ pokemonArray[323] = {
 }
 pokemonArray[324] = {
 	"name": "Spoink",
-	"number": "325",
+	"national": "325",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "115",
@@ -5852,7 +5852,7 @@ pokemonArray[324] = {
 }
 pokemonArray[325] = {
 	"name": "Grumpig",
-	"number": "326",
+	"national": "326",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "116",
@@ -5870,7 +5870,7 @@ pokemonArray[325] = {
 }
 pokemonArray[326] = {
 	"name": "Spinda",
-	"number": "327",
+	"national": "327",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "119",
@@ -5888,7 +5888,7 @@ pokemonArray[326] = {
 }
 pokemonArray[327] = {
 	"name": "Trapinch",
-	"number": "328",
+	"national": "328",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "121",
@@ -5906,7 +5906,7 @@ pokemonArray[327] = {
 }
 pokemonArray[328] = {
 	"name": "Vibrava",
-	"number": "329",
+	"national": "329",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "122",
@@ -5924,7 +5924,7 @@ pokemonArray[328] = {
 }
 pokemonArray[329] = {
 	"name": "Flygon",
-	"number": "330",
+	"national": "330",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "123",
@@ -5942,7 +5942,7 @@ pokemonArray[329] = {
 }
 pokemonArray[330] = {
 	"name": "Cacnea",
-	"number": "331",
+	"national": "331",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "124",
@@ -5960,7 +5960,7 @@ pokemonArray[330] = {
 }
 pokemonArray[331] = {
 	"name": "Cacturne",
-	"number": "332",
+	"national": "332",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "125",
@@ -5978,7 +5978,7 @@ pokemonArray[331] = {
 }
 pokemonArray[332] = {
 	"name": "Swablu",
-	"number": "333",
+	"national": "333",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "126",
@@ -5996,7 +5996,7 @@ pokemonArray[332] = {
 }
 pokemonArray[333] = {
 	"name": "Altaria",
-	"number": "334",
+	"national": "334",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "127",
@@ -6014,7 +6014,7 @@ pokemonArray[333] = {
 }
 pokemonArray[334] = {
 	"name": "Zangoose",
-	"number": "335",
+	"national": "335",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "128",
@@ -6032,7 +6032,7 @@ pokemonArray[334] = {
 }
 pokemonArray[335] = {
 	"name": "Seviper",
-	"number": "336",
+	"national": "336",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "129",
@@ -6050,7 +6050,7 @@ pokemonArray[335] = {
 }
 pokemonArray[336] = {
 	"name": "Lunatone",
-	"number": "337",
+	"national": "337",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "130",
@@ -6068,7 +6068,7 @@ pokemonArray[336] = {
 }
 pokemonArray[337] = {
 	"name": "Solrock",
-	"number": "338",
+	"national": "338",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "131",
@@ -6086,7 +6086,7 @@ pokemonArray[337] = {
 }
 pokemonArray[338] = {
 	"name": "Barboach",
-	"number": "339",
+	"national": "339",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "132",
@@ -6104,7 +6104,7 @@ pokemonArray[338] = {
 }
 pokemonArray[339] = {
 	"name": "Whiscash",
-	"number": "340",
+	"national": "340",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "133",
@@ -6122,7 +6122,7 @@ pokemonArray[339] = {
 }
 pokemonArray[340] = {
 	"name": "Corphish",
-	"number": "341",
+	"national": "341",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "134",
@@ -6140,7 +6140,7 @@ pokemonArray[340] = {
 }
 pokemonArray[341] = {
 	"name": "Crawdaunt",
-	"number": "342",
+	"national": "342",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "135",
@@ -6158,7 +6158,7 @@ pokemonArray[341] = {
 }
 pokemonArray[342] = {
 	"name": "Baltoy",
-	"number": "343",
+	"national": "343",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "136",
@@ -6176,7 +6176,7 @@ pokemonArray[342] = {
 }
 pokemonArray[343] = {
 	"name": "Claydol",
-	"number": "344",
+	"national": "344",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "137",
@@ -6194,7 +6194,7 @@ pokemonArray[343] = {
 }
 pokemonArray[344] = {
 	"name": "Lileep",
-	"number": "345",
+	"national": "345",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "138",
@@ -6212,7 +6212,7 @@ pokemonArray[344] = {
 }
 pokemonArray[345] = {
 	"name": "Cradily",
-	"number": "346",
+	"national": "346",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "139",
@@ -6230,7 +6230,7 @@ pokemonArray[345] = {
 }
 pokemonArray[346] = {
 	"name": "Anorith",
-	"number": "347",
+	"national": "347",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "140",
@@ -6248,7 +6248,7 @@ pokemonArray[346] = {
 }
 pokemonArray[347] = {
 	"name": "Armaldo",
-	"number": "348",
+	"national": "348",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "141",
@@ -6266,7 +6266,7 @@ pokemonArray[347] = {
 }
 pokemonArray[348] = {
 	"name": "Feebas",
-	"number": "349",
+	"national": "349",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "145",
@@ -6284,7 +6284,7 @@ pokemonArray[348] = {
 }
 pokemonArray[349] = {
 	"name": "Milotic",
-	"number": "350",
+	"national": "350",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "146",
@@ -6302,7 +6302,7 @@ pokemonArray[349] = {
 }
 pokemonArray[350] = {
 	"name": "Castform",
-	"number": "351",
+	"national": "351",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "147",
@@ -6320,7 +6320,7 @@ pokemonArray[350] = {
 }
 pokemonArray[351] = {
 	"name": "Kecleon",
-	"number": "352",
+	"national": "352",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "150",
@@ -6338,7 +6338,7 @@ pokemonArray[351] = {
 }
 pokemonArray[352] = {
 	"name": "Shuppet",
-	"number": "353",
+	"national": "353",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "151",
@@ -6356,7 +6356,7 @@ pokemonArray[352] = {
 }
 pokemonArray[353] = {
 	"name": "Banette",
-	"number": "354",
+	"national": "354",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "152",
@@ -6374,7 +6374,7 @@ pokemonArray[353] = {
 }
 pokemonArray[354] = {
 	"name": "Duskull",
-	"number": "355",
+	"national": "355",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "153",
@@ -6392,7 +6392,7 @@ pokemonArray[354] = {
 }
 pokemonArray[355] = {
 	"name": "Dusclops",
-	"number": "356",
+	"national": "356",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "154",
@@ -6410,7 +6410,7 @@ pokemonArray[355] = {
 }
 pokemonArray[356] = {
 	"name": "Tropius",
-	"number": "357",
+	"national": "357",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "156",
@@ -6428,7 +6428,7 @@ pokemonArray[356] = {
 }
 pokemonArray[357] = {
 	"name": "Chimecho",
-	"number": "358",
+	"national": "358",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "158",
@@ -6446,7 +6446,7 @@ pokemonArray[357] = {
 }
 pokemonArray[358] = {
 	"name": "Absol",
-	"number": "359",
+	"national": "359",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "159",
@@ -6464,7 +6464,7 @@ pokemonArray[358] = {
 }
 pokemonArray[359] = {
 	"name": "Wynaut",
-	"number": "360",
+	"national": "360",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "167",
@@ -6482,7 +6482,7 @@ pokemonArray[359] = {
 }
 pokemonArray[360] = {
 	"name": "Snorunt",
-	"number": "361",
+	"national": "361",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "179",
@@ -6500,7 +6500,7 @@ pokemonArray[360] = {
 }
 pokemonArray[361] = {
 	"name": "Glalie",
-	"number": "362",
+	"national": "362",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "180",
@@ -6518,7 +6518,7 @@ pokemonArray[361] = {
 }
 pokemonArray[362] = {
 	"name": "Spheal",
-	"number": "363",
+	"national": "363",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "182",
@@ -6536,7 +6536,7 @@ pokemonArray[362] = {
 }
 pokemonArray[363] = {
 	"name": "Sealeo",
-	"number": "364",
+	"national": "364",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "183",
@@ -6554,7 +6554,7 @@ pokemonArray[363] = {
 }
 pokemonArray[364] = {
 	"name": "Walrein",
-	"number": "365",
+	"national": "365",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "184",
@@ -6572,7 +6572,7 @@ pokemonArray[364] = {
 }
 pokemonArray[365] = {
 	"name": "Clamperl",
-	"number": "366",
+	"national": "366",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "185",
@@ -6590,7 +6590,7 @@ pokemonArray[365] = {
 }
 pokemonArray[366] = {
 	"name": "Huntail",
-	"number": "367",
+	"national": "367",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "186",
@@ -6608,7 +6608,7 @@ pokemonArray[366] = {
 }
 pokemonArray[367] = {
 	"name": "Gorebyss",
-	"number": "368",
+	"national": "368",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "187",
@@ -6626,7 +6626,7 @@ pokemonArray[367] = {
 }
 pokemonArray[368] = {
 	"name": "Relicanth",
-	"number": "369",
+	"national": "369",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "188",
@@ -6644,7 +6644,7 @@ pokemonArray[368] = {
 }
 pokemonArray[369] = {
 	"name": "Luvdisc",
-	"number": "370",
+	"national": "370",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "192",
@@ -6662,7 +6662,7 @@ pokemonArray[369] = {
 }
 pokemonArray[370] = {
 	"name": "Bagon",
-	"number": "371",
+	"national": "371",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "196",
@@ -6680,7 +6680,7 @@ pokemonArray[370] = {
 }
 pokemonArray[371] = {
 	"name": "Shelgon",
-	"number": "372",
+	"national": "372",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "197",
@@ -6698,7 +6698,7 @@ pokemonArray[371] = {
 }
 pokemonArray[372] = {
 	"name": "Salamence",
-	"number": "373",
+	"national": "373",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "198",
@@ -6716,7 +6716,7 @@ pokemonArray[372] = {
 }
 pokemonArray[373] = {
 	"name": "Beldum",
-	"number": "374",
+	"national": "374",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "199",
@@ -6734,7 +6734,7 @@ pokemonArray[373] = {
 }
 pokemonArray[374] = {
 	"name": "Metang",
-	"number": "375",
+	"national": "375",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "200",
@@ -6752,7 +6752,7 @@ pokemonArray[374] = {
 }
 pokemonArray[375] = {
 	"name": "Metagross",
-	"number": "376",
+	"national": "376",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "201",
@@ -6770,7 +6770,7 @@ pokemonArray[375] = {
 }
 pokemonArray[376] = {
 	"name": "Regirock",
-	"number": "377",
+	"national": "377",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "202",
@@ -6788,7 +6788,7 @@ pokemonArray[376] = {
 }
 pokemonArray[377] = {
 	"name": "Regice",
-	"number": "378",
+	"national": "378",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "203",
@@ -6806,7 +6806,7 @@ pokemonArray[377] = {
 }
 pokemonArray[378] = {
 	"name": "Registeel",
-	"number": "379",
+	"national": "379",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "204",
@@ -6824,7 +6824,7 @@ pokemonArray[378] = {
 }
 pokemonArray[379] = {
 	"name": "Latias",
-	"number": "380",
+	"national": "380",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "205",
@@ -6842,7 +6842,7 @@ pokemonArray[379] = {
 }
 pokemonArray[380] = {
 	"name": "Latios",
-	"number": "381",
+	"national": "381",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "206",
@@ -6860,7 +6860,7 @@ pokemonArray[380] = {
 }
 pokemonArray[381] = {
 	"name": "Kyogre",
-	"number": "382",
+	"national": "382",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "207",
@@ -6878,7 +6878,7 @@ pokemonArray[381] = {
 }
 pokemonArray[382] = {
 	"name": "Groudon",
-	"number": "383",
+	"national": "383",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "208",
@@ -6896,7 +6896,7 @@ pokemonArray[382] = {
 }
 pokemonArray[383] = {
 	"name": "Rayquaza",
-	"number": "384",
+	"national": "384",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "209",
@@ -6914,7 +6914,7 @@ pokemonArray[383] = {
 }
 pokemonArray[384] = {
 	"name": "Jirachi",
-	"number": "385",
+	"national": "385",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "210",
@@ -6932,7 +6932,7 @@ pokemonArray[384] = {
 }
 pokemonArray[385] = {
 	"name": "Deoxys",
-	"number": "386",
+	"national": "386",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "211",
@@ -6950,7 +6950,7 @@ pokemonArray[385] = {
 }
 pokemonArray[386] = {
 	"name": "Turtwig",
-	"number": "387",
+	"national": "387",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -6968,7 +6968,7 @@ pokemonArray[386] = {
 }
 pokemonArray[387] = {
 	"name": "Grotle",
-	"number": "388",
+	"national": "388",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -6986,7 +6986,7 @@ pokemonArray[387] = {
 }
 pokemonArray[388] = {
 	"name": "Torterra",
-	"number": "389",
+	"national": "389",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7004,7 +7004,7 @@ pokemonArray[388] = {
 }
 pokemonArray[389] = {
 	"name": "Chimchar",
-	"number": "390",
+	"national": "390",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7022,7 +7022,7 @@ pokemonArray[389] = {
 }
 pokemonArray[390] = {
 	"name": "Monferno",
-	"number": "391",
+	"national": "391",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7040,7 +7040,7 @@ pokemonArray[390] = {
 }
 pokemonArray[391] = {
 	"name": "Infernape",
-	"number": "392",
+	"national": "392",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7058,7 +7058,7 @@ pokemonArray[391] = {
 }
 pokemonArray[392] = {
 	"name": "Piplup",
-	"number": "393",
+	"national": "393",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7076,7 +7076,7 @@ pokemonArray[392] = {
 }
 pokemonArray[393] = {
 	"name": "Prinplup",
-	"number": "394",
+	"national": "394",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7094,7 +7094,7 @@ pokemonArray[393] = {
 }
 pokemonArray[394] = {
 	"name": "Empoleon",
-	"number": "395",
+	"national": "395",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7112,7 +7112,7 @@ pokemonArray[394] = {
 }
 pokemonArray[395] = {
 	"name": "Starly",
-	"number": "396",
+	"national": "396",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7130,7 +7130,7 @@ pokemonArray[395] = {
 }
 pokemonArray[396] = {
 	"name": "Staravia",
-	"number": "397",
+	"national": "397",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7148,7 +7148,7 @@ pokemonArray[396] = {
 }
 pokemonArray[397] = {
 	"name": "Staraptor",
-	"number": "398",
+	"national": "398",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7166,7 +7166,7 @@ pokemonArray[397] = {
 }
 pokemonArray[398] = {
 	"name": "Bidoof",
-	"number": "399",
+	"national": "399",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7184,7 +7184,7 @@ pokemonArray[398] = {
 }
 pokemonArray[399] = {
 	"name": "Bibarel",
-	"number": "400",
+	"national": "400",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7202,7 +7202,7 @@ pokemonArray[399] = {
 }
 pokemonArray[400] = {
 	"name": "Kricketot",
-	"number": "401",
+	"national": "401",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7220,7 +7220,7 @@ pokemonArray[400] = {
 }
 pokemonArray[401] = {
 	"name": "Kricketune",
-	"number": "402",
+	"national": "402",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7238,7 +7238,7 @@ pokemonArray[401] = {
 }
 pokemonArray[402] = {
 	"name": "Shinx",
-	"number": "403",
+	"national": "403",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7256,7 +7256,7 @@ pokemonArray[402] = {
 }
 pokemonArray[403] = {
 	"name": "Luxio",
-	"number": "404",
+	"national": "404",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7274,7 +7274,7 @@ pokemonArray[403] = {
 }
 pokemonArray[404] = {
 	"name": "Luxray",
-	"number": "405",
+	"national": "405",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7292,7 +7292,7 @@ pokemonArray[404] = {
 }
 pokemonArray[405] = {
 	"name": "Budew",
-	"number": "406",
+	"national": "406",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "097",
@@ -7310,7 +7310,7 @@ pokemonArray[405] = {
 }
 pokemonArray[406] = {
 	"name": "Roserade",
-	"number": "407",
+	"national": "407",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "099",
@@ -7328,7 +7328,7 @@ pokemonArray[406] = {
 }
 pokemonArray[407] = {
 	"name": "Cranidos",
-	"number": "408",
+	"national": "408",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7346,7 +7346,7 @@ pokemonArray[407] = {
 }
 pokemonArray[408] = {
 	"name": "Rampardos",
-	"number": "409",
+	"national": "409",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7364,7 +7364,7 @@ pokemonArray[408] = {
 }
 pokemonArray[409] = {
 	"name": "Shieldon",
-	"number": "410",
+	"national": "410",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7382,7 +7382,7 @@ pokemonArray[409] = {
 }
 pokemonArray[410] = {
 	"name": "Bastiodon",
-	"number": "411",
+	"national": "411",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7400,7 +7400,7 @@ pokemonArray[410] = {
 }
 pokemonArray[411] = {
 	"name": "Burmy",
-	"number": "412",
+	"national": "412",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7418,7 +7418,7 @@ pokemonArray[411] = {
 }
 pokemonArray[412] = {
 	"name": "Wormadam",
-	"number": "413",
+	"national": "413",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7436,7 +7436,7 @@ pokemonArray[412] = {
 }
 pokemonArray[413] = {
 	"name": "Mothim",
-	"number": "414",
+	"national": "414",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7454,7 +7454,7 @@ pokemonArray[413] = {
 }
 pokemonArray[414] = {
 	"name": "Combee",
-	"number": "415",
+	"national": "415",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7472,7 +7472,7 @@ pokemonArray[414] = {
 }
 pokemonArray[415] = {
 	"name": "Vespiquen",
-	"number": "416",
+	"national": "416",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7490,7 +7490,7 @@ pokemonArray[415] = {
 }
 pokemonArray[416] = {
 	"name": "Pachirisu",
-	"number": "417",
+	"national": "417",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7508,7 +7508,7 @@ pokemonArray[416] = {
 }
 pokemonArray[417] = {
 	"name": "Buizel",
-	"number": "418",
+	"national": "418",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7526,7 +7526,7 @@ pokemonArray[417] = {
 }
 pokemonArray[418] = {
 	"name": "Floatzel",
-	"number": "419",
+	"national": "419",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7544,7 +7544,7 @@ pokemonArray[418] = {
 }
 pokemonArray[419] = {
 	"name": "Cherubi",
-	"number": "420",
+	"national": "420",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7562,7 +7562,7 @@ pokemonArray[419] = {
 }
 pokemonArray[420] = {
 	"name": "Cherrim",
-	"number": "421",
+	"national": "421",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7580,7 +7580,7 @@ pokemonArray[420] = {
 }
 pokemonArray[421] = {
 	"name": "Shellos",
-	"number": "422",
+	"national": "422",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7598,7 +7598,7 @@ pokemonArray[421] = {
 }
 pokemonArray[422] = {
 	"name": "Gastrodon",
-	"number": "423",
+	"national": "423",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7616,7 +7616,7 @@ pokemonArray[422] = {
 }
 pokemonArray[423] = {
 	"name": "Ambipom",
-	"number": "424",
+	"national": "424",
 	"kanto": undefined,
 	"johto": "124",
 	"hoenn": undefined,
@@ -7634,7 +7634,7 @@ pokemonArray[423] = {
 }
 pokemonArray[424] = {
 	"name": "Drifloon",
-	"number": "425",
+	"national": "425",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7652,7 +7652,7 @@ pokemonArray[424] = {
 }
 pokemonArray[425] = {
 	"name": "Drifblim",
-	"number": "426",
+	"national": "426",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7670,7 +7670,7 @@ pokemonArray[425] = {
 }
 pokemonArray[426] = {
 	"name": "Buneary",
-	"number": "427",
+	"national": "427",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7688,7 +7688,7 @@ pokemonArray[426] = {
 }
 pokemonArray[427] = {
 	"name": "Lopunny",
-	"number": "428",
+	"national": "428",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7706,7 +7706,7 @@ pokemonArray[427] = {
 }
 pokemonArray[428] = {
 	"name": "Mismagius",
-	"number": "429",
+	"national": "429",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7724,7 +7724,7 @@ pokemonArray[428] = {
 }
 pokemonArray[429] = {
 	"name": "Honchkrow",
-	"number": "430",
+	"national": "430",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7742,7 +7742,7 @@ pokemonArray[429] = {
 }
 pokemonArray[430] = {
 	"name": "Glameow",
-	"number": "431",
+	"national": "431",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7760,7 +7760,7 @@ pokemonArray[430] = {
 }
 pokemonArray[431] = {
 	"name": "Purugly",
-	"number": "432",
+	"national": "432",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7778,7 +7778,7 @@ pokemonArray[431] = {
 }
 pokemonArray[432] = {
 	"name": "Chingling",
-	"number": "433",
+	"national": "433",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "157",
@@ -7796,7 +7796,7 @@ pokemonArray[432] = {
 }
 pokemonArray[433] = {
 	"name": "Stunky",
-	"number": "434",
+	"national": "434",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7814,7 +7814,7 @@ pokemonArray[433] = {
 }
 pokemonArray[434] = {
 	"name": "Skuntank",
-	"number": "435",
+	"national": "435",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7832,7 +7832,7 @@ pokemonArray[434] = {
 }
 pokemonArray[435] = {
 	"name": "Bronzor",
-	"number": "436",
+	"national": "436",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7850,7 +7850,7 @@ pokemonArray[435] = {
 }
 pokemonArray[436] = {
 	"name": "Bronzong",
-	"number": "437",
+	"national": "437",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7868,7 +7868,7 @@ pokemonArray[436] = {
 }
 pokemonArray[437] = {
 	"name": "Bonsly",
-	"number": "438",
+	"national": "438",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7886,7 +7886,7 @@ pokemonArray[437] = {
 }
 pokemonArray[438] = {
 	"name": "Mime Jr.",
-	"number": "439",
+	"national": "439",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7904,7 +7904,7 @@ pokemonArray[438] = {
 }
 pokemonArray[439] = {
 	"name": "Happiny",
-	"number": "440",
+	"national": "440",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7922,7 +7922,7 @@ pokemonArray[439] = {
 }
 pokemonArray[440] = {
 	"name": "Chatot",
-	"number": "441",
+	"national": "441",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7940,7 +7940,7 @@ pokemonArray[440] = {
 }
 pokemonArray[441] = {
 	"name": "Spiritomb",
-	"number": "442",
+	"national": "442",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7958,7 +7958,7 @@ pokemonArray[441] = {
 }
 pokemonArray[442] = {
 	"name": "Gible",
-	"number": "443",
+	"national": "443",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7976,7 +7976,7 @@ pokemonArray[442] = {
 }
 pokemonArray[443] = {
 	"name": "Gabite",
-	"number": "444",
+	"national": "444",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -7994,7 +7994,7 @@ pokemonArray[443] = {
 }
 pokemonArray[444] = {
 	"name": "Garchomp",
-	"number": "445",
+	"national": "445",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8012,7 +8012,7 @@ pokemonArray[444] = {
 }
 pokemonArray[445] = {
 	"name": "Munchlax",
-	"number": "446",
+	"national": "446",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8030,7 +8030,7 @@ pokemonArray[445] = {
 }
 pokemonArray[446] = {
 	"name": "Riolu",
-	"number": "447",
+	"national": "447",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8048,7 +8048,7 @@ pokemonArray[446] = {
 }
 pokemonArray[447] = {
 	"name": "Lucario",
-	"number": "448",
+	"national": "448",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8066,7 +8066,7 @@ pokemonArray[447] = {
 }
 pokemonArray[448] = {
 	"name": "Hippopotas",
-	"number": "449",
+	"national": "449",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8084,7 +8084,7 @@ pokemonArray[448] = {
 }
 pokemonArray[449] = {
 	"name": "Hippowdon",
-	"number": "450",
+	"national": "450",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8102,7 +8102,7 @@ pokemonArray[449] = {
 }
 pokemonArray[450] = {
 	"name": "Skorupi",
-	"number": "451",
+	"national": "451",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8120,7 +8120,7 @@ pokemonArray[450] = {
 }
 pokemonArray[451] = {
 	"name": "Drapion",
-	"number": "452",
+	"national": "452",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8138,7 +8138,7 @@ pokemonArray[451] = {
 }
 pokemonArray[452] = {
 	"name": "Croagunk",
-	"number": "453",
+	"national": "453",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8156,7 +8156,7 @@ pokemonArray[452] = {
 }
 pokemonArray[453] = {
 	"name": "Toxicroak",
-	"number": "454",
+	"national": "454",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8174,7 +8174,7 @@ pokemonArray[453] = {
 }
 pokemonArray[454] = {
 	"name": "Carnivine",
-	"number": "455",
+	"national": "455",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8192,7 +8192,7 @@ pokemonArray[454] = {
 }
 pokemonArray[455] = {
 	"name": "Finneon",
-	"number": "456",
+	"national": "456",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8210,7 +8210,7 @@ pokemonArray[455] = {
 }
 pokemonArray[456] = {
 	"name": "Lumineon",
-	"number": "457",
+	"national": "457",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8228,7 +8228,7 @@ pokemonArray[456] = {
 }
 pokemonArray[457] = {
 	"name": "Mantyke",
-	"number": "458",
+	"national": "458",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8246,7 +8246,7 @@ pokemonArray[457] = {
 }
 pokemonArray[458] = {
 	"name": "Snover",
-	"number": "459",
+	"national": "459",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8264,7 +8264,7 @@ pokemonArray[458] = {
 }
 pokemonArray[459] = {
 	"name": "Abomasnow",
-	"number": "460",
+	"national": "460",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8282,7 +8282,7 @@ pokemonArray[459] = {
 }
 pokemonArray[460] = {
 	"name": "Weavile",
-	"number": "461",
+	"national": "461",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8300,7 +8300,7 @@ pokemonArray[460] = {
 }
 pokemonArray[461] = {
 	"name": "Magnezone",
-	"number": "462",
+	"national": "462",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "086",
@@ -8318,7 +8318,7 @@ pokemonArray[461] = {
 }
 pokemonArray[462] = {
 	"name": "Lickilicky",
-	"number": "463",
+	"national": "463",
 	"kanto": undefined,
 	"johto": "181",
 	"hoenn": undefined,
@@ -8336,7 +8336,7 @@ pokemonArray[462] = {
 }
 pokemonArray[463] = {
 	"name": "Rhyperior",
-	"number": "464",
+	"national": "464",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "178",
@@ -8354,7 +8354,7 @@ pokemonArray[463] = {
 }
 pokemonArray[464] = {
 	"name": "Tangrowth",
-	"number": "465",
+	"national": "465",
 	"kanto": undefined,
 	"johto": "183",
 	"hoenn": undefined,
@@ -8372,7 +8372,7 @@ pokemonArray[464] = {
 }
 pokemonArray[465] = {
 	"name": "Electivire",
-	"number": "466",
+	"national": "466",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8390,7 +8390,7 @@ pokemonArray[465] = {
 }
 pokemonArray[466] = {
 	"name": "Magmortar",
-	"number": "467",
+	"national": "467",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8408,7 +8408,7 @@ pokemonArray[466] = {
 }
 pokemonArray[467] = {
 	"name": "Togekiss",
-	"number": "468",
+	"national": "468",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8426,7 +8426,7 @@ pokemonArray[467] = {
 }
 pokemonArray[468] = {
 	"name": "Yanmega",
-	"number": "469",
+	"national": "469",
 	"kanto": undefined,
 	"johto": "102",
 	"hoenn": undefined,
@@ -8444,7 +8444,7 @@ pokemonArray[468] = {
 }
 pokemonArray[469] = {
 	"name": "Leafeon",
-	"number": "470",
+	"national": "470",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8462,7 +8462,7 @@ pokemonArray[469] = {
 }
 pokemonArray[470] = {
 	"name": "Glaceon",
-	"number": "471",
+	"national": "471",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8480,7 +8480,7 @@ pokemonArray[470] = {
 }
 pokemonArray[471] = {
 	"name": "Gliscor",
-	"number": "472",
+	"national": "472",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8498,7 +8498,7 @@ pokemonArray[471] = {
 }
 pokemonArray[472] = {
 	"name": "Mamoswine",
-	"number": "473",
+	"national": "473",
 	"kanto": undefined,
 	"johto": "197",
 	"hoenn": undefined,
@@ -8516,7 +8516,7 @@ pokemonArray[472] = {
 }
 pokemonArray[473] = {
 	"name": "Porygon-Z",
-	"number": "474",
+	"national": "474",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8534,7 +8534,7 @@ pokemonArray[473] = {
 }
 pokemonArray[474] = {
 	"name": "Gallade",
-	"number": "475",
+	"national": "475",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "032",
@@ -8552,7 +8552,7 @@ pokemonArray[474] = {
 }
 pokemonArray[475] = {
 	"name": "Probopass",
-	"number": "476",
+	"national": "476",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "062",
@@ -8570,7 +8570,7 @@ pokemonArray[475] = {
 }
 pokemonArray[476] = {
 	"name": "Dusknoir",
-	"number": "477",
+	"national": "477",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "155",
@@ -8588,7 +8588,7 @@ pokemonArray[476] = {
 }
 pokemonArray[477] = {
 	"name": "Froslass",
-	"number": "478",
+	"national": "478",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": "181",
@@ -8606,7 +8606,7 @@ pokemonArray[477] = {
 }
 pokemonArray[478] = {
 	"name": "Rotom",
-	"number": "479",
+	"national": "479",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8624,7 +8624,7 @@ pokemonArray[478] = {
 }
 pokemonArray[479] = {
 	"name": "Uxie",
-	"number": "480",
+	"national": "480",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8642,7 +8642,7 @@ pokemonArray[479] = {
 }
 pokemonArray[480] = {
 	"name": "Mesprit",
-	"number": "481",
+	"national": "481",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8660,7 +8660,7 @@ pokemonArray[480] = {
 }
 pokemonArray[481] = {
 	"name": "Azelf",
-	"number": "482",
+	"national": "482",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8678,7 +8678,7 @@ pokemonArray[481] = {
 }
 pokemonArray[482] = {
 	"name": "Dialga",
-	"number": "483",
+	"national": "483",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8696,7 +8696,7 @@ pokemonArray[482] = {
 }
 pokemonArray[483] = {
 	"name": "Palkia",
-	"number": "484",
+	"national": "484",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8714,7 +8714,7 @@ pokemonArray[483] = {
 }
 pokemonArray[484] = {
 	"name": "Heatran",
-	"number": "485",
+	"national": "485",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8732,7 +8732,7 @@ pokemonArray[484] = {
 }
 pokemonArray[485] = {
 	"name": "Regigigas",
-	"number": "486",
+	"national": "486",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8750,7 +8750,7 @@ pokemonArray[485] = {
 }
 pokemonArray[486] = {
 	"name": "Giratina",
-	"number": "487",
+	"national": "487",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8768,7 +8768,7 @@ pokemonArray[486] = {
 }
 pokemonArray[487] = {
 	"name": "Cresselia",
-	"number": "488",
+	"national": "488",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8786,7 +8786,7 @@ pokemonArray[487] = {
 }
 pokemonArray[488] = {
 	"name": "Phione",
-	"number": "489",
+	"national": "489",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8804,7 +8804,7 @@ pokemonArray[488] = {
 }
 pokemonArray[489] = {
 	"name": "Manaphy",
-	"number": "490",
+	"national": "490",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8822,7 +8822,7 @@ pokemonArray[489] = {
 }
 pokemonArray[490] = {
 	"name": "Darkrai",
-	"number": "491",
+	"national": "491",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8840,7 +8840,7 @@ pokemonArray[490] = {
 }
 pokemonArray[491] = {
 	"name": "Shaymin",
-	"number": "492",
+	"national": "492",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8858,7 +8858,7 @@ pokemonArray[491] = {
 }
 pokemonArray[492] = {
 	"name": "Arceus",
-	"number": "493",
+	"national": "493",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8876,7 +8876,7 @@ pokemonArray[492] = {
 }
 pokemonArray[493] = {
 	"name": "Victini",
-	"number": "494",
+	"national": "494",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8894,7 +8894,7 @@ pokemonArray[493] = {
 }
 pokemonArray[494] = {
 	"name": "Snivy",
-	"number": "495",
+	"national": "495",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8912,7 +8912,7 @@ pokemonArray[494] = {
 }
 pokemonArray[495] = {
 	"name": "Servine",
-	"number": "496",
+	"national": "496",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8930,7 +8930,7 @@ pokemonArray[495] = {
 }
 pokemonArray[496] = {
 	"name": "Serperior",
-	"number": "497",
+	"national": "497",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8948,7 +8948,7 @@ pokemonArray[496] = {
 }
 pokemonArray[497] = {
 	"name": "Tepig",
-	"number": "498",
+	"national": "498",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8966,7 +8966,7 @@ pokemonArray[497] = {
 }
 pokemonArray[498] = {
 	"name": "Pignite",
-	"number": "499",
+	"national": "499",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -8984,7 +8984,7 @@ pokemonArray[498] = {
 }
 pokemonArray[499] = {
 	"name": "Emboar",
-	"number": "500",
+	"national": "500",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9002,7 +9002,7 @@ pokemonArray[499] = {
 }
 pokemonArray[500] = {
 	"name": "Oshawott",
-	"number": "501",
+	"national": "501",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9020,7 +9020,7 @@ pokemonArray[500] = {
 }
 pokemonArray[501] = {
 	"name": "Dewott",
-	"number": "502",
+	"national": "502",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9038,7 +9038,7 @@ pokemonArray[501] = {
 }
 pokemonArray[502] = {
 	"name": "Samurott",
-	"number": "503",
+	"national": "503",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9056,7 +9056,7 @@ pokemonArray[502] = {
 }
 pokemonArray[503] = {
 	"name": "Patrat",
-	"number": "504",
+	"national": "504",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9074,7 +9074,7 @@ pokemonArray[503] = {
 }
 pokemonArray[504] = {
 	"name": "Watchog",
-	"number": "505",
+	"national": "505",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9092,7 +9092,7 @@ pokemonArray[504] = {
 }
 pokemonArray[505] = {
 	"name": "Lillipup",
-	"number": "506",
+	"national": "506",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9110,7 +9110,7 @@ pokemonArray[505] = {
 }
 pokemonArray[506] = {
 	"name": "Herdier",
-	"number": "507",
+	"national": "507",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9128,7 +9128,7 @@ pokemonArray[506] = {
 }
 pokemonArray[507] = {
 	"name": "Stoutland",
-	"number": "508",
+	"national": "508",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9146,7 +9146,7 @@ pokemonArray[507] = {
 }
 pokemonArray[508] = {
 	"name": "Purrloin",
-	"number": "509",
+	"national": "509",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9164,7 +9164,7 @@ pokemonArray[508] = {
 }
 pokemonArray[509] = {
 	"name": "Liepard",
-	"number": "510",
+	"national": "510",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9182,7 +9182,7 @@ pokemonArray[509] = {
 }
 pokemonArray[510] = {
 	"name": "Pansage",
-	"number": "511",
+	"national": "511",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9200,7 +9200,7 @@ pokemonArray[510] = {
 }
 pokemonArray[511] = {
 	"name": "Simisage",
-	"number": "512",
+	"national": "512",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9218,7 +9218,7 @@ pokemonArray[511] = {
 }
 pokemonArray[512] = {
 	"name": "Pansear",
-	"number": "513",
+	"national": "513",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9236,7 +9236,7 @@ pokemonArray[512] = {
 }
 pokemonArray[513] = {
 	"name": "Simisear",
-	"number": "514",
+	"national": "514",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9254,7 +9254,7 @@ pokemonArray[513] = {
 }
 pokemonArray[514] = {
 	"name": "Panpour",
-	"number": "515",
+	"national": "515",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9272,7 +9272,7 @@ pokemonArray[514] = {
 }
 pokemonArray[515] = {
 	"name": "Simipour",
-	"number": "516",
+	"national": "516",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9290,7 +9290,7 @@ pokemonArray[515] = {
 }
 pokemonArray[516] = {
 	"name": "Munna",
-	"number": "517",
+	"national": "517",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9308,7 +9308,7 @@ pokemonArray[516] = {
 }
 pokemonArray[517] = {
 	"name": "Musharna",
-	"number": "518",
+	"national": "518",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9326,7 +9326,7 @@ pokemonArray[517] = {
 }
 pokemonArray[518] = {
 	"name": "Pidove",
-	"number": "519",
+	"national": "519",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9344,7 +9344,7 @@ pokemonArray[518] = {
 }
 pokemonArray[519] = {
 	"name": "Tranquill",
-	"number": "520",
+	"national": "520",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9362,7 +9362,7 @@ pokemonArray[519] = {
 }
 pokemonArray[520] = {
 	"name": "Unfezant",
-	"number": "521",
+	"national": "521",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9380,7 +9380,7 @@ pokemonArray[520] = {
 }
 pokemonArray[521] = {
 	"name": "Blitzle",
-	"number": "522",
+	"national": "522",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9398,7 +9398,7 @@ pokemonArray[521] = {
 }
 pokemonArray[522] = {
 	"name": "Zebstrika",
-	"number": "523",
+	"national": "523",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9416,7 +9416,7 @@ pokemonArray[522] = {
 }
 pokemonArray[523] = {
 	"name": "Roggenrola",
-	"number": "524",
+	"national": "524",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9434,7 +9434,7 @@ pokemonArray[523] = {
 }
 pokemonArray[524] = {
 	"name": "Boldore",
-	"number": "525",
+	"national": "525",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9452,7 +9452,7 @@ pokemonArray[524] = {
 }
 pokemonArray[525] = {
 	"name": "Gigalith",
-	"number": "526",
+	"national": "526",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9470,7 +9470,7 @@ pokemonArray[525] = {
 }
 pokemonArray[526] = {
 	"name": "Woobat",
-	"number": "527",
+	"national": "527",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9481,14 +9481,14 @@ pokemonArray[526] = {
 	"gif": "Shiny/woobat.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Whodat",
+	"method": "Friend Safari",
+	"order": 372,
+	"attempts": 77
 }
 pokemonArray[527] = {
 	"name": "Swoobat",
-	"number": "528",
+	"national": "528",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9506,7 +9506,7 @@ pokemonArray[527] = {
 }
 pokemonArray[528] = {
 	"name": "Drilbur",
-	"number": "529",
+	"national": "529",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9524,7 +9524,7 @@ pokemonArray[528] = {
 }
 pokemonArray[529] = {
 	"name": "Excadrill",
-	"number": "530",
+	"national": "530",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9542,7 +9542,7 @@ pokemonArray[529] = {
 }
 pokemonArray[530] = {
 	"name": "Audino",
-	"number": "531",
+	"national": "531",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9560,7 +9560,7 @@ pokemonArray[530] = {
 }
 pokemonArray[531] = {
 	"name": "Timburr",
-	"number": "532",
+	"national": "532",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9578,7 +9578,7 @@ pokemonArray[531] = {
 }
 pokemonArray[532] = {
 	"name": "Gurdurr",
-	"number": "533",
+	"national": "533",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9596,7 +9596,7 @@ pokemonArray[532] = {
 }
 pokemonArray[533] = {
 	"name": "Conkeldurr",
-	"number": "534",
+	"national": "534",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9614,7 +9614,7 @@ pokemonArray[533] = {
 }
 pokemonArray[534] = {
 	"name": "Tympole",
-	"number": "535",
+	"national": "535",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9632,7 +9632,7 @@ pokemonArray[534] = {
 }
 pokemonArray[535] = {
 	"name": "Palpitoad",
-	"number": "536",
+	"national": "536",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9650,7 +9650,7 @@ pokemonArray[535] = {
 }
 pokemonArray[536] = {
 	"name": "Seismitoad",
-	"number": "537",
+	"national": "537",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9668,7 +9668,7 @@ pokemonArray[536] = {
 }
 pokemonArray[537] = {
 	"name": "Throh",
-	"number": "538",
+	"national": "538",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9686,7 +9686,7 @@ pokemonArray[537] = {
 }
 pokemonArray[538] = {
 	"name": "Sawk",
-	"number": "539",
+	"national": "539",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9704,7 +9704,7 @@ pokemonArray[538] = {
 }
 pokemonArray[539] = {
 	"name": "Sewaddle",
-	"number": "540",
+	"national": "540",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9722,7 +9722,7 @@ pokemonArray[539] = {
 }
 pokemonArray[540] = {
 	"name": "Swadloon",
-	"number": "541",
+	"national": "541",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9740,7 +9740,7 @@ pokemonArray[540] = {
 }
 pokemonArray[541] = {
 	"name": "Leavanny",
-	"number": "542",
+	"national": "542",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9758,7 +9758,7 @@ pokemonArray[541] = {
 }
 pokemonArray[542] = {
 	"name": "Venipede",
-	"number": "543",
+	"national": "543",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9776,7 +9776,7 @@ pokemonArray[542] = {
 }
 pokemonArray[543] = {
 	"name": "Whirlipede",
-	"number": "544",
+	"national": "544",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9794,7 +9794,7 @@ pokemonArray[543] = {
 }
 pokemonArray[544] = {
 	"name": "Scolipede",
-	"number": "545",
+	"national": "545",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9812,7 +9812,7 @@ pokemonArray[544] = {
 }
 pokemonArray[545] = {
 	"name": "Cottonee",
-	"number": "546",
+	"national": "546",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9830,7 +9830,7 @@ pokemonArray[545] = {
 }
 pokemonArray[546] = {
 	"name": "Whimsicott",
-	"number": "547",
+	"national": "547",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9848,7 +9848,7 @@ pokemonArray[546] = {
 }
 pokemonArray[547] = {
 	"name": "Petilil",
-	"number": "548",
+	"national": "548",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9866,7 +9866,7 @@ pokemonArray[547] = {
 }
 pokemonArray[548] = {
 	"name": "Lilligant",
-	"number": "549",
+	"national": "549",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9884,7 +9884,7 @@ pokemonArray[548] = {
 }
 pokemonArray[549] = {
 	"name": "Basculin",
-	"number": "550",
+	"national": "550",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9902,7 +9902,7 @@ pokemonArray[549] = {
 }
 pokemonArray[550] = {
 	"name": "Sandile",
-	"number": "551",
+	"national": "551",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9920,7 +9920,7 @@ pokemonArray[550] = {
 }
 pokemonArray[551] = {
 	"name": "Krokorok",
-	"number": "552",
+	"national": "552",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9938,7 +9938,7 @@ pokemonArray[551] = {
 }
 pokemonArray[552] = {
 	"name": "Krookodile",
-	"number": "553",
+	"national": "553",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9956,7 +9956,7 @@ pokemonArray[552] = {
 }
 pokemonArray[553] = {
 	"name": "Darumaka",
-	"number": "554",
+	"national": "554",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9974,7 +9974,7 @@ pokemonArray[553] = {
 }
 pokemonArray[554] = {
 	"name": "Darmanitan",
-	"number": "555",
+	"national": "555",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -9992,7 +9992,7 @@ pokemonArray[554] = {
 }
 pokemonArray[555] = {
 	"name": "Maractus",
-	"number": "556",
+	"national": "556",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10010,7 +10010,7 @@ pokemonArray[555] = {
 }
 pokemonArray[556] = {
 	"name": "Dwebble",
-	"number": "557",
+	"national": "557",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10028,7 +10028,7 @@ pokemonArray[556] = {
 }
 pokemonArray[557] = {
 	"name": "Crustle",
-	"number": "558",
+	"national": "558",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10046,7 +10046,7 @@ pokemonArray[557] = {
 }
 pokemonArray[558] = {
 	"name": "Scraggy",
-	"number": "559",
+	"national": "559",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10064,7 +10064,7 @@ pokemonArray[558] = {
 }
 pokemonArray[559] = {
 	"name": "Scrafty",
-	"number": "560",
+	"national": "560",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10082,7 +10082,7 @@ pokemonArray[559] = {
 }
 pokemonArray[560] = {
 	"name": "Sigilyph",
-	"number": "561",
+	"national": "561",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10100,7 +10100,7 @@ pokemonArray[560] = {
 }
 pokemonArray[561] = {
 	"name": "Yamask",
-	"number": "562",
+	"national": "562",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10118,7 +10118,7 @@ pokemonArray[561] = {
 }
 pokemonArray[562] = {
 	"name": "Cofagrigus",
-	"number": "563",
+	"national": "563",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10136,7 +10136,7 @@ pokemonArray[562] = {
 }
 pokemonArray[563] = {
 	"name": "Tirtouga",
-	"number": "564",
+	"national": "564",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10154,7 +10154,7 @@ pokemonArray[563] = {
 }
 pokemonArray[564] = {
 	"name": "Carracosta",
-	"number": "565",
+	"national": "565",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10172,7 +10172,7 @@ pokemonArray[564] = {
 }
 pokemonArray[565] = {
 	"name": "Archen",
-	"number": "566",
+	"national": "566",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10190,7 +10190,7 @@ pokemonArray[565] = {
 }
 pokemonArray[566] = {
 	"name": "Archeops",
-	"number": "567",
+	"national": "567",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10208,7 +10208,7 @@ pokemonArray[566] = {
 }
 pokemonArray[567] = {
 	"name": "Trubbish",
-	"number": "568",
+	"national": "568",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10226,7 +10226,7 @@ pokemonArray[567] = {
 }
 pokemonArray[568] = {
 	"name": "Garbodor",
-	"number": "569",
+	"national": "569",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10244,7 +10244,7 @@ pokemonArray[568] = {
 }
 pokemonArray[569] = {
 	"name": "Zorua",
-	"number": "570",
+	"national": "570",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10262,7 +10262,7 @@ pokemonArray[569] = {
 }
 pokemonArray[570] = {
 	"name": "Zoroark",
-	"number": "571",
+	"national": "571",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10280,7 +10280,7 @@ pokemonArray[570] = {
 }
 pokemonArray[571] = {
 	"name": "Minccino",
-	"number": "572",
+	"national": "572",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10298,7 +10298,7 @@ pokemonArray[571] = {
 }
 pokemonArray[572] = {
 	"name": "Cinccino",
-	"number": "573",
+	"national": "573",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10316,7 +10316,7 @@ pokemonArray[572] = {
 }
 pokemonArray[573] = {
 	"name": "Gothita",
-	"number": "574",
+	"national": "574",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10334,7 +10334,7 @@ pokemonArray[573] = {
 }
 pokemonArray[574] = {
 	"name": "Gothorita",
-	"number": "575",
+	"national": "575",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10352,7 +10352,7 @@ pokemonArray[574] = {
 }
 pokemonArray[575] = {
 	"name": "Gothitelle",
-	"number": "576",
+	"national": "576",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10370,7 +10370,7 @@ pokemonArray[575] = {
 }
 pokemonArray[576] = {
 	"name": "Solosis",
-	"number": "577",
+	"national": "577",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10388,7 +10388,7 @@ pokemonArray[576] = {
 }
 pokemonArray[577] = {
 	"name": "Duosion",
-	"number": "578",
+	"national": "578",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10406,7 +10406,7 @@ pokemonArray[577] = {
 }
 pokemonArray[578] = {
 	"name": "Reuniclus",
-	"number": "579",
+	"national": "579",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10424,7 +10424,7 @@ pokemonArray[578] = {
 }
 pokemonArray[579] = {
 	"name": "Ducklett",
-	"number": "580",
+	"national": "580",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10442,7 +10442,7 @@ pokemonArray[579] = {
 }
 pokemonArray[580] = {
 	"name": "Swanna",
-	"number": "581",
+	"national": "581",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10460,7 +10460,7 @@ pokemonArray[580] = {
 }
 pokemonArray[581] = {
 	"name": "Vanillite",
-	"number": "582",
+	"national": "582",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10478,7 +10478,7 @@ pokemonArray[581] = {
 }
 pokemonArray[582] = {
 	"name": "Vanillish",
-	"number": "583",
+	"national": "583",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10496,7 +10496,7 @@ pokemonArray[582] = {
 }
 pokemonArray[583] = {
 	"name": "Vanilluxe",
-	"number": "584",
+	"national": "584",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10514,7 +10514,7 @@ pokemonArray[583] = {
 }
 pokemonArray[584] = {
 	"name": "Deerling",
-	"number": "585",
+	"national": "585",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10532,7 +10532,7 @@ pokemonArray[584] = {
 }
 pokemonArray[585] = {
 	"name": "Sawsbuck",
-	"number": "586",
+	"national": "586",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10550,7 +10550,7 @@ pokemonArray[585] = {
 }
 pokemonArray[586] = {
 	"name": "Emolga",
-	"number": "587",
+	"national": "587",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10568,7 +10568,7 @@ pokemonArray[586] = {
 }
 pokemonArray[587] = {
 	"name": "Karrablast",
-	"number": "588",
+	"national": "588",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10586,7 +10586,7 @@ pokemonArray[587] = {
 }
 pokemonArray[588] = {
 	"name": "Escavalier",
-	"number": "589",
+	"national": "589",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10604,7 +10604,7 @@ pokemonArray[588] = {
 }
 pokemonArray[589] = {
 	"name": "Foongus",
-	"number": "590",
+	"national": "590",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10622,7 +10622,7 @@ pokemonArray[589] = {
 }
 pokemonArray[590] = {
 	"name": "Amoonguss",
-	"number": "591",
+	"national": "591",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10640,7 +10640,7 @@ pokemonArray[590] = {
 }
 pokemonArray[591] = {
 	"name": "Frillish",
-	"number": "592",
+	"national": "592",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10658,7 +10658,7 @@ pokemonArray[591] = {
 }
 pokemonArray[592] = {
 	"name": "Jellicent",
-	"number": "593",
+	"national": "593",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10676,7 +10676,7 @@ pokemonArray[592] = {
 }
 pokemonArray[593] = {
 	"name": "Alomomola",
-	"number": "594",
+	"national": "594",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10694,7 +10694,7 @@ pokemonArray[593] = {
 }
 pokemonArray[594] = {
 	"name": "Joltik",
-	"number": "595",
+	"national": "595",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10712,7 +10712,7 @@ pokemonArray[594] = {
 }
 pokemonArray[595] = {
 	"name": "Galvantula",
-	"number": "596",
+	"national": "596",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10730,7 +10730,7 @@ pokemonArray[595] = {
 }
 pokemonArray[596] = {
 	"name": "Ferroseed",
-	"number": "597",
+	"national": "597",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10748,7 +10748,7 @@ pokemonArray[596] = {
 }
 pokemonArray[597] = {
 	"name": "Ferrothorn",
-	"number": "598",
+	"national": "598",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10766,7 +10766,7 @@ pokemonArray[597] = {
 }
 pokemonArray[598] = {
 	"name": "Klink",
-	"number": "599",
+	"national": "599",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10784,7 +10784,7 @@ pokemonArray[598] = {
 }
 pokemonArray[599] = {
 	"name": "Klang",
-	"number": "600",
+	"national": "600",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10802,7 +10802,7 @@ pokemonArray[599] = {
 }
 pokemonArray[600] = {
 	"name": "Klinklang",
-	"number": "601",
+	"national": "601",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10820,7 +10820,7 @@ pokemonArray[600] = {
 }
 pokemonArray[601] = {
 	"name": "Tynamo",
-	"number": "602",
+	"national": "602",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10838,7 +10838,7 @@ pokemonArray[601] = {
 }
 pokemonArray[602] = {
 	"name": "Eelektrik",
-	"number": "603",
+	"national": "603",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10856,7 +10856,7 @@ pokemonArray[602] = {
 }
 pokemonArray[603] = {
 	"name": "Eelektross",
-	"number": "604",
+	"national": "604",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10874,7 +10874,7 @@ pokemonArray[603] = {
 }
 pokemonArray[604] = {
 	"name": "Elgyem",
-	"number": "605",
+	"national": "605",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10892,7 +10892,7 @@ pokemonArray[604] = {
 }
 pokemonArray[605] = {
 	"name": "Beheeyem",
-	"number": "606",
+	"national": "606",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10910,7 +10910,7 @@ pokemonArray[605] = {
 }
 pokemonArray[606] = {
 	"name": "Litwick",
-	"number": "607",
+	"national": "607",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10928,7 +10928,7 @@ pokemonArray[606] = {
 }
 pokemonArray[607] = {
 	"name": "Lampent",
-	"number": "608",
+	"national": "608",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10946,7 +10946,7 @@ pokemonArray[607] = {
 }
 pokemonArray[608] = {
 	"name": "Chandelure",
-	"number": "609",
+	"national": "609",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10964,7 +10964,7 @@ pokemonArray[608] = {
 }
 pokemonArray[609] = {
 	"name": "Axew",
-	"number": "610",
+	"national": "610",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -10982,7 +10982,7 @@ pokemonArray[609] = {
 }
 pokemonArray[610] = {
 	"name": "Fraxure",
-	"number": "611",
+	"national": "611",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11000,7 +11000,7 @@ pokemonArray[610] = {
 }
 pokemonArray[611] = {
 	"name": "Haxorus",
-	"number": "611",
+	"national": "611",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11018,7 +11018,7 @@ pokemonArray[611] = {
 }
 pokemonArray[612] = {
 	"name": "Cubchoo",
-	"number": "612",
+	"national": "612",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11036,7 +11036,7 @@ pokemonArray[612] = {
 }
 pokemonArray[613] = {
 	"name": "Beartic",
-	"number": "613",
+	"national": "613",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11054,7 +11054,7 @@ pokemonArray[613] = {
 }
 pokemonArray[614] = {
 	"name": "Cryogonal",
-	"number": "614",
+	"national": "614",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11072,7 +11072,7 @@ pokemonArray[614] = {
 }
 pokemonArray[615] = {
 	"name": "Shelmet",
-	"number": "615",
+	"national": "615",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11090,7 +11090,7 @@ pokemonArray[615] = {
 }
 pokemonArray[616] = {
 	"name": "Accelgor",
-	"number": "616",
+	"national": "616",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11108,7 +11108,7 @@ pokemonArray[616] = {
 }
 pokemonArray[617] = {
 	"name": "Stunfisk",
-	"number": "618",
+	"national": "618",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11126,7 +11126,7 @@ pokemonArray[617] = {
 }
 pokemonArray[618] = {
 	"name": "Mienfoo",
-	"number": "619",
+	"national": "619",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11144,7 +11144,7 @@ pokemonArray[618] = {
 }
 pokemonArray[619] = {
 	"name": "Mienshao",
-	"number": "620",
+	"national": "620",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11155,14 +11155,14 @@ pokemonArray[619] = {
 	"gif": "Shiny/mienshao.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Bruce Lee",
+	"method": "Friend Safari",
+	"order": 371,
+	"attempts": 374
 }
 pokemonArray[620] = {
 	"name": "Druddigon",
-	"number": "621",
+	"national": "621",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11180,7 +11180,7 @@ pokemonArray[620] = {
 }
 pokemonArray[621] = {
 	"name": "Golett",
-	"number": "622",
+	"national": "622",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11198,7 +11198,7 @@ pokemonArray[621] = {
 }
 pokemonArray[622] = {
 	"name": "Golurk",
-	"number": "623",
+	"national": "623",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11216,7 +11216,7 @@ pokemonArray[622] = {
 }
 pokemonArray[623] = {
 	"name": "Pawniard",
-	"number": "624",
+	"national": "624",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11234,7 +11234,7 @@ pokemonArray[623] = {
 }
 pokemonArray[624] = {
 	"name": "Bisharp",
-	"number": "625",
+	"national": "625",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11252,7 +11252,7 @@ pokemonArray[624] = {
 }
 pokemonArray[625] = {
 	"name": "Bouffalant",
-	"number": "626",
+	"national": "626",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11270,7 +11270,7 @@ pokemonArray[625] = {
 }
 pokemonArray[626] = {
 	"name": "Rufflet",
-	"number": "627",
+	"national": "627",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11288,7 +11288,7 @@ pokemonArray[626] = {
 }
 pokemonArray[627] = {
 	"name": "Braviary",
-	"number": "628",
+	"national": "628",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11306,7 +11306,7 @@ pokemonArray[627] = {
 }
 pokemonArray[628] = {
 	"name": "Vullaby",
-	"number": "629",
+	"national": "629",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11324,7 +11324,7 @@ pokemonArray[628] = {
 }
 pokemonArray[629] = {
 	"name": "Mandibuzz",
-	"number": "630",
+	"national": "630",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11342,7 +11342,7 @@ pokemonArray[629] = {
 }
 pokemonArray[630] = {
 	"name": "Heatmor",
-	"number": "631",
+	"national": "631",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11360,7 +11360,7 @@ pokemonArray[630] = {
 }
 pokemonArray[631] = {
 	"name": "Durant",
-	"number": "632",
+	"national": "632",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11378,7 +11378,7 @@ pokemonArray[631] = {
 }
 pokemonArray[632] = {
 	"name": "Deino",
-	"number": "633",
+	"national": "633",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11396,7 +11396,7 @@ pokemonArray[632] = {
 }
 pokemonArray[633] = {
 	"name": "Zweilous",
-	"number": "634",
+	"national": "634",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11414,7 +11414,7 @@ pokemonArray[633] = {
 }
 pokemonArray[634] = {
 	"name": "Hydreigon",
-	"number": "635",
+	"national": "635",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11432,7 +11432,7 @@ pokemonArray[634] = {
 }
 pokemonArray[635] = {
 	"name": "Larvesta",
-	"number": "636",
+	"national": "636",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11450,7 +11450,7 @@ pokemonArray[635] = {
 }
 pokemonArray[636] = {
 	"name": "Volcarona",
-	"number": "637",
+	"national": "637",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11468,7 +11468,7 @@ pokemonArray[636] = {
 }
 pokemonArray[637] = {
 	"name": "Cobalion",
-	"number": "638",
+	"national": "638",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11486,7 +11486,7 @@ pokemonArray[637] = {
 }
 pokemonArray[638] = {
 	"name": "Terrakion",
-	"number": "639",
+	"national": "639",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11504,7 +11504,7 @@ pokemonArray[638] = {
 }
 pokemonArray[639] = {
 	"name": "Virizion",
-	"number": "640",
+	"national": "640",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11522,7 +11522,7 @@ pokemonArray[639] = {
 }
 pokemonArray[640] = {
 	"name": "Tornadus",
-	"number": "641",
+	"national": "641",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11540,7 +11540,7 @@ pokemonArray[640] = {
 }
 pokemonArray[641] = {
 	"name": "Thundurus",
-	"number": "642",
+	"national": "642",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11558,7 +11558,7 @@ pokemonArray[641] = {
 }
 pokemonArray[642] = {
 	"name": "Reshiram",
-	"number": "643",
+	"national": "643",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11576,7 +11576,7 @@ pokemonArray[642] = {
 }
 pokemonArray[643] = {
 	"name": "Zekrom",
-	"number": "644",
+	"national": "644",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11594,7 +11594,7 @@ pokemonArray[643] = {
 }
 pokemonArray[644] = {
 	"name": "Landorus",
-	"number": "645",
+	"national": "645",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11612,7 +11612,7 @@ pokemonArray[644] = {
 }
 pokemonArray[645] = {
 	"name": "Kyurem",
-	"number": "646",
+	"national": "646",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11630,7 +11630,7 @@ pokemonArray[645] = {
 }
 pokemonArray[646] = {
 	"name": "Keldeo",
-	"number": "647",
+	"national": "647",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11648,7 +11648,7 @@ pokemonArray[646] = {
 }
 pokemonArray[647] = {
 	"name": "Meloetta",
-	"number": "648",
+	"national": "648",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11666,7 +11666,7 @@ pokemonArray[647] = {
 }
 pokemonArray[648] = {
 	"name": "Genesect",
-	"number": "649",
+	"national": "649",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11684,7 +11684,7 @@ pokemonArray[648] = {
 }
 pokemonArray[649] = {
 	"name": "Chespin",
-	"number": "650",
+	"national": "650",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11702,7 +11702,7 @@ pokemonArray[649] = {
 }
 pokemonArray[650] = {
 	"name": "Quilladin",
-	"number": "651",
+	"national": "651",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11720,7 +11720,7 @@ pokemonArray[650] = {
 }
 pokemonArray[651] = {
 	"name": "Chesnaught",
-	"number": "652",
+	"national": "652",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11738,7 +11738,7 @@ pokemonArray[651] = {
 }
 pokemonArray[652] = {
 	"name": "Fennekin",
-	"number": "653",
+	"national": "653",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11756,7 +11756,7 @@ pokemonArray[652] = {
 }
 pokemonArray[653] = {
 	"name": "Braixen",
-	"number": "654",
+	"national": "654",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11774,7 +11774,7 @@ pokemonArray[653] = {
 }
 pokemonArray[654] = {
 	"name": "Delphox",
-	"number": "655",
+	"national": "655",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11792,7 +11792,7 @@ pokemonArray[654] = {
 }
 pokemonArray[655] = {
 	"name": "Froakie",
-	"number": "656",
+	"national": "656",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11810,7 +11810,7 @@ pokemonArray[655] = {
 }
 pokemonArray[656] = {
 	"name": "Frogadier",
-	"number": "657",
+	"national": "657",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11828,7 +11828,7 @@ pokemonArray[656] = {
 }
 pokemonArray[657] = {
 	"name": "Greninja",
-	"number": "658",
+	"national": "658",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11846,7 +11846,7 @@ pokemonArray[657] = {
 }
 pokemonArray[658] = {
 	"name": "Bunnelby",
-	"number": "659",
+	"national": "659",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11864,7 +11864,7 @@ pokemonArray[658] = {
 }
 pokemonArray[659] = {
 	"name": "Diggersby",
-	"number": "660",
+	"national": "660",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11882,7 +11882,7 @@ pokemonArray[659] = {
 }
 pokemonArray[660] = {
 	"name": "Fletchling",
-	"number": "661",
+	"national": "661",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11900,7 +11900,7 @@ pokemonArray[660] = {
 }
 pokemonArray[661] = {
 	"name": "Fletchinder",
-	"number": "662",
+	"national": "662",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11918,7 +11918,7 @@ pokemonArray[661] = {
 }
 pokemonArray[662] = {
 	"name": "Talonflame",
-	"number": "663",
+	"national": "663",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11936,7 +11936,7 @@ pokemonArray[662] = {
 }
 pokemonArray[663] = {
 	"name": "Scatterbug",
-	"number": "664",
+	"national": "664",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11954,7 +11954,7 @@ pokemonArray[663] = {
 }
 pokemonArray[664] = {
 	"name": "Spewpa",
-	"number": "665",
+	"national": "665",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11972,7 +11972,7 @@ pokemonArray[664] = {
 }
 pokemonArray[665] = {
 	"name": "Vivillon",
-	"number": "666",
+	"national": "666",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -11990,7 +11990,7 @@ pokemonArray[665] = {
 }
 pokemonArray[666] = {
 	"name": "Litleo",
-	"number": "667",
+	"national": "667",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12008,7 +12008,7 @@ pokemonArray[666] = {
 }
 pokemonArray[667] = {
 	"name": "Pyroar",
-	"number": "668",
+	"national": "668",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12026,7 +12026,7 @@ pokemonArray[667] = {
 }
 pokemonArray[668] = {
 	"name": "Flabébé",
-	"number": "669",
+	"national": "669",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12044,7 +12044,7 @@ pokemonArray[668] = {
 }
 pokemonArray[669] = {
 	"name": "Floette",
-	"number": "670",
+	"national": "670",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12062,7 +12062,7 @@ pokemonArray[669] = {
 }
 pokemonArray[670] = {
 	"name": "Florges",
-	"number": "671",
+	"national": "671",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12080,7 +12080,7 @@ pokemonArray[670] = {
 }
 pokemonArray[671] = {
 	"name": "Skiddo",
-	"number": "672",
+	"national": "672",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12098,7 +12098,7 @@ pokemonArray[671] = {
 }
 pokemonArray[672] = {
 	"name": "Gogoat",
-	"number": "673",
+	"national": "673",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12116,7 +12116,7 @@ pokemonArray[672] = {
 }
 pokemonArray[673] = {
 	"name": "Pancham",
-	"number": "674",
+	"national": "674",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12134,7 +12134,7 @@ pokemonArray[673] = {
 }
 pokemonArray[674] = {
 	"name": "Pangoro",
-	"number": "675",
+	"national": "675",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12152,7 +12152,7 @@ pokemonArray[674] = {
 }
 pokemonArray[675] = {
 	"name": "Furfrou",
-	"number": "676",
+	"national": "676",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12170,7 +12170,7 @@ pokemonArray[675] = {
 }
 pokemonArray[676] = {
 	"name": "Espurr",
-	"number": "677",
+	"national": "677",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12188,7 +12188,7 @@ pokemonArray[676] = {
 }
 pokemonArray[677] = {
 	"name": "Meowstic",
-	"number": "678",
+	"national": "678",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12206,7 +12206,7 @@ pokemonArray[677] = {
 }
 pokemonArray[678] = {
 	"name": "Honedge",
-	"number": "679",
+	"national": "679",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12224,7 +12224,7 @@ pokemonArray[678] = {
 }
 pokemonArray[679] = {
 	"name": "Doublade",
-	"number": "680",
+	"national": "680",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12242,7 +12242,7 @@ pokemonArray[679] = {
 }
 pokemonArray[680] = {
 	"name": "Aegislash",
-	"number": "681",
+	"national": "681",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12260,7 +12260,7 @@ pokemonArray[680] = {
 }
 pokemonArray[681] = {
 	"name": "Spritzee",
-	"number": "682",
+	"national": "682",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12278,7 +12278,7 @@ pokemonArray[681] = {
 }
 pokemonArray[682] = {
 	"name": "Aromatisse",
-	"number": "683",
+	"national": "683",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12296,7 +12296,7 @@ pokemonArray[682] = {
 }
 pokemonArray[683] = {
 	"name": "Swirlix",
-	"number": "684",
+	"national": "684",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12314,7 +12314,7 @@ pokemonArray[683] = {
 }
 pokemonArray[684] = {
 	"name": "Slurpuff",
-	"number": "685",
+	"national": "685",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12332,7 +12332,7 @@ pokemonArray[684] = {
 }
 pokemonArray[685] = {
 	"name": "Inkay",
-	"number": "686",
+	"national": "686",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12350,7 +12350,7 @@ pokemonArray[685] = {
 }
 pokemonArray[686] = {
 	"name": "Malamar",
-	"number": "687",
+	"national": "687",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12368,7 +12368,7 @@ pokemonArray[686] = {
 }
 pokemonArray[687] = {
 	"name": "Binacle",
-	"number": "688",
+	"national": "688",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12386,7 +12386,7 @@ pokemonArray[687] = {
 }
 pokemonArray[688] = {
 	"name": "Barbaracle",
-	"number": "689",
+	"national": "689",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12404,7 +12404,7 @@ pokemonArray[688] = {
 }
 pokemonArray[689] = {
 	"name": "Skrelp",
-	"number": "690",
+	"national": "690",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12422,7 +12422,7 @@ pokemonArray[689] = {
 }
 pokemonArray[690] = {
 	"name": "Dragalge",
-	"number": "691",
+	"national": "691",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12440,7 +12440,7 @@ pokemonArray[690] = {
 }
 pokemonArray[691] = {
 	"name": "Clauncher",
-	"number": "692",
+	"national": "692",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12458,7 +12458,7 @@ pokemonArray[691] = {
 }
 pokemonArray[692] = {
 	"name": "Clawitzer",
-	"number": "693",
+	"national": "693",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12476,7 +12476,7 @@ pokemonArray[692] = {
 }
 pokemonArray[693] = {
 	"name": "Helioptile",
-	"number": "694",
+	"national": "694",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12494,7 +12494,7 @@ pokemonArray[693] = {
 }
 pokemonArray[694] = {
 	"name": "Heliolisk",
-	"number": "695",
+	"national": "695",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12512,7 +12512,7 @@ pokemonArray[694] = {
 }
 pokemonArray[695] = {
 	"name": "Tyrunt",
-	"number": "696",
+	"national": "696",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12530,7 +12530,7 @@ pokemonArray[695] = {
 }
 pokemonArray[696] = {
 	"name": "Tyrantrum",
-	"number": "697",
+	"national": "697",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12548,7 +12548,7 @@ pokemonArray[696] = {
 }
 pokemonArray[697] = {
 	"name": "Amaura",
-	"number": "698",
+	"national": "698",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12566,7 +12566,7 @@ pokemonArray[697] = {
 }
 pokemonArray[698] = {
 	"name": "Aurorus",
-	"number": "699",
+	"national": "699",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12584,7 +12584,7 @@ pokemonArray[698] = {
 }
 pokemonArray[699] = {
 	"name": "Sylveon",
-	"number": "700",
+	"national": "700",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12602,7 +12602,7 @@ pokemonArray[699] = {
 }
 pokemonArray[700] = {
 	"name": "Hawlucha",
-	"number": "701",
+	"national": "701",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12620,7 +12620,7 @@ pokemonArray[700] = {
 }
 pokemonArray[701] = {
 	"name": "Dedenne",
-	"number": "702",
+	"national": "702",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12638,7 +12638,7 @@ pokemonArray[701] = {
 }
 pokemonArray[702] = {
 	"name": "Carbink",
-	"number": "703",
+	"national": "703",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12656,7 +12656,7 @@ pokemonArray[702] = {
 }
 pokemonArray[703] = {
 	"name": "Goomy",
-	"number": "704",
+	"national": "704",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12674,7 +12674,7 @@ pokemonArray[703] = {
 }
 pokemonArray[704] = {
 	"name": "Sliggoo",
-	"number": "705",
+	"national": "705",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12692,7 +12692,7 @@ pokemonArray[704] = {
 }
 pokemonArray[705] = {
 	"name": "Goodra",
-	"number": "706",
+	"national": "706",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12710,7 +12710,7 @@ pokemonArray[705] = {
 }
 pokemonArray[706] = {
 	"name": "Klefki",
-	"number": "707",
+	"national": "707",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12728,7 +12728,7 @@ pokemonArray[706] = {
 }
 pokemonArray[707] = {
 	"name": "Phantump",
-	"number": "708",
+	"national": "708",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12746,7 +12746,7 @@ pokemonArray[707] = {
 }
 pokemonArray[708] = {
 	"name": "Trevenant",
-	"number": "709",
+	"national": "709",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12764,7 +12764,7 @@ pokemonArray[708] = {
 }
 pokemonArray[709] = {
 	"name": "Pumpkaboo",
-	"number": "710",
+	"national": "710",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12782,7 +12782,7 @@ pokemonArray[709] = {
 }
 pokemonArray[710] = {
 	"name": "Gourgeist",
-	"number": "711",
+	"national": "711",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12800,7 +12800,7 @@ pokemonArray[710] = {
 }
 pokemonArray[711] = {
 	"name": "Bergmite",
-	"number": "712",
+	"national": "712",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12818,7 +12818,7 @@ pokemonArray[711] = {
 }
 pokemonArray[712] = {
 	"name": "Avalugg",
-	"number": "713",
+	"national": "713",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12836,7 +12836,7 @@ pokemonArray[712] = {
 }
 pokemonArray[713] = {
 	"name": "Noibat",
-	"number": "714",
+	"national": "714",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12854,7 +12854,7 @@ pokemonArray[713] = {
 }
 pokemonArray[714] = {
 	"name": "Noivern",
-	"number": "715",
+	"national": "715",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12872,7 +12872,7 @@ pokemonArray[714] = {
 }
 pokemonArray[715] = {
 	"name": "Xerneas",
-	"number": "716",
+	"national": "716",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12890,7 +12890,7 @@ pokemonArray[715] = {
 }
 pokemonArray[716] = {
 	"name": "Yveltal",
-	"number": "717",
+	"national": "717",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12908,7 +12908,7 @@ pokemonArray[716] = {
 }
 pokemonArray[717] = {
 	"name": "Zygarde",
-	"number": "718",
+	"national": "718",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12926,7 +12926,7 @@ pokemonArray[717] = {
 }
 pokemonArray[718] = {
 	"name": "Diancie",
-	"number": "719",
+	"national": "719",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12944,7 +12944,7 @@ pokemonArray[718] = {
 }
 pokemonArray[719] = {
 	"name": "Hoopa",
-	"number": "720",
+	"national": "720",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12962,7 +12962,7 @@ pokemonArray[719] = {
 }
 pokemonArray[720] = {
 	"name": "Volcanion",
-	"number": "721",
+	"national": "721",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12980,7 +12980,7 @@ pokemonArray[720] = {
 }
 pokemonArray[721] = {
 	"name": "Rowlet",
-	"number": "722",
+	"national": "722",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -12998,7 +12998,7 @@ pokemonArray[721] = {
 }
 pokemonArray[722] = {
 	"name": "Dartrix",
-	"number": "723",
+	"national": "723",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13016,7 +13016,7 @@ pokemonArray[722] = {
 }
 pokemonArray[723] = {
 	"name": "Decidueye",
-	"number": "724",
+	"national": "724",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13034,7 +13034,7 @@ pokemonArray[723] = {
 }
 pokemonArray[724] = {
 	"name": "Litten",
-	"number": "725",
+	"national": "725",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13052,7 +13052,7 @@ pokemonArray[724] = {
 }
 pokemonArray[725] = {
 	"name": "Torracat",
-	"number": "726",
+	"national": "726",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13070,7 +13070,7 @@ pokemonArray[725] = {
 }
 pokemonArray[726] = {
 	"name": "Incineroar",
-	"number": "727",
+	"national": "727",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13088,7 +13088,7 @@ pokemonArray[726] = {
 }
 pokemonArray[727] = {
 	"name": "Popplio",
-	"number": "728",
+	"national": "728",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13106,7 +13106,7 @@ pokemonArray[727] = {
 }
 pokemonArray[728] = {
 	"name": "Brionne",
-	"number": "729",
+	"national": "729",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13124,7 +13124,7 @@ pokemonArray[728] = {
 }
 pokemonArray[729] = {
 	"name": "Primarina",
-	"number": "730",
+	"national": "730",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13142,7 +13142,7 @@ pokemonArray[729] = {
 }
 pokemonArray[730] = {
 	"name": "Pikipek",
-	"number": "731",
+	"national": "731",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13160,7 +13160,7 @@ pokemonArray[730] = {
 }
 pokemonArray[731] = {
 	"name": "Trumbeak",
-	"number": "732",
+	"national": "732",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13178,7 +13178,7 @@ pokemonArray[731] = {
 }
 pokemonArray[732] = {
 	"name": "Toucannon",
-	"number": "733",
+	"national": "733",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13196,7 +13196,7 @@ pokemonArray[732] = {
 }
 pokemonArray[733] = {
 	"name": "Yungoos",
-	"number": "734",
+	"national": "734",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13214,7 +13214,7 @@ pokemonArray[733] = {
 }
 pokemonArray[734] = {
 	"name": "Gumshoos",
-	"number": "735",
+	"national": "735",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13232,7 +13232,7 @@ pokemonArray[734] = {
 }
 pokemonArray[735] = {
 	"name": "Grubbin",
-	"number": "736",
+	"national": "736",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13250,7 +13250,7 @@ pokemonArray[735] = {
 }
 pokemonArray[736] = {
 	"name": "Charjabug",
-	"number": "737",
+	"national": "737",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13268,7 +13268,7 @@ pokemonArray[736] = {
 }
 pokemonArray[737] = {
 	"name": "Vikavolt",
-	"number": "738",
+	"national": "738",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13286,7 +13286,7 @@ pokemonArray[737] = {
 }
 pokemonArray[738] = {
 	"name": "Crabrawler",
-	"number": "739",
+	"national": "739",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13304,7 +13304,7 @@ pokemonArray[738] = {
 }
 pokemonArray[739] = {
 	"name": "Crabominable",
-	"number": "740",
+	"national": "740",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13322,7 +13322,7 @@ pokemonArray[739] = {
 }
 pokemonArray[740] = {
 	"name": "Oricorio",
-	"number": "741",
+	"national": "741",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13340,7 +13340,7 @@ pokemonArray[740] = {
 }
 pokemonArray[741] = {
 	"name": "Cutiefly",
-	"number": "742",
+	"national": "742",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13358,7 +13358,7 @@ pokemonArray[741] = {
 }
 pokemonArray[742] = {
 	"name": "Ribombee",
-	"number": "743",
+	"national": "743",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13376,7 +13376,7 @@ pokemonArray[742] = {
 }
 pokemonArray[743] = {
 	"name": "Rockruff",
-	"number": "744",
+	"national": "744",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13394,7 +13394,7 @@ pokemonArray[743] = {
 }
 pokemonArray[744] = {
 	"name": "Lycanroc",
-	"number": "745",
+	"national": "745",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13412,7 +13412,7 @@ pokemonArray[744] = {
 }
 pokemonArray[745] = {
 	"name": "Wishiwashi",
-	"number": "746",
+	"national": "746",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13430,7 +13430,7 @@ pokemonArray[745] = {
 }
 pokemonArray[746] = {
 	"name": "Mareanie",
-	"number": "747",
+	"national": "747",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13448,7 +13448,7 @@ pokemonArray[746] = {
 }
 pokemonArray[747] = {
 	"name": "Toxapex",
-	"number": "748",
+	"national": "748",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13466,7 +13466,7 @@ pokemonArray[747] = {
 }
 pokemonArray[748] = {
 	"name": "Mudbray",
-	"number": "749",
+	"national": "749",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13484,7 +13484,7 @@ pokemonArray[748] = {
 }
 pokemonArray[749] = {
 	"name": "Mudsdale",
-	"number": "750",
+	"national": "750",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13502,7 +13502,7 @@ pokemonArray[749] = {
 }
 pokemonArray[750] = {
 	"name": "Dewpider",
-	"number": "751",
+	"national": "751",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13520,7 +13520,7 @@ pokemonArray[750] = {
 }
 pokemonArray[751] = {
 	"name": "Araquanid",
-	"number": "752",
+	"national": "752",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13538,7 +13538,7 @@ pokemonArray[751] = {
 }
 pokemonArray[752] = {
 	"name": "Fomantis",
-	"number": "753",
+	"national": "753",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13556,7 +13556,7 @@ pokemonArray[752] = {
 }
 pokemonArray[753] = {
 	"name": "Lurantis",
-	"number": "754",
+	"national": "754",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13574,7 +13574,7 @@ pokemonArray[753] = {
 }
 pokemonArray[754] = {
 	"name": "Morelull",
-	"number": "755",
+	"national": "755",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13592,7 +13592,7 @@ pokemonArray[754] = {
 }
 pokemonArray[755] = {
 	"name": "Shiinotic",
-	"number": "756",
+	"national": "756",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13610,7 +13610,7 @@ pokemonArray[755] = {
 }
 pokemonArray[756] = {
 	"name": "Salandit",
-	"number": "757",
+	"national": "757",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13628,7 +13628,7 @@ pokemonArray[756] = {
 }
 pokemonArray[757] = {
 	"name": "Salazzle",
-	"number": "758",
+	"national": "758",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13646,7 +13646,7 @@ pokemonArray[757] = {
 }
 pokemonArray[758] = {
 	"name": "Stufful",
-	"number": "759",
+	"national": "759",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13664,7 +13664,7 @@ pokemonArray[758] = {
 }
 pokemonArray[759] = {
 	"name": "Bewear",
-	"number": "760",
+	"national": "760",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13682,7 +13682,7 @@ pokemonArray[759] = {
 }
 pokemonArray[760] = {
 	"name": "Bounsweet",
-	"number": "761",
+	"national": "761",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13700,7 +13700,7 @@ pokemonArray[760] = {
 }
 pokemonArray[761] = {
 	"name": "Steenee",
-	"number": "762",
+	"national": "762",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13718,7 +13718,7 @@ pokemonArray[761] = {
 }
 pokemonArray[762] = {
 	"name": "Tsareena",
-	"number": "763",
+	"national": "763",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13736,7 +13736,7 @@ pokemonArray[762] = {
 }
 pokemonArray[763] = {
 	"name": "Comfey",
-	"number": "764",
+	"national": "764",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13754,7 +13754,7 @@ pokemonArray[763] = {
 }
 pokemonArray[764] = {
 	"name": "Oranguru",
-	"number": "765",
+	"national": "765",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13772,7 +13772,7 @@ pokemonArray[764] = {
 }
 pokemonArray[765] = {
 	"name": "Passimian",
-	"number": "766",
+	"national": "766",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13790,7 +13790,7 @@ pokemonArray[765] = {
 }
 pokemonArray[766] = {
 	"name": "Wimpod",
-	"number": "767",
+	"national": "767",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13808,7 +13808,7 @@ pokemonArray[766] = {
 }
 pokemonArray[767] = {
 	"name": "Golisopod",
-	"number": "768",
+	"national": "768",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13826,7 +13826,7 @@ pokemonArray[767] = {
 }
 pokemonArray[768] = {
 	"name": "Sandygast",
-	"number": "769",
+	"national": "769",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13844,7 +13844,7 @@ pokemonArray[768] = {
 }
 pokemonArray[769] = {
 	"name": "Palossand",
-	"number": "770",
+	"national": "770",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13862,7 +13862,7 @@ pokemonArray[769] = {
 }
 pokemonArray[770] = {
 	"name": "Pyukumuku",
-	"number": "771",
+	"national": "771",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13880,7 +13880,7 @@ pokemonArray[770] = {
 }
 pokemonArray[771] = {
 	"name": "Type: Null",
-	"number": "772",
+	"national": "772",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13898,7 +13898,7 @@ pokemonArray[771] = {
 }
 pokemonArray[772] = {
 	"name": "Silvally",
-	"number": "773",
+	"national": "773",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13916,7 +13916,7 @@ pokemonArray[772] = {
 }
 pokemonArray[773] = {
 	"name": "Minior",
-	"number": "774",
+	"national": "774",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13934,7 +13934,7 @@ pokemonArray[773] = {
 }
 pokemonArray[774] = {
 	"name": "Komala",
-	"number": "775",
+	"national": "775",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13952,7 +13952,7 @@ pokemonArray[774] = {
 }
 pokemonArray[775] = {
 	"name": "Turtonator",
-	"number": "776",
+	"national": "776",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13970,7 +13970,7 @@ pokemonArray[775] = {
 }
 pokemonArray[776] = {
 	"name": "Togedemaru",
-	"number": "777",
+	"national": "777",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -13988,7 +13988,7 @@ pokemonArray[776] = {
 }
 pokemonArray[777] = {
 	"name": "Mimikyu",
-	"number": "778",
+	"national": "778",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14006,7 +14006,7 @@ pokemonArray[777] = {
 }
 pokemonArray[778] = {
 	"name": "Bruxish",
-	"number": "779",
+	"national": "779",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14024,7 +14024,7 @@ pokemonArray[778] = {
 }
 pokemonArray[779] = {
 	"name": "Drampa",
-	"number": "780",
+	"national": "780",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14042,7 +14042,7 @@ pokemonArray[779] = {
 }
 pokemonArray[780] = {
 	"name": "Dhelmise",
-	"number": "781",
+	"national": "781",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14060,7 +14060,7 @@ pokemonArray[780] = {
 }
 pokemonArray[781] = {
 	"name": "Jangmo-o",
-	"number": "782",
+	"national": "782",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14078,7 +14078,7 @@ pokemonArray[781] = {
 }
 pokemonArray[782] = {
 	"name": "Hakamo-o",
-	"number": "783",
+	"national": "783",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14096,7 +14096,7 @@ pokemonArray[782] = {
 }
 pokemonArray[783] = {
 	"name": "Kommo-o",
-	"number": "784",
+	"national": "784",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14114,7 +14114,7 @@ pokemonArray[783] = {
 }
 pokemonArray[784] = {
 	"name": "Tapu Koko",
-	"number": "785",
+	"national": "785",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14132,7 +14132,7 @@ pokemonArray[784] = {
 }
 pokemonArray[785] = {
 	"name": "Tapu Lele",
-	"number": "786",
+	"national": "786",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14150,7 +14150,7 @@ pokemonArray[785] = {
 }
 pokemonArray[786] = {
 	"name": "Tapu Bulu",
-	"number": "787",
+	"national": "787",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14168,7 +14168,7 @@ pokemonArray[786] = {
 }
 pokemonArray[787] = {
 	"name": "Tapu Fini",
-	"number": "788",
+	"national": "788",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14186,7 +14186,7 @@ pokemonArray[787] = {
 }
 pokemonArray[788] = {
 	"name": "Cosmog",
-	"number": "789",
+	"national": "789",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14204,7 +14204,7 @@ pokemonArray[788] = {
 }
 pokemonArray[789] = {
 	"name": "Cosmoem",
-	"number": "790",
+	"national": "790",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14222,7 +14222,7 @@ pokemonArray[789] = {
 }
 pokemonArray[790] = {
 	"name": "Solgaleo",
-	"number": "791",
+	"national": "791",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14240,7 +14240,7 @@ pokemonArray[790] = {
 }
 pokemonArray[791] = {
 	"name": "Lunala",
-	"number": "792",
+	"national": "792",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14258,7 +14258,7 @@ pokemonArray[791] = {
 }
 pokemonArray[792] = {
 	"name": "Nihilego",
-	"number": "793",
+	"national": "793",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14276,7 +14276,7 @@ pokemonArray[792] = {
 }
 pokemonArray[793] = {
 	"name": "Buzzwole",
-	"number": "794",
+	"national": "794",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14294,7 +14294,7 @@ pokemonArray[793] = {
 }
 pokemonArray[794] = {
 	"name": "Pheromosa",
-	"number": "795",
+	"national": "795",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14312,7 +14312,7 @@ pokemonArray[794] = {
 }
 pokemonArray[795] = {
 	"name": "Xurkitree",
-	"number": "796",
+	"national": "796",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14330,7 +14330,7 @@ pokemonArray[795] = {
 }
 pokemonArray[796] = {
 	"name": "Celesteela",
-	"number": "797",
+	"national": "797",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14348,7 +14348,7 @@ pokemonArray[796] = {
 }
 pokemonArray[797] = {
 	"name": "Kartana",
-	"number": "798",
+	"national": "798",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14366,7 +14366,7 @@ pokemonArray[797] = {
 }
 pokemonArray[798] = {
 	"name": "Guzzlord",
-	"number": "799",
+	"national": "799",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14384,7 +14384,7 @@ pokemonArray[798] = {
 }
 pokemonArray[799] = {
 	"name": "Necrozma",
-	"number": "800",
+	"national": "800",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14402,7 +14402,7 @@ pokemonArray[799] = {
 }
 pokemonArray[800] = {
 	"name": "Magearna",
-	"number": "801",
+	"national": "801",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14420,7 +14420,7 @@ pokemonArray[800] = {
 }
 pokemonArray[801] = {
 	"name": "Marshadow",
-	"number": "802",
+	"national": "802",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14438,7 +14438,7 @@ pokemonArray[801] = {
 }
 pokemonArray[802] = {
 	"name": "Poipole",
-	"number": "803",
+	"national": "803",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14456,7 +14456,7 @@ pokemonArray[802] = {
 }
 pokemonArray[803] = {
 	"name": "Naganadel",
-	"number": "804",
+	"national": "804",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14474,7 +14474,7 @@ pokemonArray[803] = {
 }
 pokemonArray[804] = {
 	"name": "Stakataka",
-	"number": "805",
+	"national": "805",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14492,7 +14492,7 @@ pokemonArray[804] = {
 }
 pokemonArray[805] = {
 	"name": "Blacephalon",
-	"number": "806",
+	"national": "806",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
@@ -14510,7 +14510,7 @@ pokemonArray[805] = {
 }
 pokemonArray[806] = {
 	"name": "Zeraora",
-	"number": "807",
+	"national": "807",
 	"kanto": undefined,
 	"johto": undefined,
 	"hoenn": undefined,
