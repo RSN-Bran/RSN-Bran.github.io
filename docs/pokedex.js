@@ -3523,10 +3523,10 @@ pokemonArray[195] = {
 	"gif": "Shiny/espeon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Bazingeon",
+	"method": "Friend Safari",
+	"order": 373,
+	"attempts": 956
 }
 pokemonArray[196] = {
 	"name": "Umbreon",
