@@ -9337,10 +9337,10 @@ pokemonArray[518] = {
 	"gif": "Shiny/pidove.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "New York",
+	"method": "DexNav",
+	"order": 374,
+	"attempts": 86
 }
 pokemonArray[519] = {
 	"name": "Tranquill",
