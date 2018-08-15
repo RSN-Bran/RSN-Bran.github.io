@@ -10759,10 +10759,10 @@ pokemonArray[597] = {
 	"gif": "Shiny/ferrothorn.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Spikyboi",
+	"method": "Friend Safari",
+	"order": 375,
+	"attempts": 977
 }
 pokemonArray[598] = {
 	"name": "Klink",
