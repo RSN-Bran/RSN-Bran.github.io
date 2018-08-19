@@ -5683,10 +5683,10 @@ pokemonArray[315] = {
 	"gif": "Shiny/gulpin.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Chobin",
+	"method": "DexNav",
+	"order": 376,
+	"attempts": 180
 }
 pokemonArray[316] = {
 	"name": "Swalot",
