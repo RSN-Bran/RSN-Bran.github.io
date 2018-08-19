@@ -9751,10 +9751,10 @@ pokemonArray[541] = {
 	"gif": "Shiny/leavanny.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "SaladMan",
+	"method": "Friend Safari",
+	"order": 377,
+	"attempts": 453
 }
 pokemonArray[542] = {
 	"name": "Venipede",
