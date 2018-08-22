@@ -9175,10 +9175,10 @@ pokemonArray[509] = {
 	"gif": "Shiny/liepard.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Ann Takamaki",
+	"method": "Friend Safari",
+	"order": 378,
+	"attempts": 320
 }
 pokemonArray[510] = {
 	"name": "Pansage",
