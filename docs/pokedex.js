@@ -841,10 +841,10 @@ pokemonArray[46] = {
 	"gif": "Shiny/parasect.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Maxis",
+	"method": "Friend Safari",
+	"order": 379,
+	"attempts": 503
 }
 pokemonArray[47] = {
 	"name": "Venonat",
