@@ -265,10 +265,10 @@ pokemonArray[14] = {
 	"gif": "Shiny/beedrill.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Wasabi",
+	"method": "Friend Safari",
+	"order": 380,
+	"attempts": 756
 }
 pokemonArray[15] = {
 	"name": "Pidgey",
