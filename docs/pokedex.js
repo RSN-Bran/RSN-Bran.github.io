@@ -4783,10 +4783,10 @@ pokemonArray[265] = {
 	"gif": "Shiny/silcoon.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "uhhh",
+	"method": "DexNav",
+	"order": 381,
+	"attempts": 100
 }
 pokemonArray[266] = {
 	"name": "Beautifly",
