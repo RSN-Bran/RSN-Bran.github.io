@@ -301,10 +301,10 @@ pokemonArray[16] = {
 	"gif": "Shiny/pidgeotto.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Maybelline",
+	"method": "Friend Safari",
+	"order": 382,
+	"attempts": 1984
 }
 pokemonArray[17] = {
 	"name": "Pidgeot",
