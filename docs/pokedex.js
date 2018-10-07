@@ -18,6 +18,7 @@ pokemonArray[0] = {
 	"order": 41,
 	"attempts": 392
 }
+
 pokemonArray[1] = {
 	"name": "Ivysaur",
 	"national": "002",
@@ -36,6 +37,7 @@ pokemonArray[1] = {
 	"order": 62,
 	"attempts": 693
 }
+
 pokemonArray[2] = {
 	"name": "Venusaur",
 	"national": "003",
@@ -54,6 +56,7 @@ pokemonArray[2] = {
 	"order": 64,
 	"attempts": 30
 }
+
 pokemonArray[3] = {
 	"name": "Charmander",
 	"national": "004",
@@ -72,6 +75,7 @@ pokemonArray[3] = {
 	"order": 286,
 	"attempts": 174
 }
+
 pokemonArray[4] = {
 	"name": "Charmeleon",
 	"national": "005",
@@ -90,6 +94,7 @@ pokemonArray[4] = {
 	"order": 55,
 	"attempts": 14
 }
+
 pokemonArray[5] = {
 	"name": "Charizard",
 	"national": "006",
@@ -108,6 +113,7 @@ pokemonArray[5] = {
 	"order": 235,
 	"attempts": 190
 }
+
 pokemonArray[6] = {
 	"name": "Squirtle",
 	"national": "007",
@@ -126,6 +132,7 @@ pokemonArray[6] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[7] = {
 	"name": "Wartortle",
 	"national": "008",
@@ -144,6 +151,7 @@ pokemonArray[7] = {
 	"order": 211,
 	"attempts": 961
 }
+
 pokemonArray[8] = {
 	"name": "Blastoise",
 	"national": "009",
@@ -162,6 +170,7 @@ pokemonArray[8] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[9] = {
 	"name": "Caterpie",
 	"national": "010",
@@ -180,6 +189,7 @@ pokemonArray[9] = {
 	"order": 180,
 	"attempts": 87
 }
+
 pokemonArray[10] = {
 	"name": "Metapod",
 	"national": "011",
@@ -198,6 +208,7 @@ pokemonArray[10] = {
 	"order": 249,
 	"attempts": 235
 }
+
 pokemonArray[11] = {
 	"name": "Butterfree",
 	"national": "012",
@@ -216,6 +227,7 @@ pokemonArray[11] = {
 	"order": 248,
 	"attempts": 176
 }
+
 pokemonArray[12] = {
 	"name": "Weedle",
 	"national": "013",
@@ -234,6 +246,7 @@ pokemonArray[12] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[13] = {
 	"name": "Kakuna",
 	"national": "014",
@@ -252,6 +265,7 @@ pokemonArray[13] = {
 	"order": 250,
 	"attempts": 1285
 }
+
 pokemonArray[14] = {
 	"name": "Beedrill",
 	"national": "015",
@@ -270,6 +284,7 @@ pokemonArray[14] = {
 	"order": 380,
 	"attempts": 756
 }
+
 pokemonArray[15] = {
 	"name": "Pidgey",
 	"national": "016",
@@ -288,6 +303,7 @@ pokemonArray[15] = {
 	"order": 247,
 	"attempts": 1894
 }
+
 pokemonArray[16] = {
 	"name": "Pidgeotto",
 	"national": "017",
@@ -306,6 +322,7 @@ pokemonArray[16] = {
 	"order": 382,
 	"attempts": 1984
 }
+
 pokemonArray[17] = {
 	"name": "Pidgeot",
 	"national": "018",
@@ -324,6 +341,7 @@ pokemonArray[17] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[18] = {
 	"name": "Rattata",
 	"national": "019",
@@ -342,6 +360,7 @@ pokemonArray[18] = {
 	"order": 243,
 	"attempts": 118
 }
+
 pokemonArray[19] = {
 	"name": "Raticate",
 	"national": "020",
@@ -360,6 +379,7 @@ pokemonArray[19] = {
 	"order": 38,
 	"attempts": 283
 }
+
 pokemonArray[20] = {
 	"name": "Spearow",
 	"national": "021",
@@ -378,6 +398,7 @@ pokemonArray[20] = {
 	"order": 72,
 	"attempts": 202
 }
+
 pokemonArray[21] = {
 	"name": "Fearow",
 	"national": "022",
@@ -396,6 +417,7 @@ pokemonArray[21] = {
 	"order": 261,
 	"attempts": 841
 }
+
 pokemonArray[22] = {
 	"name": "Ekans",
 	"national": "023",
@@ -414,6 +436,7 @@ pokemonArray[22] = {
 	"order": 223,
 	"attempts": 8
 }
+
 pokemonArray[23] = {
 	"name": "Arbok",
 	"national": "024",
@@ -432,6 +455,7 @@ pokemonArray[23] = {
 	"order": 233,
 	"attempts": 17
 }
+
 pokemonArray[24] = {
 	"name": "Pikachu",
 	"national": "025",
@@ -450,6 +474,7 @@ pokemonArray[24] = {
 	"order": 107,
 	"attempts": 1116
 }
+
 pokemonArray[25] = {
 	"name": "Raichu",
 	"national": "026",
@@ -468,6 +493,7 @@ pokemonArray[25] = {
 	"order": 252,
 	"attempts": 138
 }
+
 pokemonArray[26] = {
 	"name": "Sandshrew",
 	"national": "027",
@@ -486,6 +512,7 @@ pokemonArray[26] = {
 	"order": 48,
 	"attempts": 122
 }
+
 pokemonArray[27] = {
 	"name": "Sandslash",
 	"national": "028",
@@ -504,6 +531,7 @@ pokemonArray[27] = {
 	"order": 148,
 	"attempts": 41
 }
+
 pokemonArray[28] = {
 	"name": "Nidoran♀",
 	"national": "029",
@@ -522,6 +550,7 @@ pokemonArray[28] = {
 	"order": 257,
 	"attempts": 41
 }
+
 pokemonArray[29] = {
 	"name": "Nidorina",
 	"national": "030",
@@ -540,6 +569,7 @@ pokemonArray[29] = {
 	"order": 258,
 	"attempts": 42
 }
+
 pokemonArray[30] = {
 	"name": "Nidoqueen",
 	"national": "031",
@@ -558,6 +588,7 @@ pokemonArray[30] = {
 	"order": 259,
 	"attempts": 43
 }
+
 pokemonArray[31] = {
 	"name": "Nidoran♂",
 	"national": "032",
@@ -576,6 +607,7 @@ pokemonArray[31] = {
 	"order": 30,
 	"attempts": 94
 }
+
 pokemonArray[32] = {
 	"name": "Nidorino",
 	"national": "033",
@@ -594,6 +626,7 @@ pokemonArray[32] = {
 	"order": 208,
 	"attempts": 158
 }
+
 pokemonArray[33] = {
 	"name": "Nidoking",
 	"national": "034",
@@ -612,6 +645,7 @@ pokemonArray[33] = {
 	"order": 256,
 	"attempts": 41
 }
+
 pokemonArray[34] = {
 	"name": "Clefairy",
 	"national": "035",
@@ -630,6 +664,7 @@ pokemonArray[34] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[35] = {
 	"name": "Clefable",
 	"national": "036",
@@ -648,6 +683,7 @@ pokemonArray[35] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[36] = {
 	"name": "Vulpix",
 	"national": "037",
@@ -666,6 +702,7 @@ pokemonArray[36] = {
 	"order": 37,
 	"attempts": 388
 }
+
 pokemonArray[37] = {
 	"name": "Ninetales",
 	"national": "038",
@@ -684,6 +721,7 @@ pokemonArray[37] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[38] = {
 	"name": "Jigglypuff",
 	"national": "039",
@@ -702,6 +740,7 @@ pokemonArray[38] = {
 	"order": 21,
 	"attempts": 23
 }
+
 pokemonArray[39] = {
 	"name": "Wigglytuff",
 	"national": "040",
@@ -720,6 +759,7 @@ pokemonArray[39] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[40] = {
 	"name": "Zubat",
 	"national": "041",
@@ -738,6 +778,7 @@ pokemonArray[40] = {
 	"order": 88,
 	"attempts": 182
 }
+
 pokemonArray[41] = {
 	"name": "Golbat",
 	"national": "042",
@@ -756,6 +797,7 @@ pokemonArray[41] = {
 	"order": 152,
 	"attempts": 202
 }
+
 pokemonArray[42] = {
 	"name": "Oddish",
 	"national": "043",
@@ -774,6 +816,7 @@ pokemonArray[42] = {
 	"order": 63,
 	"attempts": 484
 }
+
 pokemonArray[43] = {
 	"name": "Gloom",
 	"national": "044",
@@ -792,6 +835,7 @@ pokemonArray[43] = {
 	"order": 129,
 	"attempts": 144
 }
+
 pokemonArray[44] = {
 	"name": "Vileplume",
 	"national": "045",
@@ -810,6 +854,7 @@ pokemonArray[44] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[45] = {
 	"name": "Paras",
 	"national": "046",
@@ -828,6 +873,7 @@ pokemonArray[45] = {
 	"order": 267,
 	"attempts": 1183
 }
+
 pokemonArray[46] = {
 	"name": "Parasect",
 	"national": "047",
@@ -846,6 +892,7 @@ pokemonArray[46] = {
 	"order": 379,
 	"attempts": 503
 }
+
 pokemonArray[47] = {
 	"name": "Venonat",
 	"national": "048",
@@ -864,6 +911,7 @@ pokemonArray[47] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[48] = {
 	"name": "Venomoth",
 	"national": "049",
@@ -882,6 +930,7 @@ pokemonArray[48] = {
 	"order": 306,
 	"attempts": 18
 }
+
 pokemonArray[49] = {
 	"name": "Diglett",
 	"national": "050",
@@ -900,6 +949,7 @@ pokemonArray[49] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[50] = {
 	"name": "Dugtrio",
 	"national": "051",
@@ -918,6 +968,7 @@ pokemonArray[50] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[51] = {
 	"name": "Meowth",
 	"national": "052",
@@ -936,6 +987,7 @@ pokemonArray[51] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[52] = {
 	"name": "Persian",
 	"national": "053",
@@ -954,6 +1006,7 @@ pokemonArray[52] = {
 	"order": 145,
 	"attempts": 367
 }
+
 pokemonArray[53] = {
 	"name": "Psyduck",
 	"national": "054",
@@ -972,6 +1025,7 @@ pokemonArray[53] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[54] = {
 	"name": "Golduck",
 	"national": "055",
@@ -990,6 +1044,7 @@ pokemonArray[54] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[55] = {
 	"name": "Mankey",
 	"national": "056",
@@ -1008,6 +1063,7 @@ pokemonArray[55] = {
 	"order": 155,
 	"attempts": 910
 }
+
 pokemonArray[56] = {
 	"name": "Primeape",
 	"national": "057",
@@ -1026,6 +1082,7 @@ pokemonArray[56] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[57] = {
 	"name": "Growlithe",
 	"national": "058",
@@ -1044,6 +1101,7 @@ pokemonArray[57] = {
 	"order": 56,
 	"attempts": 846
 }
+
 pokemonArray[58] = {
 	"name": "Arcanine",
 	"national": "059",
@@ -1062,6 +1120,7 @@ pokemonArray[58] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[59] = {
 	"name": "Poliwag",
 	"national": "060",
@@ -1080,6 +1139,7 @@ pokemonArray[59] = {
 	"order": 343,
 	"attempts": 115
 }
+
 pokemonArray[60] = {
 	"name": "Poliwhirl",
 	"national": "061",
@@ -1098,6 +1158,7 @@ pokemonArray[60] = {
 	"order": 77,
 	"attempts": 44
 }
+
 pokemonArray[61] = {
 	"name": "Poliwrath",
 	"national": "062",
@@ -1116,6 +1177,7 @@ pokemonArray[61] = {
 	"order": 110,
 	"attempts": 33
 }
+
 pokemonArray[62] = {
 	"name": "Abra",
 	"national": "063",
@@ -1134,6 +1196,7 @@ pokemonArray[62] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[63] = {
 	"name": "Kadabra",
 	"national": "064",
@@ -1152,6 +1215,7 @@ pokemonArray[63] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[64] = {
 	"name": "Alakazam",
 	"national": "065",
@@ -1170,6 +1234,7 @@ pokemonArray[64] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[65] = {
 	"name": "Machop",
 	"national": "066",
@@ -1188,6 +1253,7 @@ pokemonArray[65] = {
 	"order": 51,
 	"attempts": 231
 }
+
 pokemonArray[66] = {
 	"name": "Machoke",
 	"national": "067",
@@ -1206,6 +1272,7 @@ pokemonArray[66] = {
 	"order": 26,
 	"attempts": 630
 }
+
 pokemonArray[67] = {
 	"name": "Machamp",
 	"national": "068",
@@ -1224,6 +1291,7 @@ pokemonArray[67] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[68] = {
 	"name": "Bellsprout",
 	"national": "069",
@@ -1242,6 +1310,7 @@ pokemonArray[68] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[69] = {
 	"name": "Weepinbell",
 	"national": "070",
@@ -1260,6 +1329,7 @@ pokemonArray[69] = {
 	"order": 79,
 	"attempts": 338
 }
+
 pokemonArray[70] = {
 	"name": "Victreebel",
 	"national": "071",
@@ -1278,6 +1348,7 @@ pokemonArray[70] = {
 	"order": 219,
 	"attempts": 19
 }
+
 pokemonArray[71] = {
 	"name": "Tentacool",
 	"national": "072",
@@ -1296,6 +1367,7 @@ pokemonArray[71] = {
 	"order": 23,
 	"attempts": 63
 }
+
 pokemonArray[72] = {
 	"name": "Tentacruel",
 	"national": "073",
@@ -1314,6 +1386,7 @@ pokemonArray[72] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[73] = {
 	"name": "Geodude",
 	"national": "074",
@@ -1332,6 +1405,7 @@ pokemonArray[73] = {
 	"order": 90,
 	"attempts": 139
 }
+
 pokemonArray[74] = {
 	"name": "Graveler",
 	"national": "075",
@@ -1350,6 +1424,7 @@ pokemonArray[74] = {
 	"order": 280,
 	"attempts": 246
 }
+
 pokemonArray[75] = {
 	"name": "Golem",
 	"national": "076",
@@ -1368,6 +1443,7 @@ pokemonArray[75] = {
 	"order": 357,
 	"attempts": 26
 }
+
 pokemonArray[76] = {
 	"name": "Ponyta",
 	"national": "077",
@@ -1386,6 +1462,7 @@ pokemonArray[76] = {
 	"order": 285,
 	"attempts": 86
 }
+
 pokemonArray[77] = {
 	"name": "Rapidash",
 	"national": "078",
@@ -1404,6 +1481,7 @@ pokemonArray[77] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[78] = {
 	"name": "Slowpoke",
 	"national": "079",
@@ -1422,6 +1500,7 @@ pokemonArray[78] = {
 	"order": 33,
 	"attempts": 123
 }
+
 pokemonArray[79] = {
 	"name": "Slowbro",
 	"national": "080",
@@ -1440,6 +1519,7 @@ pokemonArray[79] = {
 	"order": 347,
 	"attempts": 34
 }
+
 pokemonArray[80] = {
 	"name": "Magnemite",
 	"national": "081",
@@ -1458,6 +1538,7 @@ pokemonArray[80] = {
 	"order": 61,
 	"attempts": 126
 }
+
 pokemonArray[81] = {
 	"name": "Magneton",
 	"national": "082",
@@ -1476,6 +1557,7 @@ pokemonArray[81] = {
 	"order": 75,
 	"attempts": 51
 }
+
 pokemonArray[82] = {
 	"name": "Farfetch'd",
 	"national": "083",
@@ -1494,6 +1576,7 @@ pokemonArray[82] = {
 	"order": 281,
 	"attempts": 536
 }
+
 pokemonArray[83] = {
 	"name": "Doduo",
 	"national": "084",
@@ -1512,6 +1595,7 @@ pokemonArray[83] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[84] = {
 	"name": "Dodrio",
 	"national": "085",
@@ -1530,6 +1614,7 @@ pokemonArray[84] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[85] = {
 	"name": "Seel",
 	"national": "086",
@@ -1548,6 +1633,7 @@ pokemonArray[85] = {
 	"order": 335,
 	"attempts": 90
 }
+
 pokemonArray[86] = {
 	"name": "Dewgong",
 	"national": "087",
@@ -1566,6 +1652,7 @@ pokemonArray[86] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[87] = {
 	"name": "Grimer",
 	"national": "088",
@@ -1584,6 +1671,7 @@ pokemonArray[87] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[88] = {
 	"name": "Muk",
 	"national": "089",
@@ -1602,6 +1690,7 @@ pokemonArray[88] = {
 	"order": 271,
 	"attempts": 814
 }
+
 pokemonArray[89] = {
 	"name": "Shellder",
 	"national": "090",
@@ -1620,6 +1709,7 @@ pokemonArray[89] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[90] = {
 	"name": "Cloyster",
 	"national": "091",
@@ -1638,6 +1728,7 @@ pokemonArray[90] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[91] = {
 	"name": "Gastly",
 	"national": "092",
@@ -1656,6 +1747,7 @@ pokemonArray[91] = {
 	"order": 181,
 	"attempts": 74
 }
+
 pokemonArray[92] = {
 	"name": "Haunter",
 	"national": "093",
@@ -1674,6 +1766,7 @@ pokemonArray[92] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[93] = {
 	"name": "Gengar",
 	"national": "094",
@@ -1692,6 +1785,7 @@ pokemonArray[93] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[94] = {
 	"name": "Onix",
 	"national": "095",
@@ -1710,6 +1804,7 @@ pokemonArray[94] = {
 	"order": 265,
 	"attempts": 1151
 }
+
 pokemonArray[95] = {
 	"name": "Drowzee",
 	"national": "096",
@@ -1728,6 +1823,7 @@ pokemonArray[95] = {
 	"order": 331,
 	"attempts": 3004
 }
+
 pokemonArray[96] = {
 	"name": "Hypno",
 	"national": "097",
@@ -1746,6 +1842,7 @@ pokemonArray[96] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[97] = {
 	"name": "Krabby",
 	"national": "098",
@@ -1764,6 +1861,7 @@ pokemonArray[97] = {
 	"order": 210,
 	"attempts": 50
 }
+
 pokemonArray[98] = {
 	"name": "Kingler",
 	"national": "099",
@@ -1782,6 +1880,7 @@ pokemonArray[98] = {
 	"order": 299,
 	"attempts": 1682
 }
+
 pokemonArray[99] = {
 	"name": "Voltorb",
 	"national": "100",
@@ -1800,6 +1899,7 @@ pokemonArray[99] = {
 	"order": 47,
 	"attempts": 11
 }
+
 pokemonArray[100] = {
 	"name": "Electrode",
 	"national": "101",
@@ -1818,6 +1918,7 @@ pokemonArray[100] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[101] = {
 	"name": "Exeggcute",
 	"national": "102",
@@ -1836,6 +1937,7 @@ pokemonArray[101] = {
 	"order": 353,
 	"attempts": 291
 }
+
 pokemonArray[102] = {
 	"name": "Exeggutor",
 	"national": "103",
@@ -1854,6 +1956,7 @@ pokemonArray[102] = {
 	"order": 283,
 	"attempts": 390
 }
+
 pokemonArray[103] = {
 	"name": "Cubone",
 	"national": "104",
@@ -1872,6 +1975,7 @@ pokemonArray[103] = {
 	"order": 253,
 	"attempts": 461
 }
+
 pokemonArray[104] = {
 	"name": "Marowak",
 	"national": "105",
@@ -1890,6 +1994,7 @@ pokemonArray[104] = {
 	"order": 58,
 	"attempts": 288
 }
+
 pokemonArray[105] = {
 	"name": "Hitmonlee",
 	"national": "106",
@@ -1908,6 +2013,7 @@ pokemonArray[105] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[106] = {
 	"name": "Hitmonchan",
 	"national": "107",
@@ -1926,6 +2032,7 @@ pokemonArray[106] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[107] = {
 	"name": "Lickitung",
 	"national": "108",
@@ -1944,6 +2051,7 @@ pokemonArray[107] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[108] = {
 	"name": "Koffing",
 	"national": "109",
@@ -1962,6 +2070,7 @@ pokemonArray[108] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[109] = {
 	"name": "Weezing",
 	"national": "110",
@@ -1980,6 +2089,7 @@ pokemonArray[109] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[110] = {
 	"name": "Rhyhorn",
 	"national": "111",
@@ -1998,6 +2108,7 @@ pokemonArray[110] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[111] = {
 	"name": "Rhydon",
 	"national": "112",
@@ -2016,6 +2127,7 @@ pokemonArray[111] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[112] = {
 	"name": "Chansey",
 	"national": "113",
@@ -2034,6 +2146,7 @@ pokemonArray[112] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[113] = {
 	"name": "Tangela",
 	"national": "114",
@@ -2052,6 +2165,7 @@ pokemonArray[113] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[114] = {
 	"name": "Kangaskhan",
 	"national": "115",
@@ -2070,6 +2184,7 @@ pokemonArray[114] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[115] = {
 	"name": "Horsea",
 	"national": "116",
@@ -2088,6 +2203,7 @@ pokemonArray[115] = {
 	"order": 230,
 	"attempts": 57
 }
+
 pokemonArray[116] = {
 	"name": "Seadra",
 	"national": "117",
@@ -2106,6 +2222,7 @@ pokemonArray[116] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[117] = {
 	"name": "Goldeen",
 	"national": "118",
@@ -2124,6 +2241,7 @@ pokemonArray[117] = {
 	"order": 366,
 	"attempts": 26
 }
+
 pokemonArray[118] = {
 	"name": "Seaking",
 	"national": "119",
@@ -2142,6 +2260,7 @@ pokemonArray[118] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[119] = {
 	"name": "Staryu",
 	"national": "120",
@@ -2160,6 +2279,7 @@ pokemonArray[119] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[120] = {
 	"name": "Starmie",
 	"national": "121",
@@ -2178,6 +2298,7 @@ pokemonArray[120] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[121] = {
 	"name": "Mr. Mime",
 	"national": "122",
@@ -2196,6 +2317,7 @@ pokemonArray[121] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[122] = {
 	"name": "Scyther",
 	"national": "123",
@@ -2214,6 +2336,7 @@ pokemonArray[122] = {
 	"order": 319,
 	"attempts": 41
 }
+
 pokemonArray[123] = {
 	"name": "Jynx",
 	"national": "124",
@@ -2232,6 +2355,7 @@ pokemonArray[123] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[124] = {
 	"name": "Electabuzz",
 	"national": "125",
@@ -2250,6 +2374,7 @@ pokemonArray[124] = {
 	"order": 94,
 	"attempts": 39
 }
+
 pokemonArray[125] = {
 	"name": "Magmar",
 	"national": "126",
@@ -2268,6 +2393,7 @@ pokemonArray[125] = {
 	"order": 132,
 	"attempts": 1443
 }
+
 pokemonArray[126] = {
 	"name": "Pinsir",
 	"national": "127",
@@ -2286,6 +2412,7 @@ pokemonArray[126] = {
 	"order": 117,
 	"attempts": 197
 }
+
 pokemonArray[127] = {
 	"name": "Tauros",
 	"national": "128",
@@ -2304,6 +2431,7 @@ pokemonArray[127] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[128] = {
 	"name": "Magikarp",
 	"national": "129",
@@ -2322,6 +2450,7 @@ pokemonArray[128] = {
 	"order": 157,
 	"attempts": 31
 }
+
 pokemonArray[129] = {
 	"name": "Gyarados",
 	"national": "130",
@@ -2340,6 +2469,7 @@ pokemonArray[129] = {
 	"order": 367,
 	"attempts": 15
 }
+
 pokemonArray[130] = {
 	"name": "Lapras",
 	"national": "131",
@@ -2358,6 +2488,7 @@ pokemonArray[130] = {
 	"order": 225,
 	"attempts": 467
 }
+
 pokemonArray[131] = {
 	"name": "Ditto",
 	"national": "132",
@@ -2376,6 +2507,7 @@ pokemonArray[131] = {
 	"order": 136,
 	"attempts": 274
 }
+
 pokemonArray[132] = {
 	"name": "Eevee",
 	"national": "133",
@@ -2394,6 +2526,7 @@ pokemonArray[132] = {
 	"order": 255,
 	"attempts": 1730
 }
+
 pokemonArray[133] = {
 	"name": "Vaporeon",
 	"national": "134",
@@ -2412,6 +2545,7 @@ pokemonArray[133] = {
 	"order": 22,
 	"attempts": 225
 }
+
 pokemonArray[134] = {
 	"name": "Jolteon",
 	"national": "135",
@@ -2430,6 +2564,7 @@ pokemonArray[134] = {
 	"order": 4,
 	"attempts": 63
 }
+
 pokemonArray[135] = {
 	"name": "Flareon",
 	"national": "136",
@@ -2448,6 +2583,7 @@ pokemonArray[135] = {
 	"order": 105,
 	"attempts": 42
 }
+
 pokemonArray[136] = {
 	"name": "Porygon",
 	"national": "137",
@@ -2466,6 +2602,7 @@ pokemonArray[136] = {
 	"order": 135,
 	"attempts": 441
 }
+
 pokemonArray[137] = {
 	"name": "Omanyte",
 	"national": "138",
@@ -2484,6 +2621,7 @@ pokemonArray[137] = {
 	"order": 108,
 	"attempts": 433
 }
+
 pokemonArray[138] = {
 	"name": "Omastar",
 	"national": "139",
@@ -2502,6 +2640,7 @@ pokemonArray[138] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[139] = {
 	"name": "Kabuto",
 	"national": "140",
@@ -2520,6 +2659,7 @@ pokemonArray[139] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[140] = {
 	"name": "Kabutops",
 	"national": "141",
@@ -2538,6 +2678,7 @@ pokemonArray[140] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[141] = {
 	"name": "Aerodactyl",
 	"national": "142",
@@ -2556,6 +2697,7 @@ pokemonArray[141] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[142] = {
 	"name": "Snorlax",
 	"national": "143",
@@ -2574,6 +2716,7 @@ pokemonArray[142] = {
 	"order": 279,
 	"attempts": 452
 }
+
 pokemonArray[143] = {
 	"name": "Articuno",
 	"national": "144",
@@ -2592,6 +2735,7 @@ pokemonArray[143] = {
 	"order": 307,
 	"attempts": 963
 }
+
 pokemonArray[144] = {
 	"name": "Zapdos",
 	"national": "145",
@@ -2610,6 +2754,7 @@ pokemonArray[144] = {
 	"order": 312,
 	"attempts": 485
 }
+
 pokemonArray[145] = {
 	"name": "Moltres",
 	"national": "146",
@@ -2628,6 +2773,7 @@ pokemonArray[145] = {
 	"order": 337,
 	"attempts": 889
 }
+
 pokemonArray[146] = {
 	"name": "Dratini",
 	"national": "147",
@@ -2646,6 +2792,7 @@ pokemonArray[146] = {
 	"order": 342,
 	"attempts": 655
 }
+
 pokemonArray[147] = {
 	"name": "Dragonair",
 	"national": "148",
@@ -2664,6 +2811,7 @@ pokemonArray[147] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[148] = {
 	"name": "Dragonite",
 	"national": "149",
@@ -2682,6 +2830,7 @@ pokemonArray[148] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[149] = {
 	"name": "Mewtwo",
 	"national": "150",
@@ -2700,6 +2849,7 @@ pokemonArray[149] = {
 	"order": 359,
 	"attempts": 773
 }
+
 pokemonArray[150] = {
 	"name": "Mew",
 	"national": "151",
@@ -2718,6 +2868,7 @@ pokemonArray[150] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[151] = {
 	"name": "Chikorita",
 	"national": "152",
@@ -2736,6 +2887,7 @@ pokemonArray[151] = {
 	"order": 17,
 	"attempts": 593
 }
+
 pokemonArray[152] = {
 	"name": "Bayleef",
 	"national": "153",
@@ -2754,6 +2906,7 @@ pokemonArray[152] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[153] = {
 	"name": "Meganium",
 	"national": "154",
@@ -2772,6 +2925,7 @@ pokemonArray[153] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[154] = {
 	"name": "Cyndaquil",
 	"national": "155",
@@ -2790,6 +2944,7 @@ pokemonArray[154] = {
 	"order": 7,
 	"attempts": 1292
 }
+
 pokemonArray[155] = {
 	"name": "Quilava",
 	"national": "156",
@@ -2808,6 +2963,7 @@ pokemonArray[155] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[156] = {
 	"name": "Typhlosion",
 	"national": "157",
@@ -2826,6 +2982,7 @@ pokemonArray[156] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[157] = {
 	"name": "Totodile",
 	"national": "158",
@@ -2844,6 +3001,7 @@ pokemonArray[157] = {
 	"order": 3,
 	"attempts": 360
 }
+
 pokemonArray[158] = {
 	"name": "Croconaw",
 	"national": "159",
@@ -2862,6 +3020,7 @@ pokemonArray[158] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[159] = {
 	"name": "Feraligatr",
 	"national": "160",
@@ -2880,6 +3039,7 @@ pokemonArray[159] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[160] = {
 	"name": "Sentret",
 	"national": "161",
@@ -2898,6 +3058,7 @@ pokemonArray[160] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[161] = {
 	"name": "Furret",
 	"national": "162",
@@ -2916,6 +3077,7 @@ pokemonArray[161] = {
 	"order": 99,
 	"attempts": 451
 }
+
 pokemonArray[162] = {
 	"name": "Hoothoot",
 	"national": "163",
@@ -2934,6 +3096,7 @@ pokemonArray[162] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[163] = {
 	"name": "Noctowl",
 	"national": "164",
@@ -2952,6 +3115,7 @@ pokemonArray[163] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[164] = {
 	"name": "Ledyba",
 	"national": "165",
@@ -2970,6 +3134,7 @@ pokemonArray[164] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[165] = {
 	"name": "Ledian",
 	"national": "166",
@@ -2988,6 +3153,7 @@ pokemonArray[165] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[166] = {
 	"name": "Spinarak",
 	"national": "167",
@@ -3006,6 +3172,7 @@ pokemonArray[166] = {
 	"order": 193,
 	"attempts": 65
 }
+
 pokemonArray[167] = {
 	"name": "Ariados",
 	"national": "168",
@@ -3024,6 +3191,7 @@ pokemonArray[167] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[168] = {
 	"name": "Crobat",
 	"national": "169",
@@ -3042,6 +3210,7 @@ pokemonArray[168] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[169] = {
 	"name": "Chinchou",
 	"national": "170",
@@ -3060,6 +3229,7 @@ pokemonArray[169] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[170] = {
 	"name": "Lanturn",
 	"national": "171",
@@ -3078,6 +3248,7 @@ pokemonArray[170] = {
 	"order": 39,
 	"attempts": 119
 }
+
 pokemonArray[171] = {
 	"name": "Pichu",
 	"national": "172",
@@ -3096,6 +3267,7 @@ pokemonArray[171] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[172] = {
 	"name": "Cleffa",
 	"national": "173",
@@ -3114,6 +3286,7 @@ pokemonArray[172] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[173] = {
 	"name": "Igglybuff",
 	"national": "174",
@@ -3132,6 +3305,7 @@ pokemonArray[173] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[174] = {
 	"name": "Togepi",
 	"national": "175",
@@ -3150,6 +3324,7 @@ pokemonArray[174] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[175] = {
 	"name": "Togetic",
 	"national": "176",
@@ -3168,6 +3343,7 @@ pokemonArray[175] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[176] = {
 	"name": "Natu",
 	"national": "177",
@@ -3186,6 +3362,7 @@ pokemonArray[176] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[177] = {
 	"name": "Xatu",
 	"national": "178",
@@ -3204,6 +3381,7 @@ pokemonArray[177] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[178] = {
 	"name": "Mareep",
 	"national": "179",
@@ -3222,6 +3400,7 @@ pokemonArray[178] = {
 	"order": 97,
 	"attempts": 308
 }
+
 pokemonArray[179] = {
 	"name": "Flaaffy",
 	"national": "180",
@@ -3240,6 +3419,7 @@ pokemonArray[179] = {
 	"order": 147,
 	"attempts": 638
 }
+
 pokemonArray[180] = {
 	"name": "Ampharos",
 	"national": "181",
@@ -3258,6 +3438,7 @@ pokemonArray[180] = {
 	"order": 260,
 	"attempts": 174
 }
+
 pokemonArray[181] = {
 	"name": "Bellossom",
 	"national": "182",
@@ -3276,6 +3457,7 @@ pokemonArray[181] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[182] = {
 	"name": "Marill",
 	"national": "183",
@@ -3294,6 +3476,7 @@ pokemonArray[182] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[183] = {
 	"name": "Azumarill",
 	"national": "184",
@@ -3312,6 +3495,7 @@ pokemonArray[183] = {
 	"order": 119,
 	"attempts": 304
 }
+
 pokemonArray[184] = {
 	"name": "Sudowoodo",
 	"national": "185",
@@ -3330,6 +3514,7 @@ pokemonArray[184] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[185] = {
 	"name": "Politoed",
 	"national": "186",
@@ -3348,6 +3533,7 @@ pokemonArray[185] = {
 	"order": 194,
 	"attempts": 24
 }
+
 pokemonArray[186] = {
 	"name": "Hoppip",
 	"national": "187",
@@ -3366,6 +3552,7 @@ pokemonArray[186] = {
 	"order": 28,
 	"attempts": 37
 }
+
 pokemonArray[187] = {
 	"name": "Skiploom",
 	"national": "188",
@@ -3384,6 +3571,7 @@ pokemonArray[187] = {
 	"order": 137,
 	"attempts": 118
 }
+
 pokemonArray[188] = {
 	"name": "Jumpluff",
 	"national": "189",
@@ -3402,6 +3590,7 @@ pokemonArray[188] = {
 	"order": 203,
 	"attempts": 959
 }
+
 pokemonArray[189] = {
 	"name": "Aipom",
 	"national": "190",
@@ -3420,6 +3609,7 @@ pokemonArray[189] = {
 	"order": 120,
 	"attempts": 193
 }
+
 pokemonArray[190] = {
 	"name": "Sunkern",
 	"national": "191",
@@ -3438,6 +3628,7 @@ pokemonArray[190] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[191] = {
 	"name": "Sunflora",
 	"national": "192",
@@ -3456,6 +3647,7 @@ pokemonArray[191] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[192] = {
 	"name": "Yanma",
 	"national": "193",
@@ -3474,6 +3666,7 @@ pokemonArray[192] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[193] = {
 	"name": "Wooper",
 	"national": "194",
@@ -3492,6 +3685,7 @@ pokemonArray[193] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[194] = {
 	"name": "Quagsire",
 	"national": "195",
@@ -3510,6 +3704,7 @@ pokemonArray[194] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[195] = {
 	"name": "Espeon",
 	"national": "196",
@@ -3528,6 +3723,7 @@ pokemonArray[195] = {
 	"order": 373,
 	"attempts": 956
 }
+
 pokemonArray[196] = {
 	"name": "Umbreon",
 	"national": "197",
@@ -3546,6 +3742,7 @@ pokemonArray[196] = {
 	"order": 5,
 	"attempts": 210
 }
+
 pokemonArray[197] = {
 	"name": "Murkrow",
 	"national": "198",
@@ -3564,6 +3761,7 @@ pokemonArray[197] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[198] = {
 	"name": "Slowking",
 	"national": "199",
@@ -3582,6 +3780,7 @@ pokemonArray[198] = {
 	"order": 151,
 	"attempts": 183
 }
+
 pokemonArray[199] = {
 	"name": "Misdreavus",
 	"national": "200",
@@ -3600,6 +3799,7 @@ pokemonArray[199] = {
 	"order": 42,
 	"attempts": 18
 }
+
 pokemonArray[200] = {
 	"name": "Unown",
 	"national": "201",
@@ -3618,6 +3818,7 @@ pokemonArray[200] = {
 	"order": 154,
 	"attempts": 583
 }
+
 pokemonArray[201] = {
 	"name": "Wobbuffet",
 	"national": "202",
@@ -3636,6 +3837,7 @@ pokemonArray[201] = {
 	"order": 288,
 	"attempts": 966
 }
+
 pokemonArray[202] = {
 	"name": "Girafarig",
 	"national": "203",
@@ -3654,6 +3856,7 @@ pokemonArray[202] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[203] = {
 	"name": "Pineco",
 	"national": "204",
@@ -3672,6 +3875,7 @@ pokemonArray[203] = {
 	"order": 336,
 	"attempts": 54
 }
+
 pokemonArray[204] = {
 	"name": "Forretress",
 	"national": "205",
@@ -3690,6 +3894,7 @@ pokemonArray[204] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[205] = {
 	"name": "Dunsparce",
 	"national": "206",
@@ -3708,6 +3913,7 @@ pokemonArray[205] = {
 	"order": 25,
 	"attempts": 235
 }
+
 pokemonArray[206] = {
 	"name": "Gligar",
 	"national": "207",
@@ -3726,6 +3932,7 @@ pokemonArray[206] = {
 	"order": 91,
 	"attempts": 146
 }
+
 pokemonArray[207] = {
 	"name": "Steelix",
 	"national": "208",
@@ -3744,6 +3951,7 @@ pokemonArray[207] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[208] = {
 	"name": "Snubbull",
 	"national": "209",
@@ -3762,6 +3970,7 @@ pokemonArray[208] = {
 	"order": 126,
 	"attempts": 779
 }
+
 pokemonArray[209] = {
 	"name": "Granbull",
 	"national": "210",
@@ -3780,6 +3989,7 @@ pokemonArray[209] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[210] = {
 	"name": "Qwilfish",
 	"national": "211",
@@ -3798,6 +4008,7 @@ pokemonArray[210] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[211] = {
 	"name": "Scizor",
 	"national": "212",
@@ -3816,6 +4027,7 @@ pokemonArray[211] = {
 	"order": 320,
 	"attempts": 42
 }
+
 pokemonArray[212] = {
 	"name": "Shuckle",
 	"national": "213",
@@ -3834,6 +4046,7 @@ pokemonArray[212] = {
 	"order": 122,
 	"attempts": 73
 }
+
 pokemonArray[213] = {
 	"name": "Heracross",
 	"national": "214",
@@ -3852,6 +4065,7 @@ pokemonArray[213] = {
 	"order": 85,
 	"attempts": 63
 }
+
 pokemonArray[214] = {
 	"name": "Sneasel",
 	"national": "215",
@@ -3870,6 +4084,7 @@ pokemonArray[214] = {
 	"order": 123,
 	"attempts": 49
 }
+
 pokemonArray[215] = {
 	"name": "Teddiursa",
 	"national": "216",
@@ -3888,6 +4103,7 @@ pokemonArray[215] = {
 	"order": 196,
 	"attempts": 443
 }
+
 pokemonArray[216] = {
 	"name": "Ursaring",
 	"national": "217",
@@ -3906,6 +4122,7 @@ pokemonArray[216] = {
 	"order": 368,
 	"attempts": 91
 }
+
 pokemonArray[217] = {
 	"name": "Slugma",
 	"national": "218",
@@ -3924,6 +4141,7 @@ pokemonArray[217] = {
 	"order": 300,
 	"attempts": 496
 }
+
 pokemonArray[218] = {
 	"name": "Magcargo",
 	"national": "219",
@@ -3942,6 +4160,7 @@ pokemonArray[218] = {
 	"order": 315,
 	"attempts": 122
 }
+
 pokemonArray[219] = {
 	"name": "Swinub",
 	"national": "220",
@@ -3960,6 +4179,7 @@ pokemonArray[219] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[220] = {
 	"name": "Piloswine",
 	"national": "221",
@@ -3978,6 +4198,7 @@ pokemonArray[220] = {
 	"order": 269,
 	"attempts": 943
 }
+
 pokemonArray[221] = {
 	"name": "Corsola",
 	"national": "222",
@@ -3996,6 +4217,7 @@ pokemonArray[221] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[222] = {
 	"name": "Remoraid",
 	"national": "223",
@@ -4014,6 +4236,7 @@ pokemonArray[222] = {
 	"order": 8,
 	"attempts": 27
 }
+
 pokemonArray[223] = {
 	"name": "Octillery",
 	"national": "224",
@@ -4032,6 +4255,7 @@ pokemonArray[223] = {
 	"order": 68,
 	"attempts": 2895
 }
+
 pokemonArray[224] = {
 	"name": "Delibird",
 	"national": "225",
@@ -4050,6 +4274,7 @@ pokemonArray[224] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[225] = {
 	"name": "Mantine",
 	"national": "226",
@@ -4068,6 +4293,7 @@ pokemonArray[225] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[226] = {
 	"name": "Skarmory",
 	"national": "227",
@@ -4086,6 +4312,7 @@ pokemonArray[226] = {
 	"order": 150,
 	"attempts": 600
 }
+
 pokemonArray[227] = {
 	"name": "Houndour",
 	"national": "228",
@@ -4104,6 +4331,7 @@ pokemonArray[227] = {
 	"order": 325,
 	"attempts": 41
 }
+
 pokemonArray[228] = {
 	"name": "Houndoom",
 	"national": "229",
@@ -4122,6 +4350,7 @@ pokemonArray[228] = {
 	"order": 326,
 	"attempts": 42
 }
+
 pokemonArray[229] = {
 	"name": "Kingdra",
 	"national": "230",
@@ -4140,6 +4369,7 @@ pokemonArray[229] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[230] = {
 	"name": "Phanpy",
 	"national": "231",
@@ -4158,6 +4388,7 @@ pokemonArray[230] = {
 	"order": 277,
 	"attempts": 62
 }
+
 pokemonArray[231] = {
 	"name": "Donphan",
 	"national": "232",
@@ -4176,6 +4407,7 @@ pokemonArray[231] = {
 	"order": 40,
 	"attempts": 115
 }
+
 pokemonArray[232] = {
 	"name": "Porygon2",
 	"national": "233",
@@ -4194,6 +4426,7 @@ pokemonArray[232] = {
 	"order": 134,
 	"attempts": 16
 }
+
 pokemonArray[233] = {
 	"name": "Stantler",
 	"national": "234",
@@ -4212,6 +4445,7 @@ pokemonArray[233] = {
 	"order": 45,
 	"attempts": 127
 }
+
 pokemonArray[234] = {
 	"name": "Smeargle",
 	"national": "235",
@@ -4230,6 +4464,7 @@ pokemonArray[234] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[235] = {
 	"name": "Tyrogue",
 	"national": "236",
@@ -4248,6 +4483,7 @@ pokemonArray[235] = {
 	"order": 80,
 	"attempts": 262
 }
+
 pokemonArray[236] = {
 	"name": "Hitmontop",
 	"national": "237",
@@ -4266,6 +4502,7 @@ pokemonArray[236] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[237] = {
 	"name": "Smoochum",
 	"national": "238",
@@ -4284,6 +4521,7 @@ pokemonArray[237] = {
 	"order": 302,
 	"attempts": 433
 }
+
 pokemonArray[238] = {
 	"name": "Elekid",
 	"national": "239",
@@ -4302,6 +4540,7 @@ pokemonArray[238] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[239] = {
 	"name": "Magby",
 	"national": "240",
@@ -4320,6 +4559,7 @@ pokemonArray[239] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[240] = {
 	"name": "Miltank",
 	"national": "241",
@@ -4338,6 +4578,7 @@ pokemonArray[240] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[241] = {
 	"name": "Blissey",
 	"national": "242",
@@ -4356,6 +4597,7 @@ pokemonArray[241] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[242] = {
 	"name": "Raikou",
 	"national": "243",
@@ -4374,6 +4616,7 @@ pokemonArray[242] = {
 	"order": 66,
 	"attempts": 142
 }
+
 pokemonArray[243] = {
 	"name": "Entei",
 	"national": "244",
@@ -4392,6 +4635,7 @@ pokemonArray[243] = {
 	"order": 125,
 	"attempts": 208
 }
+
 pokemonArray[244] = {
 	"name": "Suicune",
 	"national": "245",
@@ -4410,6 +4654,7 @@ pokemonArray[244] = {
 	"order": 93,
 	"attempts": 1913
 }
+
 pokemonArray[245] = {
 	"name": "Larvitar",
 	"national": "246",
@@ -4428,6 +4673,7 @@ pokemonArray[245] = {
 	"order": 309,
 	"attempts": 312
 }
+
 pokemonArray[246] = {
 	"name": "Pupitar",
 	"national": "247",
@@ -4446,6 +4692,7 @@ pokemonArray[246] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[247] = {
 	"name": "Tyranitar",
 	"national": "248",
@@ -4464,6 +4711,7 @@ pokemonArray[247] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[248] = {
 	"name": "Lugia",
 	"national": "249",
@@ -4482,6 +4730,7 @@ pokemonArray[248] = {
 	"order": 276,
 	"attempts": 434
 }
+
 pokemonArray[249] = {
 	"name": "Ho-Oh",
 	"national": "250",
@@ -4500,6 +4749,7 @@ pokemonArray[249] = {
 	"order": 266,
 	"attempts": 41
 }
+
 pokemonArray[250] = {
 	"name": "Celebi",
 	"national": "251",
@@ -4518,6 +4768,7 @@ pokemonArray[250] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[251] = {
 	"name": "Treecko",
 	"national": "252",
@@ -4536,6 +4787,7 @@ pokemonArray[251] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[252] = {
 	"name": "Grovyle",
 	"national": "253",
@@ -4554,6 +4806,7 @@ pokemonArray[252] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[253] = {
 	"name": "Sceptile",
 	"national": "254",
@@ -4572,6 +4825,7 @@ pokemonArray[253] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[254] = {
 	"name": "Torchic",
 	"national": "255",
@@ -4590,6 +4844,7 @@ pokemonArray[254] = {
 	"order": 220,
 	"attempts": 906
 }
+
 pokemonArray[255] = {
 	"name": "Combusken",
 	"national": "256",
@@ -4608,6 +4863,7 @@ pokemonArray[255] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[256] = {
 	"name": "Blaziken",
 	"national": "257",
@@ -4626,6 +4882,7 @@ pokemonArray[256] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[257] = {
 	"name": "Mudkip",
 	"national": "258",
@@ -4644,6 +4901,7 @@ pokemonArray[257] = {
 	"order": 146,
 	"attempts": 225
 }
+
 pokemonArray[258] = {
 	"name": "Marshtomp",
 	"national": "259",
@@ -4662,6 +4920,7 @@ pokemonArray[258] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[259] = {
 	"name": "Swampert",
 	"national": "260",
@@ -4680,6 +4939,7 @@ pokemonArray[259] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[260] = {
 	"name": "Poochyena",
 	"national": "261",
@@ -4698,6 +4958,7 @@ pokemonArray[260] = {
 	"order": 278,
 	"attempts": 68
 }
+
 pokemonArray[261] = {
 	"name": "Mightyena",
 	"national": "262",
@@ -4716,6 +4977,7 @@ pokemonArray[261] = {
 	"order": 100,
 	"attempts": 26
 }
+
 pokemonArray[262] = {
 	"name": "Zigzagoon",
 	"national": "263",
@@ -4734,6 +4996,7 @@ pokemonArray[262] = {
 	"order": 87,
 	"attempts": 30
 }
+
 pokemonArray[263] = {
 	"name": "Linoone",
 	"national": "264",
@@ -4752,6 +5015,7 @@ pokemonArray[263] = {
 	"order": 199,
 	"attempts": 418
 }
+
 pokemonArray[264] = {
 	"name": "Wurmple",
 	"national": "265",
@@ -4770,6 +5034,7 @@ pokemonArray[264] = {
 	"order": 86,
 	"attempts": 31
 }
+
 pokemonArray[265] = {
 	"name": "Silcoon",
 	"national": "266",
@@ -4788,6 +5053,7 @@ pokemonArray[265] = {
 	"order": 381,
 	"attempts": 100
 }
+
 pokemonArray[266] = {
 	"name": "Beautifly",
 	"national": "267",
@@ -4806,6 +5072,7 @@ pokemonArray[266] = {
 	"order": 124,
 	"attempts": 367
 }
+
 pokemonArray[267] = {
 	"name": "Cascoon",
 	"national": "268",
@@ -4824,6 +5091,7 @@ pokemonArray[267] = {
 	"order": 84,
 	"attempts": 41
 }
+
 pokemonArray[268] = {
 	"name": "Dustox",
 	"national": "269",
@@ -4842,6 +5110,7 @@ pokemonArray[268] = {
 	"order": 365,
 	"attempts": 290
 }
+
 pokemonArray[269] = {
 	"name": "Lotad",
 	"national": "270",
@@ -4860,6 +5129,7 @@ pokemonArray[269] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[270] = {
 	"name": "Lombre",
 	"national": "271",
@@ -4878,6 +5148,7 @@ pokemonArray[270] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[271] = {
 	"name": "Ludicolo",
 	"national": "272",
@@ -4896,6 +5167,7 @@ pokemonArray[271] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[272] = {
 	"name": "Seedot",
 	"national": "273",
@@ -4914,6 +5186,7 @@ pokemonArray[272] = {
 	"order": 50,
 	"attempts": 55
 }
+
 pokemonArray[273] = {
 	"name": "Nuzleaf",
 	"national": "274",
@@ -4932,6 +5205,7 @@ pokemonArray[273] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[274] = {
 	"name": "Shiftry",
 	"national": "275",
@@ -4950,6 +5224,7 @@ pokemonArray[274] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[275] = {
 	"name": "Taillow",
 	"national": "276",
@@ -4968,6 +5243,7 @@ pokemonArray[275] = {
 	"order": 162,
 	"attempts": 353
 }
+
 pokemonArray[276] = {
 	"name": "Swellow",
 	"national": "277",
@@ -4986,6 +5262,7 @@ pokemonArray[276] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[277] = {
 	"name": "Wingull",
 	"national": "278",
@@ -5004,6 +5281,7 @@ pokemonArray[277] = {
 	"order": 31,
 	"attempts": 55
 }
+
 pokemonArray[278] = {
 	"name": "Pelipper",
 	"national": "279",
@@ -5022,6 +5300,7 @@ pokemonArray[278] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[279] = {
 	"name": "Ralts",
 	"national": "280",
@@ -5040,6 +5319,7 @@ pokemonArray[279] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[280] = {
 	"name": "Kirlia",
 	"national": "281",
@@ -5058,6 +5338,7 @@ pokemonArray[280] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[281] = {
 	"name": "Gardevoir",
 	"national": "282",
@@ -5076,6 +5357,7 @@ pokemonArray[281] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[282] = {
 	"name": "Surskit",
 	"national": "283",
@@ -5094,6 +5376,7 @@ pokemonArray[282] = {
 	"order": 161,
 	"attempts": 186
 }
+
 pokemonArray[283] = {
 	"name": "Masquerain",
 	"national": "284",
@@ -5112,6 +5395,7 @@ pokemonArray[283] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[284] = {
 	"name": "Shroomish",
 	"national": "285",
@@ -5130,6 +5414,7 @@ pokemonArray[284] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[285] = {
 	"name": "Breloom",
 	"national": "286",
@@ -5148,6 +5433,7 @@ pokemonArray[285] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[286] = {
 	"name": "Slakoth",
 	"national": "287",
@@ -5166,6 +5452,7 @@ pokemonArray[286] = {
 	"order": 116,
 	"attempts": 496
 }
+
 pokemonArray[287] = {
 	"name": "Vigoroth",
 	"national": "288",
@@ -5184,6 +5471,7 @@ pokemonArray[287] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[288] = {
 	"name": "Slaking",
 	"national": "289",
@@ -5202,6 +5490,7 @@ pokemonArray[288] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[289] = {
 	"name": "Nincada",
 	"national": "290",
@@ -5220,6 +5509,7 @@ pokemonArray[289] = {
 	"order": 34,
 	"attempts": 613
 }
+
 pokemonArray[290] = {
 	"name": "Ninjask",
 	"national": "291",
@@ -5238,6 +5528,7 @@ pokemonArray[290] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[291] = {
 	"name": "Shedinja",
 	"national": "292",
@@ -5256,6 +5547,7 @@ pokemonArray[291] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[292] = {
 	"name": "Whismur",
 	"national": "293",
@@ -5274,6 +5566,7 @@ pokemonArray[292] = {
 	"order": 27,
 	"attempts": 27
 }
+
 pokemonArray[293] = {
 	"name": "Loudred",
 	"national": "294",
@@ -5292,6 +5585,7 @@ pokemonArray[293] = {
 	"order": 49,
 	"attempts": 475
 }
+
 pokemonArray[294] = {
 	"name": "Exploud",
 	"national": "295",
@@ -5310,6 +5604,7 @@ pokemonArray[294] = {
 	"order": 289,
 	"attempts": 2
 }
+
 pokemonArray[295] = {
 	"name": "Makuhita",
 	"national": "296",
@@ -5328,6 +5623,7 @@ pokemonArray[295] = {
 	"order": 360,
 	"attempts": 598
 }
+
 pokemonArray[296] = {
 	"name": "Hariyama",
 	"national": "297",
@@ -5346,6 +5642,7 @@ pokemonArray[296] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[297] = {
 	"name": "Azurill",
 	"national": "298",
@@ -5364,6 +5661,7 @@ pokemonArray[297] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[298] = {
 	"name": "Nosepass",
 	"national": "299",
@@ -5382,6 +5680,7 @@ pokemonArray[298] = {
 	"order": 29,
 	"attempts": 4
 }
+
 pokemonArray[299] = {
 	"name": "Skitty",
 	"national": "300",
@@ -5400,6 +5699,7 @@ pokemonArray[299] = {
 	"order": 131,
 	"attempts": 398
 }
+
 pokemonArray[300] = {
 	"name": "Delcatty",
 	"national": "301",
@@ -5418,6 +5718,7 @@ pokemonArray[300] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[301] = {
 	"name": "Sableye",
 	"national": "302",
@@ -5436,6 +5737,7 @@ pokemonArray[301] = {
 	"order": 291,
 	"attempts": 1708
 }
+
 pokemonArray[302] = {
 	"name": "Mawile",
 	"national": "303",
@@ -5454,6 +5756,7 @@ pokemonArray[302] = {
 	"order": 308,
 	"attempts": 521
 }
+
 pokemonArray[303] = {
 	"name": "Aron",
 	"national": "304",
@@ -5472,6 +5775,7 @@ pokemonArray[303] = {
 	"order": 318,
 	"attempts": 245
 }
+
 pokemonArray[304] = {
 	"name": "Lairon",
 	"national": "305",
@@ -5490,6 +5794,7 @@ pokemonArray[304] = {
 	"order": 334,
 	"attempts": 438
 }
+
 pokemonArray[305] = {
 	"name": "Aggron",
 	"national": "306",
@@ -5508,6 +5813,7 @@ pokemonArray[305] = {
 	"order": 363,
 	"attempts": 1537
 }
+
 pokemonArray[306] = {
 	"name": "Meditite",
 	"national": "307",
@@ -5526,6 +5832,7 @@ pokemonArray[306] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[307] = {
 	"name": "Medicham",
 	"national": "308",
@@ -5544,6 +5851,7 @@ pokemonArray[307] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[308] = {
 	"name": "Electrike",
 	"national": "309",
@@ -5562,6 +5870,7 @@ pokemonArray[308] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[309] = {
 	"name": "Manectric",
 	"national": "310",
@@ -5580,6 +5889,7 @@ pokemonArray[309] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[310] = {
 	"name": "Plusle",
 	"national": "311",
@@ -5598,6 +5908,7 @@ pokemonArray[310] = {
 	"order": 275,
 	"attempts": 99
 }
+
 pokemonArray[311] = {
 	"name": "Minun",
 	"national": "312",
@@ -5616,6 +5927,7 @@ pokemonArray[311] = {
 	"order": 274,
 	"attempts": 76
 }
+
 pokemonArray[312] = {
 	"name": "Volbeat",
 	"national": "313",
@@ -5634,6 +5946,7 @@ pokemonArray[312] = {
 	"order": 316,
 	"attempts": 284
 }
+
 pokemonArray[313] = {
 	"name": "Illumise",
 	"national": "314",
@@ -5652,6 +5965,7 @@ pokemonArray[313] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[314] = {
 	"name": "Roselia",
 	"national": "315",
@@ -5670,6 +5984,7 @@ pokemonArray[314] = {
 	"order": 205,
 	"attempts": 42
 }
+
 pokemonArray[315] = {
 	"name": "Gulpin",
 	"national": "316",
@@ -5688,6 +6003,7 @@ pokemonArray[315] = {
 	"order": 376,
 	"attempts": 180
 }
+
 pokemonArray[316] = {
 	"name": "Swalot",
 	"national": "317",
@@ -5706,6 +6022,7 @@ pokemonArray[316] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[317] = {
 	"name": "Carvanha",
 	"national": "318",
@@ -5724,6 +6041,7 @@ pokemonArray[317] = {
 	"order": 9,
 	"attempts": 6
 }
+
 pokemonArray[318] = {
 	"name": "Sharpedo",
 	"national": "319",
@@ -5742,6 +6060,7 @@ pokemonArray[318] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[319] = {
 	"name": "Wailmer",
 	"national": "320",
@@ -5760,6 +6079,7 @@ pokemonArray[319] = {
 	"order": 74,
 	"attempts": 120
 }
+
 pokemonArray[320] = {
 	"name": "Wailord",
 	"national": "321",
@@ -5778,6 +6098,7 @@ pokemonArray[320] = {
 	"order": 159,
 	"attempts": 29
 }
+
 pokemonArray[321] = {
 	"name": "Numel",
 	"national": "322",
@@ -5796,6 +6117,7 @@ pokemonArray[321] = {
 	"order": 18,
 	"attempts": 86
 }
+
 pokemonArray[322] = {
 	"name": "Camperupt",
 	"national": "323",
@@ -5814,6 +6136,7 @@ pokemonArray[322] = {
 	"order": 356,
 	"attempts": 806
 }
+
 pokemonArray[323] = {
 	"name": "Torkoal",
 	"national": "324",
@@ -5832,6 +6155,7 @@ pokemonArray[323] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[324] = {
 	"name": "Spoink",
 	"national": "325",
@@ -5850,6 +6174,7 @@ pokemonArray[324] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[325] = {
 	"name": "Grumpig",
 	"national": "326",
@@ -5868,6 +6193,7 @@ pokemonArray[325] = {
 	"order": 153,
 	"attempts": 1132
 }
+
 pokemonArray[326] = {
 	"name": "Spinda",
 	"national": "327",
@@ -5886,6 +6212,7 @@ pokemonArray[326] = {
 	"order": 65,
 	"attempts": 144
 }
+
 pokemonArray[327] = {
 	"name": "Trapinch",
 	"national": "328",
@@ -5904,6 +6231,7 @@ pokemonArray[327] = {
 	"order": 245,
 	"attempts": 103
 }
+
 pokemonArray[328] = {
 	"name": "Vibrava",
 	"national": "329",
@@ -5922,6 +6250,7 @@ pokemonArray[328] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[329] = {
 	"name": "Flygon",
 	"national": "330",
@@ -5940,6 +6269,7 @@ pokemonArray[329] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[330] = {
 	"name": "Cacnea",
 	"national": "331",
@@ -5958,6 +6288,7 @@ pokemonArray[330] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[331] = {
 	"name": "Cacturne",
 	"national": "332",
@@ -5976,6 +6307,7 @@ pokemonArray[331] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[332] = {
 	"name": "Swablu",
 	"national": "333",
@@ -5994,6 +6326,7 @@ pokemonArray[332] = {
 	"order": 140,
 	"attempts": 73
 }
+
 pokemonArray[333] = {
 	"name": "Altaria",
 	"national": "334",
@@ -6012,6 +6345,7 @@ pokemonArray[333] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[334] = {
 	"name": "Zangoose",
 	"national": "335",
@@ -6030,6 +6364,7 @@ pokemonArray[334] = {
 	"order": 15,
 	"attempts": 569
 }
+
 pokemonArray[335] = {
 	"name": "Seviper",
 	"national": "336",
@@ -6048,6 +6383,7 @@ pokemonArray[335] = {
 	"order": 364,
 	"attempts": 231
 }
+
 pokemonArray[336] = {
 	"name": "Lunatone",
 	"national": "337",
@@ -6066,6 +6402,7 @@ pokemonArray[336] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[337] = {
 	"name": "Solrock",
 	"national": "338",
@@ -6084,6 +6421,7 @@ pokemonArray[337] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[338] = {
 	"name": "Barboach",
 	"national": "339",
@@ -6097,11 +6435,12 @@ pokemonArray[338] = {
 	"gif": "Shiny/barboach.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Fish",
+	"method": "Chain Fishing",
+	"order": 383,
+	"attempts": 22
 }
+
 pokemonArray[339] = {
 	"name": "Whiscash",
 	"national": "340",
@@ -6115,11 +6454,12 @@ pokemonArray[339] = {
 	"gif": "Shiny/whiscash.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Johnny Cash",
+	"method": "Chain Fishing",
+	"order": 384,
+	"attempts": 72
 }
+
 pokemonArray[340] = {
 	"name": "Corphish",
 	"national": "341",
@@ -6138,6 +6478,7 @@ pokemonArray[340] = {
 	"order": 158,
 	"attempts": 21
 }
+
 pokemonArray[341] = {
 	"name": "Crawdaunt",
 	"national": "342",
@@ -6156,6 +6497,7 @@ pokemonArray[341] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[342] = {
 	"name": "Baltoy",
 	"national": "343",
@@ -6174,6 +6516,7 @@ pokemonArray[342] = {
 	"order": 262,
 	"attempts": 41
 }
+
 pokemonArray[343] = {
 	"name": "Claydol",
 	"national": "344",
@@ -6192,6 +6535,7 @@ pokemonArray[343] = {
 	"order": 263,
 	"attempts": 42
 }
+
 pokemonArray[344] = {
 	"name": "Lileep",
 	"national": "345",
@@ -6210,6 +6554,7 @@ pokemonArray[344] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[345] = {
 	"name": "Cradily",
 	"national": "346",
@@ -6228,6 +6573,7 @@ pokemonArray[345] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[346] = {
 	"name": "Anorith",
 	"national": "347",
@@ -6246,6 +6592,7 @@ pokemonArray[346] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[347] = {
 	"name": "Armaldo",
 	"national": "348",
@@ -6264,6 +6611,7 @@ pokemonArray[347] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[348] = {
 	"name": "Feebas",
 	"national": "349",
@@ -6282,6 +6630,7 @@ pokemonArray[348] = {
 	"order": 160,
 	"attempts": 187
 }
+
 pokemonArray[349] = {
 	"name": "Milotic",
 	"national": "350",
@@ -6300,6 +6649,7 @@ pokemonArray[349] = {
 	"order": 348,
 	"attempts": 68
 }
+
 pokemonArray[350] = {
 	"name": "Castform",
 	"national": "351",
@@ -6318,6 +6668,7 @@ pokemonArray[350] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[351] = {
 	"name": "Kecleon",
 	"national": "352",
@@ -6336,6 +6687,7 @@ pokemonArray[351] = {
 	"order": 292,
 	"attempts": 542
 }
+
 pokemonArray[352] = {
 	"name": "Shuppet",
 	"national": "353",
@@ -6354,6 +6706,7 @@ pokemonArray[352] = {
 	"order": 297,
 	"attempts": 533
 }
+
 pokemonArray[353] = {
 	"name": "Banette",
 	"national": "354",
@@ -6372,6 +6725,7 @@ pokemonArray[353] = {
 	"order": 350,
 	"attempts": 76
 }
+
 pokemonArray[354] = {
 	"name": "Duskull",
 	"national": "355",
@@ -6390,6 +6744,7 @@ pokemonArray[354] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[355] = {
 	"name": "Dusclops",
 	"national": "356",
@@ -6408,6 +6763,7 @@ pokemonArray[355] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[356] = {
 	"name": "Tropius",
 	"national": "357",
@@ -6426,6 +6782,7 @@ pokemonArray[356] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[357] = {
 	"name": "Chimecho",
 	"national": "358",
@@ -6444,6 +6801,7 @@ pokemonArray[357] = {
 	"order": 328,
 	"attempts": 43
 }
+
 pokemonArray[358] = {
 	"name": "Absol",
 	"national": "359",
@@ -6462,6 +6820,7 @@ pokemonArray[358] = {
 	"order": 301,
 	"attempts": 976
 }
+
 pokemonArray[359] = {
 	"name": "Wynaut",
 	"national": "360",
@@ -6480,6 +6839,7 @@ pokemonArray[359] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[360] = {
 	"name": "Snorunt",
 	"national": "361",
@@ -6498,6 +6858,7 @@ pokemonArray[360] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[361] = {
 	"name": "Glalie",
 	"national": "362",
@@ -6516,6 +6877,7 @@ pokemonArray[361] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[362] = {
 	"name": "Spheal",
 	"national": "363",
@@ -6534,6 +6896,7 @@ pokemonArray[362] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[363] = {
 	"name": "Sealeo",
 	"national": "364",
@@ -6552,6 +6915,7 @@ pokemonArray[363] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[364] = {
 	"name": "Walrein",
 	"national": "365",
@@ -6570,6 +6934,7 @@ pokemonArray[364] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[365] = {
 	"name": "Clamperl",
 	"national": "366",
@@ -6588,6 +6953,7 @@ pokemonArray[365] = {
 	"order": 195,
 	"attempts": 735
 }
+
 pokemonArray[366] = {
 	"name": "Huntail",
 	"national": "367",
@@ -6606,6 +6972,7 @@ pokemonArray[366] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[367] = {
 	"name": "Gorebyss",
 	"national": "368",
@@ -6624,6 +6991,7 @@ pokemonArray[367] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[368] = {
 	"name": "Relicanth",
 	"national": "369",
@@ -6642,6 +7010,7 @@ pokemonArray[368] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[369] = {
 	"name": "Luvdisc",
 	"national": "370",
@@ -6660,6 +7029,7 @@ pokemonArray[369] = {
 	"order": 231,
 	"attempts": 33
 }
+
 pokemonArray[370] = {
 	"name": "Bagon",
 	"national": "371",
@@ -6678,6 +7048,7 @@ pokemonArray[370] = {
 	"order": 341,
 	"attempts": 148
 }
+
 pokemonArray[371] = {
 	"name": "Shelgon",
 	"national": "372",
@@ -6696,6 +7067,7 @@ pokemonArray[371] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[372] = {
 	"name": "Salamence",
 	"national": "373",
@@ -6714,6 +7086,7 @@ pokemonArray[372] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[373] = {
 	"name": "Beldum",
 	"national": "374",
@@ -6732,6 +7105,7 @@ pokemonArray[373] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[374] = {
 	"name": "Metang",
 	"national": "375",
@@ -6750,6 +7124,7 @@ pokemonArray[374] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[375] = {
 	"name": "Metagross",
 	"national": "376",
@@ -6768,6 +7143,7 @@ pokemonArray[375] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[376] = {
 	"name": "Regirock",
 	"national": "377",
@@ -6786,6 +7162,7 @@ pokemonArray[376] = {
 	"order": 11,
 	"attempts": 190
 }
+
 pokemonArray[377] = {
 	"name": "Regice",
 	"national": "378",
@@ -6804,6 +7181,7 @@ pokemonArray[377] = {
 	"order": 35,
 	"attempts": 5027
 }
+
 pokemonArray[378] = {
 	"name": "Registeel",
 	"national": "379",
@@ -6822,6 +7200,7 @@ pokemonArray[378] = {
 	"order": 12,
 	"attempts": 1515
 }
+
 pokemonArray[379] = {
 	"name": "Latias",
 	"national": "380",
@@ -6840,6 +7219,7 @@ pokemonArray[379] = {
 	"order": 190,
 	"attempts": 2372
 }
+
 pokemonArray[380] = {
 	"name": "Latios",
 	"national": "381",
@@ -6858,6 +7238,7 @@ pokemonArray[380] = {
 	"order": 189,
 	"attempts": 186
 }
+
 pokemonArray[381] = {
 	"name": "Kyogre",
 	"national": "382",
@@ -6876,6 +7257,7 @@ pokemonArray[381] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[382] = {
 	"name": "Groudon",
 	"national": "383",
@@ -6894,6 +7276,7 @@ pokemonArray[382] = {
 	"order": 323,
 	"attempts": 1581
 }
+
 pokemonArray[383] = {
 	"name": "Rayquaza",
 	"national": "384",
@@ -6912,6 +7295,7 @@ pokemonArray[383] = {
 	"order": 310,
 	"attempts": 32
 }
+
 pokemonArray[384] = {
 	"name": "Jirachi",
 	"national": "385",
@@ -6930,6 +7314,7 @@ pokemonArray[384] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[385] = {
 	"name": "Deoxys",
 	"national": "386",
@@ -6948,6 +7333,7 @@ pokemonArray[385] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[386] = {
 	"name": "Turtwig",
 	"national": "387",
@@ -6966,6 +7352,7 @@ pokemonArray[386] = {
 	"order": 239,
 	"attempts": 323
 }
+
 pokemonArray[387] = {
 	"name": "Grotle",
 	"national": "388",
@@ -6984,6 +7371,7 @@ pokemonArray[387] = {
 	"order": 254,
 	"attempts": 869
 }
+
 pokemonArray[388] = {
 	"name": "Torterra",
 	"national": "389",
@@ -7002,6 +7390,7 @@ pokemonArray[388] = {
 	"order": 270,
 	"attempts": 321
 }
+
 pokemonArray[389] = {
 	"name": "Chimchar",
 	"national": "390",
@@ -7020,6 +7409,7 @@ pokemonArray[389] = {
 	"order": 19,
 	"attempts": 762
 }
+
 pokemonArray[390] = {
 	"name": "Monferno",
 	"national": "391",
@@ -7038,6 +7428,7 @@ pokemonArray[390] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[391] = {
 	"name": "Infernape",
 	"national": "392",
@@ -7056,6 +7447,7 @@ pokemonArray[391] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[392] = {
 	"name": "Piplup",
 	"national": "393",
@@ -7074,6 +7466,7 @@ pokemonArray[392] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[393] = {
 	"name": "Prinplup",
 	"national": "394",
@@ -7092,6 +7485,7 @@ pokemonArray[393] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[394] = {
 	"name": "Empoleon",
 	"national": "395",
@@ -7110,6 +7504,7 @@ pokemonArray[394] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[395] = {
 	"name": "Starly",
 	"national": "396",
@@ -7128,6 +7523,7 @@ pokemonArray[395] = {
 	"order": 214,
 	"attempts": 41
 }
+
 pokemonArray[396] = {
 	"name": "Staravia",
 	"national": "397",
@@ -7146,6 +7542,7 @@ pokemonArray[396] = {
 	"order": 217,
 	"attempts": 41
 }
+
 pokemonArray[397] = {
 	"name": "Staraptor",
 	"national": "398",
@@ -7164,6 +7561,7 @@ pokemonArray[397] = {
 	"order": 218,
 	"attempts": 42
 }
+
 pokemonArray[398] = {
 	"name": "Bidoof",
 	"national": "399",
@@ -7182,6 +7580,7 @@ pokemonArray[398] = {
 	"order": 224,
 	"attempts": 41
 }
+
 pokemonArray[399] = {
 	"name": "Bibarel",
 	"national": "400",
@@ -7200,6 +7599,7 @@ pokemonArray[399] = {
 	"order": 221,
 	"attempts": 1055
 }
+
 pokemonArray[400] = {
 	"name": "Kricketot",
 	"national": "401",
@@ -7218,6 +7618,7 @@ pokemonArray[400] = {
 	"order": 209,
 	"attempts": 41
 }
+
 pokemonArray[401] = {
 	"name": "Kricketune",
 	"national": "402",
@@ -7236,6 +7637,7 @@ pokemonArray[401] = {
 	"order": 46,
 	"attempts": 202
 }
+
 pokemonArray[402] = {
 	"name": "Shinx",
 	"national": "403",
@@ -7254,6 +7656,7 @@ pokemonArray[402] = {
 	"order": 202,
 	"attempts": 42
 }
+
 pokemonArray[403] = {
 	"name": "Luxio",
 	"national": "404",
@@ -7272,6 +7675,7 @@ pokemonArray[403] = {
 	"order": 201,
 	"attempts": 41
 }
+
 pokemonArray[404] = {
 	"name": "Luxray",
 	"national": "405",
@@ -7290,6 +7694,7 @@ pokemonArray[404] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[405] = {
 	"name": "Budew",
 	"national": "406",
@@ -7308,6 +7713,7 @@ pokemonArray[405] = {
 	"order": 204,
 	"attempts": 41
 }
+
 pokemonArray[406] = {
 	"name": "Roserade",
 	"national": "407",
@@ -7326,6 +7732,7 @@ pokemonArray[406] = {
 	"order": 206,
 	"attempts": 43
 }
+
 pokemonArray[407] = {
 	"name": "Cranidos",
 	"national": "408",
@@ -7344,6 +7751,7 @@ pokemonArray[407] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[408] = {
 	"name": "Rampardos",
 	"national": "409",
@@ -7362,6 +7770,7 @@ pokemonArray[408] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[409] = {
 	"name": "Shieldon",
 	"national": "410",
@@ -7380,6 +7789,7 @@ pokemonArray[409] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[410] = {
 	"name": "Bastiodon",
 	"national": "411",
@@ -7398,6 +7808,7 @@ pokemonArray[410] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[411] = {
 	"name": "Burmy",
 	"national": "412",
@@ -7416,6 +7827,7 @@ pokemonArray[411] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[412] = {
 	"name": "Wormadam",
 	"national": "413",
@@ -7434,6 +7846,7 @@ pokemonArray[412] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[413] = {
 	"name": "Mothim",
 	"national": "414",
@@ -7452,6 +7865,7 @@ pokemonArray[413] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[414] = {
 	"name": "Combee",
 	"national": "415",
@@ -7470,6 +7884,7 @@ pokemonArray[414] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[415] = {
 	"name": "Vespiquen",
 	"national": "416",
@@ -7488,6 +7903,7 @@ pokemonArray[415] = {
 	"order": 191,
 	"attempts": 421
 }
+
 pokemonArray[416] = {
 	"name": "Pachirisu",
 	"national": "417",
@@ -7506,6 +7922,7 @@ pokemonArray[416] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[417] = {
 	"name": "Buizel",
 	"national": "418",
@@ -7524,6 +7941,7 @@ pokemonArray[417] = {
 	"order": 358,
 	"attempts": 30
 }
+
 pokemonArray[418] = {
 	"name": "Floatzel",
 	"national": "419",
@@ -7542,6 +7960,7 @@ pokemonArray[418] = {
 	"order": 242,
 	"attempts": 864
 }
+
 pokemonArray[419] = {
 	"name": "Cherubi",
 	"national": "420",
@@ -7560,6 +7979,7 @@ pokemonArray[419] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[420] = {
 	"name": "Cherrim",
 	"national": "421",
@@ -7578,6 +7998,7 @@ pokemonArray[420] = {
 	"order": 104,
 	"attempts": 158
 }
+
 pokemonArray[421] = {
 	"name": "Shellos",
 	"national": "422",
@@ -7596,6 +8017,7 @@ pokemonArray[421] = {
 	"order": 344,
 	"attempts": 408
 }
+
 pokemonArray[422] = {
 	"name": "Gastrodon",
 	"national": "423",
@@ -7614,6 +8036,7 @@ pokemonArray[422] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[423] = {
 	"name": "Ambipom",
 	"national": "424",
@@ -7632,6 +8055,7 @@ pokemonArray[423] = {
 	"order": 369,
 	"attempts": 450
 }
+
 pokemonArray[424] = {
 	"name": "Drifloon",
 	"national": "425",
@@ -7650,6 +8074,7 @@ pokemonArray[424] = {
 	"order": 229,
 	"attempts": 704
 }
+
 pokemonArray[425] = {
 	"name": "Drifblim",
 	"national": "426",
@@ -7668,6 +8093,7 @@ pokemonArray[425] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[426] = {
 	"name": "Buneary",
 	"national": "427",
@@ -7686,6 +8112,7 @@ pokemonArray[426] = {
 	"order": 156,
 	"attempts": 208
 }
+
 pokemonArray[427] = {
 	"name": "Lopunny",
 	"national": "428",
@@ -7704,6 +8131,7 @@ pokemonArray[427] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[428] = {
 	"name": "Mismagius",
 	"national": "429",
@@ -7722,6 +8150,7 @@ pokemonArray[428] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[429] = {
 	"name": "Honchkrow",
 	"national": "430",
@@ -7740,6 +8169,7 @@ pokemonArray[429] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[430] = {
 	"name": "Glameow",
 	"national": "431",
@@ -7758,6 +8188,7 @@ pokemonArray[430] = {
 	"order": 96,
 	"attempts": 75
 }
+
 pokemonArray[431] = {
 	"name": "Purugly",
 	"national": "432",
@@ -7776,6 +8207,7 @@ pokemonArray[431] = {
 	"order": 149,
 	"attempts": 353
 }
+
 pokemonArray[432] = {
 	"name": "Chingling",
 	"national": "433",
@@ -7794,6 +8226,7 @@ pokemonArray[432] = {
 	"order": 327,
 	"attempts": 42
 }
+
 pokemonArray[433] = {
 	"name": "Stunky",
 	"national": "434",
@@ -7812,6 +8245,7 @@ pokemonArray[433] = {
 	"order": 109,
 	"attempts": 1086
 }
+
 pokemonArray[434] = {
 	"name": "Skuntank",
 	"national": "435",
@@ -7830,6 +8264,7 @@ pokemonArray[434] = {
 	"order": 213,
 	"attempts": 212
 }
+
 pokemonArray[435] = {
 	"name": "Bronzor",
 	"national": "436",
@@ -7848,6 +8283,7 @@ pokemonArray[435] = {
 	"order": 130,
 	"attempts": 8
 }
+
 pokemonArray[436] = {
 	"name": "Bronzong",
 	"national": "437",
@@ -7866,6 +8302,7 @@ pokemonArray[436] = {
 	"order": 144,
 	"attempts": 110
 }
+
 pokemonArray[437] = {
 	"name": "Bonsly",
 	"national": "438",
@@ -7884,6 +8321,7 @@ pokemonArray[437] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[438] = {
 	"name": "Mime Jr.",
 	"national": "439",
@@ -7902,6 +8340,7 @@ pokemonArray[438] = {
 	"order": 227,
 	"attempts": 19
 }
+
 pokemonArray[439] = {
 	"name": "Happiny",
 	"national": "440",
@@ -7920,6 +8359,7 @@ pokemonArray[439] = {
 	"order": 121,
 	"attempts": 574
 }
+
 pokemonArray[440] = {
 	"name": "Chatot",
 	"national": "441",
@@ -7938,6 +8378,7 @@ pokemonArray[440] = {
 	"order": 163,
 	"attempts": 382
 }
+
 pokemonArray[441] = {
 	"name": "Spiritomb",
 	"national": "442",
@@ -7956,6 +8397,7 @@ pokemonArray[441] = {
 	"order": 95,
 	"attempts": 836
 }
+
 pokemonArray[442] = {
 	"name": "Gible",
 	"national": "443",
@@ -7974,6 +8416,7 @@ pokemonArray[442] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[443] = {
 	"name": "Gabite",
 	"national": "444",
@@ -7992,6 +8435,7 @@ pokemonArray[443] = {
 	"order": 43,
 	"attempts": 403
 }
+
 pokemonArray[444] = {
 	"name": "Garchomp",
 	"national": "445",
@@ -8010,6 +8454,7 @@ pokemonArray[444] = {
 	"order": 103,
 	"attempts": 796
 }
+
 pokemonArray[445] = {
 	"name": "Munchlax",
 	"national": "446",
@@ -8028,6 +8473,7 @@ pokemonArray[445] = {
 	"order": 179,
 	"attempts": 163
 }
+
 pokemonArray[446] = {
 	"name": "Riolu",
 	"national": "447",
@@ -8046,6 +8492,7 @@ pokemonArray[446] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[447] = {
 	"name": "Lucario",
 	"national": "448",
@@ -8064,6 +8511,7 @@ pokemonArray[447] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[448] = {
 	"name": "Hippopotas",
 	"national": "449",
@@ -8082,6 +8530,7 @@ pokemonArray[448] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[449] = {
 	"name": "Hippowdon",
 	"national": "450",
@@ -8100,6 +8549,7 @@ pokemonArray[449] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[450] = {
 	"name": "Skorupi",
 	"national": "451",
@@ -8118,6 +8568,7 @@ pokemonArray[450] = {
 	"order": 14,
 	"attempts": 43
 }
+
 pokemonArray[451] = {
 	"name": "Drapion",
 	"national": "452",
@@ -8136,6 +8587,7 @@ pokemonArray[451] = {
 	"order": 216,
 	"attempts": 363
 }
+
 pokemonArray[452] = {
 	"name": "Croagunk",
 	"national": "453",
@@ -8154,6 +8606,7 @@ pokemonArray[452] = {
 	"order": 115,
 	"attempts": 40
 }
+
 pokemonArray[453] = {
 	"name": "Toxicroak",
 	"national": "454",
@@ -8172,6 +8625,7 @@ pokemonArray[453] = {
 	"order": 143,
 	"attempts": 2095
 }
+
 pokemonArray[454] = {
 	"name": "Carnivine",
 	"national": "455",
@@ -8190,6 +8644,7 @@ pokemonArray[454] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[455] = {
 	"name": "Finneon",
 	"national": "456",
@@ -8208,6 +8663,7 @@ pokemonArray[455] = {
 	"order": 52,
 	"attempts": 110
 }
+
 pokemonArray[456] = {
 	"name": "Lumineon",
 	"national": "457",
@@ -8226,6 +8682,7 @@ pokemonArray[456] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[457] = {
 	"name": "Mantyke",
 	"national": "458",
@@ -8244,6 +8701,7 @@ pokemonArray[457] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[458] = {
 	"name": "Snover",
 	"national": "459",
@@ -8262,6 +8720,7 @@ pokemonArray[458] = {
 	"order": 70,
 	"attempts": 377
 }
+
 pokemonArray[459] = {
 	"name": "Abomasnow",
 	"national": "460",
@@ -8280,6 +8739,7 @@ pokemonArray[459] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[460] = {
 	"name": "Weavile",
 	"national": "461",
@@ -8298,6 +8758,7 @@ pokemonArray[460] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[461] = {
 	"name": "Magnezone",
 	"national": "462",
@@ -8316,6 +8777,7 @@ pokemonArray[461] = {
 	"order": 273,
 	"attempts": 37
 }
+
 pokemonArray[462] = {
 	"name": "Lickilicky",
 	"national": "463",
@@ -8334,6 +8796,7 @@ pokemonArray[462] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[463] = {
 	"name": "Rhyperior",
 	"national": "464",
@@ -8352,6 +8815,7 @@ pokemonArray[463] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[464] = {
 	"name": "Tangrowth",
 	"national": "465",
@@ -8370,6 +8834,7 @@ pokemonArray[464] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[465] = {
 	"name": "Electivire",
 	"national": "466",
@@ -8388,6 +8853,7 @@ pokemonArray[465] = {
 	"order": 16,
 	"attempts": 544
 }
+
 pokemonArray[466] = {
 	"name": "Magmortar",
 	"national": "467",
@@ -8406,6 +8872,7 @@ pokemonArray[466] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[467] = {
 	"name": "Togekiss",
 	"national": "468",
@@ -8424,6 +8891,7 @@ pokemonArray[467] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[468] = {
 	"name": "Yanmega",
 	"national": "469",
@@ -8442,6 +8910,7 @@ pokemonArray[468] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[469] = {
 	"name": "Leafeon",
 	"national": "470",
@@ -8460,6 +8929,7 @@ pokemonArray[469] = {
 	"order": 10,
 	"attempts": 48
 }
+
 pokemonArray[470] = {
 	"name": "Glaceon",
 	"national": "471",
@@ -8478,6 +8948,7 @@ pokemonArray[470] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[471] = {
 	"name": "Gliscor",
 	"national": "472",
@@ -8496,6 +8967,7 @@ pokemonArray[471] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[472] = {
 	"name": "Mamoswine",
 	"national": "473",
@@ -8514,6 +8986,7 @@ pokemonArray[472] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[473] = {
 	"name": "Porygon-Z",
 	"national": "474",
@@ -8532,6 +9005,7 @@ pokemonArray[473] = {
 	"order": 133,
 	"attempts": 147
 }
+
 pokemonArray[474] = {
 	"name": "Gallade",
 	"national": "475",
@@ -8550,6 +9024,7 @@ pokemonArray[474] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[475] = {
 	"name": "Probopass",
 	"national": "476",
@@ -8568,6 +9043,7 @@ pokemonArray[475] = {
 	"order": 32,
 	"attempts": 651
 }
+
 pokemonArray[476] = {
 	"name": "Dusknoir",
 	"national": "477",
@@ -8586,6 +9062,7 @@ pokemonArray[476] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[477] = {
 	"name": "Froslass",
 	"national": "478",
@@ -8604,6 +9081,7 @@ pokemonArray[477] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[478] = {
 	"name": "Rotom",
 	"national": "479",
@@ -8622,6 +9100,7 @@ pokemonArray[478] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[479] = {
 	"name": "Uxie",
 	"national": "480",
@@ -8640,6 +9119,7 @@ pokemonArray[479] = {
 	"order": 321,
 	"attempts": 2934
 }
+
 pokemonArray[480] = {
 	"name": "Mesprit",
 	"national": "481",
@@ -8658,6 +9138,7 @@ pokemonArray[480] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[481] = {
 	"name": "Azelf",
 	"national": "482",
@@ -8676,6 +9157,7 @@ pokemonArray[481] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[482] = {
 	"name": "Dialga",
 	"national": "483",
@@ -8694,6 +9176,7 @@ pokemonArray[482] = {
 	"order": 304,
 	"attempts": 305
 }
+
 pokemonArray[483] = {
 	"name": "Palkia",
 	"national": "484",
@@ -8712,6 +9195,7 @@ pokemonArray[483] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[484] = {
 	"name": "Heatran",
 	"national": "485",
@@ -8730,6 +9214,7 @@ pokemonArray[484] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[485] = {
 	"name": "Regigigas",
 	"national": "486",
@@ -8748,6 +9233,7 @@ pokemonArray[485] = {
 	"order": 53,
 	"attempts": 1713
 }
+
 pokemonArray[486] = {
 	"name": "Giratina",
 	"national": "487",
@@ -8766,6 +9252,7 @@ pokemonArray[486] = {
 	"order": 340,
 	"attempts": 322
 }
+
 pokemonArray[487] = {
 	"name": "Cresselia",
 	"national": "488",
@@ -8784,6 +9271,7 @@ pokemonArray[487] = {
 	"order": 186,
 	"attempts": 1396
 }
+
 pokemonArray[488] = {
 	"name": "Phione",
 	"national": "489",
@@ -8802,6 +9290,7 @@ pokemonArray[488] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[489] = {
 	"name": "Manaphy",
 	"national": "490",
@@ -8820,6 +9309,7 @@ pokemonArray[489] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[490] = {
 	"name": "Darkrai",
 	"national": "491",
@@ -8838,6 +9328,7 @@ pokemonArray[490] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[491] = {
 	"name": "Shaymin",
 	"national": "492",
@@ -8856,6 +9347,7 @@ pokemonArray[491] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[492] = {
 	"name": "Arceus",
 	"national": "493",
@@ -8874,6 +9366,7 @@ pokemonArray[492] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[493] = {
 	"name": "Victini",
 	"national": "494",
@@ -8892,6 +9385,7 @@ pokemonArray[493] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[494] = {
 	"name": "Snivy",
 	"national": "495",
@@ -8910,6 +9404,7 @@ pokemonArray[494] = {
 	"order": 2,
 	"attempts": 296
 }
+
 pokemonArray[495] = {
 	"name": "Servine",
 	"national": "496",
@@ -8928,6 +9423,7 @@ pokemonArray[495] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[496] = {
 	"name": "Serperior",
 	"national": "497",
@@ -8946,6 +9442,7 @@ pokemonArray[496] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[497] = {
 	"name": "Tepig",
 	"national": "498",
@@ -8964,6 +9461,7 @@ pokemonArray[497] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[498] = {
 	"name": "Pignite",
 	"national": "499",
@@ -8982,6 +9480,7 @@ pokemonArray[498] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[499] = {
 	"name": "Emboar",
 	"national": "500",
@@ -9000,6 +9499,7 @@ pokemonArray[499] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[500] = {
 	"name": "Oshawott",
 	"national": "501",
@@ -9018,6 +9518,7 @@ pokemonArray[500] = {
 	"order": 314,
 	"attempts": 533
 }
+
 pokemonArray[501] = {
 	"name": "Dewott",
 	"national": "502",
@@ -9036,6 +9537,7 @@ pokemonArray[501] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[502] = {
 	"name": "Samurott",
 	"national": "503",
@@ -9054,6 +9556,7 @@ pokemonArray[502] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[503] = {
 	"name": "Patrat",
 	"national": "504",
@@ -9072,6 +9575,7 @@ pokemonArray[503] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[504] = {
 	"name": "Watchog",
 	"national": "505",
@@ -9090,6 +9594,7 @@ pokemonArray[504] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[505] = {
 	"name": "Lillipup",
 	"national": "506",
@@ -9108,6 +9613,7 @@ pokemonArray[505] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[506] = {
 	"name": "Herdier",
 	"national": "507",
@@ -9126,6 +9632,7 @@ pokemonArray[506] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[507] = {
 	"name": "Stoutland",
 	"national": "508",
@@ -9144,6 +9651,7 @@ pokemonArray[507] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[508] = {
 	"name": "Purrloin",
 	"national": "509",
@@ -9162,6 +9670,7 @@ pokemonArray[508] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[509] = {
 	"name": "Liepard",
 	"national": "510",
@@ -9180,6 +9689,7 @@ pokemonArray[509] = {
 	"order": 378,
 	"attempts": 320
 }
+
 pokemonArray[510] = {
 	"name": "Pansage",
 	"national": "511",
@@ -9198,6 +9708,7 @@ pokemonArray[510] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[511] = {
 	"name": "Simisage",
 	"national": "512",
@@ -9216,6 +9727,7 @@ pokemonArray[511] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[512] = {
 	"name": "Pansear",
 	"national": "513",
@@ -9234,6 +9746,7 @@ pokemonArray[512] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[513] = {
 	"name": "Simisear",
 	"national": "514",
@@ -9252,6 +9765,7 @@ pokemonArray[513] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[514] = {
 	"name": "Panpour",
 	"national": "515",
@@ -9270,6 +9784,7 @@ pokemonArray[514] = {
 	"order": 232,
 	"attempts": 618
 }
+
 pokemonArray[515] = {
 	"name": "Simipour",
 	"national": "516",
@@ -9288,6 +9803,7 @@ pokemonArray[515] = {
 	"order": 332,
 	"attempts": 596
 }
+
 pokemonArray[516] = {
 	"name": "Munna",
 	"national": "517",
@@ -9306,6 +9822,7 @@ pokemonArray[516] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[517] = {
 	"name": "Musharna",
 	"national": "518",
@@ -9324,6 +9841,7 @@ pokemonArray[517] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[518] = {
 	"name": "Pidove",
 	"national": "519",
@@ -9342,6 +9860,7 @@ pokemonArray[518] = {
 	"order": 374,
 	"attempts": 86
 }
+
 pokemonArray[519] = {
 	"name": "Tranquill",
 	"national": "520",
@@ -9360,6 +9879,7 @@ pokemonArray[519] = {
 	"order": 246,
 	"attempts": 5
 }
+
 pokemonArray[520] = {
 	"name": "Unfezant",
 	"national": "521",
@@ -9378,6 +9898,7 @@ pokemonArray[520] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[521] = {
 	"name": "Blitzle",
 	"national": "522",
@@ -9396,6 +9917,7 @@ pokemonArray[521] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[522] = {
 	"name": "Zebstrika",
 	"national": "523",
@@ -9414,6 +9936,7 @@ pokemonArray[522] = {
 	"order": 268,
 	"attempts": 152
 }
+
 pokemonArray[523] = {
 	"name": "Roggenrola",
 	"national": "524",
@@ -9432,6 +9955,7 @@ pokemonArray[523] = {
 	"order": 98,
 	"attempts": 123
 }
+
 pokemonArray[524] = {
 	"name": "Boldore",
 	"national": "525",
@@ -9450,6 +9974,7 @@ pokemonArray[524] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[525] = {
 	"name": "Gigalith",
 	"national": "526",
@@ -9468,6 +9993,7 @@ pokemonArray[525] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[526] = {
 	"name": "Woobat",
 	"national": "527",
@@ -9486,6 +10012,7 @@ pokemonArray[526] = {
 	"order": 372,
 	"attempts": 77
 }
+
 pokemonArray[527] = {
 	"name": "Swoobat",
 	"national": "528",
@@ -9504,6 +10031,7 @@ pokemonArray[527] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[528] = {
 	"name": "Drilbur",
 	"national": "529",
@@ -9522,6 +10050,7 @@ pokemonArray[528] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[529] = {
 	"name": "Excadrill",
 	"national": "530",
@@ -9540,6 +10069,7 @@ pokemonArray[529] = {
 	"order": 76,
 	"attempts": 353
 }
+
 pokemonArray[530] = {
 	"name": "Audino",
 	"national": "531",
@@ -9558,6 +10088,7 @@ pokemonArray[530] = {
 	"order": 57,
 	"attempts": 328
 }
+
 pokemonArray[531] = {
 	"name": "Timburr",
 	"national": "532",
@@ -9576,6 +10107,7 @@ pokemonArray[531] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[532] = {
 	"name": "Gurdurr",
 	"national": "533",
@@ -9594,6 +10126,7 @@ pokemonArray[532] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[533] = {
 	"name": "Conkeldurr",
 	"national": "534",
@@ -9612,6 +10145,7 @@ pokemonArray[533] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[534] = {
 	"name": "Tympole",
 	"national": "535",
@@ -9630,6 +10164,7 @@ pokemonArray[534] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[535] = {
 	"name": "Palpitoad",
 	"national": "536",
@@ -9648,6 +10183,7 @@ pokemonArray[535] = {
 	"order": 113,
 	"attempts": 461
 }
+
 pokemonArray[536] = {
 	"name": "Seismitoad",
 	"national": "537",
@@ -9666,6 +10202,7 @@ pokemonArray[536] = {
 	"order": 200,
 	"attempts": 295
 }
+
 pokemonArray[537] = {
 	"name": "Throh",
 	"national": "538",
@@ -9684,6 +10221,7 @@ pokemonArray[537] = {
 	"order": 284,
 	"attempts": 192
 }
+
 pokemonArray[538] = {
 	"name": "Sawk",
 	"national": "539",
@@ -9702,6 +10240,7 @@ pokemonArray[538] = {
 	"order": 198,
 	"attempts": 591
 }
+
 pokemonArray[539] = {
 	"name": "Sewaddle",
 	"national": "540",
@@ -9720,6 +10259,7 @@ pokemonArray[539] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[540] = {
 	"name": "Swadloon",
 	"national": "541",
@@ -9738,6 +10278,7 @@ pokemonArray[540] = {
 	"order": 20,
 	"attempts": 200
 }
+
 pokemonArray[541] = {
 	"name": "Leavanny",
 	"national": "542",
@@ -9756,6 +10297,7 @@ pokemonArray[541] = {
 	"order": 377,
 	"attempts": 453
 }
+
 pokemonArray[542] = {
 	"name": "Venipede",
 	"national": "543",
@@ -9774,6 +10316,7 @@ pokemonArray[542] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[543] = {
 	"name": "Whirlipede",
 	"national": "544",
@@ -9792,6 +10335,7 @@ pokemonArray[543] = {
 	"order": 212,
 	"attempts": 1993
 }
+
 pokemonArray[544] = {
 	"name": "Scolipede",
 	"national": "545",
@@ -9810,6 +10354,7 @@ pokemonArray[544] = {
 	"order": 298,
 	"attempts": 184
 }
+
 pokemonArray[545] = {
 	"name": "Cottonee",
 	"national": "546",
@@ -9828,6 +10373,7 @@ pokemonArray[545] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[546] = {
 	"name": "Whimsicott",
 	"national": "547",
@@ -9846,6 +10392,7 @@ pokemonArray[546] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[547] = {
 	"name": "Petilil",
 	"national": "548",
@@ -9864,6 +10411,7 @@ pokemonArray[547] = {
 	"order": 349,
 	"attempts": 135
 }
+
 pokemonArray[548] = {
 	"name": "Lilligant",
 	"national": "549",
@@ -9882,6 +10430,7 @@ pokemonArray[548] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[549] = {
 	"name": "Basculin",
 	"national": "550",
@@ -9900,6 +10449,7 @@ pokemonArray[549] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[550] = {
 	"name": "Sandile",
 	"national": "551",
@@ -9918,6 +10468,7 @@ pokemonArray[550] = {
 	"order": 238,
 	"attempts": 240
 }
+
 pokemonArray[551] = {
 	"name": "Krokorok",
 	"national": "552",
@@ -9936,6 +10487,7 @@ pokemonArray[551] = {
 	"order": 294,
 	"attempts": 590
 }
+
 pokemonArray[552] = {
 	"name": "Krookodile",
 	"national": "553",
@@ -9954,6 +10506,7 @@ pokemonArray[552] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[553] = {
 	"name": "Darumaka",
 	"national": "554",
@@ -9972,6 +10525,7 @@ pokemonArray[553] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[554] = {
 	"name": "Darmanitan",
 	"national": "555",
@@ -9990,6 +10544,7 @@ pokemonArray[554] = {
 	"order": 81,
 	"attempts": 174
 }
+
 pokemonArray[555] = {
 	"name": "Maractus",
 	"national": "556",
@@ -10008,6 +10563,7 @@ pokemonArray[555] = {
 	"order": 71,
 	"attempts": 257
 }
+
 pokemonArray[556] = {
 	"name": "Dwebble",
 	"national": "557",
@@ -10026,6 +10582,7 @@ pokemonArray[556] = {
 	"order": 59,
 	"attempts": 1159
 }
+
 pokemonArray[557] = {
 	"name": "Crustle",
 	"national": "558",
@@ -10044,6 +10601,7 @@ pokemonArray[557] = {
 	"order": 184,
 	"attempts": 281
 }
+
 pokemonArray[558] = {
 	"name": "Scraggy",
 	"national": "559",
@@ -10062,6 +10620,7 @@ pokemonArray[558] = {
 	"order": 6,
 	"attempts": 992
 }
+
 pokemonArray[559] = {
 	"name": "Scrafty",
 	"national": "560",
@@ -10080,6 +10639,7 @@ pokemonArray[559] = {
 	"order": 89,
 	"attempts": 62
 }
+
 pokemonArray[560] = {
 	"name": "Sigilyph",
 	"national": "561",
@@ -10098,6 +10658,7 @@ pokemonArray[560] = {
 	"order": 73,
 	"attempts": 191
 }
+
 pokemonArray[561] = {
 	"name": "Yamask",
 	"national": "562",
@@ -10116,6 +10677,7 @@ pokemonArray[561] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[562] = {
 	"name": "Cofagrigus",
 	"national": "563",
@@ -10134,6 +10696,7 @@ pokemonArray[562] = {
 	"order": 264,
 	"attempts": 740
 }
+
 pokemonArray[563] = {
 	"name": "Tirtouga",
 	"national": "564",
@@ -10152,6 +10715,7 @@ pokemonArray[563] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[564] = {
 	"name": "Carracosta",
 	"national": "565",
@@ -10170,6 +10734,7 @@ pokemonArray[564] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[565] = {
 	"name": "Archen",
 	"national": "566",
@@ -10188,6 +10753,7 @@ pokemonArray[565] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[566] = {
 	"name": "Archeops",
 	"national": "567",
@@ -10206,6 +10772,7 @@ pokemonArray[566] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[567] = {
 	"name": "Trubbish",
 	"national": "568",
@@ -10224,6 +10791,7 @@ pokemonArray[567] = {
 	"order": 60,
 	"attempts": 452
 }
+
 pokemonArray[568] = {
 	"name": "Garbodor",
 	"national": "569",
@@ -10242,6 +10810,7 @@ pokemonArray[568] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[569] = {
 	"name": "Zorua",
 	"national": "570",
@@ -10260,6 +10829,7 @@ pokemonArray[569] = {
 	"order": 114,
 	"attempts": 16
 }
+
 pokemonArray[570] = {
 	"name": "Zoroark",
 	"national": "571",
@@ -10278,6 +10848,7 @@ pokemonArray[570] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[571] = {
 	"name": "Minccino",
 	"national": "572",
@@ -10296,6 +10867,7 @@ pokemonArray[571] = {
 	"order": 322,
 	"attempts": 1250
 }
+
 pokemonArray[572] = {
 	"name": "Cinccino",
 	"national": "573",
@@ -10314,6 +10886,7 @@ pokemonArray[572] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[573] = {
 	"name": "Gothita",
 	"national": "574",
@@ -10332,6 +10905,7 @@ pokemonArray[573] = {
 	"order": 317,
 	"attempts": 101
 }
+
 pokemonArray[574] = {
 	"name": "Gothorita",
 	"national": "575",
@@ -10350,6 +10924,7 @@ pokemonArray[574] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[575] = {
 	"name": "Gothitelle",
 	"national": "576",
@@ -10368,6 +10943,7 @@ pokemonArray[575] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[576] = {
 	"name": "Solosis",
 	"national": "577",
@@ -10386,6 +10962,7 @@ pokemonArray[576] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[577] = {
 	"name": "Duosion",
 	"national": "578",
@@ -10404,6 +10981,7 @@ pokemonArray[577] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[578] = {
 	"name": "Reuniclus",
 	"national": "579",
@@ -10422,6 +11000,7 @@ pokemonArray[578] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[579] = {
 	"name": "Ducklett",
 	"national": "580",
@@ -10440,6 +11019,7 @@ pokemonArray[579] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[580] = {
 	"name": "Swanna",
 	"national": "581",
@@ -10458,6 +11038,7 @@ pokemonArray[580] = {
 	"order": 293,
 	"attempts": 184
 }
+
 pokemonArray[581] = {
 	"name": "Vanillite",
 	"national": "582",
@@ -10476,6 +11057,7 @@ pokemonArray[581] = {
 	"order": 127,
 	"attempts": 110
 }
+
 pokemonArray[582] = {
 	"name": "Vanillish",
 	"national": "583",
@@ -10494,6 +11076,7 @@ pokemonArray[582] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[583] = {
 	"name": "Vanilluxe",
 	"national": "584",
@@ -10512,6 +11095,7 @@ pokemonArray[583] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[584] = {
 	"name": "Deerling",
 	"national": "585",
@@ -10530,6 +11114,7 @@ pokemonArray[584] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[585] = {
 	"name": "Sawsbuck",
 	"national": "586",
@@ -10548,6 +11133,7 @@ pokemonArray[585] = {
 	"order": 207,
 	"attempts": 398
 }
+
 pokemonArray[586] = {
 	"name": "Emolga",
 	"national": "587",
@@ -10566,6 +11152,7 @@ pokemonArray[586] = {
 	"order": 128,
 	"attempts": 170
 }
+
 pokemonArray[587] = {
 	"name": "Karrablast",
 	"national": "588",
@@ -10584,6 +11171,7 @@ pokemonArray[587] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[588] = {
 	"name": "Escavalier",
 	"national": "589",
@@ -10602,6 +11190,7 @@ pokemonArray[588] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[589] = {
 	"name": "Foongus",
 	"national": "590",
@@ -10620,6 +11209,7 @@ pokemonArray[589] = {
 	"order": 78,
 	"attempts": 53
 }
+
 pokemonArray[590] = {
 	"name": "Amoonguss",
 	"national": "591",
@@ -10638,6 +11228,7 @@ pokemonArray[590] = {
 	"order": 305,
 	"attempts": 536
 }
+
 pokemonArray[591] = {
 	"name": "Frillish",
 	"national": "592",
@@ -10656,6 +11247,7 @@ pokemonArray[591] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[592] = {
 	"name": "Jellicent",
 	"national": "593",
@@ -10674,6 +11266,7 @@ pokemonArray[592] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[593] = {
 	"name": "Alomomola",
 	"national": "594",
@@ -10692,6 +11285,7 @@ pokemonArray[593] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[594] = {
 	"name": "Joltik",
 	"national": "595",
@@ -10710,6 +11304,7 @@ pokemonArray[594] = {
 	"order": 36,
 	"attempts": 533
 }
+
 pokemonArray[595] = {
 	"name": "Galvantula",
 	"national": "596",
@@ -10728,6 +11323,7 @@ pokemonArray[595] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[596] = {
 	"name": "Ferroseed",
 	"national": "597",
@@ -10746,6 +11342,7 @@ pokemonArray[596] = {
 	"order": 101,
 	"attempts": 82
 }
+
 pokemonArray[597] = {
 	"name": "Ferrothorn",
 	"national": "598",
@@ -10764,6 +11361,7 @@ pokemonArray[597] = {
 	"order": 375,
 	"attempts": 977
 }
+
 pokemonArray[598] = {
 	"name": "Klink",
 	"national": "599",
@@ -10782,6 +11380,7 @@ pokemonArray[598] = {
 	"order": 141,
 	"attempts": 249
 }
+
 pokemonArray[599] = {
 	"name": "Klang",
 	"national": "600",
@@ -10800,6 +11399,7 @@ pokemonArray[599] = {
 	"order": 345,
 	"attempts": 40
 }
+
 pokemonArray[600] = {
 	"name": "Klinklang",
 	"national": "601",
@@ -10818,6 +11418,7 @@ pokemonArray[600] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[601] = {
 	"name": "Tynamo",
 	"national": "602",
@@ -10836,6 +11437,7 @@ pokemonArray[601] = {
 	"order": 69,
 	"attempts": 252
 }
+
 pokemonArray[602] = {
 	"name": "Eelektrik",
 	"national": "603",
@@ -10854,6 +11456,7 @@ pokemonArray[602] = {
 	"order": 138,
 	"attempts": 171
 }
+
 pokemonArray[603] = {
 	"name": "Eelektross",
 	"national": "604",
@@ -10872,6 +11475,7 @@ pokemonArray[603] = {
 	"order": 139,
 	"attempts": 251
 }
+
 pokemonArray[604] = {
 	"name": "Elgyem",
 	"national": "605",
@@ -10890,6 +11494,7 @@ pokemonArray[604] = {
 	"order": 361,
 	"attempts": 157
 }
+
 pokemonArray[605] = {
 	"name": "Beheeyem",
 	"national": "606",
@@ -10908,6 +11513,7 @@ pokemonArray[605] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[606] = {
 	"name": "Litwick",
 	"national": "607",
@@ -10926,6 +11532,7 @@ pokemonArray[606] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[607] = {
 	"name": "Lampent",
 	"national": "608",
@@ -10944,6 +11551,7 @@ pokemonArray[607] = {
 	"order": 44,
 	"attempts": 666
 }
+
 pokemonArray[608] = {
 	"name": "Chandelure",
 	"national": "609",
@@ -10962,6 +11570,7 @@ pokemonArray[608] = {
 	"order": 251,
 	"attempts": 415
 }
+
 pokemonArray[609] = {
 	"name": "Axew",
 	"national": "610",
@@ -10980,6 +11589,7 @@ pokemonArray[609] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[610] = {
 	"name": "Fraxure",
 	"national": "611",
@@ -10998,6 +11608,7 @@ pokemonArray[610] = {
 	"order": 112,
 	"attempts": 591
 }
+
 pokemonArray[611] = {
 	"name": "Haxorus",
 	"national": "611",
@@ -11016,6 +11627,7 @@ pokemonArray[611] = {
 	"order": 370,
 	"attempts": 18
 }
+
 pokemonArray[612] = {
 	"name": "Cubchoo",
 	"national": "612",
@@ -11034,6 +11646,7 @@ pokemonArray[612] = {
 	"order": 290,
 	"attempts": 94
 }
+
 pokemonArray[613] = {
 	"name": "Beartic",
 	"national": "613",
@@ -11052,6 +11665,7 @@ pokemonArray[613] = {
 	"order": 330,
 	"attempts": 1051
 }
+
 pokemonArray[614] = {
 	"name": "Cryogonal",
 	"national": "614",
@@ -11070,6 +11684,7 @@ pokemonArray[614] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[615] = {
 	"name": "Shelmet",
 	"national": "615",
@@ -11088,6 +11703,7 @@ pokemonArray[615] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[616] = {
 	"name": "Accelgor",
 	"national": "616",
@@ -11106,6 +11722,7 @@ pokemonArray[616] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[617] = {
 	"name": "Stunfisk",
 	"national": "618",
@@ -11124,6 +11741,7 @@ pokemonArray[617] = {
 	"order": 67,
 	"attempts": 376
 }
+
 pokemonArray[618] = {
 	"name": "Mienfoo",
 	"national": "619",
@@ -11142,6 +11760,7 @@ pokemonArray[618] = {
 	"order": 228,
 	"attempts": 1048
 }
+
 pokemonArray[619] = {
 	"name": "Mienshao",
 	"national": "620",
@@ -11160,6 +11779,7 @@ pokemonArray[619] = {
 	"order": 371,
 	"attempts": 374
 }
+
 pokemonArray[620] = {
 	"name": "Druddigon",
 	"national": "621",
@@ -11178,6 +11798,7 @@ pokemonArray[620] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[621] = {
 	"name": "Golett",
 	"national": "622",
@@ -11196,6 +11817,7 @@ pokemonArray[621] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[622] = {
 	"name": "Golurk",
 	"national": "623",
@@ -11214,6 +11836,7 @@ pokemonArray[622] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[623] = {
 	"name": "Pawniard",
 	"national": "624",
@@ -11232,6 +11855,7 @@ pokemonArray[623] = {
 	"order": 102,
 	"attempts": 262
 }
+
 pokemonArray[624] = {
 	"name": "Bisharp",
 	"national": "625",
@@ -11250,6 +11874,7 @@ pokemonArray[624] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[625] = {
 	"name": "Bouffalant",
 	"national": "626",
@@ -11268,6 +11893,7 @@ pokemonArray[625] = {
 	"order": 106,
 	"attempts": 310
 }
+
 pokemonArray[626] = {
 	"name": "Rufflet",
 	"national": "627",
@@ -11286,6 +11912,7 @@ pokemonArray[626] = {
 	"order": 24,
 	"attempts": 1057
 }
+
 pokemonArray[627] = {
 	"name": "Braviary",
 	"national": "628",
@@ -11304,6 +11931,7 @@ pokemonArray[627] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[628] = {
 	"name": "Vullaby",
 	"national": "629",
@@ -11322,6 +11950,7 @@ pokemonArray[628] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[629] = {
 	"name": "Mandibuzz",
 	"national": "630",
@@ -11340,6 +11969,7 @@ pokemonArray[629] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[630] = {
 	"name": "Heatmor",
 	"national": "631",
@@ -11358,6 +11988,7 @@ pokemonArray[630] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[631] = {
 	"name": "Durant",
 	"national": "632",
@@ -11376,6 +12007,7 @@ pokemonArray[631] = {
 	"order": 92,
 	"attempts": 140
 }
+
 pokemonArray[632] = {
 	"name": "Deino",
 	"national": "633",
@@ -11394,6 +12026,7 @@ pokemonArray[632] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[633] = {
 	"name": "Zweilous",
 	"national": "634",
@@ -11412,6 +12045,7 @@ pokemonArray[633] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[634] = {
 	"name": "Hydreigon",
 	"national": "635",
@@ -11430,6 +12064,7 @@ pokemonArray[634] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[635] = {
 	"name": "Larvesta",
 	"national": "636",
@@ -11448,6 +12083,7 @@ pokemonArray[635] = {
 	"order": 346,
 	"attempts": 706
 }
+
 pokemonArray[636] = {
 	"name": "Volcarona",
 	"national": "637",
@@ -11466,6 +12102,7 @@ pokemonArray[636] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[637] = {
 	"name": "Cobalion",
 	"national": "638",
@@ -11484,6 +12121,7 @@ pokemonArray[637] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[638] = {
 	"name": "Terrakion",
 	"national": "639",
@@ -11502,6 +12140,7 @@ pokemonArray[638] = {
 	"order": 313,
 	"attempts": 251
 }
+
 pokemonArray[639] = {
 	"name": "Virizion",
 	"national": "640",
@@ -11520,6 +12159,7 @@ pokemonArray[639] = {
 	"order": 352,
 	"attempts": 3525
 }
+
 pokemonArray[640] = {
 	"name": "Tornadus",
 	"national": "641",
@@ -11538,6 +12178,7 @@ pokemonArray[640] = {
 	"order": 329,
 	"attempts": 292
 }
+
 pokemonArray[641] = {
 	"name": "Thundurus",
 	"national": "642",
@@ -11556,6 +12197,7 @@ pokemonArray[641] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[642] = {
 	"name": "Reshiram",
 	"national": "643",
@@ -11574,6 +12216,7 @@ pokemonArray[642] = {
 	"order": 236,
 	"attempts": 1661
 }
+
 pokemonArray[643] = {
 	"name": "Zekrom",
 	"national": "644",
@@ -11592,6 +12235,7 @@ pokemonArray[643] = {
 	"order": 142,
 	"attempts": 3043
 }
+
 pokemonArray[644] = {
 	"name": "Landorus",
 	"national": "645",
@@ -11610,6 +12254,7 @@ pokemonArray[644] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[645] = {
 	"name": "Kyurem",
 	"national": "646",
@@ -11628,6 +12273,7 @@ pokemonArray[645] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[646] = {
 	"name": "Keldeo",
 	"national": "647",
@@ -11646,6 +12292,7 @@ pokemonArray[646] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[647] = {
 	"name": "Meloetta",
 	"national": "648",
@@ -11664,6 +12311,7 @@ pokemonArray[647] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[648] = {
 	"name": "Genesect",
 	"national": "649",
@@ -11682,6 +12330,7 @@ pokemonArray[648] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[649] = {
 	"name": "Chespin",
 	"national": "650",
@@ -11700,6 +12349,7 @@ pokemonArray[649] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[650] = {
 	"name": "Quilladin",
 	"national": "651",
@@ -11718,6 +12368,7 @@ pokemonArray[650] = {
 	"order": 244,
 	"attempts": 265
 }
+
 pokemonArray[651] = {
 	"name": "Chesnaught",
 	"national": "652",
@@ -11736,6 +12387,7 @@ pokemonArray[651] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[652] = {
 	"name": "Fennekin",
 	"national": "653",
@@ -11754,6 +12406,7 @@ pokemonArray[652] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[653] = {
 	"name": "Braixen",
 	"national": "654",
@@ -11772,6 +12425,7 @@ pokemonArray[653] = {
 	"order": 54,
 	"attempts": 32
 }
+
 pokemonArray[654] = {
 	"name": "Delphox",
 	"national": "655",
@@ -11790,6 +12444,7 @@ pokemonArray[654] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[655] = {
 	"name": "Froakie",
 	"national": "656",
@@ -11808,6 +12463,7 @@ pokemonArray[655] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[656] = {
 	"name": "Frogadier",
 	"national": "657",
@@ -11826,6 +12482,7 @@ pokemonArray[656] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[657] = {
 	"name": "Greninja",
 	"national": "658",
@@ -11844,6 +12501,7 @@ pokemonArray[657] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[658] = {
 	"name": "Bunnelby",
 	"national": "659",
@@ -11862,6 +12520,7 @@ pokemonArray[658] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[659] = {
 	"name": "Diggersby",
 	"national": "660",
@@ -11880,6 +12539,7 @@ pokemonArray[659] = {
 	"order": 188,
 	"attempts": 108
 }
+
 pokemonArray[660] = {
 	"name": "Fletchling",
 	"national": "661",
@@ -11898,6 +12558,7 @@ pokemonArray[660] = {
 	"order": 287,
 	"attempts": 47
 }
+
 pokemonArray[661] = {
 	"name": "Fletchinder",
 	"national": "662",
@@ -11916,6 +12577,7 @@ pokemonArray[661] = {
 	"order": 362,
 	"attempts": 71
 }
+
 pokemonArray[662] = {
 	"name": "Talonflame",
 	"national": "663",
@@ -11934,6 +12596,7 @@ pokemonArray[662] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[663] = {
 	"name": "Scatterbug",
 	"national": "664",
@@ -11952,6 +12615,7 @@ pokemonArray[663] = {
 	"order": 118,
 	"attempts": 41
 }
+
 pokemonArray[664] = {
 	"name": "Spewpa",
 	"national": "665",
@@ -11970,6 +12634,7 @@ pokemonArray[664] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[665] = {
 	"name": "Vivillon",
 	"national": "666",
@@ -11988,6 +12653,7 @@ pokemonArray[665] = {
 	"order": 215,
 	"attempts": 1082
 }
+
 pokemonArray[666] = {
 	"name": "Litleo",
 	"national": "667",
@@ -12006,6 +12672,7 @@ pokemonArray[666] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[667] = {
 	"name": "Pyroar",
 	"national": "668",
@@ -12024,6 +12691,7 @@ pokemonArray[667] = {
 	"order": 240,
 	"attempts": 405
 }
+
 pokemonArray[668] = {
 	"name": "Flabébé",
 	"national": "669",
@@ -12042,6 +12710,7 @@ pokemonArray[668] = {
 	"order": 354,
 	"attempts": 63
 }
+
 pokemonArray[669] = {
 	"name": "Floette",
 	"national": "670",
@@ -12060,6 +12729,7 @@ pokemonArray[669] = {
 	"order": 282,
 	"attempts": 49
 }
+
 pokemonArray[670] = {
 	"name": "Florges",
 	"national": "671",
@@ -12078,6 +12748,7 @@ pokemonArray[670] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[671] = {
 	"name": "Skiddo",
 	"national": "672",
@@ -12096,6 +12767,7 @@ pokemonArray[671] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[672] = {
 	"name": "Gogoat",
 	"national": "673",
@@ -12114,6 +12786,7 @@ pokemonArray[672] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[673] = {
 	"name": "Pancham",
 	"national": "674",
@@ -12132,6 +12805,7 @@ pokemonArray[673] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[674] = {
 	"name": "Pangoro",
 	"national": "675",
@@ -12150,6 +12824,7 @@ pokemonArray[674] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[675] = {
 	"name": "Furfrou",
 	"national": "676",
@@ -12168,6 +12843,7 @@ pokemonArray[675] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[676] = {
 	"name": "Espurr",
 	"national": "677",
@@ -12186,6 +12862,7 @@ pokemonArray[676] = {
 	"order": 241,
 	"attempts": 1497
 }
+
 pokemonArray[677] = {
 	"name": "Meowstic",
 	"national": "678",
@@ -12204,6 +12881,7 @@ pokemonArray[677] = {
 	"order": 351,
 	"attempts": 503
 }
+
 pokemonArray[678] = {
 	"name": "Honedge",
 	"national": "679",
@@ -12222,6 +12900,7 @@ pokemonArray[678] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[679] = {
 	"name": "Doublade",
 	"national": "680",
@@ -12240,6 +12919,7 @@ pokemonArray[679] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[680] = {
 	"name": "Aegislash",
 	"national": "681",
@@ -12258,6 +12938,7 @@ pokemonArray[680] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[681] = {
 	"name": "Spritzee",
 	"national": "682",
@@ -12276,6 +12957,7 @@ pokemonArray[681] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[682] = {
 	"name": "Aromatisse",
 	"national": "683",
@@ -12294,6 +12976,7 @@ pokemonArray[682] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[683] = {
 	"name": "Swirlix",
 	"national": "684",
@@ -12312,6 +12995,7 @@ pokemonArray[683] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[684] = {
 	"name": "Slurpuff",
 	"national": "685",
@@ -12330,6 +13014,7 @@ pokemonArray[684] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[685] = {
 	"name": "Inkay",
 	"national": "686",
@@ -12348,6 +13033,7 @@ pokemonArray[685] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[686] = {
 	"name": "Malamar",
 	"national": "687",
@@ -12366,6 +13052,7 @@ pokemonArray[686] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[687] = {
 	"name": "Binacle",
 	"national": "688",
@@ -12384,6 +13071,7 @@ pokemonArray[687] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[688] = {
 	"name": "Barbaracle",
 	"national": "689",
@@ -12402,6 +13090,7 @@ pokemonArray[688] = {
 	"order": 338,
 	"attempts": 12
 }
+
 pokemonArray[689] = {
 	"name": "Skrelp",
 	"national": "690",
@@ -12420,6 +13109,7 @@ pokemonArray[689] = {
 	"order": 1,
 	"attempts": 2
 }
+
 pokemonArray[690] = {
 	"name": "Dragalge",
 	"national": "691",
@@ -12438,6 +13128,7 @@ pokemonArray[690] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[691] = {
 	"name": "Clauncher",
 	"national": "692",
@@ -12456,6 +13147,7 @@ pokemonArray[691] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[692] = {
 	"name": "Clawitzer",
 	"national": "693",
@@ -12474,6 +13166,7 @@ pokemonArray[692] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[693] = {
 	"name": "Helioptile",
 	"national": "694",
@@ -12492,6 +13185,7 @@ pokemonArray[693] = {
 	"order": 82,
 	"attempts": 126
 }
+
 pokemonArray[694] = {
 	"name": "Heliolisk",
 	"national": "695",
@@ -12510,6 +13204,7 @@ pokemonArray[694] = {
 	"order": 83,
 	"attempts": 65
 }
+
 pokemonArray[695] = {
 	"name": "Tyrunt",
 	"national": "696",
@@ -12528,6 +13223,7 @@ pokemonArray[695] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[696] = {
 	"name": "Tyrantrum",
 	"national": "697",
@@ -12546,6 +13242,7 @@ pokemonArray[696] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[697] = {
 	"name": "Amaura",
 	"national": "698",
@@ -12564,6 +13261,7 @@ pokemonArray[697] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[698] = {
 	"name": "Aurorus",
 	"national": "699",
@@ -12582,6 +13280,7 @@ pokemonArray[698] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[699] = {
 	"name": "Sylveon",
 	"national": "700",
@@ -12600,6 +13299,7 @@ pokemonArray[699] = {
 	"order": 13,
 	"attempts": 377
 }
+
 pokemonArray[700] = {
 	"name": "Hawlucha",
 	"national": "701",
@@ -12618,6 +13318,7 @@ pokemonArray[700] = {
 	"order": 185,
 	"attempts": 144
 }
+
 pokemonArray[701] = {
 	"name": "Dedenne",
 	"national": "702",
@@ -12636,6 +13337,7 @@ pokemonArray[701] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[702] = {
 	"name": "Carbink",
 	"national": "703",
@@ -12654,6 +13356,7 @@ pokemonArray[702] = {
 	"order": 182,
 	"attempts": 250
 }
+
 pokemonArray[703] = {
 	"name": "Goomy",
 	"national": "704",
@@ -12672,6 +13375,7 @@ pokemonArray[703] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[704] = {
 	"name": "Sliggoo",
 	"national": "705",
@@ -12690,6 +13394,7 @@ pokemonArray[704] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[705] = {
 	"name": "Goodra",
 	"national": "706",
@@ -12708,6 +13413,7 @@ pokemonArray[705] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[706] = {
 	"name": "Klefki",
 	"national": "707",
@@ -12726,6 +13432,7 @@ pokemonArray[706] = {
 	"order": 226,
 	"attempts": 220
 }
+
 pokemonArray[707] = {
 	"name": "Phantump",
 	"national": "708",
@@ -12744,6 +13451,7 @@ pokemonArray[707] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[708] = {
 	"name": "Trevenant",
 	"national": "709",
@@ -12762,6 +13470,7 @@ pokemonArray[708] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[709] = {
 	"name": "Pumpkaboo",
 	"national": "710",
@@ -12780,6 +13489,7 @@ pokemonArray[709] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[710] = {
 	"name": "Gourgeist",
 	"national": "711",
@@ -12798,6 +13508,7 @@ pokemonArray[710] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[711] = {
 	"name": "Bergmite",
 	"national": "712",
@@ -12816,6 +13527,7 @@ pokemonArray[711] = {
 	"order": 111,
 	"attempts": 9
 }
+
 pokemonArray[712] = {
 	"name": "Avalugg",
 	"national": "713",
@@ -12834,6 +13546,7 @@ pokemonArray[712] = {
 	"order": 192,
 	"attempts": 367
 }
+
 pokemonArray[713] = {
 	"name": "Noibat",
 	"national": "714",
@@ -12852,6 +13565,7 @@ pokemonArray[713] = {
 	"order": 237,
 	"attempts": 362
 }
+
 pokemonArray[714] = {
 	"name": "Noivern",
 	"national": "715",
@@ -12870,6 +13584,7 @@ pokemonArray[714] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[715] = {
 	"name": "Xerneas",
 	"national": "716",
@@ -12888,6 +13603,7 @@ pokemonArray[715] = {
 	"order": 324,
 	"attempts": 41
 }
+
 pokemonArray[716] = {
 	"name": "Yveltal",
 	"national": "717",
@@ -12906,6 +13622,7 @@ pokemonArray[716] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[717] = {
 	"name": "Zygarde",
 	"national": "718",
@@ -12924,6 +13641,7 @@ pokemonArray[717] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[718] = {
 	"name": "Diancie",
 	"national": "719",
@@ -12942,6 +13660,7 @@ pokemonArray[718] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[719] = {
 	"name": "Hoopa",
 	"national": "720",
@@ -12960,6 +13679,7 @@ pokemonArray[719] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[720] = {
 	"name": "Volcanion",
 	"national": "721",
@@ -12978,6 +13698,7 @@ pokemonArray[720] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[721] = {
 	"name": "Rowlet",
 	"national": "722",
@@ -12996,6 +13717,7 @@ pokemonArray[721] = {
 	"order": 168,
 	"attempts": 226
 }
+
 pokemonArray[722] = {
 	"name": "Dartrix",
 	"national": "723",
@@ -13014,6 +13736,7 @@ pokemonArray[722] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[723] = {
 	"name": "Decidueye",
 	"national": "724",
@@ -13032,6 +13755,7 @@ pokemonArray[723] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[724] = {
 	"name": "Litten",
 	"national": "725",
@@ -13050,6 +13774,7 @@ pokemonArray[724] = {
 	"order": 171,
 	"attempts": 202
 }
+
 pokemonArray[725] = {
 	"name": "Torracat",
 	"national": "726",
@@ -13068,6 +13793,7 @@ pokemonArray[725] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[726] = {
 	"name": "Incineroar",
 	"national": "727",
@@ -13086,6 +13812,7 @@ pokemonArray[726] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[727] = {
 	"name": "Popplio",
 	"national": "728",
@@ -13104,6 +13831,7 @@ pokemonArray[727] = {
 	"order": 176,
 	"attempts": 364
 }
+
 pokemonArray[728] = {
 	"name": "Brionne",
 	"national": "729",
@@ -13122,6 +13850,7 @@ pokemonArray[728] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[729] = {
 	"name": "Primarina",
 	"national": "730",
@@ -13140,6 +13869,7 @@ pokemonArray[729] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[730] = {
 	"name": "Pikipek",
 	"national": "731",
@@ -13158,6 +13888,7 @@ pokemonArray[730] = {
 	"order": 164,
 	"attempts": 66
 }
+
 pokemonArray[731] = {
 	"name": "Trumbeak",
 	"national": "732",
@@ -13176,6 +13907,7 @@ pokemonArray[731] = {
 	"order": 295,
 	"attempts": 83
 }
+
 pokemonArray[732] = {
 	"name": "Toucannon",
 	"national": "733",
@@ -13194,6 +13926,7 @@ pokemonArray[732] = {
 	"order": 296,
 	"attempts": 98
 }
+
 pokemonArray[733] = {
 	"name": "Yungoos",
 	"national": "734",
@@ -13212,6 +13945,7 @@ pokemonArray[733] = {
 	"order": 175,
 	"attempts": 26
 }
+
 pokemonArray[734] = {
 	"name": "Gumshoos",
 	"national": "735",
@@ -13230,6 +13964,7 @@ pokemonArray[734] = {
 	"order": 355,
 	"attempts": 253
 }
+
 pokemonArray[735] = {
 	"name": "Grubbin",
 	"national": "736",
@@ -13248,6 +13983,7 @@ pokemonArray[735] = {
 	"order": 165,
 	"attempts": 191
 }
+
 pokemonArray[736] = {
 	"name": "Charjabug",
 	"national": "737",
@@ -13266,6 +14002,7 @@ pokemonArray[736] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[737] = {
 	"name": "Vikavolt",
 	"national": "738",
@@ -13284,6 +14021,7 @@ pokemonArray[737] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[738] = {
 	"name": "Crabrawler",
 	"national": "739",
@@ -13302,6 +14040,7 @@ pokemonArray[738] = {
 	"order": 167,
 	"attempts": 623
 }
+
 pokemonArray[739] = {
 	"name": "Crabominable",
 	"national": "740",
@@ -13320,6 +14059,7 @@ pokemonArray[739] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[740] = {
 	"name": "Oricorio",
 	"national": "741",
@@ -13338,6 +14078,7 @@ pokemonArray[740] = {
 	"order": 173,
 	"attempts": 66
 }
+
 pokemonArray[741] = {
 	"name": "Cutiefly",
 	"national": "742",
@@ -13356,6 +14097,7 @@ pokemonArray[741] = {
 	"order": 187,
 	"attempts": 534
 }
+
 pokemonArray[742] = {
 	"name": "Ribombee",
 	"national": "743",
@@ -13374,6 +14116,7 @@ pokemonArray[742] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[743] = {
 	"name": "Rockruff",
 	"national": "744",
@@ -13392,6 +14135,7 @@ pokemonArray[743] = {
 	"order": 166,
 	"attempts": 159
 }
+
 pokemonArray[744] = {
 	"name": "Lycanroc",
 	"national": "745",
@@ -13410,6 +14154,7 @@ pokemonArray[744] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[745] = {
 	"name": "Wishiwashi",
 	"national": "746",
@@ -13428,6 +14173,7 @@ pokemonArray[745] = {
 	"order": 170,
 	"attempts": 102
 }
+
 pokemonArray[746] = {
 	"name": "Mareanie",
 	"national": "747",
@@ -13446,6 +14192,7 @@ pokemonArray[746] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[747] = {
 	"name": "Toxapex",
 	"national": "748",
@@ -13464,6 +14211,7 @@ pokemonArray[747] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[748] = {
 	"name": "Mudbray",
 	"national": "749",
@@ -13482,6 +14230,7 @@ pokemonArray[748] = {
 	"order": 177,
 	"attempts": 98
 }
+
 pokemonArray[749] = {
 	"name": "Mudsdale",
 	"national": "750",
@@ -13500,6 +14249,7 @@ pokemonArray[749] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[750] = {
 	"name": "Dewpider",
 	"national": "751",
@@ -13518,6 +14268,7 @@ pokemonArray[750] = {
 	"order": 169,
 	"attempts": 31
 }
+
 pokemonArray[751] = {
 	"name": "Araquanid",
 	"national": "752",
@@ -13536,6 +14287,7 @@ pokemonArray[751] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[752] = {
 	"name": "Fomantis",
 	"national": "753",
@@ -13554,6 +14306,7 @@ pokemonArray[752] = {
 	"order": 234,
 	"attempts": 136
 }
+
 pokemonArray[753] = {
 	"name": "Lurantis",
 	"national": "754",
@@ -13572,6 +14325,7 @@ pokemonArray[753] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[754] = {
 	"name": "Morelull",
 	"national": "755",
@@ -13590,6 +14344,7 @@ pokemonArray[754] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[755] = {
 	"name": "Shiinotic",
 	"national": "756",
@@ -13608,6 +14363,7 @@ pokemonArray[755] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[756] = {
 	"name": "Salandit",
 	"national": "757",
@@ -13626,6 +14382,7 @@ pokemonArray[756] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[757] = {
 	"name": "Salazzle",
 	"national": "758",
@@ -13644,6 +14401,7 @@ pokemonArray[757] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[758] = {
 	"name": "Stufful",
 	"national": "759",
@@ -13662,6 +14420,7 @@ pokemonArray[758] = {
 	"order": 272,
 	"attempts": 146
 }
+
 pokemonArray[759] = {
 	"name": "Bewear",
 	"national": "760",
@@ -13680,6 +14439,7 @@ pokemonArray[759] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[760] = {
 	"name": "Bounsweet",
 	"national": "761",
@@ -13698,6 +14458,7 @@ pokemonArray[760] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[761] = {
 	"name": "Steenee",
 	"national": "762",
@@ -13716,6 +14477,7 @@ pokemonArray[761] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[762] = {
 	"name": "Tsareena",
 	"national": "763",
@@ -13734,6 +14496,7 @@ pokemonArray[762] = {
 	"order": 174,
 	"attempts": 82
 }
+
 pokemonArray[763] = {
 	"name": "Comfey",
 	"national": "764",
@@ -13752,6 +14515,7 @@ pokemonArray[763] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[764] = {
 	"name": "Oranguru",
 	"national": "765",
@@ -13770,6 +14534,7 @@ pokemonArray[764] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[765] = {
 	"name": "Passimian",
 	"national": "766",
@@ -13788,6 +14553,7 @@ pokemonArray[765] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[766] = {
 	"name": "Wimpod",
 	"national": "767",
@@ -13806,6 +14572,7 @@ pokemonArray[766] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[767] = {
 	"name": "Golisopod",
 	"national": "768",
@@ -13824,6 +14591,7 @@ pokemonArray[767] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[768] = {
 	"name": "Sandygast",
 	"national": "769",
@@ -13842,6 +14610,7 @@ pokemonArray[768] = {
 	"order": 197,
 	"attempts": 638
 }
+
 pokemonArray[769] = {
 	"name": "Palossand",
 	"national": "770",
@@ -13860,6 +14629,7 @@ pokemonArray[769] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[770] = {
 	"name": "Pyukumuku",
 	"national": "771",
@@ -13878,6 +14648,7 @@ pokemonArray[770] = {
 	"order": 178,
 	"attempts": 244
 }
+
 pokemonArray[771] = {
 	"name": "Type: Null",
 	"national": "772",
@@ -13896,6 +14667,7 @@ pokemonArray[771] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[772] = {
 	"name": "Silvally",
 	"national": "773",
@@ -13914,6 +14686,7 @@ pokemonArray[772] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[773] = {
 	"name": "Minior",
 	"national": "774",
@@ -13932,6 +14705,7 @@ pokemonArray[773] = {
 	"order": 183,
 	"attempts": 821
 }
+
 pokemonArray[774] = {
 	"name": "Komala",
 	"national": "775",
@@ -13950,6 +14724,7 @@ pokemonArray[774] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[775] = {
 	"name": "Turtonator",
 	"national": "776",
@@ -13968,6 +14743,7 @@ pokemonArray[775] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[776] = {
 	"name": "Togedemaru",
 	"national": "777",
@@ -13986,6 +14762,7 @@ pokemonArray[776] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[777] = {
 	"name": "Mimikyu",
 	"national": "778",
@@ -14004,6 +14781,7 @@ pokemonArray[777] = {
 	"order": 222,
 	"attempts": 114
 }
+
 pokemonArray[778] = {
 	"name": "Bruxish",
 	"national": "779",
@@ -14022,6 +14800,7 @@ pokemonArray[778] = {
 	"order": 172,
 	"attempts": 104
 }
+
 pokemonArray[779] = {
 	"name": "Drampa",
 	"national": "780",
@@ -14040,6 +14819,7 @@ pokemonArray[779] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[780] = {
 	"name": "Dhelmise",
 	"national": "781",
@@ -14058,6 +14838,7 @@ pokemonArray[780] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[781] = {
 	"name": "Jangmo-o",
 	"national": "782",
@@ -14076,6 +14857,7 @@ pokemonArray[781] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[782] = {
 	"name": "Hakamo-o",
 	"national": "783",
@@ -14094,6 +14876,7 @@ pokemonArray[782] = {
 	"order": 339,
 	"attempts": 51
 }
+
 pokemonArray[783] = {
 	"name": "Kommo-o",
 	"national": "784",
@@ -14112,6 +14895,7 @@ pokemonArray[783] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[784] = {
 	"name": "Tapu Koko",
 	"national": "785",
@@ -14130,6 +14914,7 @@ pokemonArray[784] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[785] = {
 	"name": "Tapu Lele",
 	"national": "786",
@@ -14148,6 +14933,7 @@ pokemonArray[785] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[786] = {
 	"name": "Tapu Bulu",
 	"national": "787",
@@ -14166,6 +14952,7 @@ pokemonArray[786] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[787] = {
 	"name": "Tapu Fini",
 	"national": "788",
@@ -14184,6 +14971,7 @@ pokemonArray[787] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[788] = {
 	"name": "Cosmog",
 	"national": "789",
@@ -14202,6 +14990,7 @@ pokemonArray[788] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[789] = {
 	"name": "Cosmoem",
 	"national": "790",
@@ -14220,6 +15009,7 @@ pokemonArray[789] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[790] = {
 	"name": "Solgaleo",
 	"national": "791",
@@ -14238,6 +15028,7 @@ pokemonArray[790] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[791] = {
 	"name": "Lunala",
 	"national": "792",
@@ -14256,6 +15047,7 @@ pokemonArray[791] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[792] = {
 	"name": "Nihilego",
 	"national": "793",
@@ -14274,6 +15066,7 @@ pokemonArray[792] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[793] = {
 	"name": "Buzzwole",
 	"national": "794",
@@ -14292,6 +15085,7 @@ pokemonArray[793] = {
 	"order": 333,
 	"attempts": 2276
 }
+
 pokemonArray[794] = {
 	"name": "Pheromosa",
 	"national": "795",
@@ -14310,6 +15104,7 @@ pokemonArray[794] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[795] = {
 	"name": "Xurkitree",
 	"national": "796",
@@ -14328,6 +15123,7 @@ pokemonArray[795] = {
 	"order": 311,
 	"attempts": 233
 }
+
 pokemonArray[796] = {
 	"name": "Celesteela",
 	"national": "797",
@@ -14346,6 +15142,7 @@ pokemonArray[796] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[797] = {
 	"name": "Kartana",
 	"national": "798",
@@ -14364,6 +15161,7 @@ pokemonArray[797] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[798] = {
 	"name": "Guzzlord",
 	"national": "799",
@@ -14382,6 +15180,7 @@ pokemonArray[798] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[799] = {
 	"name": "Necrozma",
 	"national": "800",
@@ -14400,6 +15199,7 @@ pokemonArray[799] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[800] = {
 	"name": "Magearna",
 	"national": "801",
@@ -14418,6 +15218,7 @@ pokemonArray[800] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[801] = {
 	"name": "Marshadow",
 	"national": "802",
@@ -14436,6 +15237,7 @@ pokemonArray[801] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[802] = {
 	"name": "Poipole",
 	"national": "803",
@@ -14454,6 +15256,7 @@ pokemonArray[802] = {
 	"order": 303,
 	"attempts": 2094
 }
+
 pokemonArray[803] = {
 	"name": "Naganadel",
 	"national": "804",
@@ -14472,6 +15275,7 @@ pokemonArray[803] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[804] = {
 	"name": "Stakataka",
 	"national": "805",
@@ -14490,6 +15294,7 @@ pokemonArray[804] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[805] = {
 	"name": "Blacephalon",
 	"national": "806",
@@ -14508,6 +15313,7 @@ pokemonArray[805] = {
 	"order": 0,
 	"attempts": 0
 }
+
 pokemonArray[806] = {
 	"name": "Zeraora",
 	"national": "807",
@@ -14526,3 +15332,4 @@ pokemonArray[806] = {
 	"order": 0,
 	"attempts": 0
 }
+
