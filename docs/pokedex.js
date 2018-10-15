@@ -1286,10 +1286,10 @@ pokemonArray[67] = {
 	"gif": "Shiny/machamp.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "IdFlexToThat",
+	"method": "Friend Safari",
+	"order": 386,
+	"attempts": 6
 }
 
 pokemonArray[68] = {
