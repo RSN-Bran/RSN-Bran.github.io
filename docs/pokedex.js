@@ -2046,10 +2046,10 @@ pokemonArray[107] = {
 	"gif": "Shiny/lickitung.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Ligma",
+	"method": "PokeRadar",
+	"order": 388,
+	"attempts": 41
 }
 
 pokemonArray[108] = {
@@ -8791,10 +8791,10 @@ pokemonArray[462] = {
 	"gif": "Shiny/lickilicky.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Desgustang",
+	"method": "PokeRadar",
+	"order": 389,
+	"attempts": 42
 }
 
 pokemonArray[463] = {
