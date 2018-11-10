@@ -7917,10 +7917,10 @@ pokemonArray[416] = {
 	"gif": "Shiny/pachirisu.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Se Jun",
+	"method": "PokeRadar",
+	"order": 390,
+	"attempts": 7
 }
 
 pokemonArray[417] = {
