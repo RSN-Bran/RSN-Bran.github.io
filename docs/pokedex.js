@@ -849,10 +849,10 @@ pokemonArray[44] = {
 	"gif": "Shiny/vileplume.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Rafflesia",
+	"method": "Friend Safari",
+	"order": 391,
+	"attempts": 1200
 }
 
 pokemonArray[45] = {
