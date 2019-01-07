@@ -9608,10 +9608,10 @@ pokemonArray[505] = {
 	"gif": "Shiny/lillipup.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Nestlé",
+	"method": "Friend Safari",
+	"order": 393,
+	"attempts": 1169
 }
 
 pokemonArray[506] = {
