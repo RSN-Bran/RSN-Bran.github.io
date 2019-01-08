@@ -1476,10 +1476,10 @@ pokemonArray[77] = {
 	"gif": "Shiny/rapidash.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "LilSebastian",
+	"method": "Friend Safari",
+	"order": 394,
+	"attempts": 9
 }
 
 pokemonArray[78] = {
