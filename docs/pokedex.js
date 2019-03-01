@@ -11109,10 +11109,10 @@ pokemonArray[584] = {
 	"gif": "Shiny/deerling.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Benis",
+	"method": "DexNav",
+	"order": 395,
+	"attempts": 524
 }
 
 pokemonArray[585] = {
