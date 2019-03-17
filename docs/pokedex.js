@@ -6017,10 +6017,10 @@ pokemonArray[316] = {
 	"gif": "Shiny/swalot.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Rimiru",
+	"method": "Friend Safari",
+	"order": 396,
+	"attempts": 1926
 }
 
 pokemonArray[317] = {
