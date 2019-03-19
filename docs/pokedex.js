@@ -5390,10 +5390,10 @@ pokemonArray[283] = {
 	"gif": "Shiny/masquerain.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Mr.AngryEyes",
+	"method": "Friend Safari",
+	"order": 397,
+	"attempts": 114
 }
 
 pokemonArray[284] = {
