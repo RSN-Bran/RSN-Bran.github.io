@@ -10026,10 +10026,10 @@ pokemonArray[527] = {
 	"gif": "Shiny/swoobat.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Edward",
+	"method": "Friend Safari",
+	"order": 398,
+	"attempts": 851
 }
 
 pokemonArray[528] = {
