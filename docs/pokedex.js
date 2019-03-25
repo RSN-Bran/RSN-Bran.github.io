@@ -3680,10 +3680,10 @@ pokemonArray[193] = {
 	"gif": "Shiny/wooper.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Ditto",
+	"method": "Friend Safari",
+	"order": 399,
+	"attempts": 295
 }
 
 pokemonArray[194] = {
