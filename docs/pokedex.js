@@ -6245,10 +6245,10 @@ pokemonArray[328] = {
 	"gif": "Shiny/vibrava.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Sahara",
+	"method": "Friend Safari",
+	"order": 400,
+	"attempts": 399
 }
 
 pokemonArray[329] = {
