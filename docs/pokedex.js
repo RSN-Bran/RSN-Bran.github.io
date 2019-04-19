@@ -1020,9 +1020,9 @@ pokemonArray[53] = {
 	"gif": "Shiny/psyduck.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
+	"nickname": "Tobias",
+	"method": "Full Odds",
+	"order": 401,
 	"attempts": 0
 }
 
@@ -14662,10 +14662,10 @@ pokemonArray[771] = {
 	"gif": "Shiny/typenull.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Terminator",
+	"method": "Gift Resets",
+	"order": 402,
+	"attempts": 7352
 }
 
 pokemonArray[772] = {
