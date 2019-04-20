@@ -9190,10 +9190,10 @@ pokemonArray[483] = {
 	"gif": "Shiny/palkia.gif",
 	"size": "100%",
 
-	"nickname": "",
-	"method": "",
-	"order": 0,
-	"attempts": 0
+	"nickname": "Richard",
+	"method": "Soft-Reset",
+	"order": 403,
+	"attempts": 2461
 }
 
 pokemonArray[484] = {
