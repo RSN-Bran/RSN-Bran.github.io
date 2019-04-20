@@ -135,8 +135,15 @@ var methods = [
         average:0
     },
     {
-        name:"Full Odds",
+        name:"Full Odds (Pre Gen 6)",
         odds:"1/8192",
+        count:0,
+        totalAttempts:0,
+        average:0
+    },
+    {
+        name:"Full Odds (Post Gen 6)",
+        odds:"1/4096",
         count:0,
         totalAttempts:0,
         average:0

@@ -451,9 +451,9 @@ pokemonArray[23] = {
 	"size": "100%",
 
 	"nickname": "Orbok",
-	"method": "Full Odds",
+	"method": "Full Odds (Pre Gen 6)",
 	"order": 233,
-	"attempts": 17
+	"attempts": "?"
 }
 
 pokemonArray[24] = {
@@ -1021,9 +1021,9 @@ pokemonArray[53] = {
 	"size": "100%",
 
 	"nickname": "Tobias",
-	"method": "Full Odds",
+	"method": "Full Odds (Post Gen 6)",
 	"order": 401,
-	"attempts": 0
+	"attempts": "?"
 }
 
 pokemonArray[54] = {
